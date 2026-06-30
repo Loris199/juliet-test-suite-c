@@ -6,5 +6,5 @@ C_DEFINES = -DINCLUDEMAIN -DOMITBAD
 
 C_INCLUDES = -I/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Edited/testcases/CWE121_Stack_Based_Buffer_Overflow/../../testcasesupport
 
-C_FLAGS =  -fsanitize=address -fsanitize-recover=address -g -O0
+C_FLAGS = -O0
 
