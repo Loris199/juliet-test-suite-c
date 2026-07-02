@@ -1,0 +1,94 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+2           1364
+
+===== DATAFLOW VARIANTS =====
+ VAR          2
+  1:         35
+  2:         33
+  3:         33
+  4:         33
+  5:         33
+  6:         33
+  7:         33
+  8:         33
+  9:         33
+ 10:         33
+ 11:         33
+ 12:         33
+ 13:         33
+ 14:         33
+ 15:         33
+ 16:         33
+ 17:         33
+ 18:         33
+ 21:         28
+ 22:         28
+ 31:         28
+ 32:         28
+ 33:         28
+ 34:         28
+ 41:         28
+ 42:         16
+ 43:         16
+ 44:         28
+ 45:         28
+ 51:         28
+ 52:         28
+ 53:         28
+ 54:         28
+ 61:         16
+ 62:         16
+ 63:         28
+ 64:         28
+ 65:         28
+ 66:         28
+ 67:         28
+ 68:         28
+ 72:         28
+ 73:         28
+ 74:         28
+ 81:         28
+ 82:         28
+ 83:         16
+ 84:         16
+
+===== FUNCTIONAL VARIANTS =====
+                                       2
+char_calloc                           48
+char_malloc                           48
+char_realloc                          48
+destructor                             1
+int64_t_calloc                        48
+int64_t_malloc                        48
+int64_t_realloc                       48
+int_calloc                            48
+int_malloc                            48
+int_realloc                           48
+malloc_realloc_char                   18
+malloc_realloc_int64_t                18
+malloc_realloc_int                    18
+malloc_realloc_struct_twoIntsStruct        18
+malloc_realloc_twoIntsStruct          18
+new_TwoIntsClass                      42
+new_array_TwoIntsClass                42
+new_array_char                        42
+new_array_int64_t                     42
+new_array_int                         42
+new_array_struct_twoIntsStruct        42
+new_array_twointsStruct               42
+new_char                              42
+new_int64_t                           42
+new_int                               42
+new_struct_twoIntsStruct              42
+new_twoIntsStruct                     42
+strdup_char                           48
+struct_twoIntsStruct_calloc           48
+struct_twoIntsStruct_malloc           48
+struct_twoIntsStruct_realloc          48
+twoIntsStruct_calloc                  48
+twoIntsStruct_malloc                  48
+twoIntsStruct_realloc                 48
+virtual_destructor                     1

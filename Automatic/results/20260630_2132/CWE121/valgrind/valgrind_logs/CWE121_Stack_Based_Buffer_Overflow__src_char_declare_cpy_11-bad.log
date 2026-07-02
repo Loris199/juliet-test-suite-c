@@ -1,0 +1,20 @@
+==8858== Memcheck, a memory error detector
+==8858== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==8858== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==8858== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2132/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad
+==8858== Parent PID: 8857
+==8858== 
+==8858== Source and destination overlap in strcpy(0x1ffefff820, 0x1ffefff860)
+==8858==    at 0x484F413: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==8858==    by 0x109387: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2132/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad)
+==8858==    by 0x1093EA: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2132/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad)
+==8858== 
+==8858== 
+==8858== HEAP SUMMARY:
+==8858==     in use at exit: 0 bytes in 0 blocks
+==8858==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==8858== 
+==8858== All heap blocks were freed -- no leaks are possible
+==8858== 
+==8858== For lists of detected and suppressed errors, rerun with: -s
+==8858== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,192 @@
+===== CWE401 / filc : Wed Jul  1 03:16:16 CEST 2026 =====
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/juliet.py:94: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search("^CWE(\d+)", subdir)
+-- The C compiler identification is Clang 20.1.8
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /opt/fil/bin/filcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (82.6s)
+-- Generating done (59.2s)
+-- Build files have been written to: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak
+[  0%] Generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/juliet-run.sh
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c.o
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c.o
+[  0%] Built target copy-run-script
+[  1%] Linking C static library /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/support/libsupport.a
+[  1%] Built target support
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_05-good.dir/s01/CWE401_Memory_Leak__char_calloc_05.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_04-bad.dir/s01/CWE401_Memory_Leak__char_calloc_04.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_01-good.dir/s01/CWE401_Memory_Leak__char_calloc_01.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_05-bad.dir/s01/CWE401_Memory_Leak__char_calloc_05.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_01-bad.dir/s01/CWE401_Memory_Leak__char_calloc_01.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_02-good.dir/s01/CWE401_Memory_Leak__char_calloc_02.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_07-bad.dir/s01/CWE401_Memory_Leak__char_calloc_07.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_07-good.dir/s01/CWE401_Memory_Leak__char_calloc_07.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_02-bad.dir/s01/CWE401_Memory_Leak__char_calloc_02.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_06-bad.dir/s01/CWE401_Memory_Leak__char_calloc_06.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_03-bad.dir/s01/CWE401_Memory_Leak__char_calloc_03.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_08-good.dir/s01/CWE401_Memory_Leak__char_calloc_08.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_04-good.dir/s01/CWE401_Memory_Leak__char_calloc_04.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_03-good.dir/s01/CWE401_Memory_Leak__char_calloc_03.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_06-good.dir/s01/CWE401_Memory_Leak__char_calloc_06.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_08-bad.dir/s01/CWE401_Memory_Leak__char_calloc_08.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_07-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_06-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_01-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_03-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_05-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_04-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_02-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_01-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_08-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_02-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_05-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_06-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_07-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_03-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_04-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_08-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_02-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_03-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_07-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_01-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_05-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_04-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_06-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_05-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_08-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_01-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_06-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_03-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_08-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_07-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_04-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_02-good
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_09-bad.dir/s01/CWE401_Memory_Leak__char_calloc_09.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_09-good.dir/s01/CWE401_Memory_Leak__char_calloc_09.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_10-good.dir/s01/CWE401_Memory_Leak__char_calloc_10.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_11-bad.dir/s01/CWE401_Memory_Leak__char_calloc_11.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_10-bad.dir/s01/CWE401_Memory_Leak__char_calloc_10.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_11-good.dir/s01/CWE401_Memory_Leak__char_calloc_11.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_12-good.dir/s01/CWE401_Memory_Leak__char_calloc_12.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_12-bad.dir/s01/CWE401_Memory_Leak__char_calloc_12.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_13-good.dir/s01/CWE401_Memory_Leak__char_calloc_13.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_14-good.dir/s01/CWE401_Memory_Leak__char_calloc_14.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_13-bad.dir/s01/CWE401_Memory_Leak__char_calloc_13.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_14-bad.dir/s01/CWE401_Memory_Leak__char_calloc_14.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_15-good.dir/s01/CWE401_Memory_Leak__char_calloc_15.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_16-good.dir/s01/CWE401_Memory_Leak__char_calloc_16.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_15-bad.dir/s01/CWE401_Memory_Leak__char_calloc_15.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_16-bad.dir/s01/CWE401_Memory_Leak__char_calloc_16.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_09-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_10-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_11-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_09-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_10-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_11-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_12-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_12-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_13-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_14-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_16-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_15-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_16-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_13-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_15-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_14-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_10-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_11-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_09-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_09-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_10-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_12-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_12-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_11-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_13-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_16-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_15-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_14-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_16-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_13-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_15-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_14-good
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_17-bad.dir/s01/CWE401_Memory_Leak__char_calloc_17.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_17-good.dir/s01/CWE401_Memory_Leak__char_calloc_17.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_21-good.dir/s01/CWE401_Memory_Leak__char_calloc_21.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-good.dir/s01/CWE401_Memory_Leak__char_calloc_22a.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_21-bad.dir/s01/CWE401_Memory_Leak__char_calloc_21.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_18-good.dir/s01/CWE401_Memory_Leak__char_calloc_18.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_18-bad.dir/s01/CWE401_Memory_Leak__char_calloc_18.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-bad.dir/s01/CWE401_Memory_Leak__char_calloc_22a.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_31-good.dir/s01/CWE401_Memory_Leak__char_calloc_31.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_31-bad.dir/s01/CWE401_Memory_Leak__char_calloc_31.c.o
+[  1%] Building CXX object CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o
+[  1%] Building CXX object CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_32-good.dir/s01/CWE401_Memory_Leak__char_calloc_32.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_32-bad.dir/s01/CWE401_Memory_Leak__char_calloc_32.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_34-bad.dir/s01/CWE401_Memory_Leak__char_calloc_34.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_34-good.dir/s01/CWE401_Memory_Leak__char_calloc_34.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_17-bad
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-bad.dir/s01/CWE401_Memory_Leak__char_calloc_22b.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_17-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_18-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_21-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_31-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_18-good
+[  2%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-good.dir/s01/CWE401_Memory_Leak__char_calloc_22b.c.o
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_31-good
+[  2%] Linking CXX executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_33-bad
+[  2%] Linking CXX executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_33-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_21-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_32-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_32-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_34-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_34-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_22-bad
+/usr/bin/ld: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o: in function `CWE401_Memory_Leak__char_calloc_33::bad()':
+CWE401_Memory_Leak__char_calloc_33.cpp:(.text+0x6e): undefined reference to `printLine'
+/usr/bin/ld: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o: in function `main':
+CWE401_Memory_Leak__char_calloc_33.cpp:(.text+0xc3): undefined reference to `printLine'
+/usr/bin/ld: CWE401_Memory_Leak__char_calloc_33.cpp:(.text+0xd7): undefined reference to `printLine'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/build.make:98: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_33-bad] Error 1
+/usr/bin/ld: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o: in function `CWE401_Memory_Leak__char_calloc_33::goodG2B()':
+CWE401_Memory_Leak__char_calloc_33.cpp:(.text+0xca): undefined reference to `printLine'
+/usr/bin/ld: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o: in function `CWE401_Memory_Leak__char_calloc_33::goodB2G()':
+CWE401_Memory_Leak__char_calloc_33.cpp:(.text+0x15e): undefined reference to `printLine'
+/usr/bin/ld: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o: in function `main':
+CWE401_Memory_Leak__char_calloc_33.cpp:(.text+0x1d4): undefined reference to `printLine'
+/usr/bin/ld: CWE401_Memory_Leak__char_calloc_33.cpp:(.text+0x1e8): undefined reference to `printLine'
+make[1]: *** [CMakeFiles/Makefile2:6763: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+collect2: error: ld returned 1 exit status
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_22-good
+make[2]: *** [CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/build.make:98: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_33-good] Error 1
+make[1]: *** [CMakeFiles/Makefile2:6737: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/all] Error 2
+[  2%] Built target CWE401_Memory_Leak__char_calloc_18-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_17-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_31-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_21-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_21-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_17-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_31-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_18-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_32-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_32-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_34-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_34-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_22-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_22-bad
+make: *** [Makefile:91: all] Error 2
+========== cleaning /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak ==========
+========== generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak ==========
+========== making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak ==========
+========== error making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak - stopping ==========

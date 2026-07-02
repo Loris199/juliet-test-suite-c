@@ -1,0 +1,26 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__int64_t_calloc_53a.c" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53a.c.o" "gcc" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53a.c.o.d"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__int64_t_calloc_53b.c" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53b.c.o" "gcc" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53b.c.o.d"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__int64_t_calloc_53c.c" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53c.c.o" "gcc" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53c.c.o.d"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__int64_t_calloc_53d.c" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53d.c.o" "gcc" "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_53-bad.dir/s01/CWE401_Memory_Leak__int64_t_calloc_53d.c.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,32 @@
+==144861== Memcheck, a memory error detector
+==144861== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==144861== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==144861== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2257/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_06-bad
+==144861== Parent PID: 144860
+==144861== 
+==144861== 
+==144861== Process terminating with default action of signal 15 (SIGTERM)
+==144861==    at 0x498B5A2: write (write.c:26)
+==144861==    by 0x4902974: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==144861==    by 0x4901570: new_do_write (fileops.c:449)
+==144861==    by 0x4901570: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
+==144861==    by 0x49051E5: _IO_flush_all (genops.c:705)
+==144861==    by 0x490580C: _IO_cleanup (genops.c:843)
+==144861==    by 0x48B6B73: __run_exit_handlers (exit.c:129)
+==144861==    by 0x48B6BBD: exit (exit.c:138)
+==144861==    by 0x48991D0: (below main) (libc_start_call_main.h:74)
+==144861== 
+==144861== HEAP SUMMARY:
+==144861==     in use at exit: 4,896 bytes in 2 blocks
+==144861==   total heap usage: 2 allocs, 0 frees, 4,896 bytes allocated
+==144861== 
+==144861== LEAK SUMMARY:
+==144861==    definitely lost: 800 bytes in 1 blocks
+==144861==    indirectly lost: 0 bytes in 0 blocks
+==144861==      possibly lost: 0 bytes in 0 blocks
+==144861==    still reachable: 4,096 bytes in 1 blocks
+==144861==         suppressed: 0 bytes in 0 blocks
+==144861== Rerun with --leak-check=full to see details of leaked memory
+==144861== 
+==144861== For lists of detected and suppressed errors, rerun with: -s
+==144861== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

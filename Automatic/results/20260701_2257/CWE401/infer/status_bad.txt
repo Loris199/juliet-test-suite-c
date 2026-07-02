@@ -1,0 +1,72 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK           695
+SIGABRT        2
+139            1
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK   SIGABRT       139
+  1:         21         0         0
+  2:         21         0         0
+  3:         21         0         0
+  4:         21         0         0
+  5:         21         0         0
+  6:         21         0         0
+  7:         21         0         0
+  8:         21         0         0
+  9:         21         0         0
+ 10:         21         0         0
+ 11:         21         0         0
+ 12:         18         2         1
+ 13:         21         0         0
+ 14:         21         0         0
+ 15:         21         0         0
+ 16:         21         0         0
+ 17:         21         0         0
+ 18:         21         0         0
+ 21:         16         0         0
+ 22:         16         0         0
+ 31:         16         0         0
+ 32:         16         0         0
+ 34:         16         0         0
+ 41:         16         0         0
+ 42:         16         0         0
+ 44:         16         0         0
+ 45:         16         0         0
+ 51:         16         0         0
+ 52:         16         0         0
+ 53:         16         0         0
+ 54:         16         0         0
+ 61:         16         0         0
+ 63:         16         0         0
+ 64:         16         0         0
+ 65:         16         0         0
+ 66:         16         0         0
+ 67:         16         0         0
+ 68:         16         0         0
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK   SIGABRT       139
+char_calloc                           38         0         0
+char_malloc                           38         0         0
+char_realloc                          37         1         0
+int64_t_calloc                        38         0         0
+int64_t_malloc                        38         0         0
+int64_t_realloc                       38         0         0
+int_calloc                            38         0         0
+int_malloc                            38         0         0
+int_realloc                           37         0         1
+malloc_realloc_char                   18         0         0
+malloc_realloc_int64_t                18         0         0
+malloc_realloc_int                    18         0         0
+malloc_realloc_struct_twoIntsStruct        18         0         0
+malloc_realloc_twoIntsStruct          18         0         0
+strdup_char                           38         0         0
+struct_twoIntsStruct_calloc           37         1         0
+struct_twoIntsStruct_malloc           38         0         0
+struct_twoIntsStruct_realloc          38         0         0
+twoIntsStruct_calloc                  38         0         0
+twoIntsStruct_malloc                  38         0         0
+twoIntsStruct_realloc                 38         0         0

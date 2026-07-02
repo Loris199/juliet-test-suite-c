@@ -1,0 +1,29 @@
+Found 7 source files to analyze in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/infer/infer-out
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c starting
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c DONE
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c starting
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c DONE
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c starting
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c DONE
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c starting
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c DONE
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c starting
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c DONE
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c starting
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c DONE
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c starting
+s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c DONE
+
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+
+Found 1 issue
+  Issue Type(ISSUED_TYPE_ID): #
+  Memory Leak(MEMORY_LEAK_C): 1

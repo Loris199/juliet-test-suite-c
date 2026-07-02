@@ -1,0 +1,96 @@
+===== CWE121 / csa : Wed Jul  1 10:48:43 PM CEST 2026 =====
+scan-build: Using '/usr/lib/llvm-18/bin/clang' for static analysis
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/juliet.py:94: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search("^CWE(\d+)", subdir)
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/share/clang/scan-build-18/libexec/ccc-analyzer - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/share/clang/scan-build-18/libexec/c++-analyzer - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow
+[  4%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c.o
+[  8%] Generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/juliet-run.sh
+[ 12%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c.o
+[ 12%] Built target copy-run-script
+[ 16%] Linking C static library /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/support/libsupport.a
+[ 16%] Built target support
+[ 20%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c.o
+[ 25%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c.o
+[ 29%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c.o
+[ 33%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c.o
+[ 37%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c.o
+[ 41%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c.o
+[ 45%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c.o
+[ 50%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c.o
+[ 54%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c.o
+[ 58%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad
+[ 66%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-good
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-good
+[ 87%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad
+[ 91%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-good
+[ 95%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+========== cleaning /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========
+========== generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========
+========== making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========
+========== running /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========
+scan-build: Analysis run complete.
+scan-build: Removing directory '/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/csa/csa-html/2026-07-01-224844-3660-1' because it contains no reports.
+scan-build: No bugs found.

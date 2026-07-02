@@ -1,0 +1,1124 @@
+===== CWE121 / filc : Tue Jun 30 09:41:02 PM CEST 2026 =====
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/juliet.py:94: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search("^CWE(\d+)", subdir)
+-- The C compiler identification is Clang 20.1.8
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /opt/fil/bin/filcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow
+[  1%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c.o
+[  1%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c.o
+[  2%] Generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/juliet-run.sh
+[  2%] Built target copy-run-script
+[  3%] Linking C static library /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/support/libsupport.a
+[  3%] Built target support
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06.c.o
+[  3%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c.o
+[  4%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07.c.o
+[  5%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07.c.o
+[  6%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08.c.o
+[  7%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08.c.o
+[  8%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-good
+[  9%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good
+[ 11%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-good
+[ 13%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad
+[ 15%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-good
+[ 16%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-bad
+[ 16%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-bad
+[ 17%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-good
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-good
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-good
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-good
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-bad
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-good
+[ 19%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-bad
+[ 20%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09.c.o
+[ 21%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10.c.o
+[ 22%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12.c.o
+[ 23%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11.c.o
+[ 25%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10.c.o
+[ 24%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12.c.o
+[ 26%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16.c.o
+[ 27%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16.c.o
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-good
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-good
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad
+[ 28%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-bad
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-good
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-bad
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-bad
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-bad
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-good
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-bad
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-bad
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-good
+[ 33%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-good
+[ 34%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-good
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-good
+[ 36%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-good
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-good
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-good
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-good
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-good
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-bad
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-good
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-good
+[ 36%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-bad
+[ 36%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17.c.o
+[ 36%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18.c.o
+[ 36%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17.c.o
+[ 37%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21.c.o
+[ 37%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18.c.o
+[ 38%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21.c.o
+[ 38%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22a.c.o
+[ 39%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22a.c.o
+[ 40%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32.c.o
+[ 41%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31.c.o
+[ 41%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-good
+[ 42%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31.c.o
+[ 43%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34.c.o
+[ 44%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32.c.o
+[ 45%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34.c.o
+[ 46%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22b.c.o
+[ 46%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41.c.o
+[ 46%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22b.c.o
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-bad
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-bad
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-bad
+[ 49%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-good
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-good
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-good
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-good
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-bad
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-good
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-good
+[ 51%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41.c.o
+[ 51%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-bad
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-bad
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-good
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-bad
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-good
+[ 54%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-bad
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-bad
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-good
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-bad
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-good
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-good
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-bad
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-good
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-good
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-good
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-bad
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-good
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-bad
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-bad
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-bad
+[ 54%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42.c.o
+[ 54%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44.c.o
+[ 54%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42.c.o
+[ 54%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45.c.o
+[ 54%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44.c.o
+[ 54%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45.c.o
+[ 54%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-good
+[ 55%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51a.c.o
+[ 56%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53a.c.o
+[ 56%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51b.c.o
+[ 57%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52a.c.o
+[ 57%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51a.c.o
+[ 57%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52a.c.o
+[ 56%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53a.c.o
+[ 58%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54a.c.o
+[ 58%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53b.c.o
+[ 59%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51b.c.o
+[ 60%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-good
+[ 61%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53b.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-good
+[ 63%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54a.c.o
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-bad
+[ 65%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-bad
+[ 66%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-good
+[ 67%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-bad
+[ 67%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-bad
+[ 67%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52b.c.o
+[ 68%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-good
+[ 69%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52c.c.o
+[ 70%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52b.c.o
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-bad
+[ 70%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54b.c.o
+[ 70%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53c.c.o
+[ 71%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61a.c.o
+[ 72%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53c.c.o
+[ 72%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54b.c.o
+[ 73%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54c.c.o
+[ 73%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-good
+[ 73%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52c.c.o
+[ 74%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54c.c.o
+[ 74%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54d.c.o
+[ 75%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53d.c.o
+[ 75%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53d.c.o
+[ 75%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61b.c.o
+[ 76%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54e.c.o
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad
+[ 78%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54d.c.o
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-good
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad
+[ 80%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-good
+[ 80%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61a.c.o
+[ 80%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-good
+[ 80%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-bad
+[ 80%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-bad
+[ 80%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-good
+[ 80%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54e.c.o
+[ 80%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-good
+[ 80%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-bad
+[ 80%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-good
+[ 80%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63a.c.o
+[ 81%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63a.c.o
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-good
+[ 82%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64a.c.o
+[ 83%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64a.c.o
+[ 84%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61b.c.o
+[ 85%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65a.c.o
+[ 85%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-bad
+[ 85%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65a.c.o
+[ 85%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66a.c.o
+[ 85%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-good
+[ 86%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63b.c.o
+[ 86%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63b.c.o
+[ 87%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-bad
+[ 87%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64b.c.o
+[ 88%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66a.c.o
+[ 88%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64b.c.o
+[ 89%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65b.c.o
+[ 90%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65b.c.o
+[ 91%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66b.c.o
+[ 91%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67a.c.o
+[ 91%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-bad
+[ 91%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad
+[ 92%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-good
+[ 92%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-good
+[ 92%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad
+[ 92%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-bad
+[ 92%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad
+[ 92%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66b.c.o
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-good
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-good
+[ 93%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-good
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-bad
+[ 94%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67b.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-good
+[ 95%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67a.c.o
+[ 95%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67b.c.o
+[ 95%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68a.c.o
+[ 96%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b.c.o
+[ 97%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68a.c.o
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-bad
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-good
+[ 98%] Building C object CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-bad.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b.c.o
+[ 99%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-bad
+[ 99%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-good
+[ 99%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2140/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-bad
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-good
+[100%] Built target CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-bad
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7dc3a671c310,0x7dc3a671c2d0,0x7dc3a671c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23280] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x76268331c310,0x76268331c2d0,0x76268331c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23293] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x74c46671c310,0x74c46671c2d0,0x74c46671c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23302] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x730a1951c310,0x730a1951c2d0,0x730a1951c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23319] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x74496d31c310,0x74496d31c2d0,0x74496d31c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23331] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7d8bd531c310,0x7d8bd531c2d0,0x7d8bd531c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_06-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23341] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7405aa71c310,0x7405aa71c2d0,0x7405aa71c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_07-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23357] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x70c869d1c310,0x70c869d1c2d0,0x70c869d1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_08-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23368] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7840c591c310,0x7840c591c2d0,0x7840c591c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23384] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x75107691c310,0x75107691c2d0,0x75107691c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_10-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23396] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x744885d1c310,0x744885d1c2d0,0x744885d1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_11-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23408] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x718d0551c310,0x718d0551c2d0,0x718d0551c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_12-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23423] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7ecbee71c310,0x7ecbee71c2d0,0x7ecbee71c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_13-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23433] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x70f54131c310,0x70f54131c2d0,0x70f54131c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_14-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23447] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x764413d1c310,0x764413d1c2d0,0x764413d1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_15-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23461] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x750d18d1c310,0x750d18d1c2d0,0x750d18d1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_16-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23471] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7232a751c310,0x7232a751c2d0,0x7232a751c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_17-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23488] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x78b4bed1c310,0x78b4bed1c2d0,0x78b4bed1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_18-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23496] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x735bd751c310,0x735bd751c2d0,0x735bd751c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_21-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23510] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x79f62d31c310,0x79f62d31c2d0,0x79f62d31c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_22-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23527] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7947bcd1c310,0x7947bcd1c2d0,0x7947bcd1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_31-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23538] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7b0f57d1c310,0x7b0f57d1c2d0,0x7b0f57d1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_32-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23548] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x73552e91c310,0x73552e91c2d0,0x73552e91c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_34-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23562] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x745d26f1c310,0x745d26f1c2d0,0x745d26f1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_41-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23575] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x745aaab1c310,0x745aaab1c2d0,0x745aaab1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_42-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23591] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x72119071c310,0x72119071c2d0,0x72119071c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-bad) <somewhere>: badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_44-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23604] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x73ee7951c310,0x73ee7951c2d0,0x73ee7951c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-bad) <somewhere>: badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_45-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23613] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x78c42731c310,0x78c42731c2d0,0x78c42731c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_51-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23629] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7098f271c310,0x7098f271c2d0,0x7098f271c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52c_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_52-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23639] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7b6e5cf1c310,0x7b6e5cf1c2d0,0x7b6e5cf1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53d_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53c_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_53-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23655] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x793bc751c310,0x793bc751c2d0,0x793bc751c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54e_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54d_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54c_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_54-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23668] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x75613ad1c310,0x75613ad1c2d0,0x75613ad1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_61-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23683] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7bdbf591c310,0x7bdbf591c2d0,0x7bdbf591c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_63-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23694] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x70890771c310,0x70890771c2d0,0x70890771c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_64-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23703] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x701d8db1c310,0x701d8db1c2d0,0x701d8db1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_65-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23719] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7566b3d1c310,0x7566b3d1c2d0,0x7566b3d1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_66-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23736] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7b7e76f1c310,0x7b7e76f1c2d0,0x7b7e76f1c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_67-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23749] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+filc safety error: cannot write pointer with ptr >= upper.
+    pointer: 0x7cbed511c310,0x7cbed511c2d0,0x7cbed511c310
+    expected 8 writable bytes.
+semantic origin:
+    (libc.so.6666) stpcpy.c:55:14:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+check scheduled at:
+    (libc.so.6666) stpcpy.c:52:18:  (inlined)
+    (libc.so.6666) stpcpy.c:115:21: __GI___stpcpy
+    (libc.so.6666) strcpy.c:34:3: __GI_strcpy
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b_badSink
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-bad) <somewhere>: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68_bad
+    (CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68-bad) <somewhere>: main
+    (libc.so.6666) ../sysdeps/nptl/libc_start_call_main.h:58:16: __libc_start_call_main
+    (libc.so.6666) ../csu/libc-start.c:161:3: __libc_start_main
+    (libpizlo.so) <runtime>: start_program
+[23759] filc panic: thwarted a futile attempt to violate memory safety.
+timeout: the monitored command dumped core
+Trace/breakpoint trap
+========== cleaning /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========
+========== generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========
+========== making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========
+========== running /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow ==========

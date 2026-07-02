@@ -1,0 +1,305 @@
+===== CWE401 / asan : Wed Jul  1 04:52:18 CEST 2026 =====
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/juliet.py:94: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search("^CWE(\d+)", subdir)
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (34.3s)
+-- Generating done (31.8s)
+-- Build files have been written to: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c.o
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c.o
+[  0%] Generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/juliet-run.sh
+[  0%] Built target copy-run-script
+[  1%] Linking C static library /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a
+[  1%] Built target support
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_06-bad.dir/s01/CWE401_Memory_Leak__char_calloc_06.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_01-bad.dir/s01/CWE401_Memory_Leak__char_calloc_01.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_01-good.dir/s01/CWE401_Memory_Leak__char_calloc_01.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_06-good.dir/s01/CWE401_Memory_Leak__char_calloc_06.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_03-bad.dir/s01/CWE401_Memory_Leak__char_calloc_03.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_08-good.dir/s01/CWE401_Memory_Leak__char_calloc_08.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_04-bad.dir/s01/CWE401_Memory_Leak__char_calloc_04.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_02-good.dir/s01/CWE401_Memory_Leak__char_calloc_02.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_08-bad.dir/s01/CWE401_Memory_Leak__char_calloc_08.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_04-good.dir/s01/CWE401_Memory_Leak__char_calloc_04.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_03-good.dir/s01/CWE401_Memory_Leak__char_calloc_03.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_05-good.dir/s01/CWE401_Memory_Leak__char_calloc_05.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_07-bad.dir/s01/CWE401_Memory_Leak__char_calloc_07.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_02-bad.dir/s01/CWE401_Memory_Leak__char_calloc_02.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_07-good.dir/s01/CWE401_Memory_Leak__char_calloc_07.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_05-bad.dir/s01/CWE401_Memory_Leak__char_calloc_05.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_01-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_03-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_06-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_01-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_04-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_08-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_03-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_04-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_07-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_02-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_05-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_02-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_06-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_08-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_05-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_07-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_01-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_03-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_04-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_04-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_01-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_06-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_06-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_02-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_03-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_02-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_05-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_08-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_07-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_07-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_08-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_05-bad
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_09-good.dir/s01/CWE401_Memory_Leak__char_calloc_09.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_12-good.dir/s01/CWE401_Memory_Leak__char_calloc_12.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_09-bad.dir/s01/CWE401_Memory_Leak__char_calloc_09.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_10-good.dir/s01/CWE401_Memory_Leak__char_calloc_10.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_10-bad.dir/s01/CWE401_Memory_Leak__char_calloc_10.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_13-bad.dir/s01/CWE401_Memory_Leak__char_calloc_13.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_12-bad.dir/s01/CWE401_Memory_Leak__char_calloc_12.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_14-good.dir/s01/CWE401_Memory_Leak__char_calloc_14.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_11-bad.dir/s01/CWE401_Memory_Leak__char_calloc_11.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_14-bad.dir/s01/CWE401_Memory_Leak__char_calloc_14.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_13-good.dir/s01/CWE401_Memory_Leak__char_calloc_13.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_11-good.dir/s01/CWE401_Memory_Leak__char_calloc_11.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_15-good.dir/s01/CWE401_Memory_Leak__char_calloc_15.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_15-bad.dir/s01/CWE401_Memory_Leak__char_calloc_15.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_16-good.dir/s01/CWE401_Memory_Leak__char_calloc_16.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_16-bad.dir/s01/CWE401_Memory_Leak__char_calloc_16.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_13-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_11-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_09-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_14-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_10-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_10-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_12-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_12-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_09-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_14-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_11-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_15-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_13-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_16-good
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_15-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_16-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_13-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_11-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_09-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_10-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_12-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_10-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_09-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_14-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_12-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_14-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_13-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_15-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_11-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_16-good
+[  1%] Built target CWE401_Memory_Leak__char_calloc_15-bad
+[  1%] Built target CWE401_Memory_Leak__char_calloc_16-bad
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_18-good.dir/s01/CWE401_Memory_Leak__char_calloc_18.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_21-bad.dir/s01/CWE401_Memory_Leak__char_calloc_21.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_17-bad.dir/s01/CWE401_Memory_Leak__char_calloc_17.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_17-good.dir/s01/CWE401_Memory_Leak__char_calloc_17.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-bad.dir/s01/CWE401_Memory_Leak__char_calloc_22a.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_18-bad.dir/s01/CWE401_Memory_Leak__char_calloc_18.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_31-bad.dir/s01/CWE401_Memory_Leak__char_calloc_31.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_21-good.dir/s01/CWE401_Memory_Leak__char_calloc_21.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-good.dir/s01/CWE401_Memory_Leak__char_calloc_22a.c.o
+[  1%] Building CXX object CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_32-good.dir/s01/CWE401_Memory_Leak__char_calloc_32.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_31-good.dir/s01/CWE401_Memory_Leak__char_calloc_31.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_32-bad.dir/s01/CWE401_Memory_Leak__char_calloc_32.c.o
+[  1%] Building CXX object CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/s01/CWE401_Memory_Leak__char_calloc_33.cpp.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_34-good.dir/s01/CWE401_Memory_Leak__char_calloc_34.c.o
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_34-bad.dir/s01/CWE401_Memory_Leak__char_calloc_34.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_21-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_17-bad
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_31-bad
+[  1%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-bad.dir/s01/CWE401_Memory_Leak__char_calloc_22b.c.o
+[  1%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_18-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_18-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_17-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_32-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_31-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_21-good
+[  2%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_22-good.dir/s01/CWE401_Memory_Leak__char_calloc_22b.c.o
+[  2%] Linking CXX executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_33-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_32-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_34-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_34-good
+[  2%] Linking CXX executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_33-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_22-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_22-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_17-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_31-bad
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): warning: relocation against `__asan_option_detect_stack_use_after_return' in read-only section `.text'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printWcharLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:63:(.text+0x1ca): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:63:(.text+0x1d7): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:67:(.text+0x25f): undefined reference to `__asan_report_store4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:68:(.text+0x2a6): undefined reference to `__asan_report_store4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printStructLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:89:(.text+0x3f4): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:89:(.text+0x432): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printBytesLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:97:(.text+0x4b5): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `decodeHexChars':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:106:(.text+0x537): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:106:(.text+0x544): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:117:(.text+0x623): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:117:(.text+0x670): undefined reference to `__asan_report_store1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x6c9): undefined reference to `__asan_report_load8_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x715): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x75a): undefined reference to `__asan_report_load2_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x796): undefined reference to `__asan_report_load8_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x7e5): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x82a): undefined reference to `__asan_report_load2_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `decodeHexWChars':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:128:(.text+0x8e7): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:128:(.text+0x8f4): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:139:(.text+0x9d7): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:139:(.text+0xa24): undefined reference to `__asan_report_store1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:135:(.text+0xaa5): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:135:(.text+0xb03): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `_sub_D_00099_0':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xc9f): undefined reference to `__asan_unregister_globals'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `_sub_I_00099_1':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcae): undefined reference to `__asan_init'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcb3): undefined reference to `__asan_version_mismatch_check_v8'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcc7): undefined reference to `__asan_register_globals'
+[  2%] Built target CWE401_Memory_Leak__char_calloc_17-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_18-bad
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+[  2%] Built target CWE401_Memory_Leak__char_calloc_21-bad
+make[2]: *** [CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/build.make:98: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_33-good] Error 1
+make[1]: *** [CMakeFiles/Makefile2:6737: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-good.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  2%] Built target CWE401_Memory_Leak__char_calloc_18-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_21-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_32-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_31-good
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): warning: relocation against `__asan_option_detect_stack_use_after_return' in read-only section `.text'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printWcharLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:63:(.text+0x1ca): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:63:(.text+0x1d7): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:67:(.text+0x25f): undefined reference to `__asan_report_store4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:68:(.text+0x2a6): undefined reference to `__asan_report_store4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printStructLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:89:(.text+0x3f4): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:89:(.text+0x432): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printBytesLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:97:(.text+0x4b5): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `decodeHexChars':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:106:(.text+0x537): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:106:(.text+0x544): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:117:(.text+0x623): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:117:(.text+0x670): undefined reference to `__asan_report_store1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x6c9): undefined reference to `__asan_report_load8_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x715): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x75a): undefined reference to `__asan_report_load2_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x796): undefined reference to `__asan_report_load8_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x7e5): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x82a): undefined reference to `__asan_report_load2_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `decodeHexWChars':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:128:(.text+0x8e7): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:128:(.text+0x8f4): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:139:(.text+0x9d7): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:139:(.text+0xa24): undefined reference to `__asan_report_store1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:135:(.text+0xaa5): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:135:(.text+0xb03): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `_sub_D_00099_0':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xc9f): undefined reference to `__asan_unregister_globals'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `_sub_I_00099_1':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcae): undefined reference to `__asan_init'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcb3): undefined reference to `__asan_version_mismatch_check_v8'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcc7): undefined reference to `__asan_register_globals'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+[  2%] Built target CWE401_Memory_Leak__char_calloc_32-bad
+make[2]: *** [CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/build.make:98: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_33-bad] Error 1
+make[1]: *** [CMakeFiles/Makefile2:6763: CMakeFiles/CWE401_Memory_Leak__char_calloc_33-bad.dir/all] Error 2
+[  2%] Built target CWE401_Memory_Leak__char_calloc_34-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_34-good
+[  2%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_41-good.dir/s01/CWE401_Memory_Leak__char_calloc_41.c.o
+[  2%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_41-bad.dir/s01/CWE401_Memory_Leak__char_calloc_41.c.o
+[  2%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_42-bad.dir/s01/CWE401_Memory_Leak__char_calloc_42.c.o
+[  2%] Building CXX object CMakeFiles/CWE401_Memory_Leak__char_calloc_43-good.dir/s01/CWE401_Memory_Leak__char_calloc_43.cpp.o
+[  2%] Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_42-good.dir/s01/CWE401_Memory_Leak__char_calloc_42.c.o
+[  2%] Built target CWE401_Memory_Leak__char_calloc_22-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_22-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_41-good
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_41-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_42-bad
+[  2%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_42-good
+[  2%] Linking CXX executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_43-good
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): warning: relocation against `__asan_option_detect_stack_use_after_return' in read-only section `.text'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printWcharLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:63:(.text+0x1ca): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:63:(.text+0x1d7): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:67:(.text+0x25f): undefined reference to `__asan_report_store4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:68:(.text+0x2a6): undefined reference to `__asan_report_store4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printStructLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:89:(.text+0x3f4): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:89:(.text+0x432): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `printBytesLine':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:97:(.text+0x4b5): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `decodeHexChars':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:106:(.text+0x537): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:106:(.text+0x544): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:117:(.text+0x623): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:117:(.text+0x670): undefined reference to `__asan_report_store1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x6c9): undefined reference to `__asan_report_load8_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x715): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x75a): undefined reference to `__asan_report_load2_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x796): undefined reference to `__asan_report_load8_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x7e5): undefined reference to `__asan_report_load1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:113:(.text+0x82a): undefined reference to `__asan_report_load2_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `decodeHexWChars':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:128:(.text+0x8e7): undefined reference to `__asan_option_detect_stack_use_after_return'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:128:(.text+0x8f4): undefined reference to `__asan_stack_malloc_0'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:139:(.text+0x9d7): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:139:(.text+0xa24): undefined reference to `__asan_report_store1_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:135:(.text+0xaa5): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:135:(.text+0xb03): undefined reference to `__asan_report_load4_noabort'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `_sub_D_00099_0':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xc9f): undefined reference to `__asan_unregister_globals'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/support/libsupport.a(io.c.o): in function `_sub_I_00099_1':
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcae): undefined reference to `__asan_init'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcb3): undefined reference to `__asan_version_mismatch_check_v8'
+/usr/bin/ld: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c:207:(.text+0xcc7): undefined reference to `__asan_register_globals'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/CWE401_Memory_Leak__char_calloc_43-good.dir/build.make:98: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260630_2313/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__char_calloc_43-good] Error 1
+make[1]: *** [CMakeFiles/Makefile2:6945: CMakeFiles/CWE401_Memory_Leak__char_calloc_43-good.dir/all] Error 2
+[  2%] Built target CWE401_Memory_Leak__char_calloc_41-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_41-good
+[  2%] Built target CWE401_Memory_Leak__char_calloc_42-bad
+[  2%] Built target CWE401_Memory_Leak__char_calloc_42-good
+make: *** [Makefile:91: all] Error 2
+========== cleaning /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak ==========
+========== generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak ==========
+========== making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak ==========
+========== error making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak - stopping ==========

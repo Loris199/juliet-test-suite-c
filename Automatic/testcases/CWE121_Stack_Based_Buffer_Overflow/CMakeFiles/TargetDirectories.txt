@@ -1,0 +1,14 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/support.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/copy-run-script.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/edit_cache.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3982 @@
+#0
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+#1
+s01/CWE401_Memory_Leak__char_calloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#2
+s01/CWE401_Memory_Leak__char_calloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#3
+s01/CWE401_Memory_Leak__char_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#4
+s01/CWE401_Memory_Leak__char_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#5
+s01/CWE401_Memory_Leak__char_calloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#6
+s01/CWE401_Memory_Leak__char_calloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#7
+s01/CWE401_Memory_Leak__char_calloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#8
+s01/CWE401_Memory_Leak__char_calloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#9
+s01/CWE401_Memory_Leak__char_calloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#10
+s01/CWE401_Memory_Leak__char_calloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#11
+s01/CWE401_Memory_Leak__char_calloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#12
+s01/CWE401_Memory_Leak__char_calloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#13
+s01/CWE401_Memory_Leak__char_calloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#14
+s01/CWE401_Memory_Leak__char_calloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#15
+s01/CWE401_Memory_Leak__char_calloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#16
+s01/CWE401_Memory_Leak__char_calloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#17
+s01/CWE401_Memory_Leak__char_calloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#18
+s01/CWE401_Memory_Leak__char_calloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#19
+s01/CWE401_Memory_Leak__char_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#20
+s01/CWE401_Memory_Leak__char_calloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#21
+s01/CWE401_Memory_Leak__char_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#22
+s01/CWE401_Memory_Leak__char_calloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#23
+s01/CWE401_Memory_Leak__char_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#24
+s01/CWE401_Memory_Leak__char_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#25
+s01/CWE401_Memory_Leak__char_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#26
+s01/CWE401_Memory_Leak__char_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#27
+s01/CWE401_Memory_Leak__char_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#28
+s01/CWE401_Memory_Leak__char_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#29
+s01/CWE401_Memory_Leak__char_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#30
+s01/CWE401_Memory_Leak__char_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#31
+s01/CWE401_Memory_Leak__char_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#32
+s01/CWE401_Memory_Leak__char_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#33
+s01/CWE401_Memory_Leak__char_calloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#34
+s01/CWE401_Memory_Leak__char_calloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#35
+s01/CWE401_Memory_Leak__char_calloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#36
+s01/CWE401_Memory_Leak__char_calloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#37
+s01/CWE401_Memory_Leak__char_calloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#38
+s01/CWE401_Memory_Leak__char_calloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#39
+s01/CWE401_Memory_Leak__char_calloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#40
+s01/CWE401_Memory_Leak__char_calloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#41
+s01/CWE401_Memory_Leak__char_calloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#42
+s01/CWE401_Memory_Leak__char_calloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#43
+s01/CWE401_Memory_Leak__char_calloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#44
+s01/CWE401_Memory_Leak__char_calloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#45
+s01/CWE401_Memory_Leak__char_calloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#46
+s01/CWE401_Memory_Leak__char_calloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#47
+s01/CWE401_Memory_Leak__char_malloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#48
+s01/CWE401_Memory_Leak__char_malloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#49
+s01/CWE401_Memory_Leak__char_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#50
+s01/CWE401_Memory_Leak__char_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#51
+s01/CWE401_Memory_Leak__char_malloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#52
+s01/CWE401_Memory_Leak__char_malloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#53
+s01/CWE401_Memory_Leak__char_malloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#54
+s01/CWE401_Memory_Leak__char_malloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#55
+s01/CWE401_Memory_Leak__char_malloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#56
+s01/CWE401_Memory_Leak__char_malloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#57
+s01/CWE401_Memory_Leak__char_malloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#58
+s01/CWE401_Memory_Leak__char_malloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#59
+s01/CWE401_Memory_Leak__char_malloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#60
+s01/CWE401_Memory_Leak__char_malloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#61
+s01/CWE401_Memory_Leak__char_malloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#62
+s01/CWE401_Memory_Leak__char_malloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#63
+s01/CWE401_Memory_Leak__char_malloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#64
+s01/CWE401_Memory_Leak__char_malloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#65
+s01/CWE401_Memory_Leak__char_malloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#66
+s01/CWE401_Memory_Leak__char_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#67
+s01/CWE401_Memory_Leak__char_malloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#68
+s01/CWE401_Memory_Leak__char_malloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#69
+s01/CWE401_Memory_Leak__char_malloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#70
+s01/CWE401_Memory_Leak__char_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#71
+s01/CWE401_Memory_Leak__char_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#72
+s01/CWE401_Memory_Leak__char_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#73
+s01/CWE401_Memory_Leak__char_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#74
+s01/CWE401_Memory_Leak__char_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#75
+s01/CWE401_Memory_Leak__char_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#76
+s01/CWE401_Memory_Leak__char_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#77
+s01/CWE401_Memory_Leak__char_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#78
+s01/CWE401_Memory_Leak__char_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#79
+s01/CWE401_Memory_Leak__char_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#80
+s01/CWE401_Memory_Leak__char_malloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#81
+s01/CWE401_Memory_Leak__char_malloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#82
+s01/CWE401_Memory_Leak__char_malloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#83
+s01/CWE401_Memory_Leak__char_malloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#84
+s01/CWE401_Memory_Leak__char_malloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#85
+s01/CWE401_Memory_Leak__char_malloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#86
+s01/CWE401_Memory_Leak__char_malloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#87
+s01/CWE401_Memory_Leak__char_malloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#88
+s01/CWE401_Memory_Leak__char_malloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#89
+s01/CWE401_Memory_Leak__char_malloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#90
+s01/CWE401_Memory_Leak__char_malloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#91
+s01/CWE401_Memory_Leak__char_malloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#92
+s01/CWE401_Memory_Leak__char_malloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#93
+s01/CWE401_Memory_Leak__char_malloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#94
+s01/CWE401_Memory_Leak__char_malloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#95
+s01/CWE401_Memory_Leak__char_realloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#96
+s01/CWE401_Memory_Leak__char_realloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#97
+s01/CWE401_Memory_Leak__char_realloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#98
+s01/CWE401_Memory_Leak__char_realloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#99
+s01/CWE401_Memory_Leak__char_realloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#100
+s01/CWE401_Memory_Leak__char_realloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#101
+s01/CWE401_Memory_Leak__char_realloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#102
+s01/CWE401_Memory_Leak__char_realloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#103
+s01/CWE401_Memory_Leak__char_realloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#104
+s01/CWE401_Memory_Leak__char_realloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#105
+s01/CWE401_Memory_Leak__char_realloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#106
+s01/CWE401_Memory_Leak__char_realloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#107
+s01/CWE401_Memory_Leak__char_realloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#108
+s01/CWE401_Memory_Leak__char_realloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#109
+s01/CWE401_Memory_Leak__char_realloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#110
+s01/CWE401_Memory_Leak__char_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#111
+s01/CWE401_Memory_Leak__char_realloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#112
+s01/CWE401_Memory_Leak__char_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#113
+s01/CWE401_Memory_Leak__char_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#114
+s01/CWE401_Memory_Leak__char_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#115
+s01/CWE401_Memory_Leak__char_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#116
+s01/CWE401_Memory_Leak__char_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#117
+s01/CWE401_Memory_Leak__char_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#118
+s01/CWE401_Memory_Leak__char_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#119
+s01/CWE401_Memory_Leak__char_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#120
+s01/CWE401_Memory_Leak__char_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#121
+s01/CWE401_Memory_Leak__char_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#122
+s01/CWE401_Memory_Leak__char_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#123
+s01/CWE401_Memory_Leak__char_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#124
+s01/CWE401_Memory_Leak__char_realloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#125
+s01/CWE401_Memory_Leak__char_realloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#126
+s01/CWE401_Memory_Leak__char_realloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#127
+s01/CWE401_Memory_Leak__char_realloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#128
+s01/CWE401_Memory_Leak__char_realloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#129
+s01/CWE401_Memory_Leak__char_realloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#130
+s01/CWE401_Memory_Leak__char_realloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#131
+s01/CWE401_Memory_Leak__char_realloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#132
+s01/CWE401_Memory_Leak__char_realloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#133
+s01/CWE401_Memory_Leak__char_realloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#134
+s01/CWE401_Memory_Leak__char_realloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#135
+s01/CWE401_Memory_Leak__char_realloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#136
+s01/CWE401_Memory_Leak__char_realloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#137
+s01/CWE401_Memory_Leak__char_realloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#138
+s01/CWE401_Memory_Leak__char_realloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#139
+s01/CWE401_Memory_Leak__int64_t_calloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#140
+s01/CWE401_Memory_Leak__int64_t_calloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#141
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#142
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#143
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#144
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#145
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#146
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#147
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#148
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#149
+s01/CWE401_Memory_Leak__int64_t_calloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#150
+s01/CWE401_Memory_Leak__int64_t_calloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#151
+s01/CWE401_Memory_Leak__int64_t_calloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#152
+s01/CWE401_Memory_Leak__int64_t_calloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#153
+s01/CWE401_Memory_Leak__int64_t_calloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#154
+s01/CWE401_Memory_Leak__int64_t_calloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#155
+s01/CWE401_Memory_Leak__int64_t_calloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#156
+s01/CWE401_Memory_Leak__int64_t_calloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#157
+s01/CWE401_Memory_Leak__int64_t_calloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#158
+s01/CWE401_Memory_Leak__int64_t_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#159
+s01/CWE401_Memory_Leak__int64_t_calloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#160
+s01/CWE401_Memory_Leak__int64_t_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#161
+s01/CWE401_Memory_Leak__int64_t_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#162
+s01/CWE401_Memory_Leak__int64_t_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#163
+s01/CWE401_Memory_Leak__int64_t_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#164
+s01/CWE401_Memory_Leak__int64_t_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#165
+s01/CWE401_Memory_Leak__int64_t_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#166
+s01/CWE401_Memory_Leak__int64_t_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#167
+s01/CWE401_Memory_Leak__int64_t_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#168
+s01/CWE401_Memory_Leak__int64_t_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#169
+s01/CWE401_Memory_Leak__int64_t_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#170
+s01/CWE401_Memory_Leak__int64_t_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#171
+s01/CWE401_Memory_Leak__int64_t_calloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#172
+s01/CWE401_Memory_Leak__int64_t_calloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#173
+s01/CWE401_Memory_Leak__int64_t_calloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#174
+s01/CWE401_Memory_Leak__int64_t_calloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#175
+s01/CWE401_Memory_Leak__int64_t_calloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#176
+s01/CWE401_Memory_Leak__int64_t_calloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#177
+s01/CWE401_Memory_Leak__int64_t_calloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#178
+s01/CWE401_Memory_Leak__int64_t_calloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#179
+s01/CWE401_Memory_Leak__int64_t_calloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#180
+s01/CWE401_Memory_Leak__int64_t_calloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#181
+s01/CWE401_Memory_Leak__int64_t_calloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#182
+s01/CWE401_Memory_Leak__int64_t_calloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#183
+s01/CWE401_Memory_Leak__int64_t_calloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#184
+s01/CWE401_Memory_Leak__int64_t_calloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#185
+s01/CWE401_Memory_Leak__int64_t_calloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#186
+s01/CWE401_Memory_Leak__int64_t_malloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#187
+s01/CWE401_Memory_Leak__int64_t_malloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#188
+s01/CWE401_Memory_Leak__int64_t_malloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#189
+s01/CWE401_Memory_Leak__int64_t_malloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#190
+s01/CWE401_Memory_Leak__int64_t_malloc_05.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#191
+s01/CWE401_Memory_Leak__int64_t_malloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#192
+s01/CWE401_Memory_Leak__int64_t_malloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#193
+s01/CWE401_Memory_Leak__int64_t_malloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#194
+s01/CWE401_Memory_Leak__int64_t_malloc_08.c:48: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 44 is not freed after the last access at line 48, column 9. 
+
+#195
+s01/CWE401_Memory_Leak__int64_t_malloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#196
+s01/CWE401_Memory_Leak__int64_t_malloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#197
+s01/CWE401_Memory_Leak__int64_t_malloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#198
+s01/CWE401_Memory_Leak__int64_t_malloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#199
+s01/CWE401_Memory_Leak__int64_t_malloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#200
+s01/CWE401_Memory_Leak__int64_t_malloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#201
+s01/CWE401_Memory_Leak__int64_t_malloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#202
+s01/CWE401_Memory_Leak__int64_t_malloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#203
+s01/CWE401_Memory_Leak__int64_t_malloc_17.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#204
+s01/CWE401_Memory_Leak__int64_t_malloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#205
+s01/CWE401_Memory_Leak__int64_t_malloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#206
+s01/CWE401_Memory_Leak__int64_t_malloc_22a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#207
+s01/CWE401_Memory_Leak__int64_t_malloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#208
+s01/CWE401_Memory_Leak__int64_t_malloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#209
+s01/CWE401_Memory_Leak__int64_t_malloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#210
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#211
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#212
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#213
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#214
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#215
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#216
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#217
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#218
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#219
+s01/CWE401_Memory_Leak__int64_t_malloc_33.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 5. 
+
+#220
+s01/CWE401_Memory_Leak__int64_t_malloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#221
+s01/CWE401_Memory_Leak__int64_t_malloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#222
+s01/CWE401_Memory_Leak__int64_t_malloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#223
+s01/CWE401_Memory_Leak__int64_t_malloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#224
+s01/CWE401_Memory_Leak__int64_t_malloc_33.cpp:78: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 74 is not freed after the last access at line 78, column 5. 
+
+#225
+s01/CWE401_Memory_Leak__int64_t_malloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#226
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#227
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#228
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#229
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#230
+s01/CWE401_Memory_Leak__int64_t_malloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#231
+s01/CWE401_Memory_Leak__int64_t_malloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#232
+s01/CWE401_Memory_Leak__int64_t_malloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#233
+s01/CWE401_Memory_Leak__int64_t_malloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#234
+s01/CWE401_Memory_Leak__int64_t_malloc_43.cpp:41: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_malloc_43::badSource()` on line 41 is not freed after the last access at line 41, column 5. 
+
+#235
+s01/CWE401_Memory_Leak__int64_t_malloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#236
+s01/CWE401_Memory_Leak__int64_t_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#237
+s01/CWE401_Memory_Leak__int64_t_malloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#238
+s01/CWE401_Memory_Leak__int64_t_malloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#239
+s01/CWE401_Memory_Leak__int64_t_malloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#240
+s01/CWE401_Memory_Leak__int64_t_malloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#241
+s01/CWE401_Memory_Leak__int64_t_malloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#242
+s01/CWE401_Memory_Leak__int64_t_malloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#243
+s01/CWE401_Memory_Leak__int64_t_malloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_malloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#244
+s01/CWE401_Memory_Leak__int64_t_malloc_62a.cpp:34: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_malloc_62::badSource()` on line 34 is not freed after the last access at line 34, column 5. 
+
+#245
+s01/CWE401_Memory_Leak__int64_t_malloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#246
+s01/CWE401_Memory_Leak__int64_t_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#247
+s01/CWE401_Memory_Leak__int64_t_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#248
+s01/CWE401_Memory_Leak__int64_t_malloc_64a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#249
+s01/CWE401_Memory_Leak__int64_t_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#250
+s01/CWE401_Memory_Leak__int64_t_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#251
+s01/CWE401_Memory_Leak__int64_t_malloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#252
+s01/CWE401_Memory_Leak__int64_t_malloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#253
+s01/CWE401_Memory_Leak__int64_t_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#254
+s01/CWE401_Memory_Leak__int64_t_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#255
+s01/CWE401_Memory_Leak__int64_t_malloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#256
+s01/CWE401_Memory_Leak__int64_t_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#257
+s01/CWE401_Memory_Leak__int64_t_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#258
+s01/CWE401_Memory_Leak__int64_t_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#259
+s01/CWE401_Memory_Leak__int64_t_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#260
+s01/CWE401_Memory_Leak__int64_t_malloc_72a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#261
+s01/CWE401_Memory_Leak__int64_t_malloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#262
+s01/CWE401_Memory_Leak__int64_t_malloc_72a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#263
+s01/CWE401_Memory_Leak__int64_t_malloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#264
+s01/CWE401_Memory_Leak__int64_t_malloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#265
+s01/CWE401_Memory_Leak__int64_t_malloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#266
+s01/CWE401_Memory_Leak__int64_t_malloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#267
+s01/CWE401_Memory_Leak__int64_t_malloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#268
+s01/CWE401_Memory_Leak__int64_t_malloc_73a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#269
+s01/CWE401_Memory_Leak__int64_t_malloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#270
+s01/CWE401_Memory_Leak__int64_t_malloc_73a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#271
+s01/CWE401_Memory_Leak__int64_t_malloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#272
+s01/CWE401_Memory_Leak__int64_t_malloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#273
+s01/CWE401_Memory_Leak__int64_t_malloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#274
+s01/CWE401_Memory_Leak__int64_t_malloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#275
+s01/CWE401_Memory_Leak__int64_t_malloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#276
+s01/CWE401_Memory_Leak__int64_t_malloc_74a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#277
+s01/CWE401_Memory_Leak__int64_t_malloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#278
+s01/CWE401_Memory_Leak__int64_t_malloc_74a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#279
+s01/CWE401_Memory_Leak__int64_t_malloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#280
+s01/CWE401_Memory_Leak__int64_t_malloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#281
+s01/CWE401_Memory_Leak__int64_t_malloc_82a.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 37, column 5. 
+
+#282
+s01/CWE401_Memory_Leak__int64_t_malloc_83a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_malloc_83::CWE401_Memory_Leak__int64_t_malloc_83_bad::CWE401_Memory_Leak__int64_t_malloc_83_bad()` on line 30 is not freed after the last access at line 31, column 1. 
+
+#283
+s01/CWE401_Memory_Leak__int64_t_malloc_84a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_malloc_84::CWE401_Memory_Leak__int64_t_malloc_84_bad::CWE401_Memory_Leak__int64_t_malloc_84_bad()` on line 30 is not freed after the last access at line 31, column 5. 
+
+#284
+s01/CWE401_Memory_Leak__int64_t_realloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#285
+s01/CWE401_Memory_Leak__int64_t_realloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#286
+s01/CWE401_Memory_Leak__int64_t_realloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#287
+s01/CWE401_Memory_Leak__int64_t_realloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#288
+s01/CWE401_Memory_Leak__int64_t_realloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#289
+s01/CWE401_Memory_Leak__int64_t_realloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#290
+s01/CWE401_Memory_Leak__int64_t_realloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#291
+s01/CWE401_Memory_Leak__int64_t_realloc_08.c:48: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 44 is not freed after the last access at line 48, column 9. 
+
+#292
+s01/CWE401_Memory_Leak__int64_t_realloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#293
+s01/CWE401_Memory_Leak__int64_t_realloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#294
+s01/CWE401_Memory_Leak__int64_t_realloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#295
+s01/CWE401_Memory_Leak__int64_t_realloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#296
+s01/CWE401_Memory_Leak__int64_t_realloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#297
+s01/CWE401_Memory_Leak__int64_t_realloc_13.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#298
+s01/CWE401_Memory_Leak__int64_t_realloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#299
+s01/CWE401_Memory_Leak__int64_t_realloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#300
+s01/CWE401_Memory_Leak__int64_t_realloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#301
+s01/CWE401_Memory_Leak__int64_t_realloc_17.c:29: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 29, column 16. 
+
+#302
+s01/CWE401_Memory_Leak__int64_t_realloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#303
+s01/CWE401_Memory_Leak__int64_t_realloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#304
+s01/CWE401_Memory_Leak__int64_t_realloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#305
+s01/CWE401_Memory_Leak__int64_t_realloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#306
+s01/CWE401_Memory_Leak__int64_t_realloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#307
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#308
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#309
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#310
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#311
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#312
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#313
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#314
+s01/CWE401_Memory_Leak__int64_t_realloc_33.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 37, column 5. 
+
+#315
+s01/CWE401_Memory_Leak__int64_t_realloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#316
+s01/CWE401_Memory_Leak__int64_t_realloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#317
+s01/CWE401_Memory_Leak__int64_t_realloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#318
+s01/CWE401_Memory_Leak__int64_t_realloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#319
+s01/CWE401_Memory_Leak__int64_t_realloc_33.cpp:78: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 74 is not freed after the last access at line 78, column 5. 
+
+#320
+s01/CWE401_Memory_Leak__int64_t_realloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#321
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#322
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#323
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#324
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#325
+s01/CWE401_Memory_Leak__int64_t_realloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#326
+s01/CWE401_Memory_Leak__int64_t_realloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#327
+s01/CWE401_Memory_Leak__int64_t_realloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#328
+s01/CWE401_Memory_Leak__int64_t_realloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#329
+s01/CWE401_Memory_Leak__int64_t_realloc_43.cpp:41: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_realloc_43::badSource()` on line 41 is not freed after the last access at line 41, column 5. 
+
+#330
+s01/CWE401_Memory_Leak__int64_t_realloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#331
+s01/CWE401_Memory_Leak__int64_t_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#332
+s01/CWE401_Memory_Leak__int64_t_realloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#333
+s01/CWE401_Memory_Leak__int64_t_realloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#334
+s01/CWE401_Memory_Leak__int64_t_realloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#335
+s01/CWE401_Memory_Leak__int64_t_realloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#336
+s01/CWE401_Memory_Leak__int64_t_realloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#337
+s01/CWE401_Memory_Leak__int64_t_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#338
+s01/CWE401_Memory_Leak__int64_t_realloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_realloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#339
+s01/CWE401_Memory_Leak__int64_t_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#340
+s01/CWE401_Memory_Leak__int64_t_realloc_62a.cpp:34: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_realloc_62::badSource()` on line 34 is not freed after the last access at line 34, column 5. 
+
+#341
+s01/CWE401_Memory_Leak__int64_t_realloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#342
+s01/CWE401_Memory_Leak__int64_t_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#343
+s01/CWE401_Memory_Leak__int64_t_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#344
+s01/CWE401_Memory_Leak__int64_t_realloc_64a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#345
+s01/CWE401_Memory_Leak__int64_t_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#346
+s01/CWE401_Memory_Leak__int64_t_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#347
+s01/CWE401_Memory_Leak__int64_t_realloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#348
+s01/CWE401_Memory_Leak__int64_t_realloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#349
+s01/CWE401_Memory_Leak__int64_t_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#350
+s01/CWE401_Memory_Leak__int64_t_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#351
+s01/CWE401_Memory_Leak__int64_t_realloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#352
+s01/CWE401_Memory_Leak__int64_t_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#353
+s01/CWE401_Memory_Leak__int64_t_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#354
+s01/CWE401_Memory_Leak__int64_t_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#355
+s01/CWE401_Memory_Leak__int64_t_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#356
+s01/CWE401_Memory_Leak__int64_t_realloc_72a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#357
+s01/CWE401_Memory_Leak__int64_t_realloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#358
+s01/CWE401_Memory_Leak__int64_t_realloc_72a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#359
+s01/CWE401_Memory_Leak__int64_t_realloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#360
+s01/CWE401_Memory_Leak__int64_t_realloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#361
+s01/CWE401_Memory_Leak__int64_t_realloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#362
+s01/CWE401_Memory_Leak__int64_t_realloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#363
+s01/CWE401_Memory_Leak__int64_t_realloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#364
+s01/CWE401_Memory_Leak__int64_t_realloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#365
+s01/CWE401_Memory_Leak__int64_t_realloc_73a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#366
+s01/CWE401_Memory_Leak__int64_t_realloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#367
+s01/CWE401_Memory_Leak__int64_t_realloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#368
+s01/CWE401_Memory_Leak__int64_t_realloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#369
+s01/CWE401_Memory_Leak__int64_t_realloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#370
+s01/CWE401_Memory_Leak__int64_t_realloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#371
+s01/CWE401_Memory_Leak__int64_t_realloc_74a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#372
+s01/CWE401_Memory_Leak__int64_t_realloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#373
+s01/CWE401_Memory_Leak__int64_t_realloc_74a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#374
+s01/CWE401_Memory_Leak__int64_t_realloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#375
+s01/CWE401_Memory_Leak__int64_t_realloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#376
+s01/CWE401_Memory_Leak__int64_t_realloc_82a.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 37, column 5. 
+
+#377
+s01/CWE401_Memory_Leak__int64_t_realloc_83a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_realloc_83::CWE401_Memory_Leak__int64_t_realloc_83_bad::CWE401_Memory_Leak__int64_t_realloc_83_bad()` on line 30 is not freed after the last access at line 31, column 1. 
+
+#378
+s01/CWE401_Memory_Leak__int64_t_realloc_84a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_realloc_84::CWE401_Memory_Leak__int64_t_realloc_84_bad::CWE401_Memory_Leak__int64_t_realloc_84_bad()` on line 30 is not freed after the last access at line 31, column 5. 
+
+#379
+s01/CWE401_Memory_Leak__int_calloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#380
+s01/CWE401_Memory_Leak__int_calloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#381
+s01/CWE401_Memory_Leak__int_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#382
+s01/CWE401_Memory_Leak__int_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#383
+s01/CWE401_Memory_Leak__int_calloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#384
+s01/CWE401_Memory_Leak__int_calloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#385
+s01/CWE401_Memory_Leak__int_calloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#386
+s01/CWE401_Memory_Leak__int_calloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#387
+s01/CWE401_Memory_Leak__int_calloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#388
+s01/CWE401_Memory_Leak__int_calloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#389
+s01/CWE401_Memory_Leak__int_calloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#390
+s01/CWE401_Memory_Leak__int_calloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#391
+s01/CWE401_Memory_Leak__int_calloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#392
+s01/CWE401_Memory_Leak__int_calloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#393
+s01/CWE401_Memory_Leak__int_calloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#394
+s01/CWE401_Memory_Leak__int_calloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#395
+s01/CWE401_Memory_Leak__int_calloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#396
+s01/CWE401_Memory_Leak__int_calloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#397
+s01/CWE401_Memory_Leak__int_calloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#398
+s01/CWE401_Memory_Leak__int_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#399
+s01/CWE401_Memory_Leak__int_calloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#400
+s01/CWE401_Memory_Leak__int_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#401
+s01/CWE401_Memory_Leak__int_calloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#402
+s01/CWE401_Memory_Leak__int_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#403
+s01/CWE401_Memory_Leak__int_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#404
+s01/CWE401_Memory_Leak__int_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#405
+s01/CWE401_Memory_Leak__int_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#406
+s01/CWE401_Memory_Leak__int_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#407
+s01/CWE401_Memory_Leak__int_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#408
+s01/CWE401_Memory_Leak__int_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#409
+s01/CWE401_Memory_Leak__int_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#410
+s01/CWE401_Memory_Leak__int_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#411
+s01/CWE401_Memory_Leak__int_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#412
+s01/CWE401_Memory_Leak__int_calloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#413
+s01/CWE401_Memory_Leak__int_calloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#414
+s01/CWE401_Memory_Leak__int_calloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#415
+s01/CWE401_Memory_Leak__int_calloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#416
+s01/CWE401_Memory_Leak__int_calloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#417
+s01/CWE401_Memory_Leak__int_calloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#418
+s01/CWE401_Memory_Leak__int_calloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#419
+s01/CWE401_Memory_Leak__int_calloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#420
+s01/CWE401_Memory_Leak__int_calloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#421
+s01/CWE401_Memory_Leak__int_calloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#422
+s01/CWE401_Memory_Leak__int_calloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#423
+s01/CWE401_Memory_Leak__int_calloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#424
+s01/CWE401_Memory_Leak__int_calloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#425
+s01/CWE401_Memory_Leak__int_calloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#426
+s01/CWE401_Memory_Leak__int_calloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#427
+s01/CWE401_Memory_Leak__int_malloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#428
+s01/CWE401_Memory_Leak__int_malloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#429
+s01/CWE401_Memory_Leak__int_malloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#430
+s01/CWE401_Memory_Leak__int_malloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#431
+s01/CWE401_Memory_Leak__int_malloc_05.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#432
+s01/CWE401_Memory_Leak__int_malloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#433
+s01/CWE401_Memory_Leak__int_malloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#434
+s01/CWE401_Memory_Leak__int_malloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#435
+s01/CWE401_Memory_Leak__int_malloc_08.c:48: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 44 is not freed after the last access at line 48, column 9. 
+
+#436
+s01/CWE401_Memory_Leak__int_malloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#437
+s01/CWE401_Memory_Leak__int_malloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#438
+s01/CWE401_Memory_Leak__int_malloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#439
+s01/CWE401_Memory_Leak__int_malloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#440
+s01/CWE401_Memory_Leak__int_malloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#441
+s01/CWE401_Memory_Leak__int_malloc_13.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#442
+s01/CWE401_Memory_Leak__int_malloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#443
+s01/CWE401_Memory_Leak__int_malloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#444
+s01/CWE401_Memory_Leak__int_malloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#445
+s01/CWE401_Memory_Leak__int_malloc_17.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#446
+s01/CWE401_Memory_Leak__int_malloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#447
+s01/CWE401_Memory_Leak__int_malloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#448
+s01/CWE401_Memory_Leak__int_malloc_22a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#449
+s01/CWE401_Memory_Leak__int_malloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#450
+s01/CWE401_Memory_Leak__int_malloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#451
+s01/CWE401_Memory_Leak__int_malloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#452
+s01/CWE401_Memory_Leak__int_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#453
+s01/CWE401_Memory_Leak__int_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#454
+s01/CWE401_Memory_Leak__int_malloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#455
+s01/CWE401_Memory_Leak__int_malloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#456
+s01/CWE401_Memory_Leak__int_malloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#457
+s01/CWE401_Memory_Leak__int_malloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#458
+s01/CWE401_Memory_Leak__int_malloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#459
+s01/CWE401_Memory_Leak__int_malloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#460
+s01/CWE401_Memory_Leak__int_malloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#461
+s01/CWE401_Memory_Leak__int_malloc_33.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 5. 
+
+#462
+s01/CWE401_Memory_Leak__int_malloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#463
+s01/CWE401_Memory_Leak__int_malloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#464
+s01/CWE401_Memory_Leak__int_malloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#465
+s01/CWE401_Memory_Leak__int_malloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#466
+s01/CWE401_Memory_Leak__int_malloc_33.cpp:78: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 74 is not freed after the last access at line 78, column 5. 
+
+#467
+s01/CWE401_Memory_Leak__int_malloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#468
+s01/CWE401_Memory_Leak__int_malloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#469
+s01/CWE401_Memory_Leak__int_malloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#470
+s01/CWE401_Memory_Leak__int_malloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#471
+s01/CWE401_Memory_Leak__int_malloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#472
+s01/CWE401_Memory_Leak__int_malloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#473
+s01/CWE401_Memory_Leak__int_malloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#474
+s01/CWE401_Memory_Leak__int_malloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#475
+s01/CWE401_Memory_Leak__int_malloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#476
+s01/CWE401_Memory_Leak__int_malloc_43.cpp:41: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int_malloc_43::badSource()` on line 41 is not freed after the last access at line 41, column 5. 
+
+#477
+s01/CWE401_Memory_Leak__int_malloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#478
+s01/CWE401_Memory_Leak__int_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#479
+s01/CWE401_Memory_Leak__int_malloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#480
+s01/CWE401_Memory_Leak__int_malloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#481
+s01/CWE401_Memory_Leak__int_malloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#482
+s01/CWE401_Memory_Leak__int_malloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#483
+s01/CWE401_Memory_Leak__int_malloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#484
+s01/CWE401_Memory_Leak__int_malloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#485
+s01/CWE401_Memory_Leak__int_malloc_62a.cpp:34: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int_malloc_62::badSource()` on line 34 is not freed after the last access at line 34, column 5. 
+
+#486
+s01/CWE401_Memory_Leak__int_malloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#487
+s01/CWE401_Memory_Leak__int_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#488
+s01/CWE401_Memory_Leak__int_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#489
+s01/CWE401_Memory_Leak__int_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#490
+s01/CWE401_Memory_Leak__int_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#491
+s01/CWE401_Memory_Leak__int_malloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#492
+s01/CWE401_Memory_Leak__int_malloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#493
+s01/CWE401_Memory_Leak__int_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#494
+s01/CWE401_Memory_Leak__int_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#495
+s01/CWE401_Memory_Leak__int_malloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#496
+s01/CWE401_Memory_Leak__int_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#497
+s01/CWE401_Memory_Leak__int_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#498
+s01/CWE401_Memory_Leak__int_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#499
+s01/CWE401_Memory_Leak__int_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#500
+s01/CWE401_Memory_Leak__int_malloc_72a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#501
+s01/CWE401_Memory_Leak__int_malloc_72a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#502
+s01/CWE401_Memory_Leak__int_malloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#503
+s01/CWE401_Memory_Leak__int_malloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#504
+s01/CWE401_Memory_Leak__int_malloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#505
+s01/CWE401_Memory_Leak__int_malloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#506
+s01/CWE401_Memory_Leak__int_malloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#507
+s01/CWE401_Memory_Leak__int_malloc_73a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#508
+s01/CWE401_Memory_Leak__int_malloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#509
+s01/CWE401_Memory_Leak__int_malloc_73a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#510
+s01/CWE401_Memory_Leak__int_malloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#511
+s01/CWE401_Memory_Leak__int_malloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#512
+s01/CWE401_Memory_Leak__int_malloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#513
+s01/CWE401_Memory_Leak__int_malloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#514
+s01/CWE401_Memory_Leak__int_malloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#515
+s01/CWE401_Memory_Leak__int_malloc_74a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#516
+s01/CWE401_Memory_Leak__int_malloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#517
+s01/CWE401_Memory_Leak__int_malloc_74a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#518
+s01/CWE401_Memory_Leak__int_malloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#519
+s01/CWE401_Memory_Leak__int_malloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#520
+s01/CWE401_Memory_Leak__int_malloc_82a.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 37, column 5. 
+
+#521
+s01/CWE401_Memory_Leak__int_malloc_83a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int_malloc_83::CWE401_Memory_Leak__int_malloc_83_bad::CWE401_Memory_Leak__int_malloc_83_bad()` on line 30 is not freed after the last access at line 31, column 1. 
+
+#522
+s01/CWE401_Memory_Leak__int_malloc_84a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int_malloc_84::CWE401_Memory_Leak__int_malloc_84_bad::CWE401_Memory_Leak__int_malloc_84_bad()` on line 30 is not freed after the last access at line 31, column 5. 
+
+#523
+s01/CWE401_Memory_Leak__int_realloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#524
+s01/CWE401_Memory_Leak__int_realloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#525
+s01/CWE401_Memory_Leak__int_realloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#526
+s01/CWE401_Memory_Leak__int_realloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#527
+s01/CWE401_Memory_Leak__int_realloc_05.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#528
+s01/CWE401_Memory_Leak__int_realloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#529
+s01/CWE401_Memory_Leak__int_realloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#530
+s01/CWE401_Memory_Leak__int_realloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#531
+s01/CWE401_Memory_Leak__int_realloc_08.c:48: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 44 is not freed after the last access at line 48, column 9. 
+
+#532
+s01/CWE401_Memory_Leak__int_realloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#533
+s01/CWE401_Memory_Leak__int_realloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#534
+s01/CWE401_Memory_Leak__int_realloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#535
+s01/CWE401_Memory_Leak__int_realloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#536
+s01/CWE401_Memory_Leak__int_realloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#537
+s01/CWE401_Memory_Leak__int_realloc_13.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#538
+s01/CWE401_Memory_Leak__int_realloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#539
+s01/CWE401_Memory_Leak__int_realloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#540
+s01/CWE401_Memory_Leak__int_realloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#541
+s01/CWE401_Memory_Leak__int_realloc_17.c:29: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 29, column 16. 
+
+#542
+s01/CWE401_Memory_Leak__int_realloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#543
+s01/CWE401_Memory_Leak__int_realloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#544
+s01/CWE401_Memory_Leak__int_realloc_22a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#545
+s01/CWE401_Memory_Leak__int_realloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#546
+s01/CWE401_Memory_Leak__int_realloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#547
+s01/CWE401_Memory_Leak__int_realloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#548
+s01/CWE401_Memory_Leak__int_realloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#549
+s01/CWE401_Memory_Leak__int_realloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#550
+s01/CWE401_Memory_Leak__int_realloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#551
+s01/CWE401_Memory_Leak__int_realloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#552
+s01/CWE401_Memory_Leak__int_realloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#553
+s01/CWE401_Memory_Leak__int_realloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#554
+s01/CWE401_Memory_Leak__int_realloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#555
+s01/CWE401_Memory_Leak__int_realloc_33.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 37, column 5. 
+
+#556
+s01/CWE401_Memory_Leak__int_realloc_33.cpp:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#557
+s01/CWE401_Memory_Leak__int_realloc_33.cpp:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#558
+s01/CWE401_Memory_Leak__int_realloc_33.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#559
+s01/CWE401_Memory_Leak__int_realloc_33.cpp:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#560
+s01/CWE401_Memory_Leak__int_realloc_33.cpp:78: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 74 is not freed after the last access at line 78, column 5. 
+
+#561
+s01/CWE401_Memory_Leak__int_realloc_33.cpp:80: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#562
+s01/CWE401_Memory_Leak__int_realloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#563
+s01/CWE401_Memory_Leak__int_realloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#564
+s01/CWE401_Memory_Leak__int_realloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#565
+s01/CWE401_Memory_Leak__int_realloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#566
+s01/CWE401_Memory_Leak__int_realloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#567
+s01/CWE401_Memory_Leak__int_realloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#568
+s01/CWE401_Memory_Leak__int_realloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#569
+s01/CWE401_Memory_Leak__int_realloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#570
+s01/CWE401_Memory_Leak__int_realloc_43.cpp:41: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int_realloc_43::badSource()` on line 41 is not freed after the last access at line 41, column 5. 
+
+#571
+s01/CWE401_Memory_Leak__int_realloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#572
+s01/CWE401_Memory_Leak__int_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#573
+s01/CWE401_Memory_Leak__int_realloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#574
+s01/CWE401_Memory_Leak__int_realloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#575
+s01/CWE401_Memory_Leak__int_realloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#576
+s01/CWE401_Memory_Leak__int_realloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#577
+s01/CWE401_Memory_Leak__int_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#578
+s01/CWE401_Memory_Leak__int_realloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int_realloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#579
+s01/CWE401_Memory_Leak__int_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#580
+s01/CWE401_Memory_Leak__int_realloc_62a.cpp:34: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int_realloc_62::badSource()` on line 34 is not freed after the last access at line 34, column 5. 
+
+#581
+s01/CWE401_Memory_Leak__int_realloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#582
+s01/CWE401_Memory_Leak__int_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#583
+s01/CWE401_Memory_Leak__int_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#584
+s01/CWE401_Memory_Leak__int_realloc_64a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#585
+s01/CWE401_Memory_Leak__int_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#586
+s01/CWE401_Memory_Leak__int_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#587
+s01/CWE401_Memory_Leak__int_realloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#588
+s01/CWE401_Memory_Leak__int_realloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#589
+s01/CWE401_Memory_Leak__int_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#590
+s01/CWE401_Memory_Leak__int_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#591
+s01/CWE401_Memory_Leak__int_realloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#592
+s01/CWE401_Memory_Leak__int_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#593
+s01/CWE401_Memory_Leak__int_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#594
+s01/CWE401_Memory_Leak__int_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#595
+s01/CWE401_Memory_Leak__int_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#596
+s01/CWE401_Memory_Leak__int_realloc_72a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#597
+s01/CWE401_Memory_Leak__int_realloc_72b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#598
+s01/CWE401_Memory_Leak__int_realloc_72b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#599
+s01/CWE401_Memory_Leak__int_realloc_72b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#600
+s01/CWE401_Memory_Leak__int_realloc_72b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#601
+s01/CWE401_Memory_Leak__int_realloc_72b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#602
+s01/CWE401_Memory_Leak__int_realloc_73a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#603
+s01/CWE401_Memory_Leak__int_realloc_73a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#604
+s01/CWE401_Memory_Leak__int_realloc_73a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#605
+s01/CWE401_Memory_Leak__int_realloc_73b.cpp:30: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#606
+s01/CWE401_Memory_Leak__int_realloc_73b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#607
+s01/CWE401_Memory_Leak__int_realloc_73b.cpp:43: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#608
+s01/CWE401_Memory_Leak__int_realloc_73b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#609
+s01/CWE401_Memory_Leak__int_realloc_73b.cpp:51: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#610
+s01/CWE401_Memory_Leak__int_realloc_74a.cpp:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 39 is not freed after the last access at line 47, column 5. 
+
+#611
+s01/CWE401_Memory_Leak__int_realloc_74a.cpp:72: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#612
+s01/CWE401_Memory_Leak__int_realloc_74a.cpp:91: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 84 is not freed after the last access at line 91, column 5. 
+
+#613
+s01/CWE401_Memory_Leak__int_realloc_74b.cpp:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#614
+s01/CWE401_Memory_Leak__int_realloc_74b.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#615
+s01/CWE401_Memory_Leak__int_realloc_82a.cpp:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 37, column 5. 
+
+#616
+s01/CWE401_Memory_Leak__int_realloc_83a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int_realloc_83::CWE401_Memory_Leak__int_realloc_83_bad::CWE401_Memory_Leak__int_realloc_83_bad()` on line 30 is not freed after the last access at line 31, column 1. 
+
+#617
+s01/CWE401_Memory_Leak__int_realloc_84a.cpp:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int_realloc_84::CWE401_Memory_Leak__int_realloc_84_bad::CWE401_Memory_Leak__int_realloc_84_bad()` on line 30 is not freed after the last access at line 31, column 5. 
+
+#618
+s01/CWE401_Memory_Leak__malloc_realloc_char_01.c:67: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#619
+s01/CWE401_Memory_Leak__malloc_realloc_char_02.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#620
+s01/CWE401_Memory_Leak__malloc_realloc_char_02.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#621
+s01/CWE401_Memory_Leak__malloc_realloc_char_03.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#622
+s01/CWE401_Memory_Leak__malloc_realloc_char_03.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#623
+s01/CWE401_Memory_Leak__malloc_realloc_char_04.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#624
+s01/CWE401_Memory_Leak__malloc_realloc_char_04.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 101. 
+
+#625
+s01/CWE401_Memory_Leak__malloc_realloc_char_06.c:83: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 73. 
+
+#626
+s01/CWE401_Memory_Leak__malloc_realloc_char_06.c:110: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#627
+s01/CWE401_Memory_Leak__malloc_realloc_char_08.c:91: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 81. 
+
+#628
+s01/CWE401_Memory_Leak__malloc_realloc_char_08.c:118: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#629
+s01/CWE401_Memory_Leak__malloc_realloc_char_09.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#630
+s01/CWE401_Memory_Leak__malloc_realloc_char_09.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#631
+s01/CWE401_Memory_Leak__malloc_realloc_char_12.c:64: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 54. 
+
+#632
+s01/CWE401_Memory_Leak__malloc_realloc_char_12.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 85. 
+
+#633
+s01/CWE401_Memory_Leak__malloc_realloc_char_12.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 107. 
+
+#634
+s01/CWE401_Memory_Leak__malloc_realloc_char_13.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#635
+s01/CWE401_Memory_Leak__malloc_realloc_char_13.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#636
+s01/CWE401_Memory_Leak__malloc_realloc_char_15.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#637
+s01/CWE401_Memory_Leak__malloc_realloc_char_15.c:113: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 103. 
+
+#638
+s01/CWE401_Memory_Leak__malloc_realloc_char_16.c:74: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 64. 
+
+#639
+s01/CWE401_Memory_Leak__malloc_realloc_char_17.c:75: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#640
+s01/CWE401_Memory_Leak__malloc_realloc_char_18.c:72: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 62. 
+
+#641
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_01.c:67: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#642
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_02.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#643
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_02.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#644
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_03.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#645
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_03.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#646
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_04.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#647
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_04.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 101. 
+
+#648
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_06.c:83: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 73. 
+
+#649
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_06.c:110: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#650
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_08.c:91: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 81. 
+
+#651
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_08.c:118: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#652
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_09.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#653
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_09.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#654
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_11.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#655
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_11.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#656
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_12.c:64: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 54. 
+
+#657
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_12.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 85. 
+
+#658
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_12.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 107. 
+
+#659
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_13.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#660
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_13.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#661
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_16.c:74: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 64. 
+
+#662
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_18.c:72: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 62. 
+
+#663
+s01/CWE401_Memory_Leak__malloc_realloc_int_02.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#664
+s01/CWE401_Memory_Leak__malloc_realloc_int_02.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#665
+s01/CWE401_Memory_Leak__malloc_realloc_int_03.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#666
+s01/CWE401_Memory_Leak__malloc_realloc_int_03.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#667
+s01/CWE401_Memory_Leak__malloc_realloc_int_04.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#668
+s01/CWE401_Memory_Leak__malloc_realloc_int_04.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 101. 
+
+#669
+s01/CWE401_Memory_Leak__malloc_realloc_int_06.c:83: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 73. 
+
+#670
+s01/CWE401_Memory_Leak__malloc_realloc_int_06.c:110: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#671
+s01/CWE401_Memory_Leak__malloc_realloc_int_08.c:91: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 81. 
+
+#672
+s01/CWE401_Memory_Leak__malloc_realloc_int_08.c:118: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#673
+s01/CWE401_Memory_Leak__malloc_realloc_int_09.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#674
+s01/CWE401_Memory_Leak__malloc_realloc_int_09.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#675
+s01/CWE401_Memory_Leak__malloc_realloc_int_12.c:64: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 54. 
+
+#676
+s01/CWE401_Memory_Leak__malloc_realloc_int_12.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 85. 
+
+#677
+s01/CWE401_Memory_Leak__malloc_realloc_int_12.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 107. 
+
+#678
+s01/CWE401_Memory_Leak__malloc_realloc_int_13.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#679
+s01/CWE401_Memory_Leak__malloc_realloc_int_13.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#680
+s01/CWE401_Memory_Leak__malloc_realloc_int_16.c:74: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 64. 
+
+#681
+s01/CWE401_Memory_Leak__malloc_realloc_int_17.c:75: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#682
+s01/CWE401_Memory_Leak__malloc_realloc_int_18.c:72: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 62. 
+
+#683
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_02.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#684
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_02.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#685
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_03.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#686
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_03.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#687
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_04.c:88: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 77. 
+
+#688
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_04.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 106. 
+
+#689
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_06.c:87: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 76. 
+
+#690
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_06.c:116: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 105. 
+
+#691
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_08.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 84. 
+
+#692
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_08.c:124: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 113. 
+
+#693
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_11.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#694
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_11.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#695
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_12.c:68: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#696
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_12.c:101: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 90. 
+
+#697
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_12.c:125: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 114. 
+
+#698
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_13.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#699
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_13.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#700
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_16.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 67. 
+
+#701
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_17.c:79: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#702
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_18.c:76: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#703
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_01.c:71: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 60. 
+
+#704
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_02.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#705
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_02.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#706
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_03.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#707
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_03.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#708
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_04.c:88: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 77. 
+
+#709
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_04.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 106. 
+
+#710
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_06.c:87: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 76. 
+
+#711
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_06.c:116: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 105. 
+
+#712
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_08.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 84. 
+
+#713
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_08.c:124: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 113. 
+
+#714
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_09.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#715
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_09.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#716
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_11.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#717
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_11.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#718
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_12.c:68: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#719
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_12.c:101: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 90. 
+
+#720
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_12.c:125: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 114. 
+
+#721
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_15.c:88: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 77. 
+
+#722
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_15.c:119: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#723
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_16.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 67. 
+
+#724
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_17.c:79: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#725
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_18.c:76: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#726
+s01/CWE401_Memory_Leak__new_array_char_31.cpp:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#727
+s01/CWE401_Memory_Leak__new_array_char_31.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#728
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#729
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:36: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#730
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#731
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#732
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#733
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:73: error: Dead Store
+  The value written to `&data` is never used. 
+
+#734
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:87: error: Dead Store
+  The value written to `&data` is never used. 
+
+#735
+s01/CWE401_Memory_Leak__new_array_char_32.cpp:87: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#736
+s01/CWE401_Memory_Leak__new_array_char_33.cpp:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#737
+s01/CWE401_Memory_Leak__new_array_char_33.cpp:40: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#738
+s01/CWE401_Memory_Leak__new_array_char_33.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#739
+s01/CWE401_Memory_Leak__new_array_char_33.cpp:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#740
+s01/CWE401_Memory_Leak__new_array_char_33.cpp:81: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#741
+s01/CWE401_Memory_Leak__new_array_char_34.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#742
+s01/CWE401_Memory_Leak__new_array_char_34.cpp:71: error: Dead Store
+  The value written to `&data` is never used. 
+
+#743
+s01/CWE401_Memory_Leak__new_array_char_45.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#744
+s01/CWE401_Memory_Leak__new_array_char_45.cpp:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#745
+s01/CWE401_Memory_Leak__new_array_char_63b.cpp:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#746
+s01/CWE401_Memory_Leak__new_array_char_63b.cpp:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#747
+s01/CWE401_Memory_Leak__new_array_char_64b.cpp:34: error: Dead Store
+  The value written to `&data` is never used. 
+
+#748
+s01/CWE401_Memory_Leak__new_array_char_64b.cpp:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#749
+s01/CWE401_Memory_Leak__new_array_char_66b.cpp:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#750
+s01/CWE401_Memory_Leak__new_array_char_66b.cpp:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#751
+s01/CWE401_Memory_Leak__new_array_char_67b.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#752
+s01/CWE401_Memory_Leak__new_array_char_67b.cpp:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#753
+s01/CWE401_Memory_Leak__new_array_char_68b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#754
+s01/CWE401_Memory_Leak__new_array_char_68b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#755
+s01/CWE401_Memory_Leak__new_array_char_72a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#756
+s01/CWE401_Memory_Leak__new_array_char_72a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#757
+s01/CWE401_Memory_Leak__new_array_char_72b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#758
+s01/CWE401_Memory_Leak__new_array_char_72b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#759
+s01/CWE401_Memory_Leak__new_array_char_72b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#760
+s01/CWE401_Memory_Leak__new_array_char_72b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#761
+s01/CWE401_Memory_Leak__new_array_char_72b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#762
+s01/CWE401_Memory_Leak__new_array_char_73a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#763
+s01/CWE401_Memory_Leak__new_array_char_73a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#764
+s01/CWE401_Memory_Leak__new_array_char_73a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#765
+s01/CWE401_Memory_Leak__new_array_char_73b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#766
+s01/CWE401_Memory_Leak__new_array_char_73b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#767
+s01/CWE401_Memory_Leak__new_array_char_73b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#768
+s01/CWE401_Memory_Leak__new_array_char_73b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#769
+s01/CWE401_Memory_Leak__new_array_char_73b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#770
+s01/CWE401_Memory_Leak__new_array_char_74a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#771
+s01/CWE401_Memory_Leak__new_array_char_74a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#772
+s01/CWE401_Memory_Leak__new_array_char_74a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#773
+s01/CWE401_Memory_Leak__new_array_char_74b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#774
+s01/CWE401_Memory_Leak__new_array_char_74b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#775
+s02/CWE401_Memory_Leak__new_TwoIntsClass_31.cpp:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#776
+s02/CWE401_Memory_Leak__new_TwoIntsClass_31.cpp:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#777
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#778
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:36: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#779
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#780
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#781
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:65: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#782
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#783
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:91: error: Dead Store
+  The value written to `&data` is never used. 
+
+#784
+s02/CWE401_Memory_Leak__new_TwoIntsClass_32.cpp:91: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#785
+s02/CWE401_Memory_Leak__new_TwoIntsClass_33.cpp:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#786
+s02/CWE401_Memory_Leak__new_TwoIntsClass_33.cpp:42: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#787
+s02/CWE401_Memory_Leak__new_TwoIntsClass_33.cpp:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#788
+s02/CWE401_Memory_Leak__new_TwoIntsClass_33.cpp:67: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#789
+s02/CWE401_Memory_Leak__new_TwoIntsClass_33.cpp:87: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#790
+s02/CWE401_Memory_Leak__new_TwoIntsClass_34.cpp:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#791
+s02/CWE401_Memory_Leak__new_TwoIntsClass_34.cpp:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#792
+s02/CWE401_Memory_Leak__new_TwoIntsClass_45.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#793
+s02/CWE401_Memory_Leak__new_TwoIntsClass_45.cpp:62: error: Dead Store
+  The value written to `&data` is never used. 
+
+#794
+s02/CWE401_Memory_Leak__new_TwoIntsClass_63b.cpp:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#795
+s02/CWE401_Memory_Leak__new_TwoIntsClass_63b.cpp:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#796
+s02/CWE401_Memory_Leak__new_TwoIntsClass_64b.cpp:34: error: Dead Store
+  The value written to `&data` is never used. 
+
+#797
+s02/CWE401_Memory_Leak__new_TwoIntsClass_64b.cpp:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#798
+s02/CWE401_Memory_Leak__new_TwoIntsClass_66b.cpp:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#799
+s02/CWE401_Memory_Leak__new_TwoIntsClass_66b.cpp:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#800
+s02/CWE401_Memory_Leak__new_TwoIntsClass_67b.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#801
+s02/CWE401_Memory_Leak__new_TwoIntsClass_67b.cpp:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#802
+s02/CWE401_Memory_Leak__new_TwoIntsClass_68b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#803
+s02/CWE401_Memory_Leak__new_TwoIntsClass_68b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#804
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72a.cpp:51: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#805
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72a.cpp:78: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#806
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72a.cpp:99: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#807
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#808
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#809
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#810
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#811
+s02/CWE401_Memory_Leak__new_TwoIntsClass_72b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#812
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73a.cpp:51: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#813
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73a.cpp:78: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#814
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73a.cpp:99: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#815
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#816
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#817
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#818
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#819
+s02/CWE401_Memory_Leak__new_TwoIntsClass_73b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#820
+s02/CWE401_Memory_Leak__new_TwoIntsClass_74a.cpp:51: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#821
+s02/CWE401_Memory_Leak__new_TwoIntsClass_74a.cpp:78: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#822
+s02/CWE401_Memory_Leak__new_TwoIntsClass_74a.cpp:99: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#823
+s02/CWE401_Memory_Leak__new_TwoIntsClass_74b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#824
+s02/CWE401_Memory_Leak__new_TwoIntsClass_74b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#825
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_31.cpp:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#826
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_31.cpp:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#827
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#828
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:36: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#829
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#830
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#831
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:65: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#832
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#833
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:91: error: Dead Store
+  The value written to `&data` is never used. 
+
+#834
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_32.cpp:91: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#835
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_33.cpp:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#836
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_33.cpp:42: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#837
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_33.cpp:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#838
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_33.cpp:67: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#839
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_33.cpp:87: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#840
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_34.cpp:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#841
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_34.cpp:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#842
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_45.cpp:62: error: Dead Store
+  The value written to `&data` is never used. 
+
+#843
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_63b.cpp:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#844
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_63b.cpp:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#845
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_64b.cpp:34: error: Dead Store
+  The value written to `&data` is never used. 
+
+#846
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_64b.cpp:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#847
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_66b.cpp:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#848
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_66b.cpp:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#849
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_67b.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#850
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_67b.cpp:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#851
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_68b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#852
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_68b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#853
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72a.cpp:51: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#854
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72a.cpp:78: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#855
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72a.cpp:99: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#856
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#857
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#858
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#859
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#860
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_72b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#861
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73a.cpp:51: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#862
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73a.cpp:78: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#863
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73a.cpp:99: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#864
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#865
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#866
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#867
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#868
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_73b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#869
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_74a.cpp:51: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#870
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_74a.cpp:78: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#871
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_74a.cpp:99: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#872
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_74b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#873
+s02/CWE401_Memory_Leak__new_array_TwoIntsClass_74b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#874
+s02/CWE401_Memory_Leak__new_array_int64_t_31.cpp:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#875
+s02/CWE401_Memory_Leak__new_array_int64_t_31.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#876
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#877
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:36: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#878
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#879
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#880
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#881
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:73: error: Dead Store
+  The value written to `&data` is never used. 
+
+#882
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:87: error: Dead Store
+  The value written to `&data` is never used. 
+
+#883
+s02/CWE401_Memory_Leak__new_array_int64_t_32.cpp:87: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#884
+s02/CWE401_Memory_Leak__new_array_int64_t_33.cpp:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#885
+s02/CWE401_Memory_Leak__new_array_int64_t_33.cpp:40: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#886
+s02/CWE401_Memory_Leak__new_array_int64_t_33.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#887
+s02/CWE401_Memory_Leak__new_array_int64_t_33.cpp:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#888
+s02/CWE401_Memory_Leak__new_array_int64_t_33.cpp:81: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#889
+s02/CWE401_Memory_Leak__new_array_int64_t_34.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#890
+s02/CWE401_Memory_Leak__new_array_int64_t_34.cpp:71: error: Dead Store
+  The value written to `&data` is never used. 
+
+#891
+s02/CWE401_Memory_Leak__new_array_int64_t_45.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#892
+s02/CWE401_Memory_Leak__new_array_int64_t_45.cpp:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#893
+s02/CWE401_Memory_Leak__new_array_int64_t_63b.cpp:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#894
+s02/CWE401_Memory_Leak__new_array_int64_t_63b.cpp:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#895
+s02/CWE401_Memory_Leak__new_array_int64_t_64b.cpp:34: error: Dead Store
+  The value written to `&data` is never used. 
+
+#896
+s02/CWE401_Memory_Leak__new_array_int64_t_64b.cpp:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#897
+s02/CWE401_Memory_Leak__new_array_int64_t_66b.cpp:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#898
+s02/CWE401_Memory_Leak__new_array_int64_t_66b.cpp:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#899
+s02/CWE401_Memory_Leak__new_array_int64_t_67b.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#900
+s02/CWE401_Memory_Leak__new_array_int64_t_67b.cpp:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#901
+s02/CWE401_Memory_Leak__new_array_int64_t_68b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#902
+s02/CWE401_Memory_Leak__new_array_int64_t_68b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#903
+s02/CWE401_Memory_Leak__new_array_int64_t_72a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#904
+s02/CWE401_Memory_Leak__new_array_int64_t_72a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#905
+s02/CWE401_Memory_Leak__new_array_int64_t_72a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#906
+s02/CWE401_Memory_Leak__new_array_int64_t_72b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#907
+s02/CWE401_Memory_Leak__new_array_int64_t_72b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#908
+s02/CWE401_Memory_Leak__new_array_int64_t_72b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#909
+s02/CWE401_Memory_Leak__new_array_int64_t_72b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#910
+s02/CWE401_Memory_Leak__new_array_int64_t_72b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#911
+s02/CWE401_Memory_Leak__new_array_int64_t_73a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#912
+s02/CWE401_Memory_Leak__new_array_int64_t_73a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#913
+s02/CWE401_Memory_Leak__new_array_int64_t_73a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#914
+s02/CWE401_Memory_Leak__new_array_int64_t_73b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#915
+s02/CWE401_Memory_Leak__new_array_int64_t_73b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#916
+s02/CWE401_Memory_Leak__new_array_int64_t_73b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#917
+s02/CWE401_Memory_Leak__new_array_int64_t_73b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#918
+s02/CWE401_Memory_Leak__new_array_int64_t_73b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#919
+s02/CWE401_Memory_Leak__new_array_int64_t_74a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#920
+s02/CWE401_Memory_Leak__new_array_int64_t_74a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#921
+s02/CWE401_Memory_Leak__new_array_int64_t_74a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#922
+s02/CWE401_Memory_Leak__new_array_int64_t_74b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#923
+s02/CWE401_Memory_Leak__new_array_int64_t_74b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#924
+s02/CWE401_Memory_Leak__new_array_int_31.cpp:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#925
+s02/CWE401_Memory_Leak__new_array_int_31.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#926
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#927
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:36: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#928
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#929
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#930
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#931
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:73: error: Dead Store
+  The value written to `&data` is never used. 
+
+#932
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:87: error: Dead Store
+  The value written to `&data` is never used. 
+
+#933
+s02/CWE401_Memory_Leak__new_array_int_32.cpp:87: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#934
+s02/CWE401_Memory_Leak__new_array_int_33.cpp:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#935
+s02/CWE401_Memory_Leak__new_array_int_33.cpp:40: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#936
+s02/CWE401_Memory_Leak__new_array_int_33.cpp:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#937
+s02/CWE401_Memory_Leak__new_array_int_33.cpp:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#938
+s02/CWE401_Memory_Leak__new_array_int_33.cpp:81: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#939
+s02/CWE401_Memory_Leak__new_array_int_34.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#940
+s02/CWE401_Memory_Leak__new_array_int_34.cpp:71: error: Dead Store
+  The value written to `&data` is never used. 
+
+#941
+s02/CWE401_Memory_Leak__new_array_int_45.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#942
+s02/CWE401_Memory_Leak__new_array_int_45.cpp:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#943
+s02/CWE401_Memory_Leak__new_array_int_63b.cpp:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#944
+s02/CWE401_Memory_Leak__new_array_int_64b.cpp:34: error: Dead Store
+  The value written to `&data` is never used. 
+
+#945
+s02/CWE401_Memory_Leak__new_array_int_64b.cpp:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#946
+s02/CWE401_Memory_Leak__new_array_int_66b.cpp:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#947
+s02/CWE401_Memory_Leak__new_array_int_66b.cpp:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#948
+s02/CWE401_Memory_Leak__new_array_int_67b.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#949
+s02/CWE401_Memory_Leak__new_array_int_67b.cpp:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#950
+s02/CWE401_Memory_Leak__new_array_int_68b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#951
+s02/CWE401_Memory_Leak__new_array_int_68b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#952
+s02/CWE401_Memory_Leak__new_array_int_72a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#953
+s02/CWE401_Memory_Leak__new_array_int_72a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#954
+s02/CWE401_Memory_Leak__new_array_int_72a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataVector` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#955
+s02/CWE401_Memory_Leak__new_array_int_72b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#956
+s02/CWE401_Memory_Leak__new_array_int_72b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#957
+s02/CWE401_Memory_Leak__new_array_int_72b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#958
+s02/CWE401_Memory_Leak__new_array_int_72b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#959
+s02/CWE401_Memory_Leak__new_array_int_72b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataVector` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#960
+s02/CWE401_Memory_Leak__new_array_int_73a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#961
+s02/CWE401_Memory_Leak__new_array_int_73a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#962
+s02/CWE401_Memory_Leak__new_array_int_73a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataList` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#963
+s02/CWE401_Memory_Leak__new_array_int_73b.cpp:32: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#964
+s02/CWE401_Memory_Leak__new_array_int_73b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#965
+s02/CWE401_Memory_Leak__new_array_int_73b.cpp:45: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#966
+s02/CWE401_Memory_Leak__new_array_int_73b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#967
+s02/CWE401_Memory_Leak__new_array_int_73b.cpp:53: error: Const Refable Parameter
+  Function parameter `dataList` is passed by-value but not modified inside this function, resulting in a potential unnecessary copy at the function's callsites. Change the type of the parameter to `const &`.
+
+#968
+s02/CWE401_Memory_Leak__new_array_int_74a.cpp:49: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#969
+s02/CWE401_Memory_Leak__new_array_int_74a.cpp:74: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#970
+s02/CWE401_Memory_Leak__new_array_int_74a.cpp:93: error: Unnecessary Copy Intermediate
+  variable `&dataMap` is copied into an intermediate and is never modified. To avoid the copy, call `std::move` instead or change the callee's parameter type to `const &`.
+
+#971
+s02/CWE401_Memory_Leak__new_array_int_74b.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#972
+s02/CWE401_Memory_Leak__new_array_int_74b.cpp:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#973
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_31.cpp:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#974
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_31.cpp:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#975
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#976
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:36: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#977
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#978
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#979
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#980
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#981
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:89: error: Dead Store
+  The value written to `&data` is never used. 
+
+#982
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_32.cpp:89: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#983
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_33.cpp:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#984
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_33.cpp:41: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#985
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_33.cpp:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#986
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_33.cpp:65: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#987
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_33.cpp:84: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#988
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_34.cpp:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#989
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_34.cpp:73: error: Dead Store
+  The value written to `&data` is never used. 
+
+#990
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_45.cpp:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#991
+s02/CWE401_Memory_Leak__new_array_struct_twoIntsStruct_45.cpp:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+Found 992 issues
+                                          Issue Type(ISSUED_TYPE_ID): #
+                                              Dead Store(DEAD_STORE): 441
+                                          Memory Leak(MEMORY_LEAK_C): 201
+                                      Use After Free(USE_AFTER_FREE): 108
+                      Uninitialized Value(PULSE_UNINITIALIZED_VALUE): 89
+                        Const Refable Parameter(PULSE_CONST_REFABLE): 84
+  Unnecessary Copy Intermediate(PULSE_UNNECESSARY_COPY_INTERMEDIATE): 69

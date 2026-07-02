@@ -1,0 +1,66 @@
+Éteindre la VM (pour l'export notamment)
+# Propre (équivalent bouton power, laisse le guest s'arrêter lui-même)
+VBoxManage controlvm "Tests_TB" acpipowerbutton
+
+# Vérifier que ça a fonctionné
+VBoxManage list runningvms
+
+# Si acpipowerbutton ne réagit pas après quelques minutes (comme cette nuit) :
+VBoxManage controlvm "Tests_TB" poweroff
+
+======================================================================================
+Cycle de vie / démarrage
+
+# Lister les VMs disponibles
+VBoxManage list vms
+
+# Démarrer sans interface (usage normal, pour les runs)
+VBoxManage startvm "Tests_TB" --type headless
+
+# Démarrer avec fenêtre (pour diagnostic visuel, install initiale, etc.)
+VBoxManage startvm "Tests_TB" --type gui
+
+# Voir l'état actuel (running / poweroff / saved, etc.)
+VBoxManage showvminfo "Tests_TB" | findstr State
+
+# Lister les VMs en cours d'exécution
+VBoxManage list runningvms
+
+======================================================================================
+Réseau (NAT + redirection de port SSH)
+# Ajouter la redirection SSH (host:2222 → guest:22)
+VBoxManage controlvm "Tests_TB" natpf1 "ssh,tcp,,2222,,22"
+
+# Vérifier qu'elle est bien en place
+VBoxManage showvminfo "Tests_TB" | findstr "ssh"
+
+# Récupérer l'IP interne du guest (informatif, pas utilisable directement en NAT)
+VBoxManage guestproperty get "Tests_TB" "/VirtualBox/GuestInfo/Net/0/V4/IP"
+
+======================================================================================
+Se connecter
+# Depuis PowerShell, une fois la VM démarrée et la redirection en place
+ssh -p 2222 loris@127.0.0.1
+
+======================================================================================
+Exécuter des commandes sans SSH ni fenêtre (dépannage)
+VBoxManage guestcontrol "Tests_TB" run --username loris --password "MOT_DE_PASSE" --exe "/bin/bash" -- "-c" "TA_COMMANDE_ICI"
+
+======================================================================================
+Export / transfert vers une autre machine
+# VM éteinte au préalable (poweroff ou acpipowerbutton)
+VBoxManage export "Tests_TB" -o Tests_TB.ova
+
+# Sur la machine de destination
+VBoxManage import Tests_TB.ova
+
+======================================================================================
+Une fois dans la VM (SSH), pour tes runs
+mux new -s juliet          # nouvelle session détachable
+./run_suite.sh               # lancer le run
+# Ctrl+b puis d              # se détacher (ne pas oublier !)
+exit                          # fermer la connexion SSH
+
+tmux attach -t juliet        # se rattacher à une session existante
+tmux ls                       # lister les sessions actives
+tmux kill-session -t juliet  # arrêt forcé si besoin
