@@ -34,12 +34,12 @@ for cwe in "${CWES[@]}"; do
 
     case "$tool" in
       csa)
-        CMD=(scan-build -o "${OUTDIR}/csa-html" python3 juliet.py "$cwe" -c -g -m -r -o "${OUTDIR}/bin" -t "${TIMEOUT_PER_TEST}")
+        CMD=(scan-build -o "${OUTDIR}/csa-html" python3 juliet.py "$cwe" -c -g -m -o "${OUTDIR}/bin")
         ;;
       infer)
         export USE_INFER=1
         export INFER_RESULTS_DIR="${ROOT_DIR}/${OUTDIR}/infer-out"
-        CMD=(python3 juliet.py "$cwe" -c -g -m -r -o "${OUTDIR}/bin" -t "${TIMEOUT_PER_TEST}")
+        CMD=(python3 juliet.py "$cwe" -c -g -m -o "${OUTDIR}/bin")
         ;;
       valgrind)
         export USE_VALGRIND=1
@@ -72,9 +72,13 @@ for cwe in "${CWES[@]}"; do
     [ -f "${BIN_DIR}/bad.run" ]  && python3 parse-cwe-status.py "${BIN_DIR}/bad.run"  > "${OUTDIR}/status_bad.txt"  2>&1
     [ -f "${BIN_DIR}/good.run" ] && python3 parse-cwe-status.py "${BIN_DIR}/good.run" > "${OUTDIR}/status_good.txt" 2>&1
 
+    if [ "$tool" = "valgrind" ]; then
+        python3 parse_valgrind_summary.py "${ROOT_DIR}/${OUTDIR}/valgrind_logs" > "${ROOT_DIR}/${OUTDIR}/valgrind_summary.txt" 2>&1
+    fi
+
     # post-traitement Infer : l'analyse se fait après la capture
     if [ "$tool" = "infer" ]; then
-      infer analyze --results-dir "${INFER_RESULTS_DIR}" > "${ROOT_DIR}/${OUTDIR}/infer_analyze.log" 2>&1
+        infer analyze --results-dir "${INFER_RESULTS_DIR}" > "${ROOT_DIR}/${OUTDIR}/infer_analyze.log" 2>&1
     fi
   done
 done
