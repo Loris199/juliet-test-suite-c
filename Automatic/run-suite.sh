@@ -5,7 +5,13 @@ CWES=(401)                        # numéros de CWE, sans le préfixe "CWE"
 TOOLS=(csa infer filc valgrind asan)
 
 TIMEOUT_PER_TEST=5                    # secondes, passé à juliet.py -t (timeout par test individuel)
-TIMEOUT_PER_BUILD=7200                # secondes, garde-fou pour generate+make+run d'un CWE entier
+declare -A TIMEOUT_PER_TOOL=(
+  [csa]=18000
+  [infer]=18000
+  [valgrind]=36000  # 10h
+  [asan]=18000
+  [filc]=18000
+)
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TS="$(date +%Y%m%d_%H%M)"
@@ -62,7 +68,7 @@ for cwe in "${CWES[@]}"; do
 
     echo "===== CWE${cwe} / ${tool} : $(date) =====" | tee -a "${LOG}"
     start=$(date +%s)
-    timeout "${TIMEOUT_PER_BUILD}" "${CMD[@]}" >> "${LOG}" 2>&1
+    timeout "${TIMEOUT_PER_TOOL[$tool]}" "${CMD[@]}" >> "${LOG}" 2>&1
     code=$?
     end=$(date +%s)
     echo "${cwe},${tool},${code},$((end-start))" >> "${SUMMARY_CSV}"
