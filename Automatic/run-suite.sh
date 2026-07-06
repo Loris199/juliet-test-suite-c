@@ -78,6 +78,11 @@ for cwe in "${CWES[@]}"; do
     [ -f "${BIN_DIR}/bad.run" ]  && python3 parse-cwe-status.py "${BIN_DIR}/bad.run"  > "${OUTDIR}/status_bad.txt"  2>&1
     [ -f "${BIN_DIR}/good.run" ] && python3 parse-cwe-status.py "${BIN_DIR}/good.run" > "${OUTDIR}/status_good.txt" 2>&1
 
+    # conserver les .run bruts (texte, quelques Ko) avant de nettoyer les binaires
+    mkdir -p "${ROOT_DIR}/${OUTDIR}/run_logs"
+    [ -f "${BIN_DIR}/bad.run" ]  && cp "${BIN_DIR}/bad.run"  "${ROOT_DIR}/${OUTDIR}/run_logs/"
+    [ -f "${BIN_DIR}/good.run" ] && cp "${BIN_DIR}/good.run" "${ROOT_DIR}/${OUTDIR}/run_logs/"
+
     if [ "$tool" = "valgrind" ]; then
         python3 parse_valgrind_summary.py "${ROOT_DIR}/${OUTDIR}/valgrind_logs" > "${ROOT_DIR}/${OUTDIR}/valgrind_summary.txt" 2>&1
     fi
@@ -86,6 +91,9 @@ for cwe in "${CWES[@]}"; do
     if [ "$tool" = "infer" ]; then
         infer analyze --results-dir "${INFER_RESULTS_DIR}" > "${ROOT_DIR}/${OUTDIR}/infer_analyze.log" 2>&1
     fi
+
+    # les binaires compilés ne sont plus utiles une fois les résultats extraits
+    rm -rf "${ROOT_DIR}/${OUTDIR}/bin"
   done
 done
 
