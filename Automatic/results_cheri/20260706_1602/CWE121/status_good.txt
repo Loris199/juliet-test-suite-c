@@ -1,0 +1,17 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK             5
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK
+  1:          1
+  2:          1
+  3:          1
+  4:          1
+  5:          1
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK
+char_type_overrun_memcpy               5
