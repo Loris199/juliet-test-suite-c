@@ -1,0 +1,36 @@
+==304999== Memcheck, a memory error detector
+==304999== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==304999== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==304999== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06-bad
+==304999== Parent PID: 304998
+==304999== 
+==304999== Source and destination overlap in strncpy(0x1ffefffe23, 0x1ffefffe83, 99)
+==304999==    at 0x484F5A0: strncpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==304999==    by 0x10943E: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06-bad)
+==304999==    by 0x1094AF: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06-bad)
+==304999== 
+==304999== Invalid write of size 1
+==304999==    at 0x10944A: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06-bad)
+==304999==    by 0x1094AF: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06-bad)
+==304999==  Address 0x43434343434343a6 is not stack'd, malloc'd or (recently) free'd
+==304999== 
+==304999== 
+==304999== Process terminating with default action of signal 11 (SIGSEGV)
+==304999==  General Protection Fault
+==304999==    at 0x10944A: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06-bad)
+==304999==    by 0x1094AF: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_06-bad)
+==304999== 
+==304999== HEAP SUMMARY:
+==304999==     in use at exit: 4,096 bytes in 1 blocks
+==304999==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==304999== 
+==304999== LEAK SUMMARY:
+==304999==    definitely lost: 0 bytes in 0 blocks
+==304999==    indirectly lost: 0 bytes in 0 blocks
+==304999==      possibly lost: 0 bytes in 0 blocks
+==304999==    still reachable: 4,096 bytes in 1 blocks
+==304999==         suppressed: 0 bytes in 0 blocks
+==304999== Rerun with --leak-check=full to see details of leaked memory
+==304999== 
+==304999== For lists of detected and suppressed errors, rerun with: -s
+==304999== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

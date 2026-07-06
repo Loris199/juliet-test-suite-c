@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66-bad"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/filc/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66-bad.pdb"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66-bad.dir/s05/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66a.c.o"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66-bad.dir/s05/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66a.c.o.d"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66-bad.dir/s05/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66b.c.o"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66-bad.dir/s05/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66b.c.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_66-bad.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

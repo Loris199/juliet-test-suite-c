@@ -1,0 +1,37 @@
+==311268== Memcheck, a memory error detector
+==311268== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==311268== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==311268== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memmove_63-bad
+==311268== Parent PID: 311267
+==311268== 
+==311268== 
+==311268== Process terminating with default action of signal 6 (SIGABRT)
+==311268==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==311268==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==311268==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==311268==    by 0x48B427D: raise (raise.c:26)
+==311268==    by 0x48978FE: abort (abort.c:79)
+==311268==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==311268==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==311268==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==311268==    by 0x1094CB: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memmove_63b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memmove_63-bad)
+==311268==    by 0x4141414141414140: ???
+==311268==    by 0x4141414141414140: ???
+==311268==    by 0x4141414141414140: ???
+==311268==    by 0x4141414141414140: ???
+==311268==    by 0x4141414141414140: ???
+==311268== 
+==311268== HEAP SUMMARY:
+==311268==     in use at exit: 4,096 bytes in 1 blocks
+==311268==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==311268== 
+==311268== LEAK SUMMARY:
+==311268==    definitely lost: 0 bytes in 0 blocks
+==311268==    indirectly lost: 0 bytes in 0 blocks
+==311268==      possibly lost: 0 bytes in 0 blocks
+==311268==    still reachable: 4,096 bytes in 1 blocks
+==311268==         suppressed: 0 bytes in 0 blocks
+==311268== Rerun with --leak-check=full to see details of leaked memory
+==311268== 
+==311268== For lists of detected and suppressed errors, rerun with: -s
+==311268== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

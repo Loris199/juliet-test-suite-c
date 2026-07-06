@@ -1,0 +1,31 @@
+==304219== Memcheck, a memory error detector
+==304219== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==304219== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==304219== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_18-bad
+==304219== Parent PID: 304218
+==304219== 
+==304219== Invalid write of size 1
+==304219==    at 0x10947C: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_18-bad)
+==304219==    by 0x1094E5: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_18-bad)
+==304219==  Address 0x43434343434343a6 is not stack'd, malloc'd or (recently) free'd
+==304219== 
+==304219== 
+==304219== Process terminating with default action of signal 11 (SIGSEGV)
+==304219==  General Protection Fault
+==304219==    at 0x10947C: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_18-bad)
+==304219==    by 0x1094E5: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_18-bad)
+==304219== 
+==304219== HEAP SUMMARY:
+==304219==     in use at exit: 4,096 bytes in 1 blocks
+==304219==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==304219== 
+==304219== LEAK SUMMARY:
+==304219==    definitely lost: 0 bytes in 0 blocks
+==304219==    indirectly lost: 0 bytes in 0 blocks
+==304219==      possibly lost: 0 bytes in 0 blocks
+==304219==    still reachable: 4,096 bytes in 1 blocks
+==304219==         suppressed: 0 bytes in 0 blocks
+==304219== Rerun with --leak-check=full to see details of leaked memory
+==304219== 
+==304219== For lists of detected and suppressed errors, rerun with: -s
+==304219== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/asan/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good"
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/asan/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good.pdb"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good.pdb"
   "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c.o"
   "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01-good.dir/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c.o.d"
 )

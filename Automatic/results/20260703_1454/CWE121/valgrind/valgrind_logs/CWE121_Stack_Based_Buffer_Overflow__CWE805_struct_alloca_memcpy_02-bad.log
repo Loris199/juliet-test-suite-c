@@ -1,0 +1,38 @@
+==309148== Memcheck, a memory error detector
+==309148== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==309148== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==309148== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02-bad
+==309148== Parent PID: 309147
+==309148== 
+==309148== Invalid read of size 4
+==309148==    at 0x109760: printStructLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02-bad)
+==309148==    by 0x109452: CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02-bad)
+==309148==    by 0x1094A6: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02-bad)
+==309148==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==309148== 
+==309148== 
+==309148== Process terminating with default action of signal 11 (SIGSEGV)
+==309148==  Access not within mapped region at address 0x4
+==309148==    at 0x109760: printStructLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02-bad)
+==309148==    by 0x109452: CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02-bad)
+==309148==    by 0x1094A6: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_02-bad)
+==309148==  If you believe this happened as a result of a stack
+==309148==  overflow in your program's main thread (unlikely but
+==309148==  possible), you can try to increase the size of the
+==309148==  main thread stack using the --main-stacksize= flag.
+==309148==  The main thread stack size used in this run was 8388608.
+==309148== 
+==309148== HEAP SUMMARY:
+==309148==     in use at exit: 4,096 bytes in 1 blocks
+==309148==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==309148== 
+==309148== LEAK SUMMARY:
+==309148==    definitely lost: 0 bytes in 0 blocks
+==309148==    indirectly lost: 0 bytes in 0 blocks
+==309148==      possibly lost: 0 bytes in 0 blocks
+==309148==    still reachable: 4,096 bytes in 1 blocks
+==309148==         suppressed: 0 bytes in 0 blocks
+==309148== Rerun with --leak-check=full to see details of leaked memory
+==309148== 
+==309148== For lists of detected and suppressed errors, rerun with: -s
+==309148== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

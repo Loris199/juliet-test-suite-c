@@ -1,0 +1,10 @@
+=== Résumé Valgrind ===
+Total analysé : 10  (5 bad / 5 good)
+
+--- Bad SANS leak/erreur détecté (faux négatifs — 0) ---
+
+--- Good AVEC leak/erreur détecté (faux positifs — 0) ---
+
+--- Totaux ---
+Bad  : 5/5 détectés correctement (0 faux négatifs, 0 logs vides)
+Good : 5/5 propres (0 faux positifs, 0 logs vides)

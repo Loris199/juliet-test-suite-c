@@ -1,6 +1,0 @@
-cwe,tool,exit_code,duration_s
-121,csa,0,6
-121,infer,0,7
-121,filc,0,6
-121,valgrind,0,5
-121,asan,0,2

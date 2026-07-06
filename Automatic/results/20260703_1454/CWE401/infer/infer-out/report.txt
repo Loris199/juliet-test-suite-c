@@ -1,0 +1,3496 @@
+#0
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+#1
+s01/CWE401_Memory_Leak__char_calloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#2
+s01/CWE401_Memory_Leak__char_calloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#3
+s01/CWE401_Memory_Leak__char_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#4
+s01/CWE401_Memory_Leak__char_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#5
+s01/CWE401_Memory_Leak__char_calloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#6
+s01/CWE401_Memory_Leak__char_calloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#7
+s01/CWE401_Memory_Leak__char_calloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#8
+s01/CWE401_Memory_Leak__char_calloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#9
+s01/CWE401_Memory_Leak__char_calloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#10
+s01/CWE401_Memory_Leak__char_calloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#11
+s01/CWE401_Memory_Leak__char_calloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#12
+s01/CWE401_Memory_Leak__char_calloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#13
+s01/CWE401_Memory_Leak__char_calloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#14
+s01/CWE401_Memory_Leak__char_calloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#15
+s01/CWE401_Memory_Leak__char_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#16
+s01/CWE401_Memory_Leak__char_calloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#17
+s01/CWE401_Memory_Leak__char_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#18
+s01/CWE401_Memory_Leak__char_calloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#19
+s01/CWE401_Memory_Leak__char_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#20
+s01/CWE401_Memory_Leak__char_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#21
+s01/CWE401_Memory_Leak__char_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#22
+s01/CWE401_Memory_Leak__char_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#23
+s01/CWE401_Memory_Leak__char_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#24
+s01/CWE401_Memory_Leak__char_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#25
+s01/CWE401_Memory_Leak__char_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#26
+s01/CWE401_Memory_Leak__char_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#27
+s01/CWE401_Memory_Leak__char_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#28
+s01/CWE401_Memory_Leak__char_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#29
+s01/CWE401_Memory_Leak__char_malloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#30
+s01/CWE401_Memory_Leak__char_malloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#31
+s01/CWE401_Memory_Leak__char_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#32
+s01/CWE401_Memory_Leak__char_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#33
+s01/CWE401_Memory_Leak__char_malloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#34
+s01/CWE401_Memory_Leak__char_malloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#35
+s01/CWE401_Memory_Leak__char_malloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#36
+s01/CWE401_Memory_Leak__char_malloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#37
+s01/CWE401_Memory_Leak__char_malloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#38
+s01/CWE401_Memory_Leak__char_malloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#39
+s01/CWE401_Memory_Leak__char_malloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#40
+s01/CWE401_Memory_Leak__char_malloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#41
+s01/CWE401_Memory_Leak__char_malloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#42
+s01/CWE401_Memory_Leak__char_malloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#43
+s01/CWE401_Memory_Leak__char_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#44
+s01/CWE401_Memory_Leak__char_malloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#45
+s01/CWE401_Memory_Leak__char_malloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#46
+s01/CWE401_Memory_Leak__char_malloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#47
+s01/CWE401_Memory_Leak__char_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#48
+s01/CWE401_Memory_Leak__char_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#49
+s01/CWE401_Memory_Leak__char_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#50
+s01/CWE401_Memory_Leak__char_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#51
+s01/CWE401_Memory_Leak__char_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#52
+s01/CWE401_Memory_Leak__char_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#53
+s01/CWE401_Memory_Leak__char_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#54
+s01/CWE401_Memory_Leak__char_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#55
+s01/CWE401_Memory_Leak__char_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#56
+s01/CWE401_Memory_Leak__char_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#57
+s01/CWE401_Memory_Leak__char_realloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#58
+s01/CWE401_Memory_Leak__char_realloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#59
+s01/CWE401_Memory_Leak__char_realloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#60
+s01/CWE401_Memory_Leak__char_realloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#61
+s01/CWE401_Memory_Leak__char_realloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#62
+s01/CWE401_Memory_Leak__char_realloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#63
+s01/CWE401_Memory_Leak__char_realloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#64
+s01/CWE401_Memory_Leak__char_realloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#65
+s01/CWE401_Memory_Leak__char_realloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#66
+s01/CWE401_Memory_Leak__char_realloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#67
+s01/CWE401_Memory_Leak__char_realloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#68
+s01/CWE401_Memory_Leak__char_realloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#69
+s01/CWE401_Memory_Leak__char_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#70
+s01/CWE401_Memory_Leak__char_realloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#71
+s01/CWE401_Memory_Leak__char_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#72
+s01/CWE401_Memory_Leak__char_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#73
+s01/CWE401_Memory_Leak__char_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#74
+s01/CWE401_Memory_Leak__char_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#75
+s01/CWE401_Memory_Leak__char_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#76
+s01/CWE401_Memory_Leak__char_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#77
+s01/CWE401_Memory_Leak__char_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#78
+s01/CWE401_Memory_Leak__char_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#79
+s01/CWE401_Memory_Leak__char_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#80
+s01/CWE401_Memory_Leak__char_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#81
+s01/CWE401_Memory_Leak__char_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#82
+s01/CWE401_Memory_Leak__char_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#83
+s01/CWE401_Memory_Leak__int64_t_calloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#84
+s01/CWE401_Memory_Leak__int64_t_calloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#85
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#86
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#87
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#88
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#89
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#90
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#91
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#92
+s01/CWE401_Memory_Leak__int64_t_calloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#93
+s01/CWE401_Memory_Leak__int64_t_calloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#94
+s01/CWE401_Memory_Leak__int64_t_calloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#95
+s01/CWE401_Memory_Leak__int64_t_calloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#96
+s01/CWE401_Memory_Leak__int64_t_calloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#97
+s01/CWE401_Memory_Leak__int64_t_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#98
+s01/CWE401_Memory_Leak__int64_t_calloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#99
+s01/CWE401_Memory_Leak__int64_t_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#100
+s01/CWE401_Memory_Leak__int64_t_calloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#101
+s01/CWE401_Memory_Leak__int64_t_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#102
+s01/CWE401_Memory_Leak__int64_t_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#103
+s01/CWE401_Memory_Leak__int64_t_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#104
+s01/CWE401_Memory_Leak__int64_t_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#105
+s01/CWE401_Memory_Leak__int64_t_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#106
+s01/CWE401_Memory_Leak__int64_t_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#107
+s01/CWE401_Memory_Leak__int64_t_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#108
+s01/CWE401_Memory_Leak__int64_t_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#109
+s01/CWE401_Memory_Leak__int64_t_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#110
+s01/CWE401_Memory_Leak__int64_t_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#111
+s01/CWE401_Memory_Leak__int64_t_malloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#112
+s01/CWE401_Memory_Leak__int64_t_malloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#113
+s01/CWE401_Memory_Leak__int64_t_malloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#114
+s01/CWE401_Memory_Leak__int64_t_malloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#115
+s01/CWE401_Memory_Leak__int64_t_malloc_05.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#116
+s01/CWE401_Memory_Leak__int64_t_malloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#117
+s01/CWE401_Memory_Leak__int64_t_malloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#118
+s01/CWE401_Memory_Leak__int64_t_malloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#119
+s01/CWE401_Memory_Leak__int64_t_malloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#120
+s01/CWE401_Memory_Leak__int64_t_malloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#121
+s01/CWE401_Memory_Leak__int64_t_malloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#122
+s01/CWE401_Memory_Leak__int64_t_malloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#123
+s01/CWE401_Memory_Leak__int64_t_malloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#124
+s01/CWE401_Memory_Leak__int64_t_malloc_13.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#125
+s01/CWE401_Memory_Leak__int64_t_malloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#126
+s01/CWE401_Memory_Leak__int64_t_malloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#127
+s01/CWE401_Memory_Leak__int64_t_malloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#128
+s01/CWE401_Memory_Leak__int64_t_malloc_17.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#129
+s01/CWE401_Memory_Leak__int64_t_malloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#130
+s01/CWE401_Memory_Leak__int64_t_malloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#131
+s01/CWE401_Memory_Leak__int64_t_malloc_22a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#132
+s01/CWE401_Memory_Leak__int64_t_malloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#133
+s01/CWE401_Memory_Leak__int64_t_malloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#134
+s01/CWE401_Memory_Leak__int64_t_malloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#135
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#136
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#137
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#138
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#139
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#140
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#141
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#142
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#143
+s01/CWE401_Memory_Leak__int64_t_malloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#144
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#145
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#146
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#147
+s01/CWE401_Memory_Leak__int64_t_malloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#148
+s01/CWE401_Memory_Leak__int64_t_malloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#149
+s01/CWE401_Memory_Leak__int64_t_malloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#150
+s01/CWE401_Memory_Leak__int64_t_malloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#151
+s01/CWE401_Memory_Leak__int64_t_malloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#152
+s01/CWE401_Memory_Leak__int64_t_malloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#153
+s01/CWE401_Memory_Leak__int64_t_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#154
+s01/CWE401_Memory_Leak__int64_t_malloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#155
+s01/CWE401_Memory_Leak__int64_t_malloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#156
+s01/CWE401_Memory_Leak__int64_t_malloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#157
+s01/CWE401_Memory_Leak__int64_t_malloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#158
+s01/CWE401_Memory_Leak__int64_t_malloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#159
+s01/CWE401_Memory_Leak__int64_t_malloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#160
+s01/CWE401_Memory_Leak__int64_t_malloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_malloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#161
+s01/CWE401_Memory_Leak__int64_t_malloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#162
+s01/CWE401_Memory_Leak__int64_t_malloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#163
+s01/CWE401_Memory_Leak__int64_t_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#164
+s01/CWE401_Memory_Leak__int64_t_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#165
+s01/CWE401_Memory_Leak__int64_t_malloc_64a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#166
+s01/CWE401_Memory_Leak__int64_t_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#167
+s01/CWE401_Memory_Leak__int64_t_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#168
+s01/CWE401_Memory_Leak__int64_t_malloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#169
+s01/CWE401_Memory_Leak__int64_t_malloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#170
+s01/CWE401_Memory_Leak__int64_t_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#171
+s01/CWE401_Memory_Leak__int64_t_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#172
+s01/CWE401_Memory_Leak__int64_t_malloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#173
+s01/CWE401_Memory_Leak__int64_t_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#174
+s01/CWE401_Memory_Leak__int64_t_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#175
+s01/CWE401_Memory_Leak__int64_t_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#176
+s01/CWE401_Memory_Leak__int64_t_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#177
+s01/CWE401_Memory_Leak__int64_t_realloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#178
+s01/CWE401_Memory_Leak__int64_t_realloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#179
+s01/CWE401_Memory_Leak__int64_t_realloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#180
+s01/CWE401_Memory_Leak__int64_t_realloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#181
+s01/CWE401_Memory_Leak__int64_t_realloc_05.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#182
+s01/CWE401_Memory_Leak__int64_t_realloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#183
+s01/CWE401_Memory_Leak__int64_t_realloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#184
+s01/CWE401_Memory_Leak__int64_t_realloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#185
+s01/CWE401_Memory_Leak__int64_t_realloc_08.c:48: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 44 is not freed after the last access at line 48, column 9. 
+
+#186
+s01/CWE401_Memory_Leak__int64_t_realloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#187
+s01/CWE401_Memory_Leak__int64_t_realloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#188
+s01/CWE401_Memory_Leak__int64_t_realloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#189
+s01/CWE401_Memory_Leak__int64_t_realloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#190
+s01/CWE401_Memory_Leak__int64_t_realloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#191
+s01/CWE401_Memory_Leak__int64_t_realloc_13.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#192
+s01/CWE401_Memory_Leak__int64_t_realloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#193
+s01/CWE401_Memory_Leak__int64_t_realloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#194
+s01/CWE401_Memory_Leak__int64_t_realloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#195
+s01/CWE401_Memory_Leak__int64_t_realloc_17.c:29: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 29, column 16. 
+
+#196
+s01/CWE401_Memory_Leak__int64_t_realloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#197
+s01/CWE401_Memory_Leak__int64_t_realloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#198
+s01/CWE401_Memory_Leak__int64_t_realloc_22a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#199
+s01/CWE401_Memory_Leak__int64_t_realloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#200
+s01/CWE401_Memory_Leak__int64_t_realloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#201
+s01/CWE401_Memory_Leak__int64_t_realloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#202
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#203
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#204
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#205
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#206
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#207
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#208
+s01/CWE401_Memory_Leak__int64_t_realloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#209
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#210
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#211
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#212
+s01/CWE401_Memory_Leak__int64_t_realloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#213
+s01/CWE401_Memory_Leak__int64_t_realloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#214
+s01/CWE401_Memory_Leak__int64_t_realloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#215
+s01/CWE401_Memory_Leak__int64_t_realloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#216
+s01/CWE401_Memory_Leak__int64_t_realloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#217
+s01/CWE401_Memory_Leak__int64_t_realloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#218
+s01/CWE401_Memory_Leak__int64_t_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#219
+s01/CWE401_Memory_Leak__int64_t_realloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#220
+s01/CWE401_Memory_Leak__int64_t_realloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#221
+s01/CWE401_Memory_Leak__int64_t_realloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#222
+s01/CWE401_Memory_Leak__int64_t_realloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#223
+s01/CWE401_Memory_Leak__int64_t_realloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#224
+s01/CWE401_Memory_Leak__int64_t_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#225
+s01/CWE401_Memory_Leak__int64_t_realloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int64_t_realloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#226
+s01/CWE401_Memory_Leak__int64_t_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#227
+s01/CWE401_Memory_Leak__int64_t_realloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#228
+s01/CWE401_Memory_Leak__int64_t_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#229
+s01/CWE401_Memory_Leak__int64_t_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#230
+s01/CWE401_Memory_Leak__int64_t_realloc_64a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#231
+s01/CWE401_Memory_Leak__int64_t_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#232
+s01/CWE401_Memory_Leak__int64_t_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#233
+s01/CWE401_Memory_Leak__int64_t_realloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#234
+s01/CWE401_Memory_Leak__int64_t_realloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#235
+s01/CWE401_Memory_Leak__int64_t_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#236
+s01/CWE401_Memory_Leak__int64_t_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#237
+s01/CWE401_Memory_Leak__int64_t_realloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#238
+s01/CWE401_Memory_Leak__int64_t_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#239
+s01/CWE401_Memory_Leak__int64_t_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#240
+s01/CWE401_Memory_Leak__int64_t_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#241
+s01/CWE401_Memory_Leak__int64_t_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#242
+s01/CWE401_Memory_Leak__int_calloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#243
+s01/CWE401_Memory_Leak__int_calloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#244
+s01/CWE401_Memory_Leak__int_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#245
+s01/CWE401_Memory_Leak__int_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#246
+s01/CWE401_Memory_Leak__int_calloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#247
+s01/CWE401_Memory_Leak__int_calloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#248
+s01/CWE401_Memory_Leak__int_calloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#249
+s01/CWE401_Memory_Leak__int_calloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#250
+s01/CWE401_Memory_Leak__int_calloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#251
+s01/CWE401_Memory_Leak__int_calloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#252
+s01/CWE401_Memory_Leak__int_calloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#253
+s01/CWE401_Memory_Leak__int_calloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#254
+s01/CWE401_Memory_Leak__int_calloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#255
+s01/CWE401_Memory_Leak__int_calloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#256
+s01/CWE401_Memory_Leak__int_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#257
+s01/CWE401_Memory_Leak__int_calloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#258
+s01/CWE401_Memory_Leak__int_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#259
+s01/CWE401_Memory_Leak__int_calloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#260
+s01/CWE401_Memory_Leak__int_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#261
+s01/CWE401_Memory_Leak__int_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#262
+s01/CWE401_Memory_Leak__int_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#263
+s01/CWE401_Memory_Leak__int_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#264
+s01/CWE401_Memory_Leak__int_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#265
+s01/CWE401_Memory_Leak__int_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#266
+s01/CWE401_Memory_Leak__int_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#267
+s01/CWE401_Memory_Leak__int_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#268
+s01/CWE401_Memory_Leak__int_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#269
+s01/CWE401_Memory_Leak__int_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#270
+s01/CWE401_Memory_Leak__int_malloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#271
+s01/CWE401_Memory_Leak__int_malloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#272
+s01/CWE401_Memory_Leak__int_malloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#273
+s01/CWE401_Memory_Leak__int_malloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#274
+s01/CWE401_Memory_Leak__int_malloc_05.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#275
+s01/CWE401_Memory_Leak__int_malloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#276
+s01/CWE401_Memory_Leak__int_malloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#277
+s01/CWE401_Memory_Leak__int_malloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#278
+s01/CWE401_Memory_Leak__int_malloc_08.c:48: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 44 is not freed after the last access at line 48, column 9. 
+
+#279
+s01/CWE401_Memory_Leak__int_malloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#280
+s01/CWE401_Memory_Leak__int_malloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#281
+s01/CWE401_Memory_Leak__int_malloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#282
+s01/CWE401_Memory_Leak__int_malloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#283
+s01/CWE401_Memory_Leak__int_malloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#284
+s01/CWE401_Memory_Leak__int_malloc_13.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#285
+s01/CWE401_Memory_Leak__int_malloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#286
+s01/CWE401_Memory_Leak__int_malloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#287
+s01/CWE401_Memory_Leak__int_malloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#288
+s01/CWE401_Memory_Leak__int_malloc_17.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#289
+s01/CWE401_Memory_Leak__int_malloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#290
+s01/CWE401_Memory_Leak__int_malloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#291
+s01/CWE401_Memory_Leak__int_malloc_22a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#292
+s01/CWE401_Memory_Leak__int_malloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#293
+s01/CWE401_Memory_Leak__int_malloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#294
+s01/CWE401_Memory_Leak__int_malloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#295
+s01/CWE401_Memory_Leak__int_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#296
+s01/CWE401_Memory_Leak__int_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#297
+s01/CWE401_Memory_Leak__int_malloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#298
+s01/CWE401_Memory_Leak__int_malloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#299
+s01/CWE401_Memory_Leak__int_malloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#300
+s01/CWE401_Memory_Leak__int_malloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#301
+s01/CWE401_Memory_Leak__int_malloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#302
+s01/CWE401_Memory_Leak__int_malloc_32.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#303
+s01/CWE401_Memory_Leak__int_malloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#304
+s01/CWE401_Memory_Leak__int_malloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#305
+s01/CWE401_Memory_Leak__int_malloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#306
+s01/CWE401_Memory_Leak__int_malloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#307
+s01/CWE401_Memory_Leak__int_malloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#308
+s01/CWE401_Memory_Leak__int_malloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#309
+s01/CWE401_Memory_Leak__int_malloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#310
+s01/CWE401_Memory_Leak__int_malloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#311
+s01/CWE401_Memory_Leak__int_malloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#312
+s01/CWE401_Memory_Leak__int_malloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#313
+s01/CWE401_Memory_Leak__int_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#314
+s01/CWE401_Memory_Leak__int_malloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#315
+s01/CWE401_Memory_Leak__int_malloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#316
+s01/CWE401_Memory_Leak__int_malloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#317
+s01/CWE401_Memory_Leak__int_malloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#318
+s01/CWE401_Memory_Leak__int_malloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#319
+s01/CWE401_Memory_Leak__int_malloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#320
+s01/CWE401_Memory_Leak__int_malloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__int_malloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#321
+s01/CWE401_Memory_Leak__int_malloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#322
+s01/CWE401_Memory_Leak__int_malloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#323
+s01/CWE401_Memory_Leak__int_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#324
+s01/CWE401_Memory_Leak__int_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#325
+s01/CWE401_Memory_Leak__int_malloc_64a.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#326
+s01/CWE401_Memory_Leak__int_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#327
+s01/CWE401_Memory_Leak__int_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#328
+s01/CWE401_Memory_Leak__int_malloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#329
+s01/CWE401_Memory_Leak__int_malloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#330
+s01/CWE401_Memory_Leak__int_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#331
+s01/CWE401_Memory_Leak__int_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#332
+s01/CWE401_Memory_Leak__int_malloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#333
+s01/CWE401_Memory_Leak__int_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#334
+s01/CWE401_Memory_Leak__int_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#335
+s01/CWE401_Memory_Leak__int_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#336
+s01/CWE401_Memory_Leak__int_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#337
+s01/CWE401_Memory_Leak__int_realloc_01.c:33: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 33, column 5. 
+
+#338
+s01/CWE401_Memory_Leak__int_realloc_02.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#339
+s01/CWE401_Memory_Leak__int_realloc_03.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#340
+s01/CWE401_Memory_Leak__int_realloc_04.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#341
+s01/CWE401_Memory_Leak__int_realloc_05.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 41, column 9. 
+
+#342
+s01/CWE401_Memory_Leak__int_realloc_05.c:68: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 62 is not freed after the last access at line 68, column 8. 
+
+#343
+s01/CWE401_Memory_Leak__int_realloc_06.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#344
+s01/CWE401_Memory_Leak__int_realloc_07.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 40, column 9. 
+
+#345
+s01/CWE401_Memory_Leak__int_realloc_08.c:48: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 44 is not freed after the last access at line 48, column 9. 
+
+#346
+s01/CWE401_Memory_Leak__int_realloc_09.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#347
+s01/CWE401_Memory_Leak__int_realloc_10.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#348
+s01/CWE401_Memory_Leak__int_realloc_10.c:62: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 56 is not freed after the last access at line 62, column 8. 
+
+#349
+s01/CWE401_Memory_Leak__int_realloc_11.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#350
+s01/CWE401_Memory_Leak__int_realloc_12.c:45: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 45, column 8. 
+
+#351
+s01/CWE401_Memory_Leak__int_realloc_13.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#352
+s01/CWE401_Memory_Leak__int_realloc_14.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#353
+s01/CWE401_Memory_Leak__int_realloc_15.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 36, column 9. 
+
+#354
+s01/CWE401_Memory_Leak__int_realloc_16.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 9. 
+
+#355
+s01/CWE401_Memory_Leak__int_realloc_17.c:29: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 29, column 16. 
+
+#356
+s01/CWE401_Memory_Leak__int_realloc_18.c:35: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 35, column 5. 
+
+#357
+s01/CWE401_Memory_Leak__int_realloc_21.c:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 41 is not freed after the last access at line 47, column 5. 
+
+#358
+s01/CWE401_Memory_Leak__int_realloc_22a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#359
+s01/CWE401_Memory_Leak__int_realloc_31.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#360
+s01/CWE401_Memory_Leak__int_realloc_31.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 36, column 9. 
+
+#361
+s01/CWE401_Memory_Leak__int_realloc_31.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#362
+s01/CWE401_Memory_Leak__int_realloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#363
+s01/CWE401_Memory_Leak__int_realloc_32.c:41: error: Dead Store
+  The value written to `&data` is never used. 
+
+#364
+s01/CWE401_Memory_Leak__int_realloc_32.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 41, column 9. 
+
+#365
+s01/CWE401_Memory_Leak__int_realloc_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#366
+s01/CWE401_Memory_Leak__int_realloc_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#367
+s01/CWE401_Memory_Leak__int_realloc_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#368
+s01/CWE401_Memory_Leak__int_realloc_32.c:82: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#369
+s01/CWE401_Memory_Leak__int_realloc_34.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#370
+s01/CWE401_Memory_Leak__int_realloc_34.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 43, column 9. 
+
+#371
+s01/CWE401_Memory_Leak__int_realloc_34.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#372
+s01/CWE401_Memory_Leak__int_realloc_34.c:86: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 79 is not freed after the last access at line 86, column 9. 
+
+#373
+s01/CWE401_Memory_Leak__int_realloc_41.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 35 is not freed after the last access at line 40, column 5. 
+
+#374
+s01/CWE401_Memory_Leak__int_realloc_42.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#375
+s01/CWE401_Memory_Leak__int_realloc_42.c:39: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `badSource()` on line 39 is not freed after the last access at line 39, column 5. 
+
+#376
+s01/CWE401_Memory_Leak__int_realloc_42.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#377
+s01/CWE401_Memory_Leak__int_realloc_44.c:43: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 43, column 5. 
+
+#378
+s01/CWE401_Memory_Leak__int_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#379
+s01/CWE401_Memory_Leak__int_realloc_45.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#380
+s01/CWE401_Memory_Leak__int_realloc_51a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#381
+s01/CWE401_Memory_Leak__int_realloc_52a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#382
+s01/CWE401_Memory_Leak__int_realloc_53a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#383
+s01/CWE401_Memory_Leak__int_realloc_54a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#384
+s01/CWE401_Memory_Leak__int_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#385
+s01/CWE401_Memory_Leak__int_realloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__int_realloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#386
+s01/CWE401_Memory_Leak__int_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#387
+s01/CWE401_Memory_Leak__int_realloc_63a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#388
+s01/CWE401_Memory_Leak__int_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#389
+s01/CWE401_Memory_Leak__int_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#390
+s01/CWE401_Memory_Leak__int_realloc_64a.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 5. 
+
+#391
+s01/CWE401_Memory_Leak__int_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#392
+s01/CWE401_Memory_Leak__int_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#393
+s01/CWE401_Memory_Leak__int_realloc_65a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 40, column 5. 
+
+#394
+s01/CWE401_Memory_Leak__int_realloc_66a.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 40, column 5. 
+
+#395
+s01/CWE401_Memory_Leak__int_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#396
+s01/CWE401_Memory_Leak__int_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#397
+s01/CWE401_Memory_Leak__int_realloc_67a.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 38 is not freed after the last access at line 44, column 5. 
+
+#398
+s01/CWE401_Memory_Leak__int_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#399
+s01/CWE401_Memory_Leak__int_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#400
+s01/CWE401_Memory_Leak__int_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#401
+s01/CWE401_Memory_Leak__int_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#402
+s01/CWE401_Memory_Leak__malloc_realloc_char_01.c:67: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#403
+s01/CWE401_Memory_Leak__malloc_realloc_char_02.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#404
+s01/CWE401_Memory_Leak__malloc_realloc_char_02.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#405
+s01/CWE401_Memory_Leak__malloc_realloc_char_03.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#406
+s01/CWE401_Memory_Leak__malloc_realloc_char_03.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#407
+s01/CWE401_Memory_Leak__malloc_realloc_char_04.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#408
+s01/CWE401_Memory_Leak__malloc_realloc_char_04.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 101. 
+
+#409
+s01/CWE401_Memory_Leak__malloc_realloc_char_06.c:83: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 73. 
+
+#410
+s01/CWE401_Memory_Leak__malloc_realloc_char_06.c:110: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#411
+s01/CWE401_Memory_Leak__malloc_realloc_char_08.c:91: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 81. 
+
+#412
+s01/CWE401_Memory_Leak__malloc_realloc_char_08.c:118: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#413
+s01/CWE401_Memory_Leak__malloc_realloc_char_09.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#414
+s01/CWE401_Memory_Leak__malloc_realloc_char_09.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#415
+s01/CWE401_Memory_Leak__malloc_realloc_char_11.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#416
+s01/CWE401_Memory_Leak__malloc_realloc_char_11.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#417
+s01/CWE401_Memory_Leak__malloc_realloc_char_12.c:64: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 54. 
+
+#418
+s01/CWE401_Memory_Leak__malloc_realloc_char_12.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 85. 
+
+#419
+s01/CWE401_Memory_Leak__malloc_realloc_char_12.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 107. 
+
+#420
+s01/CWE401_Memory_Leak__malloc_realloc_char_13.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#421
+s01/CWE401_Memory_Leak__malloc_realloc_char_13.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#422
+s01/CWE401_Memory_Leak__malloc_realloc_char_15.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#423
+s01/CWE401_Memory_Leak__malloc_realloc_char_15.c:113: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 103. 
+
+#424
+s01/CWE401_Memory_Leak__malloc_realloc_char_16.c:74: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 64. 
+
+#425
+s01/CWE401_Memory_Leak__malloc_realloc_char_17.c:75: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#426
+s01/CWE401_Memory_Leak__malloc_realloc_char_18.c:72: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 62. 
+
+#427
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_01.c:67: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#428
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_02.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#429
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_02.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#430
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_03.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#431
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_03.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#432
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_04.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#433
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_04.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 101. 
+
+#434
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_06.c:83: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 73. 
+
+#435
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_06.c:110: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#436
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_08.c:91: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 81. 
+
+#437
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_08.c:118: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#438
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_09.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#439
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_09.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#440
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_11.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#441
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_11.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#442
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_12.c:64: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 54. 
+
+#443
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_12.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 85. 
+
+#444
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_12.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 107. 
+
+#445
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_13.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#446
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_13.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#447
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_15.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#448
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_15.c:113: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 103. 
+
+#449
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_16.c:74: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 64. 
+
+#450
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_17.c:75: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#451
+s01/CWE401_Memory_Leak__malloc_realloc_int64_t_18.c:72: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 62. 
+
+#452
+s01/CWE401_Memory_Leak__malloc_realloc_int_01.c:67: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#453
+s01/CWE401_Memory_Leak__malloc_realloc_int_02.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#454
+s01/CWE401_Memory_Leak__malloc_realloc_int_02.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#455
+s01/CWE401_Memory_Leak__malloc_realloc_int_03.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#456
+s01/CWE401_Memory_Leak__malloc_realloc_int_03.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#457
+s01/CWE401_Memory_Leak__malloc_realloc_int_04.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#458
+s01/CWE401_Memory_Leak__malloc_realloc_int_04.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 101. 
+
+#459
+s01/CWE401_Memory_Leak__malloc_realloc_int_06.c:83: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 73. 
+
+#460
+s01/CWE401_Memory_Leak__malloc_realloc_int_06.c:110: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#461
+s01/CWE401_Memory_Leak__malloc_realloc_int_08.c:91: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 81. 
+
+#462
+s01/CWE401_Memory_Leak__malloc_realloc_int_08.c:118: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#463
+s01/CWE401_Memory_Leak__malloc_realloc_int_09.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#464
+s01/CWE401_Memory_Leak__malloc_realloc_int_09.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#465
+s01/CWE401_Memory_Leak__malloc_realloc_int_11.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#466
+s01/CWE401_Memory_Leak__malloc_realloc_int_11.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#467
+s01/CWE401_Memory_Leak__malloc_realloc_int_12.c:64: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 54. 
+
+#468
+s01/CWE401_Memory_Leak__malloc_realloc_int_12.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 85. 
+
+#469
+s01/CWE401_Memory_Leak__malloc_realloc_int_12.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 107. 
+
+#470
+s01/CWE401_Memory_Leak__malloc_realloc_int_13.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#471
+s01/CWE401_Memory_Leak__malloc_realloc_int_13.c:105: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 95. 
+
+#472
+s01/CWE401_Memory_Leak__malloc_realloc_int_15.c:84: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 74. 
+
+#473
+s01/CWE401_Memory_Leak__malloc_realloc_int_15.c:113: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 103. 
+
+#474
+s01/CWE401_Memory_Leak__malloc_realloc_int_16.c:74: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 64. 
+
+#475
+s01/CWE401_Memory_Leak__malloc_realloc_int_17.c:75: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#476
+s01/CWE401_Memory_Leak__malloc_realloc_int_18.c:72: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 62. 
+
+#477
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_01.c:71: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 60. 
+
+#478
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_02.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#479
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_02.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#480
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_03.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#481
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_03.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#482
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_04.c:88: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 77. 
+
+#483
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_04.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 106. 
+
+#484
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_06.c:87: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 76. 
+
+#485
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_06.c:116: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 105. 
+
+#486
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_08.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 84. 
+
+#487
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_08.c:124: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 113. 
+
+#488
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_09.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#489
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_09.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#490
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_11.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#491
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_11.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#492
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_12.c:68: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#493
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_12.c:101: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 90. 
+
+#494
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_12.c:125: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 114. 
+
+#495
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_13.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#496
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_13.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#497
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_15.c:88: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 77. 
+
+#498
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_15.c:119: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#499
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_16.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 67. 
+
+#500
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_17.c:79: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#501
+s01/CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_18.c:76: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#502
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_01.c:71: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 60. 
+
+#503
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_02.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#504
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_02.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#505
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_03.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#506
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_03.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#507
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_04.c:88: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 77. 
+
+#508
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_04.c:117: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 106. 
+
+#509
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_06.c:87: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 76. 
+
+#510
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_06.c:116: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 105. 
+
+#511
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_08.c:95: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 84. 
+
+#512
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_08.c:124: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 113. 
+
+#513
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_09.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#514
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_09.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#515
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_11.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#516
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_11.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#517
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_12.c:68: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 57. 
+
+#518
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_12.c:101: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 90. 
+
+#519
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_12.c:125: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 114. 
+
+#520
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_13.c:82: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 71. 
+
+#521
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_13.c:111: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 100. 
+
+#522
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_15.c:88: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 77. 
+
+#523
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_15.c:119: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 108. 
+
+#524
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_16.c:78: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 67. 
+
+#525
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_17.c:79: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 68. 
+
+#526
+s01/CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_18.c:76: error: Use After Free
+  accessing `data` that was invalidated by call to `free()` on line 65. 
+
+#527
+s02/CWE401_Memory_Leak__strdup_char_31.c:37: error: Dead Store
+  The value written to `&data` is never used. 
+
+#528
+s02/CWE401_Memory_Leak__strdup_char_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#529
+s02/CWE401_Memory_Leak__strdup_char_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#530
+s02/CWE401_Memory_Leak__strdup_char_32.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#531
+s02/CWE401_Memory_Leak__strdup_char_32.c:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#532
+s02/CWE401_Memory_Leak__strdup_char_32.c:61: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#533
+s02/CWE401_Memory_Leak__strdup_char_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#534
+s02/CWE401_Memory_Leak__strdup_char_32.c:85: error: Dead Store
+  The value written to `&data` is never used. 
+
+#535
+s02/CWE401_Memory_Leak__strdup_char_32.c:85: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#536
+s02/CWE401_Memory_Leak__strdup_char_34.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#537
+s02/CWE401_Memory_Leak__strdup_char_34.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#538
+s02/CWE401_Memory_Leak__strdup_char_42.c:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#539
+s02/CWE401_Memory_Leak__strdup_char_42.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#540
+s02/CWE401_Memory_Leak__strdup_char_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#541
+s02/CWE401_Memory_Leak__strdup_char_45.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#542
+s02/CWE401_Memory_Leak__strdup_char_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#543
+s02/CWE401_Memory_Leak__strdup_char_61a.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#544
+s02/CWE401_Memory_Leak__strdup_char_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#545
+s02/CWE401_Memory_Leak__strdup_char_63b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#546
+s02/CWE401_Memory_Leak__strdup_char_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#547
+s02/CWE401_Memory_Leak__strdup_char_64b.c:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#548
+s02/CWE401_Memory_Leak__strdup_char_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#549
+s02/CWE401_Memory_Leak__strdup_char_66b.c:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#550
+s02/CWE401_Memory_Leak__strdup_char_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#551
+s02/CWE401_Memory_Leak__strdup_char_67b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#552
+s02/CWE401_Memory_Leak__strdup_char_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#553
+s02/CWE401_Memory_Leak__strdup_char_68b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#554
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_31.c:37: error: Dead Store
+  The value written to `&data` is never used. 
+
+#555
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_31.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#556
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#557
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#558
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#559
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#560
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:60: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#561
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#562
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:84: error: Dead Store
+  The value written to `&data` is never used. 
+
+#563
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c:84: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#564
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_34.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#565
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_34.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#566
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_42.c:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#567
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_42.c:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#568
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#569
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_45.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#570
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#571
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#572
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#573
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#574
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#575
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#576
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#577
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#578
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#579
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#580
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#581
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#582
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_01.c:34: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 34, column 5. 
+
+#583
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_02.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#584
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_03.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#585
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_04.c:42: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 42, column 9. 
+
+#586
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_05.c:42: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 42, column 9. 
+
+#587
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_05.c:70: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 63 is not freed after the last access at line 70, column 8. 
+
+#588
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_06.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#589
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_07.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#590
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_08.c:49: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 44 is not freed after the last access at line 49, column 9. 
+
+#591
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_09.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#592
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_10.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#593
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_10.c:64: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 57 is not freed after the last access at line 64, column 8. 
+
+#594
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_11.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#595
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_12.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 47, column 8. 
+
+#596
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_13.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#597
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_14.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#598
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_15.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 9. 
+
+#599
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_16.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#600
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_17.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 9. 
+
+#601
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_18.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 5. 
+
+#602
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_21.c:48: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 41 is not freed after the last access at line 48, column 5. 
+
+#603
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_22a.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#604
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_31.c:37: error: Dead Store
+  The value written to `&data` is never used. 
+
+#605
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_31.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 37, column 9. 
+
+#606
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_31.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#607
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#608
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#609
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#610
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:42: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 42, column 9. 
+
+#611
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#612
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:60: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#613
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#614
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:84: error: Dead Store
+  The value written to `&data` is never used. 
+
+#615
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c:84: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#616
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_34.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#617
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 44, column 9. 
+
+#618
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_34.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#619
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_34.c:89: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 81 is not freed after the last access at line 89, column 9. 
+
+#620
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_41.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 41, column 5. 
+
+#621
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_42.c:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#622
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_42.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `badSource()` on line 45 is not freed after the last access at line 45, column 5. 
+
+#623
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_42.c:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#624
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_44.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 44, column 5. 
+
+#625
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#626
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_45.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#627
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_51a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#628
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_52a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#629
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#630
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__struct_twoIntsStruct_malloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#631
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#632
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_63a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#633
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#634
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#635
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_64a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#636
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#637
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#638
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_65a.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#639
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_66a.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 41, column 5. 
+
+#640
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#641
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#642
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_67a.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 45, column 5. 
+
+#643
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#644
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#645
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#646
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#647
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_01.c:34: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 34, column 5. 
+
+#648
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_02.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#649
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_03.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#650
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_04.c:42: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 42, column 9. 
+
+#651
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_05.c:42: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 42, column 9. 
+
+#652
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_05.c:70: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 63 is not freed after the last access at line 70, column 8. 
+
+#653
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_06.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#654
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_07.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#655
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_08.c:49: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 44 is not freed after the last access at line 49, column 9. 
+
+#656
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_09.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#657
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_10.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#658
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_10.c:64: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 57 is not freed after the last access at line 64, column 8. 
+
+#659
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_11.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#660
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_12.c:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 47, column 8. 
+
+#661
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_13.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#662
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_14.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#663
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_15.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 9. 
+
+#664
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_16.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#665
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_17.c:29: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 29, column 16. 
+
+#666
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_18.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 5. 
+
+#667
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_21.c:48: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 41 is not freed after the last access at line 48, column 5. 
+
+#668
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_22a.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#669
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_31.c:37: error: Dead Store
+  The value written to `&data` is never used. 
+
+#670
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_31.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 37, column 9. 
+
+#671
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_31.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#672
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#673
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#674
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c:42: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 42, column 9. 
+
+#675
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#676
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c:60: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#677
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#678
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c:84: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#679
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_34.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#680
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 44, column 9. 
+
+#681
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_34.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#682
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_34.c:89: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 81 is not freed after the last access at line 89, column 9. 
+
+#683
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_41.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 35 is not freed after the last access at line 41, column 5. 
+
+#684
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_42.c:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#685
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_42.c:45: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `badSource()` on line 45 is not freed after the last access at line 45, column 5. 
+
+#686
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_42.c:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#687
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_44.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 44, column 5. 
+
+#688
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#689
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_45.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#690
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_51a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#691
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_52a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#692
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_53a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#693
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_54a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#694
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#695
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__struct_twoIntsStruct_realloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#696
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#697
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_63a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#698
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#699
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#700
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_64a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#701
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#702
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#703
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_65a.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#704
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_66a.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 41, column 5. 
+
+#705
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#706
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#707
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_67a.c:45: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 38 is not freed after the last access at line 45, column 5. 
+
+#708
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#709
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#710
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#711
+s03/CWE401_Memory_Leak__struct_twoIntsStruct_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#712
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_31.c:37: error: Dead Store
+  The value written to `&data` is never used. 
+
+#713
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_31.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#714
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#715
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#716
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#717
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#718
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:60: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#719
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#720
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:84: error: Dead Store
+  The value written to `&data` is never used. 
+
+#721
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c:84: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#722
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_34.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#723
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_34.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#724
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_42.c:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#725
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_42.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#726
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#727
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_45.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#728
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#729
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#730
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#731
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#732
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#733
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#734
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#735
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#736
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#737
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#738
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#739
+s03/CWE401_Memory_Leak__twoIntsStruct_calloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#740
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_01.c:34: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 34, column 5. 
+
+#741
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_02.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#742
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_03.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#743
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_04.c:42: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 42, column 9. 
+
+#744
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_05.c:42: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 42, column 9. 
+
+#745
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_05.c:70: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 63 is not freed after the last access at line 70, column 8. 
+
+#746
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_06.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#747
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_07.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#748
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_08.c:49: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 44 is not freed after the last access at line 49, column 9. 
+
+#749
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_09.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#750
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_10.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#751
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_10.c:64: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 57 is not freed after the last access at line 64, column 8. 
+
+#752
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_11.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#753
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_12.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 47, column 8. 
+
+#754
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_13.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#755
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_14.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#756
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_15.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 9. 
+
+#757
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_16.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#758
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_17.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 37, column 9. 
+
+#759
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_18.c:36: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 31 is not freed after the last access at line 36, column 5. 
+
+#760
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_21.c:48: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 41 is not freed after the last access at line 48, column 5. 
+
+#761
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_22a.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#762
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_31.c:37: error: Dead Store
+  The value written to `&data` is never used. 
+
+#763
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_31.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 29 is not freed after the last access at line 37, column 9. 
+
+#764
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_31.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#765
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#766
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#767
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#768
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:42: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 42, column 9. 
+
+#769
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#770
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:60: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#771
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#772
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:84: error: Dead Store
+  The value written to `&data` is never used. 
+
+#773
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_32.c:84: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#774
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_34.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#775
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 44, column 9. 
+
+#776
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_34.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#777
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_34.c:89: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 81 is not freed after the last access at line 89, column 9. 
+
+#778
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_41.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 41, column 5. 
+
+#779
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_42.c:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#780
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_42.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `badSource()` on line 40 is not freed after the last access at line 40, column 5. 
+
+#781
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_42.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#782
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_44.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 44, column 5. 
+
+#783
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#784
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_45.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#785
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_51a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#786
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_52a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#787
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_53a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#788
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_54a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#789
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#790
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `CWE401_Memory_Leak__twoIntsStruct_malloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#791
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#792
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_63a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#793
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#794
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#795
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_64a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#796
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#797
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#798
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_65a.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#799
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_66a.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 41, column 5. 
+
+#800
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#801
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#802
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_67a.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 45, column 5. 
+
+#803
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#804
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#805
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#806
+s03/CWE401_Memory_Leak__twoIntsStruct_malloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#807
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_01.c:34: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 34, column 5. 
+
+#808
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_02.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#809
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_03.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#810
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_04.c:42: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 42, column 9. 
+
+#811
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_05.c:70: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 63 is not freed after the last access at line 70, column 8. 
+
+#812
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_06.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#813
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_07.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 41, column 9. 
+
+#814
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_08.c:49: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 44 is not freed after the last access at line 49, column 9. 
+
+#815
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_09.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#816
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_10.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#817
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_10.c:64: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 57 is not freed after the last access at line 64, column 8. 
+
+#818
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_11.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#819
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_12.c:47: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 47, column 8. 
+
+#820
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_13.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#821
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_14.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#822
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_15.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 37, column 9. 
+
+#823
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_16.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 9. 
+
+#824
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_17.c:29: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 29, column 16. 
+
+#825
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_18.c:36: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 31 is not freed after the last access at line 36, column 5. 
+
+#826
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_21.c:48: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 41 is not freed after the last access at line 48, column 5. 
+
+#827
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_22a.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#828
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_31.c:37: error: Dead Store
+  The value written to `&data` is never used. 
+
+#829
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_31.c:37: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 29 is not freed after the last access at line 37, column 9. 
+
+#830
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_31.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#831
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#832
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_32.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+#833
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_32.c:42: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 42, column 9. 
+
+#834
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_32.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#835
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_32.c:60: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#836
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#837
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_32.c:84: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#838
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_34.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#839
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 36 is not freed after the last access at line 44, column 9. 
+
+#840
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_34.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#841
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_34.c:89: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 81 is not freed after the last access at line 89, column 9. 
+
+#842
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_41.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 35 is not freed after the last access at line 41, column 5. 
+
+#843
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_42.c:40: error: Dead Store
+  The value written to `&data` is never used. 
+
+#844
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_42.c:40: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `badSource()` on line 40 is not freed after the last access at line 40, column 5. 
+
+#845
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_42.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#846
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_44.c:44: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 37 is not freed after the last access at line 44, column 5. 
+
+#847
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_45.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#848
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_45.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#849
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_51a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#850
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_52a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#851
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_53a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#852
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_54a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#853
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_61a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#854
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_61a.c:31: error: Memory Leak
+  Memory dynamically allocated by `realloc`, indirectly via call to `CWE401_Memory_Leak__twoIntsStruct_realloc_61b_badSource()` on line 31 is not freed after the last access at line 31, column 5. 
+
+#855
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_61a.c:47: error: Dead Store
+  The value written to `&data` is never used. 
+
+#856
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_63a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#857
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_63b.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#858
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_63b.c:38: error: Dead Store
+  The value written to `&data` is never used. 
+
+#859
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_64a.c:38: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 32 is not freed after the last access at line 38, column 5. 
+
+#860
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_64b.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#861
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_64b.c:44: error: Dead Store
+  The value written to `&data` is never used. 
+
+#862
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_65a.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 34 is not freed after the last access at line 41, column 5. 
+
+#863
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_66a.c:41: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 33 is not freed after the last access at line 41, column 5. 
+
+#864
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_66b.c:27: error: Dead Store
+  The value written to `&data` is never used. 
+
+#865
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_66b.c:39: error: Dead Store
+  The value written to `&data` is never used. 
+
+#866
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_67a.c:45: error: Memory Leak
+  Memory dynamically allocated by `realloc` on line 38 is not freed after the last access at line 45, column 5. 
+
+#867
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_67b.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#868
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_67b.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#869
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_68b.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#870
+s03/CWE401_Memory_Leak__twoIntsStruct_realloc_68b.c:42: error: Dead Store
+  The value written to `&data` is never used. 
+
+Found 871 issues
+                      Issue Type(ISSUED_TYPE_ID): #
+                          Dead Store(DEAD_STORE): 389
+                      Memory Leak(MEMORY_LEAK_C): 309
+                  Use After Free(USE_AFTER_FREE): 125
+  Uninitialized Value(PULSE_UNINITIALIZED_VALUE): 48

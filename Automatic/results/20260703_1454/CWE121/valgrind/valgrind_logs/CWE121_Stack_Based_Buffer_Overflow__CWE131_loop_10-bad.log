@@ -1,0 +1,36 @@
+==302568== Memcheck, a memory error detector
+==302568== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==302568== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==302568== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_10-bad
+==302568== Parent PID: 302567
+==302568== 
+==302568== Invalid write of size 4
+==302568==    at 0x109372: CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_10_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_10-bad)
+==302568==    by 0x1093E0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_10-bad)
+==302568==  Address 0x1f00000024 is not stack'd, malloc'd or (recently) free'd
+==302568== 
+==302568== 
+==302568== Process terminating with default action of signal 11 (SIGSEGV)
+==302568==  Access not within mapped region at address 0x1F00000024
+==302568==    at 0x109372: CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_10_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_10-bad)
+==302568==    by 0x1093E0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_10-bad)
+==302568==  If you believe this happened as a result of a stack
+==302568==  overflow in your program's main thread (unlikely but
+==302568==  possible), you can try to increase the size of the
+==302568==  main thread stack using the --main-stacksize= flag.
+==302568==  The main thread stack size used in this run was 8388608.
+==302568== 
+==302568== HEAP SUMMARY:
+==302568==     in use at exit: 4,096 bytes in 1 blocks
+==302568==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==302568== 
+==302568== LEAK SUMMARY:
+==302568==    definitely lost: 0 bytes in 0 blocks
+==302568==    indirectly lost: 0 bytes in 0 blocks
+==302568==      possibly lost: 0 bytes in 0 blocks
+==302568==    still reachable: 4,096 bytes in 1 blocks
+==302568==         suppressed: 0 bytes in 0 blocks
+==302568== Rerun with --leak-check=full to see details of leaked memory
+==302568== 
+==302568== For lists of detected and suppressed errors, rerun with: -s
+==302568== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

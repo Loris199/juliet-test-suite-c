@@ -1,0 +1,42 @@
+==304674== Memcheck, a memory error detector
+==304674== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==304674== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==304674== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad
+==304674== Parent PID: 304673
+==304674== 
+==304674== Source and destination overlap in strncat(0x1ffefffdc0, 0x1ffefffe20, 100)
+==304674==    at 0x484F197: strncat (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==304674==    by 0x10943D: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674==    by 0x1094A0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674== 
+==304674== Invalid read of size 1
+==304674==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==304674==    by 0x48F6BFC: puts (ioputs.c:35)
+==304674==    by 0x1094D9: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674==    by 0x10944C: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674==    by 0x1094A0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674==  Address 0x4343434343434343 is not stack'd, malloc'd or (recently) free'd
+==304674== 
+==304674== 
+==304674== Process terminating with default action of signal 11 (SIGSEGV)
+==304674==  General Protection Fault
+==304674==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==304674==    by 0x48F6BFC: puts (ioputs.c:35)
+==304674==    by 0x1094D9: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674==    by 0x10944C: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674==    by 0x1094A0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_04-bad)
+==304674== 
+==304674== HEAP SUMMARY:
+==304674==     in use at exit: 4,096 bytes in 1 blocks
+==304674==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==304674== 
+==304674== LEAK SUMMARY:
+==304674==    definitely lost: 0 bytes in 0 blocks
+==304674==    indirectly lost: 0 bytes in 0 blocks
+==304674==      possibly lost: 0 bytes in 0 blocks
+==304674==    still reachable: 4,096 bytes in 1 blocks
+==304674==         suppressed: 0 bytes in 0 blocks
+==304674== Rerun with --leak-check=full to see details of leaked memory
+==304674== 
+==304674== For lists of detected and suppressed errors, rerun with: -s
+==304674== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

@@ -1,0 +1,37 @@
+==305441== Memcheck, a memory error detector
+==305441== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==305441== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==305441== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18-bad
+==305441== Parent PID: 305440
+==305441== 
+==305441== Invalid read of size 1
+==305441==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==305441==    by 0x48F6BFC: puts (ioputs.c:35)
+==305441==    by 0x1094D7: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18-bad)
+==305441==    by 0x10944A: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18-bad)
+==305441==    by 0x10949E: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18-bad)
+==305441==  Address 0x4343434343434343 is not stack'd, malloc'd or (recently) free'd
+==305441== 
+==305441== 
+==305441== Process terminating with default action of signal 11 (SIGSEGV)
+==305441==  General Protection Fault
+==305441==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==305441==    by 0x48F6BFC: puts (ioputs.c:35)
+==305441==    by 0x1094D7: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18-bad)
+==305441==    by 0x10944A: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18-bad)
+==305441==    by 0x10949E: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_18-bad)
+==305441== 
+==305441== HEAP SUMMARY:
+==305441==     in use at exit: 4,096 bytes in 1 blocks
+==305441==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==305441== 
+==305441== LEAK SUMMARY:
+==305441==    definitely lost: 0 bytes in 0 blocks
+==305441==    indirectly lost: 0 bytes in 0 blocks
+==305441==      possibly lost: 0 bytes in 0 blocks
+==305441==    still reachable: 4,096 bytes in 1 blocks
+==305441==         suppressed: 0 bytes in 0 blocks
+==305441== Rerun with --leak-check=full to see details of leaked memory
+==305441== 
+==305441== For lists of detected and suppressed errors, rerun with: -s
+==305441== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,37 @@
+==314887== Memcheck, a memory error detector
+==314887== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==314887== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==314887== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_03-bad
+==314887== Parent PID: 314886
+==314887== 
+==314887== 
+==314887== Process terminating with default action of signal 6 (SIGABRT)
+==314887==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==314887==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==314887==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==314887==    by 0x48B427D: raise (raise.c:26)
+==314887==    by 0x48978FE: abort (abort.c:79)
+==314887==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==314887==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==314887==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==314887==    by 0x1093F8: CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_03_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_03-bad)
+==314887==    by 0x4141414141414140: ???
+==314887==    by 0x4141414141414140: ???
+==314887==    by 0x4141414141414140: ???
+==314887==    by 0x1F00414140: ???
+==314887==    by 0x48991C9: (below main) (libc_start_call_main.h:58)
+==314887== 
+==314887== HEAP SUMMARY:
+==314887==     in use at exit: 4,096 bytes in 1 blocks
+==314887==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==314887== 
+==314887== LEAK SUMMARY:
+==314887==    definitely lost: 0 bytes in 0 blocks
+==314887==    indirectly lost: 0 bytes in 0 blocks
+==314887==      possibly lost: 0 bytes in 0 blocks
+==314887==    still reachable: 4,096 bytes in 1 blocks
+==314887==         suppressed: 0 bytes in 0 blocks
+==314887== Rerun with --leak-check=full to see details of leaked memory
+==314887== 
+==314887== For lists of detected and suppressed errors, rerun with: -s
+==314887== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

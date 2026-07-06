@@ -1,0 +1,9 @@
+
+2026.06.30 23h13 : CWE 121 + CWE 401, 5 outils, nuit, test setup -> Raté (manque tmp/in.txt et .cpp pas supprimés)
+
+2026.07.01 22h57 : CWE 401, 5 outils, test setup -> Réussi
+
+2026.07.03 14h11 : CWE 401, Valgrind, test temps d'exécution
+
+2026.07.03 14h54 : CWE 121 + CWE 401, 5 outils, weekend
+

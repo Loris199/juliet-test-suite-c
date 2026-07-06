@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2257/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__int64_t_calloc_10-good"
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2257/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__int64_t_calloc_10-good.pdb"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__int64_t_calloc_10-good"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__int64_t_calloc_10-good.pdb"
   "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_10-good.dir/s01/CWE401_Memory_Leak__int64_t_calloc_10.c.o"
   "CMakeFiles/CWE401_Memory_Leak__int64_t_calloc_10-good.dir/s01/CWE401_Memory_Leak__int64_t_calloc_10.c.o.d"
 )

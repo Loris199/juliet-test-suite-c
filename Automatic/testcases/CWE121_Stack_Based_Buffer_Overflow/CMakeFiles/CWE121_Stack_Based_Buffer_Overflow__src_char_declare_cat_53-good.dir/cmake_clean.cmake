@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/filc/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.pdb"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53a.c.o"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53a.c.o.d"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53b.c.o"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53b.c.o.d"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53c.c.o"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53c.c.o.d"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53d.c.o"
+  "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53d.c.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_53-good.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

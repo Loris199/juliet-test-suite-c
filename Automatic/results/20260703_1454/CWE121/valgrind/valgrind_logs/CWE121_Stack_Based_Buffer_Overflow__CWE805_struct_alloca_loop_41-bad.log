@@ -1,0 +1,32 @@
+==308998== Memcheck, a memory error detector
+==308998== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==308998== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==308998== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_loop_41-bad
+==308998== Parent PID: 308997
+==308998== 
+==308998== 
+==308998== Process terminating with default action of signal 6 (SIGABRT)
+==308998==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==308998==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==308998==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==308998==    by 0x48B427D: raise (raise.c:26)
+==308998==    by 0x48978FE: abort (abort.c:79)
+==308998==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==308998==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==308998==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==308998==    by 0x1094AC: CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_loop_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_loop_41-bad)
+==308998== 
+==308998== HEAP SUMMARY:
+==308998==     in use at exit: 4,096 bytes in 1 blocks
+==308998==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==308998== 
+==308998== LEAK SUMMARY:
+==308998==    definitely lost: 0 bytes in 0 blocks
+==308998==    indirectly lost: 0 bytes in 0 blocks
+==308998==      possibly lost: 0 bytes in 0 blocks
+==308998==    still reachable: 4,096 bytes in 1 blocks
+==308998==         suppressed: 0 bytes in 0 blocks
+==308998== Rerun with --leak-check=full to see details of leaked memory
+==308998== 
+==308998== For lists of detected and suppressed errors, rerun with: -s
+==308998== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

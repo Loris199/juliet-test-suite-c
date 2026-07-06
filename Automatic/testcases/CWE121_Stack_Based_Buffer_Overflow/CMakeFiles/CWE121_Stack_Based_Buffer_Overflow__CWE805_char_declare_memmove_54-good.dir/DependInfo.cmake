@@ -1,0 +1,27 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54a.c" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54a.c.o" "gcc" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54a.c.o.d"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54b.c" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54b.c.o" "gcc" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54b.c.o.d"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54c.c" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54c.c.o" "gcc" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54c.c.o.d"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54d.c" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54d.c.o" "gcc" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54d.c.o.d"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54e.c" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54e.c.o" "gcc" "CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54-good.dir/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_54e.c.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

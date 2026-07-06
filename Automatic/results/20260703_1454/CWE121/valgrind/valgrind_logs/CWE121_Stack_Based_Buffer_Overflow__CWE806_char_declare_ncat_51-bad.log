@@ -1,0 +1,51 @@
+==313221== Memcheck, a memory error detector
+==313221== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==313221== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==313221== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncat_51-bad
+==313221== Parent PID: 313220
+==313221== 
+==313221== Source and destination overlap in strncat(0x1ffefffdc0, 0x1ffefffe20, 99)
+==313221==    at 0x484F197: strncat (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==313221==    by 0x109419: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncat_51b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncat_51-bad)
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414100414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221== 
+==313221== 
+==313221== Process terminating with default action of signal 6 (SIGABRT)
+==313221==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==313221==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==313221==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==313221==    by 0x48B427D: raise (raise.c:26)
+==313221==    by 0x48978FE: abort (abort.c:79)
+==313221==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==313221==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==313221==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==313221==    by 0x10943E: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncat_51b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncat_51-bad)
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221==    by 0x4141414100414140: ???
+==313221==    by 0x4141414141414140: ???
+==313221== 
+==313221== HEAP SUMMARY:
+==313221==     in use at exit: 4,096 bytes in 1 blocks
+==313221==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==313221== 
+==313221== LEAK SUMMARY:
+==313221==    definitely lost: 0 bytes in 0 blocks
+==313221==    indirectly lost: 0 bytes in 0 blocks
+==313221==      possibly lost: 0 bytes in 0 blocks
+==313221==    still reachable: 4,096 bytes in 1 blocks
+==313221==         suppressed: 0 bytes in 0 blocks
+==313221== Rerun with --leak-check=full to see details of leaked memory
+==313221== 
+==313221== For lists of detected and suppressed errors, rerun with: -s
+==313221== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

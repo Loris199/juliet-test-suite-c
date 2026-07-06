@@ -1,0 +1,22 @@
+==32009== Memcheck, a memory error detector
+==32009== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==32009== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==32009== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1411/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__int_malloc_12-bad
+==32009== Parent PID: 32008
+==32009== 
+==32009== Invalid free() / delete / delete[] / realloc()
+==32009==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32009==    by 0x109409: CWE401_Memory_Leak__int_malloc_12_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1411/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__int_malloc_12-bad)
+==32009==    by 0x10945D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1411/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__int_malloc_12-bad)
+==32009==  Address 0x1ffefffd20 is on thread 1's stack
+==32009==  in frame #1, created by CWE401_Memory_Leak__int_malloc_12_bad (???:)
+==32009== 
+==32009== 
+==32009== HEAP SUMMARY:
+==32009==     in use at exit: 0 bytes in 0 blocks
+==32009==   total heap usage: 1 allocs, 2 frees, 4,096 bytes allocated
+==32009== 
+==32009== All heap blocks were freed -- no leaks are possible
+==32009== 
+==32009== For lists of detected and suppressed errors, rerun with: -s
+==32009== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

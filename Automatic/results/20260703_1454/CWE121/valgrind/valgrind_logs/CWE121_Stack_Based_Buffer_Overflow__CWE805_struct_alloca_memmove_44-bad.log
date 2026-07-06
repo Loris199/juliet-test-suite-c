@@ -1,0 +1,32 @@
+==309758== Memcheck, a memory error detector
+==309758== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==309758== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==309758== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_44-bad
+==309758== Parent PID: 309757
+==309758== 
+==309758== 
+==309758== Process terminating with default action of signal 6 (SIGABRT)
+==309758==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==309758==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==309758==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==309758==    by 0x48B427D: raise (raise.c:26)
+==309758==    by 0x48978FE: abort (abort.c:79)
+==309758==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==309758==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==309758==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==309758==    by 0x1094AC: CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_44_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_44-bad)
+==309758== 
+==309758== HEAP SUMMARY:
+==309758==     in use at exit: 4,096 bytes in 1 blocks
+==309758==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==309758== 
+==309758== LEAK SUMMARY:
+==309758==    definitely lost: 0 bytes in 0 blocks
+==309758==    indirectly lost: 0 bytes in 0 blocks
+==309758==      possibly lost: 0 bytes in 0 blocks
+==309758==    still reachable: 4,096 bytes in 1 blocks
+==309758==         suppressed: 0 bytes in 0 blocks
+==309758== Rerun with --leak-check=full to see details of leaked memory
+==309758== 
+==309758== For lists of detected and suppressed errors, rerun with: -s
+==309758== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

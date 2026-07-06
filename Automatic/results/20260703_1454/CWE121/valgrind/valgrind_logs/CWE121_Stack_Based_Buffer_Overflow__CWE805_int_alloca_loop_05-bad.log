@@ -1,0 +1,36 @@
+==307632== Memcheck, a memory error detector
+==307632== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==307632== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==307632== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_05-bad
+==307632== Parent PID: 307629
+==307632== 
+==307632== Invalid write of size 4
+==307632==    at 0x109418: CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_05_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_05-bad)
+==307632==    by 0x10948F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_05-bad)
+==307632==  Address 0x1f000000d4 is not stack'd, malloc'd or (recently) free'd
+==307632== 
+==307632== 
+==307632== Process terminating with default action of signal 11 (SIGSEGV)
+==307632==  Access not within mapped region at address 0x1F000000D4
+==307632==    at 0x109418: CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_05_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_05-bad)
+==307632==    by 0x10948F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_05-bad)
+==307632==  If you believe this happened as a result of a stack
+==307632==  overflow in your program's main thread (unlikely but
+==307632==  possible), you can try to increase the size of the
+==307632==  main thread stack using the --main-stacksize= flag.
+==307632==  The main thread stack size used in this run was 8388608.
+==307632== 
+==307632== HEAP SUMMARY:
+==307632==     in use at exit: 4,096 bytes in 1 blocks
+==307632==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==307632== 
+==307632== LEAK SUMMARY:
+==307632==    definitely lost: 0 bytes in 0 blocks
+==307632==    indirectly lost: 0 bytes in 0 blocks
+==307632==      possibly lost: 0 bytes in 0 blocks
+==307632==    still reachable: 4,096 bytes in 1 blocks
+==307632==         suppressed: 0 bytes in 0 blocks
+==307632== Rerun with --leak-check=full to see details of leaked memory
+==307632== 
+==307632== For lists of detected and suppressed errors, rerun with: -s
+==307632== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,13 @@
+#0
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+Found 1 issue
+  Issue Type(ISSUED_TYPE_ID): #
+  Memory Leak(MEMORY_LEAK_C): 1

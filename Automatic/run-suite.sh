@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -uo pipefail   # pas de -e : un outil qui échoue ne doit pas stopper les autres
 
-CWES=(401)                        # numéros de CWE, sans le préfixe "CWE"
-TOOLS=(csa infer filc valgrind asan)
+CWES=(401 121)                        # numéros de CWE, sans le préfixe "CWE"
+TOOLS=(valgrind asan csa infer filc)
 
 TIMEOUT_PER_TEST=5                    # secondes, passé à juliet.py -t (timeout par test individuel)
 declare -A TIMEOUT_PER_TOOL=(

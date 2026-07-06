@@ -1,0 +1,22 @@
+==31703== Memcheck, a memory error detector
+==31703== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==31703== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==31703== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1411/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__int64_t_calloc_12-bad
+==31703== Parent PID: 31702
+==31703== 
+==31703== Invalid free() / delete / delete[] / realloc()
+==31703==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31703==    by 0x109414: CWE401_Memory_Leak__int64_t_calloc_12_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1411/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__int64_t_calloc_12-bad)
+==31703==    by 0x109468: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1411/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__int64_t_calloc_12-bad)
+==31703==  Address 0x1ffefffb80 is on thread 1's stack
+==31703==  in frame #1, created by CWE401_Memory_Leak__int64_t_calloc_12_bad (???:)
+==31703== 
+==31703== 
+==31703== HEAP SUMMARY:
+==31703==     in use at exit: 0 bytes in 0 blocks
+==31703==   total heap usage: 1 allocs, 2 frees, 4,096 bytes allocated
+==31703== 
+==31703== All heap blocks were freed -- no leaks are possible
+==31703== 
+==31703== For lists of detected and suppressed errors, rerun with: -s
+==31703== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

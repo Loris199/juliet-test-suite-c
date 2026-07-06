@@ -1,0 +1,38 @@
+==302485== Memcheck, a memory error detector
+==302485== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==302485== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==302485== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68-bad
+==302485== Parent PID: 302484
+==302485== 
+==302485== Invalid write of size 4
+==302485==    at 0x109393: CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68-bad)
+==302485==    by 0x1092F8: CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68-bad)
+==302485==    by 0x10933C: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68-bad)
+==302485==  Address 0x20fbd60138 is not stack'd, malloc'd or (recently) free'd
+==302485== 
+==302485== 
+==302485== Process terminating with default action of signal 11 (SIGSEGV)
+==302485==  Access not within mapped region at address 0x20FBD60138
+==302485==    at 0x109393: CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68-bad)
+==302485==    by 0x1092F8: CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68-bad)
+==302485==    by 0x10933C: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_68-bad)
+==302485==  If you believe this happened as a result of a stack
+==302485==  overflow in your program's main thread (unlikely but
+==302485==  possible), you can try to increase the size of the
+==302485==  main thread stack using the --main-stacksize= flag.
+==302485==  The main thread stack size used in this run was 8388608.
+==302485== 
+==302485== HEAP SUMMARY:
+==302485==     in use at exit: 4,096 bytes in 1 blocks
+==302485==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==302485== 
+==302485== LEAK SUMMARY:
+==302485==    definitely lost: 0 bytes in 0 blocks
+==302485==    indirectly lost: 0 bytes in 0 blocks
+==302485==      possibly lost: 0 bytes in 0 blocks
+==302485==    still reachable: 4,096 bytes in 1 blocks
+==302485==         suppressed: 0 bytes in 0 blocks
+==302485== Rerun with --leak-check=full to see details of leaked memory
+==302485== 
+==302485== For lists of detected and suppressed errors, rerun with: -s
+==302485== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

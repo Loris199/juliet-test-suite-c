@@ -1,0 +1,27 @@
+==296865== Memcheck, a memory error detector
+==296865== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==296865== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==296865== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_03-good
+==296865== Parent PID: 296864
+==296865== 
+==296865== 
+==296865== Process terminating with default action of signal 15 (SIGTERM)
+==296865==    at 0x499A834: accept (accept.c:26)
+==296865==    by 0x10946D: goodB2G1 (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_03-good)
+==296865==    by 0x109848: CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_03_good (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_03-good)
+==296865==    by 0x1098A6: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_03-good)
+==296865== 
+==296865== HEAP SUMMARY:
+==296865==     in use at exit: 4,096 bytes in 1 blocks
+==296865==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==296865== 
+==296865== LEAK SUMMARY:
+==296865==    definitely lost: 0 bytes in 0 blocks
+==296865==    indirectly lost: 0 bytes in 0 blocks
+==296865==      possibly lost: 0 bytes in 0 blocks
+==296865==    still reachable: 4,096 bytes in 1 blocks
+==296865==         suppressed: 0 bytes in 0 blocks
+==296865== Rerun with --leak-check=full to see details of leaked memory
+==296865== 
+==296865== For lists of detected and suppressed errors, rerun with: -s
+==296865== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

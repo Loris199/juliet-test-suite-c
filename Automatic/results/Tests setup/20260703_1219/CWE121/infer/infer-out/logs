@@ -1,0 +1,698 @@
+[3462][environment] CWD = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow
+[3462][environment] No .inferconfig file found
+[3462][environment] Project root = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow
+[3462][environment] INFER_ARGS =   @/tmp/args.tmp.164c3e --progress-bar-style plain
+[3462][environment] command line arguments:   infer capture --results-dir
+[3462][environment]                           /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1219/CWE121/infer/infer-out
+[3462][environment]                           -- make -j16
+[3462][environment] Available memory at startup: 6464 MB
+[3462][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[3462][environment] Scheduler: restart
+[3462][environment] Cores used: 1
+[3462][environment] Infer version v1.2.0
+[3462][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[3462][environment] 
+[3462][   progress] Capturing in make/cc mode...
+[3462][environment] Running command make with env:
+[3462][environment] (Extend((PATH /home/loris/Desktop/Installations/infer-linux-x86_64-v1.2.0/lib/infer/infer/bin/../lib/wrappers:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/fil/bin)(INFER_OLD_PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/fil/bin)))
+[3462][environment] 
+
+
+[3485][      debug] 
+[3485][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c ***
+[3485][      debug] Elapsed: 78.7ms.
+[3485][      debug] GC stats for capture:
+[3485][      debug]   minor_words: 3.99622e+06
+[3485][      debug]   promoted_words: 532528
+[3485][      debug]   major_words: 554791
+[3485][      debug]   minor_collections: 5
+[3485][      debug]   major_collections: 0
+[3485][      debug]   compactions: 0
+[3485][      debug]   top_heap_words: 1331712
+[3485][      debug]   
+[3485][      debug] GC stats for main_process_full:
+[3485][      debug]   minor_words: 6.71949e+06
+[3485][      debug]   promoted_words: 1.25022e+06
+[3485][      debug]   major_words: 1.31015e+06
+[3485][      debug]   minor_collections: 14
+[3485][      debug]   major_collections: 2
+[3485][      debug]   compactions: 0
+[3485][      debug]   top_heap_words: 1331712
+[3485][      debug]   
+[3482][      debug] 
+[3482][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c ***
+[3482][      debug] Elapsed: 81.7ms.
+[3482][      debug] GC stats for capture:
+[3482][      debug]   minor_words: 3.43052e+06
+[3482][      debug]   promoted_words: 485433
+[3482][      debug]   major_words: 507519
+[3482][      debug]   minor_collections: 5
+[3482][      debug]   major_collections: 0
+[3482][      debug]   compactions: 0
+[3482][      debug]   top_heap_words: 1331712
+[3482][      debug]   
+[3482][      debug] GC stats for main_process_full:
+[3482][      debug]   minor_words: 6.15382e+06
+[3482][      debug]   promoted_words: 1.19254e+06
+[3482][      debug]   major_words: 1.25229e+06
+[3482][      debug]   minor_collections: 13
+[3482][      debug]   major_collections: 1
+[3482][      debug]   compactions: 0
+[3482][      debug]   top_heap_words: 1331712
+[3482][      debug]   
+
+
+
+
+
+
+
+
+
+[3543][      debug] 
+[3543][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c ***
+[3543][      debug] Elapsed: 212ms.
+[3543][      debug] GC stats for capture:
+[3543][      debug]   minor_words: 2.81413e+06
+[3543][      debug]   promoted_words: 440380
+[3543][      debug]   major_words: 459969
+[3543][      debug]   minor_collections: 4
+[3543][      debug]   major_collections: 0
+[3543][      debug]   compactions: 0
+[3543][      debug]   top_heap_words: 1331712
+[3543][      debug]   
+[3543][      debug] GC stats for main_process_full:
+[3543][      debug]   minor_words: 5.53771e+06
+[3543][      debug]   promoted_words: 1.14754e+06
+[3543][      debug]   major_words: 1.20478e+06
+[3543][      debug]   minor_collections: 12
+[3543][      debug]   major_collections: 1
+[3543][      debug]   compactions: 0
+[3543][      debug]   top_heap_words: 1331712
+[3543][      debug]   
+[3537][      debug] 
+[3537][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c ***
+[3537][      debug] Merging capture data for already-captured 's09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c'
+[3537][      debug] Elapsed: 213ms.
+[3537][      debug] GC stats for capture:
+[3537][      debug]   minor_words: 2.83467e+06
+[3537][      debug]   promoted_words: 440653
+[3537][      debug]   major_words: 460243
+[3537][      debug]   minor_collections: 4
+[3537][      debug]   major_collections: 0
+[3537][      debug]   compactions: 0
+[3537][      debug]   top_heap_words: 1331712
+[3537][      debug]   
+[3537][      debug] GC stats for main_process_full:
+[3537][      debug]   minor_words: 5.55826e+06
+[3537][      debug]   promoted_words: 1.14781e+06
+[3537][      debug]   major_words: 1.20506e+06
+[3537][      debug]   minor_collections: 12
+[3537][      debug]   major_collections: 1
+[3537][      debug]   compactions: 0
+[3537][      debug]   top_heap_words: 1331712
+[3537][      debug]   
+[3548][      debug] 
+[3548][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c ***
+[3548][      debug] Elapsed: 232ms.
+[3548][      debug] GC stats for capture:
+[3548][      debug]   minor_words: 2.96537e+06
+[3548][      debug]   promoted_words: 444667
+[3548][      debug]   major_words: 464827
+[3548][      debug]   minor_collections: 4
+[3548][      debug]   major_collections: 0
+[3548][      debug]   compactions: 0
+[3548][      debug]   top_heap_words: 1331712
+[3548][      debug]   
+[3548][      debug] GC stats for main_process_full:
+[3548][      debug]   minor_words: 5.68896e+06
+[3548][      debug]   promoted_words: 1.15182e+06
+[3548][      debug]   major_words: 1.20964e+06
+[3548][      debug]   minor_collections: 12
+[3548][      debug]   major_collections: 1
+[3548][      debug]   compactions: 0
+[3548][      debug]   top_heap_words: 1331712
+[3548][      debug]   
+[3561][      debug] 
+[3561][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c ***
+[3561][      debug] Elapsed: 206ms.
+[3561][      debug] GC stats for capture:
+[3561][      debug]   minor_words: 2.99166e+06
+[3561][      debug]   promoted_words: 444874
+[3561][      debug]   major_words: 465049
+[3561][      debug]   minor_collections: 4
+[3561][      debug]   major_collections: 0
+[3561][      debug]   compactions: 0
+[3561][      debug]   top_heap_words: 1331712
+[3561][      debug]   
+[3561][      debug] GC stats for main_process_full:
+[3561][      debug]   minor_words: 5.71525e+06
+[3561][      debug]   promoted_words: 1.15203e+06
+[3561][      debug]   major_words: 1.20986e+06
+[3561][      debug]   minor_collections: 12
+[3561][      debug]   major_collections: 1
+[3561][      debug]   compactions: 0
+[3561][      debug]   top_heap_words: 1331712
+[3561][      debug]   
+[3552][      debug] 
+[3552][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c ***
+[3552][      debug] Elapsed: 260ms.
+[3552][      debug] GC stats for capture:
+[3552][      debug]   minor_words: 2.96109e+06
+[3552][      debug]   promoted_words: 444496
+[3552][      debug]   major_words: 464654
+[3552][      debug]   minor_collections: 4
+[3552][      debug]   major_collections: 0
+[3552][      debug]   compactions: 0
+[3552][      debug]   top_heap_words: 1331712
+[3552][      debug]   
+[3552][      debug] GC stats for main_process_full:
+[3552][      debug]   minor_words: 5.68468e+06
+[3552][      debug]   promoted_words: 1.15165e+06
+[3552][      debug]   major_words: 1.20947e+06
+[3552][      debug]   minor_collections: 12
+[3552][      debug]   major_collections: 1
+[3552][      debug]   compactions: 0
+[3552][      debug]   top_heap_words: 1331712
+[3552][      debug]   
+[3556][      debug] 
+[3556][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c ***
+[3556][      debug] Merging capture data for already-captured 's09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c'
+[3556][      debug] Elapsed: 210ms.
+[3556][      debug] GC stats for capture:
+[3556][      debug]   minor_words: 2.82262e+06
+[3556][      debug]   promoted_words: 440563
+[3556][      debug]   major_words: 460426
+[3556][      debug]   minor_collections: 4
+[3556][      debug]   major_collections: 0
+[3556][      debug]   compactions: 0
+[3556][      debug]   top_heap_words: 1331712
+[3556][      debug]   
+[3556][      debug] GC stats for main_process_full:
+[3556][      debug]   minor_words: 5.54621e+06
+[3556][      debug]   promoted_words: 1.14772e+06
+[3556][      debug]   major_words: 1.20524e+06
+[3556][      debug]   minor_collections: 12
+[3556][      debug]   major_collections: 1
+[3556][      debug]   compactions: 0
+[3556][      debug]   top_heap_words: 1331712
+[3556][      debug]   
+[3568][      debug] 
+[3568][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c ***
+[3568][      debug] Merging capture data for already-captured 's09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c'
+[3568][      debug] Elapsed: 199ms.
+[3568][      debug] GC stats for capture:
+[3568][      debug]   minor_words: 2.84633e+06
+[3568][      debug]   promoted_words: 440799
+[3568][      debug]   major_words: 460670
+[3568][      debug]   minor_collections: 4
+[3568][      debug]   major_collections: 0
+[3568][      debug]   compactions: 0
+[3568][      debug]   top_heap_words: 1331712
+[3568][      debug]   
+[3568][      debug] GC stats for main_process_full:
+[3568][      debug]   minor_words: 5.56992e+06
+[3568][      debug]   promoted_words: 1.14795e+06
+[3568][      debug]   major_words: 1.20548e+06
+[3568][      debug]   minor_collections: 12
+[3568][      debug]   major_collections: 1
+[3568][      debug]   compactions: 0
+[3568][      debug]   top_heap_words: 1331712
+[3568][      debug]   
+
+[3566][      debug] 
+[3566][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c ***
+[3566][      debug] Merging capture data for already-captured 's09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c'
+[3566][      debug] Elapsed: 255ms.
+[3566][      debug] GC stats for capture:
+[3566][      debug]   minor_words: 2.82048e+06
+[3566][      debug]   promoted_words: 440482
+[3566][      debug]   major_words: 460344
+[3566][      debug]   minor_collections: 4
+[3566][      debug]   major_collections: 0
+[3566][      debug]   compactions: 0
+[3566][      debug]   top_heap_words: 1331712
+[3566][      debug]   
+[3566][      debug] GC stats for main_process_full:
+[3566][      debug]   minor_words: 5.54406e+06
+[3566][      debug]   promoted_words: 1.14764e+06
+[3566][      debug]   major_words: 1.20516e+06
+[3566][      debug]   minor_collections: 12
+[3566][      debug]   major_collections: 1
+[3566][      debug]   compactions: 0
+[3566][      debug]   top_heap_words: 1331712
+[3566][      debug]   
+[3571][      debug] 
+[3571][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c ***
+[3571][      debug] Elapsed: 298ms.
+[3571][      debug] GC stats for capture:
+[3571][      debug]   minor_words: 2.99163e+06
+[3571][      debug]   promoted_words: 444866
+[3571][      debug]   major_words: 465039
+[3571][      debug]   minor_collections: 4
+[3571][      debug]   major_collections: 0
+[3571][      debug]   compactions: 0
+[3571][      debug]   top_heap_words: 1331712
+[3571][      debug]   
+[3571][      debug] GC stats for main_process_full:
+[3571][      debug]   minor_words: 5.71521e+06
+[3571][      debug]   promoted_words: 1.15202e+06
+[3571][      debug]   major_words: 1.20985e+06
+[3571][      debug]   minor_collections: 12
+[3571][      debug]   major_collections: 1
+[3571][      debug]   compactions: 0
+[3571][      debug]   top_heap_words: 1331712
+[3571][      debug]   
+
+
+
+
+
+
+
+
+[3588][      debug] 
+[3588][      debug] *** Beginning capture of file /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c ***
+[3588][      debug] Merging capture data for already-captured 's09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c'
+[3588][      debug] Elapsed: 336ms.
+[3588][      debug] GC stats for capture:
+[3588][      debug]   minor_words: 2.8463e+06
+[3588][      debug]   promoted_words: 440793
+[3588][      debug]   major_words: 460664
+[3588][      debug]   minor_collections: 4
+[3588][      debug]   major_collections: 0
+[3588][      debug]   compactions: 0
+[3588][      debug]   top_heap_words: 1331712
+[3588][      debug]   
+[3588][      debug] GC stats for main_process_full:
+[3588][      debug]   minor_words: 5.56988e+06
+[3588][      debug]   promoted_words: 1.14795e+06
+[3588][      debug]   major_words: 1.20548e+06
+[3588][      debug]   minor_collections: 12
+[3588][      debug]   major_collections: 1
+[3588][      debug]   compactions: 0
+[3588][      debug]   top_heap_words: 1331712
+[3588][      debug]   
+[3617][      debug] GC stats for capture:
+[3617][      debug]   minor_words: 15055
+[3617][      debug]   promoted_words: 0
+[3617][      debug]   major_words: 514
+[3617][      debug]   minor_collections: 0
+[3617][      debug]   major_collections: 0
+[3617][      debug]   compactions: 0
+[3617][      debug]   top_heap_words: 760832
+[3617][      debug]   
+[3617][      debug] GC stats for main_process_full:
+[3617][      debug]   minor_words: 2.73713e+06
+[3617][      debug]   promoted_words: 707042
+[3617][      debug]   major_words: 745216
+[3617][      debug]   minor_collections: 8
+[3617][      debug]   major_collections: 1
+[3617][      debug]   compactions: 0
+[3617][      debug]   top_heap_words: 760832
+[3617][      debug]   
+[3615][      debug] GC stats for capture:
+[3615][      debug]   minor_words: 15053
+[3615][      debug]   promoted_words: 0
+[3615][      debug]   major_words: 514
+[3615][      debug]   minor_collections: 0
+[3615][      debug]   major_collections: 0
+[3615][      debug]   compactions: 0
+[3615][      debug]   top_heap_words: 760832
+[3615][      debug]   
+[3615][      debug] GC stats for main_process_full:
+[3615][      debug]   minor_words: 2.73713e+06
+[3615][      debug]   promoted_words: 707041
+[3615][      debug]   major_words: 745215
+[3615][      debug]   minor_collections: 8
+[3615][      debug]   major_collections: 1
+[3615][      debug]   compactions: 0
+[3615][      debug]   top_heap_words: 760832
+[3615][      debug]   
+[3637][      debug] GC stats for capture:
+[3637][      debug]   minor_words: 15053
+[3637][      debug]   promoted_words: 0
+[3637][      debug]   major_words: 514
+[3637][      debug]   minor_collections: 0
+[3637][      debug]   major_collections: 0
+[3637][      debug]   compactions: 0
+[3637][      debug]   top_heap_words: 760832
+[3637][      debug]   
+[3637][      debug] GC stats for main_process_full:
+[3637][      debug]   minor_words: 2.73713e+06
+[3637][      debug]   promoted_words: 707041
+[3637][      debug]   major_words: 745215
+[3637][      debug]   minor_collections: 8
+[3637][      debug]   major_collections: 1
+[3637][      debug]   compactions: 0
+[3637][      debug]   top_heap_words: 760832
+[3637][      debug]   
+[3638][      debug] GC stats for capture:
+[3638][      debug]   minor_words: 15055
+[3638][      debug]   promoted_words: 0
+[3638][      debug]   major_words: 514
+[3638][      debug]   minor_collections: 0
+[3638][      debug]   major_collections: 0
+[3638][      debug]   compactions: 0
+[3638][      debug]   top_heap_words: 760832
+[3638][      debug]   
+[3638][      debug] GC stats for main_process_full:
+[3638][      debug]   minor_words: 2.73713e+06
+[3638][      debug]   promoted_words: 707042
+[3638][      debug]   major_words: 745216
+[3638][      debug]   minor_collections: 8
+[3638][      debug]   major_collections: 1
+[3638][      debug]   compactions: 0
+[3638][      debug]   top_heap_words: 760832
+[3638][      debug]   
+[3643][      debug] GC stats for capture:
+[3643][      debug]   minor_words: 15053
+[3643][      debug]   promoted_words: 0
+[3643][      debug]   major_words: 514
+[3643][      debug]   minor_collections: 0
+[3643][      debug]   major_collections: 0
+[3643][      debug]   compactions: 0
+[3643][      debug]   top_heap_words: 760832
+[3643][      debug]   
+[3643][      debug] GC stats for main_process_full:
+[3643][      debug]   minor_words: 2.73713e+06
+[3643][      debug]   promoted_words: 707041
+[3643][      debug]   major_words: 745215
+[3643][      debug]   minor_collections: 8
+[3643][      debug]   major_collections: 1
+[3643][      debug]   compactions: 0
+[3643][      debug]   top_heap_words: 760832
+[3643][      debug]   
+[3642][      debug] GC stats for capture:
+[3642][      debug]   minor_words: 15055
+[3642][      debug]   promoted_words: 0
+[3642][      debug]   major_words: 514
+[3642][      debug]   minor_collections: 0
+[3642][      debug]   major_collections: 0
+[3642][      debug]   compactions: 0
+[3642][      debug]   top_heap_words: 760832
+[3642][      debug]   
+[3642][      debug] GC stats for main_process_full:
+[3642][      debug]   minor_words: 2.73713e+06
+[3642][      debug]   promoted_words: 707042
+[3642][      debug]   major_words: 745216
+[3642][      debug]   minor_collections: 8
+[3642][      debug]   major_collections: 1
+[3642][      debug]   compactions: 0
+[3642][      debug]   top_heap_words: 760832
+[3642][      debug]   
+
+[3645][      debug] GC stats for capture:
+[3645][      debug]   minor_words: 15053
+[3645][      debug]   promoted_words: 0
+[3645][      debug]   major_words: 514
+[3645][      debug]   minor_collections: 0
+[3645][      debug]   major_collections: 0
+[3645][      debug]   compactions: 0
+[3645][      debug]   top_heap_words: 760832
+[3645][      debug]   
+[3645][      debug] GC stats for main_process_full:
+[3645][      debug]   minor_words: 2.73713e+06
+[3645][      debug]   promoted_words: 707041
+[3645][      debug]   major_words: 745215
+[3645][      debug]   minor_collections: 8
+[3645][      debug]   major_collections: 1
+[3645][      debug]   compactions: 0
+[3645][      debug]   top_heap_words: 760832
+[3645][      debug]   
+[3644][      debug] GC stats for capture:
+[3644][      debug]   minor_words: 15055
+[3644][      debug]   promoted_words: 0
+[3644][      debug]   major_words: 514
+[3644][      debug]   minor_collections: 0
+[3644][      debug]   major_collections: 0
+[3644][      debug]   compactions: 0
+[3644][      debug]   top_heap_words: 760832
+[3644][      debug]   
+[3644][      debug] GC stats for main_process_full:
+[3644][      debug]   minor_words: 2.73713e+06
+[3644][      debug]   promoted_words: 707042
+[3644][      debug]   major_words: 745216
+[3644][      debug]   minor_collections: 8
+[3644][      debug]   major_collections: 1
+[3644][      debug]   compactions: 0
+[3644][      debug]   top_heap_words: 760832
+[3644][      debug]   
+[3653][      debug] GC stats for capture:
+[3653][      debug]   minor_words: 15055
+[3653][      debug]   promoted_words: 0
+[3653][      debug]   major_words: 514
+[3653][      debug]   minor_collections: 0
+[3653][      debug]   major_collections: 0
+[3653][      debug]   compactions: 0
+[3653][      debug]   top_heap_words: 760832
+[3653][      debug]   
+[3653][      debug] GC stats for main_process_full:
+[3653][      debug]   minor_words: 2.73713e+06
+[3653][      debug]   promoted_words: 707042
+[3653][      debug]   major_words: 745216
+[3653][      debug]   minor_collections: 8
+[3653][      debug]   major_collections: 1
+[3653][      debug]   compactions: 0
+[3653][      debug]   top_heap_words: 760832
+[3653][      debug]   
+
+[3687][      debug] GC stats for capture:
+[3687][      debug]   minor_words: 15053
+[3687][      debug]   promoted_words: 0
+[3687][      debug]   major_words: 514
+[3687][      debug]   minor_collections: 0
+[3687][      debug]   major_collections: 0
+[3687][      debug]   compactions: 0
+[3687][      debug]   top_heap_words: 760832
+[3687][      debug]   
+[3687][      debug] GC stats for main_process_full:
+[3687][      debug]   minor_words: 2.73713e+06
+[3687][      debug]   promoted_words: 707041
+[3687][      debug]   major_words: 745215
+[3687][      debug]   minor_collections: 8
+[3687][      debug]   major_collections: 1
+[3687][      debug]   compactions: 0
+[3687][      debug]   top_heap_words: 760832
+[3687][      debug]   
+[3462][      debug] GC stats for capture:
+[3462][      debug]   minor_words: 1441
+[3462][      debug]   promoted_words: 0
+[3462][      debug]   major_words: 514
+[3462][      debug]   minor_collections: 0
+[3462][      debug]   major_collections: 0
+[3462][      debug]   compactions: 0
+[3462][      debug]   top_heap_words: 760832
+[3462][      debug]   
+[3462][      debug] GC stats for main_process_full:
+[3462][      debug]   minor_words: 2.96236e+06
+[3462][      debug]   promoted_words: 706903
+[3462][      debug]   major_words: 745591
+[3462][      debug]   minor_collections: 8
+[3462][      debug]   major_collections: 1
+[3462][      debug]   compactions: 0
+[3462][      debug]   top_heap_words: 760832
+[3462][      debug]   
+
+[3716][      phase] ============================================================
+[3716][      phase] = New infer execution begins
+[3716][      phase] ============================================================
+[3716][environment] CWD = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic
+[3716][environment] No .inferconfig file found
+[3716][environment] Project root = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic
+[3716][environment] INFER_ARGS =   @/tmp/args.tmp.d9dfae --progress-bar-style plain
+[3716][environment] command line arguments:   infer analyze --results-dir
+[3716][environment]                           /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1219/CWE121/infer/infer-out
+[3716][environment] Available memory at startup: 6179 MB
+[3716][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[3716][environment] Scheduler: restart
+[3716][environment] Cores used: 1
+[3716][environment] Infer version v1.2.0
+[3716][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[3716][environment] 
+[3716][      debug] GC stats for capture:
+[3716][      debug]   minor_words: 581
+[3716][      debug]   promoted_words: 0
+[3716][      debug]   major_words: 514
+[3716][      debug]   minor_collections: 0
+[3716][      debug]   major_collections: 0
+[3716][      debug]   compactions: 0
+[3716][      debug]   top_heap_words: 760832
+[3716][      debug]   
+[3716][   progress] Found 7 source files to analyze in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1219/CWE121/infer/infer-out
+[3716][   progress] /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c starting
+[3716][   progress] /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c DONE
+[3716][   progress] /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c starting
+[3716][   progress] /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c DONE
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c starting
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c DONE
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c starting
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_02.c DONE
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c starting
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_03.c DONE
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c starting
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c DONE
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c starting
+[3716][   progress] s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c DONE
+[3716][      debug] Backend stats:
+[3716][      debug]   summary_file_try_load= 384
+[3716][      debug]   summary_read_from_disk= 10
+[3716][      debug]   summary_cache_hits= 213 (35%)
+[3716][      debug]   summary_cache_misses= 384
+[3716][      debug]   ondemand_procs_analyzed= 78
+[3716][      debug]   proc_locker_lock_time_user= 0.00112800
+[3716][      debug]   proc_locker_lock_time_sys= 0.00013100
+[3716][      debug]   proc_locker_lock_time_wall= 0.00133105
+[3716][      debug]   proc_locker_lock_time_oncpu_pct= 95%
+[3716][      debug]   proc_locker_unlock_time_user= 0.00109500
+[3716][      debug]   proc_locker_unlock_time_sys= 0.00012900
+[3716][      debug]   proc_locker_unlock_time_wall= 0.00128967
+[3716][      debug]   proc_locker_unlock_time_oncpu_pct= 95%
+[3716][      debug]   restart_scheduler_useful_time_user= 0.05541700
+[3716][      debug]   restart_scheduler_useful_time_sys= 0.00760100
+[3716][      debug]   restart_scheduler_useful_time_wall= 0.06382124
+[3716][      debug]   restart_scheduler_useful_time_oncpu_pct= 99%
+[3716][      debug]   restart_scheduler_total_time_user= 0.05547500
+[3716][      debug]   restart_scheduler_total_time_sys= 0.00760900
+[3716][      debug]   restart_scheduler_total_time_wall= 0.06388660
+[3716][      debug]   restart_scheduler_total_time_oncpu_pct= 99%
+[3716][      debug]   pulse_aliasing_contradictions= 0
+[3716][      debug]   pulse_args_length_contradictions= 0
+[3716][      debug]   pulse_captured_vars_length_contradictions= 0
+[3716][      debug]   pulse_disjuncts_dropped= 0
+[3716][      debug]   pulse_interrupted_loops= 3
+[3716][      debug]   pulse_summaries_contradictions= 0
+[3716][      debug]   pulse_summaries_unsat_for_caller= 40
+[3716][      debug]   pulse_summaries_unsat_for_caller_percent= 51
+[3716][      debug]   pulse_summaries_with_some_unreachable_nodes= 4
+[3716][      debug]   pulse_summaries_with_some_unreachable_nodes_percent= 5
+[3716][      debug]   pulse_summaries_with_some_unreachable_returns= 1
+[3716][      debug]   pulse_summaries_with_some_unreachable_returns_percent= 0.1%
+[3716][      debug]   pulse_summaries_count= [1 -> 63, 2 -> 5, 3 -> 3, 4 -> 2, 5 -> 1, 9 -> 1, 12 -> 2, 15 -> 1]
+[3716][      debug]   pulse_summaries_total_disjuncts= 143
+[3716][      debug]   pulse_summaries_count_0_continue_program= 1
+[3716][      debug]   pulse_summaries_count_0_percent= 1
+[3716][      debug]   topl_reachable_calls= 0
+[3716][      debug]   timeouts= 0
+[3716][      debug]   timings= timings for liveness:
+[3716][      debug]     p10: 0.000006s p20: 0.000007s p30: 0.000012s p40: 0.000016s
+[3716][      debug]     p50: 0.000020s p60: 0.000020s p70: 0.000029s p80: 0.000058s
+[3716][      debug]     p90: 0.000083s p95: 0.000092s p96: 0.000106s p97: 0.000128s
+[3716][      debug]     p98: 0.000137s p99: 0.000142s p99.9: 0.000143s p99.99: 0.000143s 
+[3716][      debug]   timings for parameter-not-null-checked:
+[3716][      debug]     p10: 0.000003s p20: 0.000004s p30: 0.000006s p40: 0.000007s
+[3716][      debug]     p50: 0.000008s p60: 0.000009s p70: 0.000012s p80: 0.000024s
+[3716][      debug]     p90: 0.000032s p95: 0.000044s p96: 0.000048s p97: 0.000051s
+[3716][      debug]     p98: 0.000061s p99: 0.000063s p99.9: 0.000063s p99.99: 0.000063s 
+[3716][      debug]   timings for pulse:
+[3716][      debug]     p10: 0.000012s p20: 0.000014s p30: 0.000034s p40: 0.000044s
+[3716][      debug]     p50: 0.000158s p60: 0.000201s p70: 0.000249s p80: 0.000510s
+[3716][      debug]     p90: 0.001098s p95: 0.001656s p96: 0.001842s p97: 0.002155s
+[3716][      debug]     p98: 0.003169s p99: 0.003931s p99.9: 0.004197s p99.99: 0.004197s 
+[3716][      debug]   timings for racerd:
+[3716][      debug]     p10: 0.000004s p20: 0.000005s p30: 0.000008s p40: 0.000011s
+[3716][      debug]     p50: 0.000018s p60: 0.000020s p70: 0.000027s p80: 0.000053s
+[3716][      debug]     p90: 0.000063s p95: 0.000078s p96: 0.000086s p97: 0.000091s
+[3716][      debug]     p98: 0.000098s p99: 0.000272s p99.9: 0.000339s p99.99: 0.000339s 
+[3716][      debug]   timings for self-in-block:
+[3716][      debug]     p10: 0.000001s p20: 0.000001s p30: 0.000001s p40: 0.000001s
+[3716][      debug]     p50: 0.000001s p60: 0.000001s p70: 0.000001s p80: 0.000002s
+[3716][      debug]     p90: 0.000002s p95: 0.000002s p96: 0.000002s p97: 0.000002s
+[3716][      debug]     p98: 0.000002s p99: 0.000002s p99.9: 0.000002s p99.99: 0.000002s 
+[3716][      debug]   timings for siof:
+[3716][      debug]     p10: 0.000012s p20: 0.000014s p30: 0.000016s p40: 0.000019s
+[3716][      debug]     p50: 0.000022s p60: 0.000024s p70: 0.000029s p80: 0.000047s
+[3716][      debug]     p90: 0.000053s p95: 0.000072s p96: 0.000075s p97: 0.000081s
+[3716][      debug]     p98: 0.000103s p99: 0.001612s p99.9: 0.002198s p99.99: 0.002198s 
+[3716][      debug]   timings for starvation:
+[3716][      debug]     p10: 0.000004s p20: 0.000005s p30: 0.000008s p40: 0.000009s
+[3716][      debug]     p50: 0.000018s p60: 0.000019s p70: 0.000029s p80: 0.000051s
+[3716][      debug]     p90: 0.000060s p95: 0.000087s p96: 0.000093s p97: 0.000097s
+[3716][      debug]     p98: 0.000109s p99: 0.000206s p99.9: 0.000243s p99.99: 0.000243s 
+[3716][      debug]   timings for preanalysis:
+[3716][      debug]     p10: 0.000051s p20: 0.000060s p30: 0.000071s p40: 0.000078s
+[3716][      debug]     p50: 0.000082s p60: 0.000090s p70: 0.000103s p80: 0.000132s
+[3716][      debug]     p90: 0.000165s p95: 0.000188s p96: 0.000196s p97: 0.000212s
+[3716][      debug]     p98: 0.000236s p99: 0.000308s p99.9: 0.000335s p99.99: 0.000335s 
+[3716][      debug]   
+[3716][      debug]   longest_proc_duration_heap= [
+[3716][      debug]    6216us: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c: decodeHexChars
+[3716][      debug]    5919us: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c: decodeHexWChars
+[3716][      debug]    3926us: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c: internal_start
+[3716][      debug]    3708us: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c: printDoubleLine
+[3716][      debug]    3452us: s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c: main
+[3716][      debug]    2543us: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c: printShortLine
+[3716][      debug]    2313us: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c: printBytesLine
+[3716][      debug]    1926us: s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01_good
+[3716][      debug]    1733us: s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05.c: goodG2B1
+[3716][      debug]    1640us: s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_04.c: goodG2B2
+[3716][      debug]   ]
+[3716][      debug]   process_times_user= 0.00000000
+[3716][      debug]   process_times_sys= 0.00000000
+[3716][      debug]   process_times_wall= 0.00000000
+[3716][      debug]   process_times_oncpu_pct= 0%
+[3716][      debug]   useful_times_user= 0.00000000
+[3716][      debug]   useful_times_sys= 0.00000000
+[3716][      debug]   useful_times_wall= 0.00000000
+[3716][      debug]   useful_times_oncpu_pct= 0%
+[3716][      debug]   spec_store_times_user= 0.00315500
+[3716][      debug]   spec_store_times_sys= 0.00038800
+[3716][      debug]   spec_store_times_wall= 0.00361248
+[3716][      debug]   spec_store_times_oncpu_pct= 98%
+[3716][      debug]   
+[3716][      debug] GC stats for backend_stats.:
+[3716][      debug]   minor_words: 1.15712e+07
+[3716][      debug]   promoted_words: 719873
+[3716][      debug]   major_words: 809246
+[3716][      debug]   minor_collections: 12
+[3716][      debug]   major_collections: 2
+[3716][      debug]   compactions: 0
+[3716][      debug]   top_heap_words: 1531904
+[3716][      debug]   
+[3716][      debug] Analysis phase finished in 74.4ms
+[3716][      debug] backend_stats.scheduler_process_analysis_time_user= 0.06530800
+[3716][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.00821800
+[3716][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.07430402
+[3716][      debug] backend_stats.scheduler_process_analysis_time_oncpu_pct= 99%
+[3716][      debug] GC stats for analysis_scheduler:
+[3716][      debug]   minor_words: 1.22772e+07
+[3716][      debug]   promoted_words: 719873
+[3716][      debug]   major_words: 1.11456e+06
+[3716][      debug]   minor_collections: 12
+[3716][      debug]   major_collections: 2
+[3716][      debug]   compactions: 0
+[3716][      debug]   top_heap_words: 1761792
+[3716][      debug]   
+[3716][     result] 
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+
+Found 1 issue
+  Issue Type(ISSUED_TYPE_ID): #
+  Memory Leak(MEMORY_LEAK_C): 1
+
+[3716][      debug] GC stats for report:
+[3716][      debug]   minor_words: 50976
+[3716][      debug]   promoted_words: 6755
+[3716][      debug]   major_words: 7804
+[3716][      debug]   minor_collections: 1
+[3716][      debug]   major_collections: 0
+[3716][      debug]   compactions: 0
+[3716][      debug]   top_heap_words: 1761792
+[3716][      debug]   
+[3716][      debug] GC stats for main_process_full:
+[3716][      debug]   minor_words: 1.52917e+07
+[3716][      debug]   promoted_words: 1.4472e+06
+[3716][      debug]   major_words: 1.88986e+06
+[3716][      debug]   minor_collections: 21
+[3716][      debug]   major_collections: 3
+[3716][      debug]   compactions: 0
+[3716][      debug]   top_heap_words: 1761792
+[3716][      debug]   

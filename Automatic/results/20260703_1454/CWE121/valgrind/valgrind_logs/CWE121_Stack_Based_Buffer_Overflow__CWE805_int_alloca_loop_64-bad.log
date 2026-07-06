@@ -1,0 +1,32 @@
+==307853== Memcheck, a memory error detector
+==307853== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==307853== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==307853== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_64-bad
+==307853== Parent PID: 307852
+==307853== 
+==307853== 
+==307853== Process terminating with default action of signal 6 (SIGABRT)
+==307853==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==307853==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==307853==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==307853==    by 0x48B427D: raise (raise.c:26)
+==307853==    by 0x48978FE: abort (abort.c:79)
+==307853==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==307853==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==307853==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==307853==    by 0x1093D4: CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_64_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_64-bad)
+==307853== 
+==307853== HEAP SUMMARY:
+==307853==     in use at exit: 4,096 bytes in 1 blocks
+==307853==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==307853== 
+==307853== LEAK SUMMARY:
+==307853==    definitely lost: 0 bytes in 0 blocks
+==307853==    indirectly lost: 0 bytes in 0 blocks
+==307853==      possibly lost: 0 bytes in 0 blocks
+==307853==    still reachable: 4,096 bytes in 1 blocks
+==307853==         suppressed: 0 bytes in 0 blocks
+==307853== Rerun with --leak-check=full to see details of leaked memory
+==307853== 
+==307853== For lists of detected and suppressed errors, rerun with: -s
+==307853== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,122 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK          2470
+TIMEOUT       38
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK   TIMEOUT
+  1:         71         1
+  2:         71         1
+  3:         71         1
+  4:         71         1
+  5:         71         1
+  6:         71         1
+  7:         71         1
+  8:         71         1
+  9:         71         1
+ 10:         71         1
+ 11:         71         1
+ 12:         71         1
+ 13:         71         1
+ 14:         71         1
+ 15:         71         1
+ 16:         71         1
+ 17:         71         1
+ 18:         71         1
+ 21:         22         1
+ 22:         22         1
+ 31:         69         1
+ 32:         69         1
+ 34:         69         1
+ 41:         69         1
+ 42:         22         1
+ 44:         69         1
+ 45:         69         1
+ 51:         69         1
+ 52:         69         1
+ 53:         69         1
+ 54:         69         1
+ 61:         22         1
+ 63:         69         1
+ 64:         69         1
+ 65:         69         1
+ 66:         69         1
+ 67:         69         1
+ 68:         69         1
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK   TIMEOUT
+CWE129_connect_socket                 38         0
+CWE129_fgets                          38         0
+CWE129_fscanf                         38         0
+CWE129_large                          38         0
+CWE129_listen_socket                   0        38
+CWE129_rand                           38         0
+CWE131_loop                           34         0
+CWE131_memcpy                         34         0
+CWE131_memmove                        34         0
+CWE135                                38         0
+CWE193_char_alloca_cpy                34         0
+CWE193_char_alloca_loop               34         0
+CWE193_char_alloca_memcpy             34         0
+CWE193_char_alloca_memmove            34         0
+CWE193_char_alloca_ncpy               34         0
+CWE193_char_declare_cpy               34         0
+CWE193_char_declare_loop              34         0
+CWE193_char_declare_memcpy            34         0
+CWE193_char_declare_memmove           34         0
+CWE193_char_declare_ncpy              34         0
+CWE805_char_alloca_loop               34         0
+CWE805_char_alloca_memcpy             34         0
+CWE805_char_alloca_memmove            34         0
+CWE805_char_alloca_ncat               34         0
+CWE805_char_alloca_ncpy               34         0
+CWE805_char_alloca_snprintf           34         0
+CWE805_char_declare_loop              34         0
+CWE805_char_declare_memcpy            34         0
+CWE805_char_declare_memmove           34         0
+CWE805_char_declare_ncat              34         0
+CWE805_char_declare_ncpy              34         0
+CWE805_char_declare_snprintf          34         0
+CWE805_int64_t_alloca_loop            34         0
+CWE805_int64_t_alloca_memcpy          34         0
+CWE805_int64_t_alloca_memmove         34         0
+CWE805_int64_t_declare_loop           34         0
+CWE805_int64_t_declare_memcpy         34         0
+CWE805_int64_t_declare_memmove        34         0
+CWE805_int_alloca_loop                34         0
+CWE805_int_alloca_memcpy              34         0
+CWE805_int_alloca_memmove             34         0
+CWE805_int_declare_loop               34         0
+CWE805_int_declare_memcpy             34         0
+CWE805_int_declare_memmove            34         0
+CWE805_struct_alloca_loop             34         0
+CWE805_struct_alloca_memcpy           34         0
+CWE805_struct_alloca_memmove          34         0
+CWE805_struct_declare_loop            34         0
+CWE805_struct_declare_memcpy          34         0
+CWE805_struct_declare_memmove         34         0
+CWE806_char_alloca_loop               38         0
+CWE806_char_alloca_memcpy             38         0
+CWE806_char_alloca_memmove            38         0
+CWE806_char_alloca_ncat               38         0
+CWE806_char_alloca_ncpy               38         0
+CWE806_char_alloca_snprintf           38         0
+CWE806_char_declare_loop              38         0
+CWE806_char_declare_memcpy            38         0
+CWE806_char_declare_memmove           38         0
+CWE806_char_declare_ncat              38         0
+CWE806_char_declare_ncpy              38         0
+CWE806_char_declare_snprintf          38         0
+char_type_overrun_memcpy              18         0
+char_type_overrun_memmove             18         0
+dest_char_alloca_cat                  34         0
+dest_char_alloca_cpy                  34         0
+dest_char_declare_cat                 34         0
+dest_char_declare_cpy                 34         0
+src_char_alloca_cat                   38         0
+src_char_alloca_cpy                   38         0
+src_char_declare_cat                  38         0
+src_char_declare_cpy                  38         0

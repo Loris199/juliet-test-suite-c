@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2248/CWE121/asan/bin/juliet-run.sh"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/filc/bin/juliet-run.sh"
   "CMakeFiles/copy-run-script"
 )
 

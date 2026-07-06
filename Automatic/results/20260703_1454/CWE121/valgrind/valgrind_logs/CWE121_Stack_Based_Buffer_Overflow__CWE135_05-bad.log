@@ -1,0 +1,56 @@
+==302846== Memcheck, a memory error detector
+==302846== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==302846== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==302846== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_05-bad
+==302846== Parent PID: 302845
+==302846== 
+==302846== Invalid read of size 1
+==302846==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==302846==    by 0x48F6BFC: puts (ioputs.c:35)
+==302846==    by 0x10945B: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_05-bad)
+==302846==    by 0x1093CE: CWE121_Stack_Based_Buffer_Overflow__CWE135_05_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_05-bad)
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==  Address 0x4100000041 is not stack'd, malloc'd or (recently) free'd
+==302846== 
+==302846== 
+==302846== Process terminating with default action of signal 11 (SIGSEGV)
+==302846==  Access not within mapped region at address 0x4100000041
+==302846==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==302846==    by 0x48F6BFC: puts (ioputs.c:35)
+==302846==    by 0x10945B: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_05-bad)
+==302846==    by 0x1093CE: CWE121_Stack_Based_Buffer_Overflow__CWE135_05_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_05-bad)
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==    by 0x4100000040: ???
+==302846==  If you believe this happened as a result of a stack
+==302846==  overflow in your program's main thread (unlikely but
+==302846==  possible), you can try to increase the size of the
+==302846==  main thread stack using the --main-stacksize= flag.
+==302846==  The main thread stack size used in this run was 8388608.
+==302846== 
+==302846== HEAP SUMMARY:
+==302846==     in use at exit: 4,096 bytes in 1 blocks
+==302846==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==302846== 
+==302846== LEAK SUMMARY:
+==302846==    definitely lost: 0 bytes in 0 blocks
+==302846==    indirectly lost: 0 bytes in 0 blocks
+==302846==      possibly lost: 0 bytes in 0 blocks
+==302846==    still reachable: 4,096 bytes in 1 blocks
+==302846==         suppressed: 0 bytes in 0 blocks
+==302846== Rerun with --leak-check=full to see details of leaked memory
+==302846== 
+==302846== For lists of detected and suppressed errors, rerun with: -s
+==302846== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

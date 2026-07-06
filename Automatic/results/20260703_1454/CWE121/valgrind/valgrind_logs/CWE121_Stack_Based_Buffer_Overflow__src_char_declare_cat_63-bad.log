@@ -1,0 +1,51 @@
+==315833== Memcheck, a memory error detector
+==315833== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==315833== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==315833== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_63-bad
+==315833== Parent PID: 315832
+==315833== 
+==315833== Source and destination overlap in strcat(0x1ffefffdd0, 0x1ffefffe30)
+==315833==    at 0x484EFE3: strcat (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==315833==    by 0x1093F5: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_63b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_63-bad)
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414100414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833== 
+==315833== 
+==315833== Process terminating with default action of signal 6 (SIGABRT)
+==315833==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==315833==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==315833==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==315833==    by 0x48B427D: raise (raise.c:26)
+==315833==    by 0x48978FE: abort (abort.c:79)
+==315833==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==315833==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==315833==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==315833==    by 0x109416: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_63b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_63-bad)
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833==    by 0x4141414100414140: ???
+==315833==    by 0x4141414141414140: ???
+==315833== 
+==315833== HEAP SUMMARY:
+==315833==     in use at exit: 4,096 bytes in 1 blocks
+==315833==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==315833== 
+==315833== LEAK SUMMARY:
+==315833==    definitely lost: 0 bytes in 0 blocks
+==315833==    indirectly lost: 0 bytes in 0 blocks
+==315833==      possibly lost: 0 bytes in 0 blocks
+==315833==    still reachable: 4,096 bytes in 1 blocks
+==315833==         suppressed: 0 bytes in 0 blocks
+==315833== Rerun with --leak-check=full to see details of leaked memory
+==315833== 
+==315833== For lists of detected and suppressed errors, rerun with: -s
+==315833== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

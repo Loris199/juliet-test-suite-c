@@ -56,7 +56,7 @@ VBoxManage import Tests_TB.ova
 
 ======================================================================================
 Une fois dans la VM (SSH), pour tes runs
-mux new -s juliet          # nouvelle session détachable
+tmux new -s juliet          # nouvelle session détachable
 ./run_suite.sh               # lancer le run
 # Ctrl+b puis d              # se détacher (ne pas oublier !)
 exit                          # fermer la connexion SSH

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2257/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__twoIntsStruct_calloc_22-good"
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260701_2257/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__twoIntsStruct_calloc_22-good.pdb"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__twoIntsStruct_calloc_22-good"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__twoIntsStruct_calloc_22-good.pdb"
   "CMakeFiles/CWE401_Memory_Leak__twoIntsStruct_calloc_22-good.dir/s03/CWE401_Memory_Leak__twoIntsStruct_calloc_22a.c.o"
   "CMakeFiles/CWE401_Memory_Leak__twoIntsStruct_calloc_22-good.dir/s03/CWE401_Memory_Leak__twoIntsStruct_calloc_22a.c.o.d"
   "CMakeFiles/CWE401_Memory_Leak__twoIntsStruct_calloc_22-good.dir/s03/CWE401_Memory_Leak__twoIntsStruct_calloc_22b.c.o"
