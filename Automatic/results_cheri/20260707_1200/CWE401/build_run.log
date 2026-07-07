@@ -1,0 +1,7 @@
+Checking /home/loris/.config/cheribuild.json since /home/loris/cheribuild/cheribuild.json doesn't exist
+[1;35mWarning: No internet connection detected, will skip git updates![0m
+[1;36mOverriding default value for source-root with value from JSON key source-root -> /mnt/cheri-data/cheri[0m
+Sources will be stored in /mnt/cheri-data/cheri
+Build artifacts will be stored in /mnt/cheri-data/cheri/output
+[1;31mTarget juliet-cwe-401-riscv64-purecap does not exist.[0m Did you mean [1;34mjuliet-cwe-416-riscv64-purecap[0m or [1;34mjuliet-cwe-415-riscv64-purecap[0m or [1;34mjuliet-cwe-843-riscv64-purecap[0m?
+Build échoué pour CWE401, transfert / execution non fiables

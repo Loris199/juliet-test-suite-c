@@ -1,0 +1,8 @@
+cwe,tool,exit_code,duration_s
+401,gcc,0,111
+401,clang,0,147
+401,csa,0,258
+401,infer,0,287
+401,filc,0,216
+401,valgrind,0,467
+401,asan,0,138

@@ -1,0 +1,11 @@
+
+2026.07.06 16h43 : CWE 121, test CHERI -> Timeout Exec (1h)
+
+- - - - -
+
+2026.07.07 11h01 : CWE 126, CHERI -> Ok
+
+2026.07.07 12h00 : CWE 127 + 416 + 415 + 401, CHERI -> Ok sauf 401
+
+2026.07.07 13h22 : CWE 122 + 123 + 124, CHERI -> Ok sauf 123
+

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__twoIntsStruct_calloc_32-bad"
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__twoIntsStruct_calloc_32-bad.pdb"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__twoIntsStruct_calloc_32-bad"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__twoIntsStruct_calloc_32-bad.pdb"
   "CMakeFiles/CWE401_Memory_Leak__twoIntsStruct_calloc_32-bad.dir/s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c.o"
   "CMakeFiles/CWE401_Memory_Leak__twoIntsStruct_calloc_32-bad.dir/s03/CWE401_Memory_Leak__twoIntsStruct_calloc_32.c.o.d"
 )

@@ -1,0 +1,68 @@
+[1132107][environment] CWD = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test
+[1132107][environment] No .inferconfig file found
+[1132107][environment] Project root = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test
+[1132107][environment] INFER_ARGS =   @/tmp/args.tmp.400b29 --progress-bar-style plain
+[1132107][environment] command line arguments:   /home/loris/Desktop/Installations/infer-linux-x86_64-v1.2.0/lib/infer/infer/lib/wrappers/cc
+[1132107][environment]                           -Wl,--help
+[1132107][environment] Available memory at startup: 6683 MB
+[1132107][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[1132107][environment] Scheduler: restart
+[1132107][environment] Cores used: 1
+[1132107][environment] Infer version v1.2.0
+[1132107][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[1132107][environment] 
+[1132107][   progress] Capturing in make/cc mode...
+[1132107][      debug] GC stats for capture:
+[1132107][      debug]   minor_words: 21791
+[1132107][      debug]   promoted_words: 0
+[1132107][      debug]   major_words: 514
+[1132107][      debug]   minor_collections: 0
+[1132107][      debug]   major_collections: 0
+[1132107][      debug]   compactions: 0
+[1132107][      debug]   top_heap_words: 760832
+[1132107][      debug]   
+[1132107][      debug] GC stats for main_process_full:
+[1132107][      debug]   minor_words: 2.75357e+06
+[1132107][      debug]   promoted_words: 706839
+[1132107][      debug]   major_words: 745527
+[1132107][      debug]   minor_collections: 8
+[1132107][      debug]   major_collections: 1
+[1132107][      debug]   compactions: 0
+[1132107][      debug]   top_heap_words: 760832
+[1132107][      debug]   
+
+[1132136][      phase] ============================================================
+[1132136][      phase] = New infer execution begins
+[1132136][      phase] ============================================================
+[1132136][environment] CWD = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test
+[1132136][environment] No .inferconfig file found
+[1132136][environment] Project root = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test
+[1132136][environment] INFER_ARGS =   @/tmp/args.tmp.909e3f --progress-bar-style plain
+[1132136][environment] command line arguments:   /home/loris/Desktop/Installations/infer-linux-x86_64-v1.2.0/lib/infer/infer/lib/wrappers/c++
+[1132136][environment]                           -Wl,--help
+[1132136][environment] Available memory at startup: 6683 MB
+[1132136][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[1132136][environment] Scheduler: restart
+[1132136][environment] Cores used: 1
+[1132136][environment] Infer version v1.2.0
+[1132136][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[1132136][environment] 
+[1132136][   progress] Capturing in make/cc mode...
+[1132136][      debug] GC stats for capture:
+[1132136][      debug]   minor_words: 21641
+[1132136][      debug]   promoted_words: 0
+[1132136][      debug]   major_words: 514
+[1132136][      debug]   minor_collections: 0
+[1132136][      debug]   major_collections: 0
+[1132136][      debug]   compactions: 0
+[1132136][      debug]   top_heap_words: 760832
+[1132136][      debug]   
+[1132136][      debug] GC stats for main_process_full:
+[1132136][      debug]   minor_words: 2.74848e+06
+[1132136][      debug]   promoted_words: 706839
+[1132136][      debug]   major_words: 746566
+[1132136][      debug]   minor_collections: 8
+[1132136][      debug]   major_collections: 1
+[1132136][      debug]   compactions: 0
+[1132136][      debug]   top_heap_words: 760832
+[1132136][      debug]   

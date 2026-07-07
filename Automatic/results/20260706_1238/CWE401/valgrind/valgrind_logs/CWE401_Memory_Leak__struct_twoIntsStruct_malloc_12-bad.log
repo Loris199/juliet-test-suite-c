@@ -1,0 +1,22 @@
+==1050290== Memcheck, a memory error detector
+==1050290== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1050290== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1050290== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_12-bad
+==1050290== Parent PID: 1050289
+==1050290== 
+==1050290== Invalid free() / delete / delete[] / realloc()
+==1050290==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1050290==    by 0x10941D: CWE401_Memory_Leak__struct_twoIntsStruct_malloc_12_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_12-bad)
+==1050290==    by 0x109471: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__struct_twoIntsStruct_malloc_12-bad)
+==1050290==  Address 0x1ffefff5a0 is on thread 1's stack
+==1050290==  in frame #1, created by CWE401_Memory_Leak__struct_twoIntsStruct_malloc_12_bad (???:)
+==1050290== 
+==1050290== 
+==1050290== HEAP SUMMARY:
+==1050290==     in use at exit: 0 bytes in 0 blocks
+==1050290==   total heap usage: 1 allocs, 2 frees, 4,096 bytes allocated
+==1050290== 
+==1050290== All heap blocks were freed -- no leaks are possible
+==1050290== 
+==1050290== For lists of detected and suppressed errors, rerun with: -s
+==1050290== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

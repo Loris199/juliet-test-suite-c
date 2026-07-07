@@ -1,0 +1,72 @@
+/mnt/cheri-data/cheri/juliet-test-suite/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK            86
+TIMEOUT       37
+SIGPROT      635
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK   TIMEOUT   SIGPROT
+  1:          2         1        18
+  2:          2         1        18
+  3:          2         1        18
+  4:          2         1        18
+  5:          2         1        18
+  6:          2         1        18
+  7:          2         1        18
+  8:          1         1        19
+  9:          2         1        18
+ 10:          2         1        18
+ 11:          2         1        18
+ 12:         16         0         5
+ 13:          2         1        18
+ 14:          2         1        18
+ 15:          2         1        18
+ 16:          2         1        18
+ 17:          2         1        18
+ 18:          2         1        18
+ 21:          1         1         9
+ 22:          2         1         8
+ 31:          2         1        18
+ 32:          1         1        19
+ 34:          2         1        18
+ 41:          2         1        18
+ 42:          2         1         8
+ 44:          2         1        18
+ 45:          2         1        18
+ 51:          2         1        18
+ 52:          2         1        18
+ 53:          2         1        18
+ 54:          2         1        18
+ 61:          2         1         8
+ 63:          1         1        19
+ 64:          2         1        18
+ 65:          2         1        18
+ 66:          2         1        18
+ 67:          2         1        18
+ 68:          2         1        18
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK   TIMEOUT   SIGPROT
+CWE839_connect_socket                  1         0        37
+CWE839_fgets                          38         0         0
+CWE839_fscanf                          1         0        37
+CWE839_listen_socket                   1        37         0
+CWE839_negative                        1         0        37
+CWE839_rand                           34         0         4
+char_alloca_cpy                        1         0        33
+char_alloca_loop                       1         0        33
+char_alloca_memcpy                     0         0        34
+char_alloca_memmove                    0         0        34
+char_alloca_ncpy                       1         0        33
+char_declare_cpy                       1         0        33
+char_declare_loop                      1         0        33
+char_declare_memcpy                    1         0        33
+char_declare_memmove                   0         0        34
+char_declare_ncpy                      0         0        34
+malloc_char_cpy                        1         0        37
+malloc_char_loop                       1         0        37
+malloc_char_memcpy                     1         0        37
+malloc_char_memmove                    1         0        37
+malloc_char_ncpy                       0         0        38

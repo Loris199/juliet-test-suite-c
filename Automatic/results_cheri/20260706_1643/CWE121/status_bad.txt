@@ -1,0 +1,89 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK           153
+TIMEOUT       38
+SIGPROT     1104
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK   TIMEOUT   SIGPROT
+  1:          3         1        34
+  2:          3         1        34
+  3:          3         1        34
+  4:          4         1        33
+  5:          4         1        33
+  6:          3         1        34
+  7:          4         1        33
+  8:          3         1        34
+  9:          3         1        34
+ 10:          4         1        32
+ 11:          3         1        33
+ 12:         20         1        16
+ 13:          4         1        32
+ 14:          4         1        32
+ 15:          4         1        32
+ 16:          4         1        32
+ 17:          3         1        33
+ 18:          4         1        32
+ 21:          4         1         2
+ 22:          4         1         2
+ 31:          4         1        32
+ 32:          4         1        32
+ 34:          4         1        32
+ 41:          4         1        32
+ 42:          4         1         2
+ 44:          4         1        32
+ 45:          3         1        33
+ 51:          3         1        33
+ 52:          4         1        32
+ 53:          3         1        33
+ 54:          3         1        33
+ 61:          3         1         3
+ 63:          4         1        32
+ 64:          3         1        33
+ 65:          4         1        32
+ 66:          3         1        33
+ 67:          4         1        32
+ 68:          4         1        32
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK   TIMEOUT   SIGPROT
+CWE129_connect_socket                 38         0         0
+CWE129_fgets                          38         0         0
+CWE129_fscanf                         38         0         0
+CWE129_large                           1         0        37
+CWE129_listen_socket                   0        38         0
+CWE129_rand                           22         0        16
+CWE131_loop                            0         0        34
+CWE131_memcpy                          1         0        33
+CWE131_memmove                         1         0        33
+CWE135                                 0         0        38
+CWE193_char_alloca_cpy                 0         0        34
+CWE193_char_alloca_loop                1         0        33
+CWE193_char_alloca_memcpy              1         0        33
+CWE193_char_alloca_memmove             0         0        34
+CWE193_char_alloca_ncpy                0         0        34
+CWE193_char_declare_cpy                1         0        33
+CWE193_char_declare_loop               0         0        34
+CWE193_char_declare_memcpy             1         0        33
+CWE193_char_declare_memmove            1         0        33
+CWE193_char_declare_ncpy               1         0        33
+CWE805_char_alloca_loop                0         0        34
+CWE805_char_alloca_memcpy              0         0        34
+CWE805_char_alloca_memmove             0         0        34
+CWE805_char_alloca_ncat                0         0        34
+CWE805_char_alloca_ncpy                1         0        33
+CWE805_char_alloca_snprintf            0         0        34
+CWE805_char_declare_loop               1         0        33
+CWE805_char_declare_memcpy             1         0        33
+CWE805_char_declare_memmove            1         0        33
+CWE805_char_declare_ncat               1         0        33
+CWE805_char_declare_ncpy               0         0        34
+CWE805_char_declare_snprintf           1         0        33
+CWE805_int64_t_alloca_loop             0         0        34
+CWE805_int64_t_alloca_memcpy           0         0        34
+CWE805_int64_t_alloca_memmove          0         0        34
+CWE805_int64_t_declare_loop            1         0        33
+CWE805_int64_t_declare_memcpy          1         0        33
+CWE805_int64_t_declare_memmove         0         0         9

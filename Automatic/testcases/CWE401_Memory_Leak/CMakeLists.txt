@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.6)
 get_filename_component(CWE_FOLDER "${CMAKE_SOURCE_DIR}" NAME)
 string(REGEX MATCH "^CWE[0-9]+" CWE_NAME "${CWE_FOLDER}")
 
-# FILC
+# FILC / Compilateurs personnalisés
 if(DEFINED ENV{JULIET_CC})
     set(CMAKE_C_COMPILER $ENV{JULIET_CC})
 endif()

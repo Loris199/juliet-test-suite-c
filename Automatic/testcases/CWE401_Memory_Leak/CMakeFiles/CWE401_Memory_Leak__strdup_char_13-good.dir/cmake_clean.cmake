@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__strdup_char_13-good"
-  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/good/CWE401_Memory_Leak__strdup_char_13-good.pdb"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__strdup_char_13-good"
+  "/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/good/CWE401_Memory_Leak__strdup_char_13-good.pdb"
   "CMakeFiles/CWE401_Memory_Leak__strdup_char_13-good.dir/s02/CWE401_Memory_Leak__strdup_char_13.c.o"
   "CMakeFiles/CWE401_Memory_Leak__strdup_char_13-good.dir/s02/CWE401_Memory_Leak__strdup_char_13.c.o.d"
 )

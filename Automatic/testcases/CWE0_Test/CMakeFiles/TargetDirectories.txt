@@ -1,0 +1,14 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/support.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/copy-run-script.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_02-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_02-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_03-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_03-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_04-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_04-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_05-good.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_05-bad.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/edit_cache.dir
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE0_Test/CMakeFiles/rebuild_cache.dir

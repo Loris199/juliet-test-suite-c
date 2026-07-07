@@ -210,3 +210,75 @@
 [136299][      debug]   compactions: 0
 [136299][      debug]   top_heap_words: 760832
 [136299][      debug]   
+
+[957814][      phase] ============================================================
+[957814][      phase] = New infer execution begins
+[957814][      phase] ============================================================
+[957814][environment] CWD = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak
+[957814][environment] No .inferconfig file found
+[957814][environment] Project root = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak
+[957814][environment] INFER_ARGS =   @/tmp/args.tmp.f4610a --progress-bar-style plain
+[957814][environment] command line arguments:   /home/loris/Desktop/Installations/infer-linux-x86_64-v1.2.0/lib/infer/infer/lib/wrappers/cc
+[957814][environment]                           -Wl,--help
+[957814][environment] Available memory at startup: 5355 MB
+[957814][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[957814][environment] Scheduler: restart
+[957814][environment] Cores used: 1
+[957814][environment] Infer version v1.2.0
+[957814][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[957814][environment] 
+[957814][   progress] Capturing in make/cc mode...
+[957814][      debug] GC stats for capture:
+[957814][      debug]   minor_words: 21805
+[957814][      debug]   promoted_words: 0
+[957814][      debug]   major_words: 514
+[957814][      debug]   minor_collections: 0
+[957814][      debug]   major_collections: 0
+[957814][      debug]   compactions: 0
+[957814][      debug]   top_heap_words: 760832
+[957814][      debug]   
+[957814][      debug] GC stats for main_process_full:
+[957814][      debug]   minor_words: 2.74939e+06
+[957814][      debug]   promoted_words: 706847
+[957814][      debug]   major_words: 746650
+[957814][      debug]   minor_collections: 8
+[957814][      debug]   major_collections: 1
+[957814][      debug]   compactions: 0
+[957814][      debug]   top_heap_words: 760832
+[957814][      debug]   
+
+[957843][      phase] ============================================================
+[957843][      phase] = New infer execution begins
+[957843][      phase] ============================================================
+[957843][environment] CWD = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak
+[957843][environment] No .inferconfig file found
+[957843][environment] Project root = /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak
+[957843][environment] INFER_ARGS =   @/tmp/args.tmp.ebe4a7 --progress-bar-style plain
+[957843][environment] command line arguments:   /home/loris/Desktop/Installations/infer-linux-x86_64-v1.2.0/lib/infer/infer/lib/wrappers/c++
+[957843][environment]                           -Wl,--help
+[957843][environment] Available memory at startup: 5368 MB
+[957843][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), pulse (C/C++/ObjC, C#/.Net, Erlang, Hack, Java, Python), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java)
+[957843][environment] Scheduler: restart
+[957843][environment] Cores used: 1
+[957843][environment] Infer version v1.2.0
+[957843][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[957843][environment] 
+[957843][   progress] Capturing in make/cc mode...
+[957843][      debug] GC stats for capture:
+[957843][      debug]   minor_words: 21655
+[957843][      debug]   promoted_words: 0
+[957843][      debug]   major_words: 514
+[957843][      debug]   minor_collections: 0
+[957843][      debug]   major_collections: 0
+[957843][      debug]   compactions: 0
+[957843][      debug]   top_heap_words: 760832
+[957843][      debug]   
+[957843][      debug] GC stats for main_process_full:
+[957843][      debug]   minor_words: 2.74935e+06
+[957843][      debug]   promoted_words: 706829
+[957843][      debug]   major_words: 746647
+[957843][      debug]   minor_collections: 8
+[957843][      debug]   major_collections: 1
+[957843][      debug]   compactions: 0
+[957843][      debug]   top_heap_words: 760832
+[957843][      debug]   

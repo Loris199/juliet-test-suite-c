@@ -1,0 +1,8 @@
+cwe,phase,exit_code,duration_s
+122,build,0,164
+122,transfer,0,186
+122,execute,0,3883
+123,build,1,5
+124,build,0,86
+124,transfer,0,79
+124,execute,0,2723

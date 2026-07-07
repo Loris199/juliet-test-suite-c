@@ -73,29 +73,29 @@ CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__ch
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o: s01/CWE401_Memory_Leak__char_calloc_67a.c
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o"
-	/opt/fil/bin/filcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o -MF CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o.d -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o -c /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67a.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o -MF CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o.d -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o -c /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67a.c
 
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.i"
-	/opt/fil/bin/filcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67a.c > CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67a.c > CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.i
 
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.s"
-	/opt/fil/bin/filcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67a.c -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67a.c -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.s
 
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/flags.make
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o: s01/CWE401_Memory_Leak__char_calloc_67b.c
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o"
-	/opt/fil/bin/filcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o -MF CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o.d -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o -c /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67b.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o -MF CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o.d -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o -c /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67b.c
 
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.i"
-	/opt/fil/bin/filcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67b.c > CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67b.c > CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.i
 
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.s"
-	/opt/fil/bin/filcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67b.c -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/s01/CWE401_Memory_Leak__char_calloc_67b.c -o CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.s
 
 # Object files for target CWE401_Memory_Leak__char_calloc_67-bad
 CWE401_Memory_Leak__char_calloc_67__bad_OBJECTS = \
@@ -105,16 +105,16 @@ CWE401_Memory_Leak__char_calloc_67__bad_OBJECTS = \
 # External object files for target CWE401_Memory_Leak__char_calloc_67-bad
 CWE401_Memory_Leak__char_calloc_67__bad_EXTERNAL_OBJECTS =
 
-/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o
-/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o
-/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/build.make
-/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/support/libsupport.a
-/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad"
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67a.c.o
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/s01/CWE401_Memory_Leak__char_calloc_67b.c.o
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/build.make
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/support/libsupport.a
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad: CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE401_Memory_Leak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/build: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260703_1454/CWE401/filc/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad
+CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/build: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260706_1238/CWE401/asan/bin/CWE401/bad/CWE401_Memory_Leak__char_calloc_67-bad
 .PHONY : CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/build
 
 CMakeFiles/CWE401_Memory_Leak__char_calloc_67-bad.dir/clean:
