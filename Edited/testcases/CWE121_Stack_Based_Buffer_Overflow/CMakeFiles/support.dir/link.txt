@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Edited/bin/support/libsupport.a "CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Edited/testcasesupport/io.c.o" "CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Edited/testcasesupport/std_thread.c.o"
-/usr/bin/ranlib /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Edited/bin/support/libsupport.a
