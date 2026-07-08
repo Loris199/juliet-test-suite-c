@@ -1,0 +1,1639 @@
+===== CWE123 / asan : Tue Jul  7 20:21:24 CEST 2026 =====
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/juliet.py:94: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search("^CWE(\d+)", subdir)
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c.o
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c.o
+[  0%] Generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/juliet-run.sh
+[  0%] Built target copy-run-script
+[  1%] Linking C static library /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/support/libsupport.a
+[  1%] Built target support
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_01-good.dir/CWE123_Write_What_Where_Condition__connect_socket_01.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_01-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_01.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_03-good.dir/CWE123_Write_What_Where_Condition__connect_socket_03.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_03-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_03.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_08-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_08.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_02-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_02.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_05-good.dir/CWE123_Write_What_Where_Condition__connect_socket_05.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_07-good.dir/CWE123_Write_What_Where_Condition__connect_socket_07.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_02-good.dir/CWE123_Write_What_Where_Condition__connect_socket_02.c.o
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_06-good.dir/CWE123_Write_What_Where_Condition__connect_socket_06.c.o
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_04-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_04.c.o
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_04-good.dir/CWE123_Write_What_Where_Condition__connect_socket_04.c.o
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_07-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_07.c.o
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_05-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_05.c.o
+[  3%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_01-good
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_06-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_06.c.o
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_08-good.dir/CWE123_Write_What_Where_Condition__connect_socket_08.c.o
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_02-bad
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_03-bad
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_03-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_08-bad
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_05-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_07-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_02-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_06-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_01-bad
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_04-bad
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_04-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_07-bad
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_05-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_01-good
+[  5%] Built target CWE123_Write_What_Where_Condition__connect_socket_02-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_05-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_08-good
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_07-good
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_02-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_06-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_03-good
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_03-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_08-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_09-good.dir/CWE123_Write_What_Where_Condition__connect_socket_09.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_04-good
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_07-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_09-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_09.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_05-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_10-good.dir/CWE123_Write_What_Where_Condition__connect_socket_10.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_06-bad
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_04-bad
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_06-good
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_08-good
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_11-good.dir/CWE123_Write_What_Where_Condition__connect_socket_11.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_10-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_10.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_01-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_11-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_11.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_12-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_12.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_13-good.dir/CWE123_Write_What_Where_Condition__connect_socket_13.c.o
+[  7%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_09-good
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_13-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_13.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_12-good.dir/CWE123_Write_What_Where_Condition__connect_socket_12.c.o
+[  7%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_09-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_14-good.dir/CWE123_Write_What_Where_Condition__connect_socket_14.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_14-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_14.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_15-good.dir/CWE123_Write_What_Where_Condition__connect_socket_15.c.o
+[  8%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_10-good
+[  9%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_15-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_15.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_09-good
+[  9%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_10-bad
+[  9%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_11-good
+[  9%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_11-bad
+[  9%] Built target CWE123_Write_What_Where_Condition__connect_socket_09-bad
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_12-bad
+[ 11%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_16-good.dir/CWE123_Write_What_Where_Condition__connect_socket_16.c.o
+[ 11%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_16-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_16.c.o
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_13-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_12-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_13-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_14-good
+[ 12%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_17-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_17.c.o
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_14-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_15-good
+[ 12%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_17-good.dir/CWE123_Write_What_Where_Condition__connect_socket_17.c.o
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_11-good
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_10-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_15-bad
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_10-bad
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_11-bad
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_12-bad
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_13-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_16-good
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_14-good
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_13-good
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_15-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_16-bad
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_12-good
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_14-bad
+[ 12%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_18-good.dir/CWE123_Write_What_Where_Condition__connect_socket_18.c.o
+[ 13%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_18-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_18.c.o
+[ 13%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_17-bad
+[ 13%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_21-good.dir/CWE123_Write_What_Where_Condition__connect_socket_21.c.o
+[ 13%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_17-good
+[ 13%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-good.dir/CWE123_Write_What_Where_Condition__connect_socket_22b.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-good.dir/CWE123_Write_What_Where_Condition__connect_socket_22a.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_21-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_21.c.o
+[ 13%] Built target CWE123_Write_What_Where_Condition__connect_socket_15-bad
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_22a.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_22b.c.o
+[ 14%] Built target CWE123_Write_What_Where_Condition__connect_socket_16-bad
+[ 14%] Built target CWE123_Write_What_Where_Condition__connect_socket_16-good
+[ 14%] Built target CWE123_Write_What_Where_Condition__connect_socket_17-bad
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_31-good.dir/CWE123_Write_What_Where_Condition__connect_socket_31.c.o
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_18-good
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_31-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_31.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_32-good.dir/CWE123_Write_What_Where_Condition__connect_socket_32.c.o
+[ 14%] Built target CWE123_Write_What_Where_Condition__connect_socket_17-good
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_18-bad
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_21-good
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_32-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_32.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_34-good.dir/CWE123_Write_What_Where_Condition__connect_socket_34.c.o
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_22-good
+[ 15%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_21-bad
+[ 16%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_34-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_34.c.o
+[ 17%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_41-good.dir/CWE123_Write_What_Where_Condition__connect_socket_41.c.o
+[ 17%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_41-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_41.c.o
+[ 17%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_22-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_31-good
+[ 18%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_42-good.dir/CWE123_Write_What_Where_Condition__connect_socket_42.c.o
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_18-good
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_32-good
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_31-bad
+[ 18%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_42-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_42.c.o
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_21-good
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_18-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_21-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_32-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_22-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_34-good
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_22-good
+[ 18%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_44-good.dir/CWE123_Write_What_Where_Condition__connect_socket_44.c.o
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_41-good
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_32-good
+[ 19%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_44-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_44.c.o
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_41-bad
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_34-bad
+[ 19%] Built target CWE123_Write_What_Where_Condition__connect_socket_31-good
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_42-good
+[ 19%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_45-good.dir/CWE123_Write_What_Where_Condition__connect_socket_45.c.o
+[ 19%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_45-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_45.c.o
+[ 19%] Built target CWE123_Write_What_Where_Condition__connect_socket_31-bad
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_42-bad
+[ 19%] Built target CWE123_Write_What_Where_Condition__connect_socket_41-good
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-good.dir/CWE123_Write_What_Where_Condition__connect_socket_51a.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-good.dir/CWE123_Write_What_Where_Condition__connect_socket_51b.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_51a.c.o
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_32-bad
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_51b.c.o
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_34-good
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_41-bad
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_42-good
+[ 20%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_44-good
+[ 20%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_44-bad
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-good.dir/CWE123_Write_What_Where_Condition__connect_socket_52b.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-good.dir/CWE123_Write_What_Where_Condition__connect_socket_52c.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-good.dir/CWE123_Write_What_Where_Condition__connect_socket_52a.c.o
+[ 20%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_45-good
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_34-bad
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_42-bad
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_45-bad
+[ 21%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_52a.c.o
+[ 21%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_52b.c.o
+[ 21%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53a.c.o
+[ 22%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53a.c.o
+[ 22%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53b.c.o
+[ 22%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_51-good
+[ 22%] Built target CWE123_Write_What_Where_Condition__connect_socket_44-bad
+[ 22%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54a.c.o
+[ 22%] Built target CWE123_Write_What_Where_Condition__connect_socket_44-good
+[ 22%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_51-bad
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53b.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54a.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_52c.c.o
+[ 23%] Built target CWE123_Write_What_Where_Condition__connect_socket_45-good
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53c.c.o
+[ 23%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_52-good
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-good.dir/CWE123_Write_What_Where_Condition__connect_socket_61a.c.o
+[ 23%] Built target CWE123_Write_What_Where_Condition__connect_socket_45-bad
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54b.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53c.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54b.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_61a.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53d.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-good.dir/CWE123_Write_What_Where_Condition__connect_socket_61b.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-good.dir/CWE123_Write_What_Where_Condition__connect_socket_63a.c.o
+[ 24%] Built target CWE123_Write_What_Where_Condition__connect_socket_51-good
+[ 24%] Built target CWE123_Write_What_Where_Condition__connect_socket_51-bad
+[ 24%] Built target CWE123_Write_What_Where_Condition__connect_socket_52-good
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53d.c.o
+[ 25%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54c.c.o
+[ 25%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54c.c.o
+[ 26%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_52-bad
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_61b.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54d.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-good.dir/CWE123_Write_What_Where_Condition__connect_socket_63b.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54e.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54d.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_63a.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54e.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-good.dir/CWE123_Write_What_Where_Condition__connect_socket_64a.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_64a.c.o
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_53-bad
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_61-good
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_63b.c.o
+[ 28%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_53-good
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-good.dir/CWE123_Write_What_Where_Condition__connect_socket_64b.c.o
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-good.dir/CWE123_Write_What_Where_Condition__connect_socket_65a.c.o
+[ 28%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_61-bad
+[ 28%] Built target CWE123_Write_What_Where_Condition__connect_socket_52-bad
+[ 29%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_64b.c.o
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_54-bad
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_63-good
+[ 29%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-good.dir/CWE123_Write_What_Where_Condition__connect_socket_65b.c.o
+[ 29%] Built target CWE123_Write_What_Where_Condition__connect_socket_61-good
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_54-good
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_63-bad
+[ 29%] Built target CWE123_Write_What_Where_Condition__connect_socket_53-bad
+[ 30%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_65a.c.o
+[ 29%] Built target CWE123_Write_What_Where_Condition__connect_socket_53-good
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_66a.c.o
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_65b.c.o
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_64-good
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_66b.c.o
+[ 31%] Built target CWE123_Write_What_Where_Condition__connect_socket_54-bad
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-good.dir/CWE123_Write_What_Where_Condition__connect_socket_66b.c.o
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-good.dir/CWE123_Write_What_Where_Condition__connect_socket_66a.c.o
+[ 31%] Built target CWE123_Write_What_Where_Condition__connect_socket_63-good
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-good.dir/CWE123_Write_What_Where_Condition__connect_socket_67a.c.o
+[ 31%] Built target CWE123_Write_What_Where_Condition__connect_socket_61-bad
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_64-bad
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-good.dir/CWE123_Write_What_Where_Condition__connect_socket_67b.c.o
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_65-good
+[ 31%] Built target CWE123_Write_What_Where_Condition__connect_socket_63-bad
+[ 31%] Built target CWE123_Write_What_Where_Condition__connect_socket_64-good
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_67b.c.o
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_65-bad
+[ 31%] Built target CWE123_Write_What_Where_Condition__connect_socket_54-good
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_67a.c.o
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_66-bad
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_01-good.dir/CWE123_Write_What_Where_Condition__fgets_01.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-good.dir/CWE123_Write_What_Where_Condition__connect_socket_68a.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_68a.c.o
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_66-good
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_68b.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_01-bad.dir/CWE123_Write_What_Where_Condition__fgets_01.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_02-good.dir/CWE123_Write_What_Where_Condition__fgets_02.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_02-bad.dir/CWE123_Write_What_Where_Condition__fgets_02.c.o
+[ 32%] Built target CWE123_Write_What_Where_Condition__connect_socket_64-bad
+[ 32%] Built target CWE123_Write_What_Where_Condition__connect_socket_65-good
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-good.dir/CWE123_Write_What_Where_Condition__connect_socket_68b.c.o
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_01-bad
+[ 33%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_67-good
+[ 33%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_01-good
+[ 33%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_67-bad
+[ 34%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_03-good.dir/CWE123_Write_What_Where_Condition__fgets_03.c.o
+[ 33%] Built target CWE123_Write_What_Where_Condition__connect_socket_65-bad
+[ 34%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_03-bad.dir/CWE123_Write_What_Where_Condition__fgets_03.c.o
+[ 33%] Built target CWE123_Write_What_Where_Condition__connect_socket_66-bad
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_02-bad
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_02-good
+[ 35%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_04-bad.dir/CWE123_Write_What_Where_Condition__fgets_04.c.o
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_68-bad
+[ 35%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_04-good.dir/CWE123_Write_What_Where_Condition__fgets_04.c.o
+[ 35%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_05-good.dir/CWE123_Write_What_Where_Condition__fgets_05.c.o
+[ 36%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_05-bad.dir/CWE123_Write_What_Where_Condition__fgets_05.c.o
+[ 36%] Built target CWE123_Write_What_Where_Condition__connect_socket_66-good
+[ 37%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_06-good.dir/CWE123_Write_What_Where_Condition__fgets_06.c.o
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_68-good
+[ 37%] Built target CWE123_Write_What_Where_Condition__connect_socket_67-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_01-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_03-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__connect_socket_67-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_01-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__connect_socket_68-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_02-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_05-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_03-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_04-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_04-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_05-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_02-bad
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_06-bad.dir/CWE123_Write_What_Where_Condition__fgets_06.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__connect_socket_68-good
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_07-good.dir/CWE123_Write_What_Where_Condition__fgets_07.c.o
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_08-good.dir/CWE123_Write_What_Where_Condition__fgets_08.c.o
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_06-good
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_09-good.dir/CWE123_Write_What_Where_Condition__fgets_09.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_03-good
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_09-bad.dir/CWE123_Write_What_Where_Condition__fgets_09.c.o
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_07-bad.dir/CWE123_Write_What_Where_Condition__fgets_07.c.o
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_08-bad.dir/CWE123_Write_What_Where_Condition__fgets_08.c.o
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_10-good.dir/CWE123_Write_What_Where_Condition__fgets_10.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_03-bad
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_10-bad.dir/CWE123_Write_What_Where_Condition__fgets_10.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_04-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_04-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_05-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_06-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_05-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_06-good
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_11-good.dir/CWE123_Write_What_Where_Condition__fgets_11.c.o
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_08-good
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_07-good
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_07-bad
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_09-good
+[ 40%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_09-bad
+[ 41%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_12-bad.dir/CWE123_Write_What_Where_Condition__fgets_12.c.o
+[ 41%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_08-bad
+[ 41%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_12-good.dir/CWE123_Write_What_Where_Condition__fgets_12.c.o
+[ 41%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_11-bad.dir/CWE123_Write_What_Where_Condition__fgets_11.c.o
+[ 41%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_13-bad.dir/CWE123_Write_What_Where_Condition__fgets_13.c.o
+[ 42%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_13-good.dir/CWE123_Write_What_Where_Condition__fgets_13.c.o
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_10-good
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_10-bad
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_08-good
+[ 43%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_14-good.dir/CWE123_Write_What_Where_Condition__fgets_14.c.o
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_09-good
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_07-good
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_11-good
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_06-bad
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_12-bad
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_12-good
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_09-bad
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_07-bad
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_11-bad
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_13-bad
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_08-bad
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_13-good
+[ 43%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_14-bad.dir/CWE123_Write_What_Where_Condition__fgets_14.c.o
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_10-bad
+[ 43%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_15-good.dir/CWE123_Write_What_Where_Condition__fgets_15.c.o
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_10-good
+[ 43%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_16-good.dir/CWE123_Write_What_Where_Condition__fgets_16.c.o
+[ 43%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_17-good.dir/CWE123_Write_What_Where_Condition__fgets_17.c.o
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_15-bad.dir/CWE123_Write_What_Where_Condition__fgets_15.c.o
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_14-good
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_16-bad.dir/CWE123_Write_What_Where_Condition__fgets_16.c.o
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_12-bad
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_17-bad.dir/CWE123_Write_What_Where_Condition__fgets_17.c.o
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_18-good.dir/CWE123_Write_What_Where_Condition__fgets_18.c.o
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_11-good
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_17-good
+[ 45%] Built target CWE123_Write_What_Where_Condition__fgets_12-good
+[ 45%] Built target CWE123_Write_What_Where_Condition__fgets_11-bad
+[ 45%] Built target CWE123_Write_What_Where_Condition__fgets_13-good
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_14-bad
+[ 45%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_18-bad.dir/CWE123_Write_What_Where_Condition__fgets_18.c.o
+[ 45%] Built target CWE123_Write_What_Where_Condition__fgets_13-bad
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_15-good
+[ 45%] Built target CWE123_Write_What_Where_Condition__fgets_14-good
+[ 45%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_21-good.dir/CWE123_Write_What_Where_Condition__fgets_21.c.o
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_16-good
+[ 45%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-good.dir/CWE123_Write_What_Where_Condition__fgets_22a.c.o
+[ 45%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_21-bad.dir/CWE123_Write_What_Where_Condition__fgets_21.c.o
+[ 45%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-bad.dir/CWE123_Write_What_Where_Condition__fgets_22a.c.o
+[ 46%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_16-bad
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_31-good.dir/CWE123_Write_What_Where_Condition__fgets_31.c.o
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_14-bad
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_15-bad
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_17-bad
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_31-bad.dir/CWE123_Write_What_Where_Condition__fgets_31.c.o
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_18-good
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_16-good
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_17-good
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-good.dir/CWE123_Write_What_Where_Condition__fgets_22b.c.o
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_32-good.dir/CWE123_Write_What_Where_Condition__fgets_32.c.o
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_18-bad
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_21-good
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_32-bad.dir/CWE123_Write_What_Where_Condition__fgets_32.c.o
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_15-good
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_34-good.dir/CWE123_Write_What_Where_Condition__fgets_34.c.o
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_21-bad
+[ 48%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-bad.dir/CWE123_Write_What_Where_Condition__fgets_22b.c.o
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_31-good
+[ 48%] Built target CWE123_Write_What_Where_Condition__fgets_18-bad
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_15-bad
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_31-bad
+[ 49%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_34-bad.dir/CWE123_Write_What_Where_Condition__fgets_34.c.o
+[ 49%] Built target CWE123_Write_What_Where_Condition__fgets_18-good
+[ 48%] Built target CWE123_Write_What_Where_Condition__fgets_16-bad
+[ 49%] Built target CWE123_Write_What_Where_Condition__fgets_17-bad
+[ 49%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_22-good
+[ 49%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_41-good.dir/CWE123_Write_What_Where_Condition__fgets_41.c.o
+[ 49%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_32-good
+[ 49%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_41-bad.dir/CWE123_Write_What_Where_Condition__fgets_41.c.o
+[ 49%] Built target CWE123_Write_What_Where_Condition__fgets_31-good
+[ 49%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_42-good.dir/CWE123_Write_What_Where_Condition__fgets_42.c.o
+[ 49%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_32-bad
+[ 49%] Built target CWE123_Write_What_Where_Condition__fgets_21-good
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_22-bad
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_34-good
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_44-bad.dir/CWE123_Write_What_Where_Condition__fgets_44.c.o
+[ 49%] Built target CWE123_Write_What_Where_Condition__fgets_21-bad
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_22-good
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_31-bad
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_32-good
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_42-bad.dir/CWE123_Write_What_Where_Condition__fgets_42.c.o
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_34-bad
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_44-good.dir/CWE123_Write_What_Where_Condition__fgets_44.c.o
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_45-good.dir/CWE123_Write_What_Where_Condition__fgets_45.c.o
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_22-bad
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_41-good
+[ 51%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-good.dir/CWE123_Write_What_Where_Condition__fgets_51a.c.o
+[ 51%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_45-bad.dir/CWE123_Write_What_Where_Condition__fgets_45.c.o
+[ 51%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-good.dir/CWE123_Write_What_Where_Condition__fgets_51b.c.o
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_41-bad
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_42-good
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_34-good
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_44-bad
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_32-bad
+[ 52%] Built target CWE123_Write_What_Where_Condition__fgets_34-bad
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-bad.dir/CWE123_Write_What_Where_Condition__fgets_51a.c.o
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-good.dir/CWE123_Write_What_Where_Condition__fgets_52a.c.o
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-bad.dir/CWE123_Write_What_Where_Condition__fgets_51b.c.o
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-good.dir/CWE123_Write_What_Where_Condition__fgets_52b.c.o
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_44-good
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-bad.dir/CWE123_Write_What_Where_Condition__fgets_52a.c.o
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53a.c.o
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_45-good
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_41-good
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-good.dir/CWE123_Write_What_Where_Condition__fgets_52c.c.o
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_42-good
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_51-good
+[ 54%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_45-bad
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_41-bad
+[ 55%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-bad.dir/CWE123_Write_What_Where_Condition__fgets_52c.c.o
+[ 55%] Built target CWE123_Write_What_Where_Condition__fgets_44-bad
+[ 55%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-bad.dir/CWE123_Write_What_Where_Condition__fgets_52b.c.o
+[ 55%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad
+[ 56%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53b.c.o
+[ 57%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53a.c.o
+[ 57%] Built target CWE123_Write_What_Where_Condition__fgets_44-good
+[ 57%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54a.c.o
+[ 57%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53c.c.o
+[ 57%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53b.c.o
+[ 57%] Built target CWE123_Write_What_Where_Condition__fgets_45-good
+[ 57%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54a.c.o
+[ 57%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53d.c.o
+[ 57%] Built target CWE123_Write_What_Where_Condition__fgets_42-bad
+[ 58%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54b.c.o
+[ 58%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_52-good
+[ 58%] Built target CWE123_Write_What_Where_Condition__fgets_51-good
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54b.c.o
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53c.c.o
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-good.dir/CWE123_Write_What_Where_Condition__fgets_61a.c.o
+[ 59%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_52-bad
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53d.c.o
+[ 59%] Built target CWE123_Write_What_Where_Condition__fgets_51-bad
+[ 59%] Built target CWE123_Write_What_Where_Condition__fgets_45-bad
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54c.c.o
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54c.c.o
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-bad.dir/CWE123_Write_What_Where_Condition__fgets_61a.c.o
+[ 60%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-bad.dir/CWE123_Write_What_Where_Condition__fgets_61b.c.o
+[ 60%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-good.dir/CWE123_Write_What_Where_Condition__fgets_61b.c.o
+[ 60%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-good.dir/CWE123_Write_What_Where_Condition__fgets_63a.c.o
+[ 60%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54d.c.o
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-bad.dir/CWE123_Write_What_Where_Condition__fgets_63a.c.o
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54e.c.o
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_53-good
+[ 61%] Built target CWE123_Write_What_Where_Condition__fgets_52-good
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54d.c.o
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-good.dir/CWE123_Write_What_Where_Condition__fgets_63b.c.o
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-bad.dir/CWE123_Write_What_Where_Condition__fgets_63b.c.o
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_53-bad
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-good.dir/CWE123_Write_What_Where_Condition__fgets_64a.c.o
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54e.c.o
+[ 61%] Built target CWE123_Write_What_Where_Condition__fgets_52-bad
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_61-good
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-good.dir/CWE123_Write_What_Where_Condition__fgets_64b.c.o
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_61-bad
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-bad.dir/CWE123_Write_What_Where_Condition__fgets_64a.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-bad.dir/CWE123_Write_What_Where_Condition__fgets_64b.c.o
+[ 61%] Built target CWE123_Write_What_Where_Condition__fgets_53-bad
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_54-bad
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-good.dir/CWE123_Write_What_Where_Condition__fgets_65a.c.o
+[ 61%] Built target CWE123_Write_What_Where_Condition__fgets_53-good
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-good.dir/CWE123_Write_What_Where_Condition__fgets_65b.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_63-good
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-bad.dir/CWE123_Write_What_Where_Condition__fgets_65a.c.o
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_63-bad
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-bad.dir/CWE123_Write_What_Where_Condition__fgets_65b.c.o
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-good.dir/CWE123_Write_What_Where_Condition__fgets_66a.c.o
+[ 63%] Built target CWE123_Write_What_Where_Condition__fgets_61-good
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_54-good
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-good.dir/CWE123_Write_What_Where_Condition__fgets_66b.c.o
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_64-good
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-bad.dir/CWE123_Write_What_Where_Condition__fgets_66a.c.o
+[ 63%] Built target CWE123_Write_What_Where_Condition__fgets_61-bad
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-bad.dir/CWE123_Write_What_Where_Condition__fgets_66b.c.o
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_64-bad
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-good.dir/CWE123_Write_What_Where_Condition__fgets_67a.c.o
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_65-good
+[ 64%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-good.dir/CWE123_Write_What_Where_Condition__fgets_67b.c.o
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_63-good
+[ 63%] Built target CWE123_Write_What_Where_Condition__fgets_54-bad
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_65-bad
+[ 64%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-bad.dir/CWE123_Write_What_Where_Condition__fgets_67a.c.o
+[ 64%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-bad.dir/CWE123_Write_What_Where_Condition__fgets_67b.c.o
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_63-bad
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_64-good
+[ 65%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_66-good
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-good.dir/CWE123_Write_What_Where_Condition__fgets_68b.c.o
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_54-good
+[ 66%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_66-bad
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-bad.dir/CWE123_Write_What_Where_Condition__fgets_68b.c.o
+[ 67%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_67-good
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_01-good.dir/CWE123_Write_What_Where_Condition__listen_socket_01.c.o
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-good.dir/CWE123_Write_What_Where_Condition__fgets_68a.c.o
+[ 67%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_02-good.dir/CWE123_Write_What_Where_Condition__listen_socket_02.c.o
+[ 67%] Built target CWE123_Write_What_Where_Condition__fgets_64-bad
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-bad.dir/CWE123_Write_What_Where_Condition__fgets_68a.c.o
+[ 65%] Built target CWE123_Write_What_Where_Condition__fgets_65-good
+[ 67%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_01-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_01.c.o
+[ 68%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_02-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_02.c.o
+[ 68%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_67-bad
+[ 68%] Built target CWE123_Write_What_Where_Condition__fgets_65-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_03-good.dir/CWE123_Write_What_Where_Condition__listen_socket_03.c.o
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_01-good
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_68-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_03-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_03.c.o
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_66-good
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_66-bad
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_67-good
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_68-good
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_04-good.dir/CWE123_Write_What_Where_Condition__listen_socket_04.c.o
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_02-good
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_04-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_04.c.o
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_05-good.dir/CWE123_Write_What_Where_Condition__listen_socket_05.c.o
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_05-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_05.c.o
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_68-bad
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_01-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_06-good.dir/CWE123_Write_What_Where_Condition__listen_socket_06.c.o
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_67-bad
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_02-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_06-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_06.c.o
+[ 69%] Built target CWE123_Write_What_Where_Condition__listen_socket_01-good
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_03-good
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_07-good.dir/CWE123_Write_What_Where_Condition__listen_socket_07.c.o
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_04-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_03-bad
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_01-bad
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_07-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_07.c.o
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_68-good
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_02-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_05-bad
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_04-bad
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_08-good.dir/CWE123_Write_What_Where_Condition__listen_socket_08.c.o
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_03-good
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_08-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_08.c.o
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_05-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_06-good
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_03-bad
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_02-bad
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_09-good.dir/CWE123_Write_What_Where_Condition__listen_socket_09.c.o
+[ 71%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_09-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_09.c.o
+[ 72%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_06-bad
+[ 72%] Built target CWE123_Write_What_Where_Condition__listen_socket_04-bad
+[ 72%] Built target CWE123_Write_What_Where_Condition__listen_socket_05-bad
+[ 73%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_07-good
+[ 73%] Built target CWE123_Write_What_Where_Condition__listen_socket_04-good
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_10-good.dir/CWE123_Write_What_Where_Condition__listen_socket_10.c.o
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_07-bad
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_10-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_10.c.o
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_05-good
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_08-bad
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_08-good
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_06-bad
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_06-good
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_07-good
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_09-good
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_13-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_13.c.o
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_11-good.dir/CWE123_Write_What_Where_Condition__listen_socket_11.c.o
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_09-bad
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_11-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_11.c.o
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_12-good.dir/CWE123_Write_What_Where_Condition__listen_socket_12.c.o
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_12-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_12.c.o
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_13-good.dir/CWE123_Write_What_Where_Condition__listen_socket_13.c.o
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_08-good
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_10-good
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_10-bad
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_14-good.dir/CWE123_Write_What_Where_Condition__listen_socket_14.c.o
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_07-bad
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_15-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_15.c.o
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_11-bad
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_09-good
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_14-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_14.c.o
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_13-bad
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_11-good
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_12-good
+[ 76%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_15-good.dir/CWE123_Write_What_Where_Condition__listen_socket_15.c.o
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_08-bad
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_09-bad
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_12-bad
+[ 76%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_16-good.dir/CWE123_Write_What_Where_Condition__listen_socket_16.c.o
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_13-good
+[ 76%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_16-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_16.c.o
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_11-good
+[ 76%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_17-good.dir/CWE123_Write_What_Where_Condition__listen_socket_17.c.o
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_11-bad
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_10-bad
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_13-bad
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_10-good
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_14-good
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_15-bad
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_14-bad
+[ 77%] Built target CWE123_Write_What_Where_Condition__listen_socket_12-good
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_15-good
+[ 77%] Built target CWE123_Write_What_Where_Condition__listen_socket_13-good
+[ 77%] Built target CWE123_Write_What_Where_Condition__listen_socket_12-bad
+[ 77%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_17-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_17.c.o
+[ 77%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_18-good.dir/CWE123_Write_What_Where_Condition__listen_socket_18.c.o
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_16-good
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_17-good
+[ 78%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_31-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_31.c.o
+[ 78%] Built target CWE123_Write_What_Where_Condition__listen_socket_15-good
+[ 78%] Built target CWE123_Write_What_Where_Condition__listen_socket_14-bad
+[ 78%] Built target CWE123_Write_What_Where_Condition__listen_socket_15-bad
+[ 78%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_18-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_18.c.o
+[ 78%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_21-good.dir/CWE123_Write_What_Where_Condition__listen_socket_21.c.o
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_16-bad
+[ 79%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-good.dir/CWE123_Write_What_Where_Condition__listen_socket_22a.c.o
+[ 79%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_22a.c.o
+[ 79%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-good.dir/CWE123_Write_What_Where_Condition__listen_socket_22b.c.o
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_18-good
+[ 79%] Built target CWE123_Write_What_Where_Condition__listen_socket_14-good
+[ 80%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_21-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_21.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_31-good.dir/CWE123_Write_What_Where_Condition__listen_socket_31.c.o
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_17-bad
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_22b.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_32-good.dir/CWE123_Write_What_Where_Condition__listen_socket_32.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_32-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_32.c.o
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_16-good
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_16-bad
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_17-good
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_17-bad
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_31-bad
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_18-good
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_22-good
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_18-bad
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_22-bad
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_21-good
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_34-good.dir/CWE123_Write_What_Where_Condition__listen_socket_34.c.o
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_21-bad
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_34-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_34.c.o
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_41-good.dir/CWE123_Write_What_Where_Condition__listen_socket_41.c.o
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_41-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_41.c.o
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_31-good
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_44-good.dir/CWE123_Write_What_Where_Condition__listen_socket_44.c.o
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_42-good.dir/CWE123_Write_What_Where_Condition__listen_socket_42.c.o
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_32-good
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_42-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_42.c.o
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_32-bad
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_31-bad
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_21-good
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_18-bad
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_22-good
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_22-bad
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_34-good
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_32-bad
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_34-bad
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_41-good
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_21-bad
+[ 84%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_41-bad
+[ 84%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_44-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_44.c.o
+[ 84%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_45-good.dir/CWE123_Write_What_Where_Condition__listen_socket_45.c.o
+[ 85%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_45-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_45.c.o
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_42-good
+[ 84%] Built target CWE123_Write_What_Where_Condition__listen_socket_31-good
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_32-good
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_51a.c.o
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_44-good
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-good.dir/CWE123_Write_What_Where_Condition__listen_socket_51a.c.o
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-good.dir/CWE123_Write_What_Where_Condition__listen_socket_51b.c.o
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_42-bad
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_51b.c.o
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_41-bad
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-good.dir/CWE123_Write_What_Where_Condition__listen_socket_52a.c.o
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_34-good
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_52a.c.o
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-good.dir/CWE123_Write_What_Where_Condition__listen_socket_52b.c.o
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_41-good
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_34-bad
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_44-bad
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_42-bad
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_45-good
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_52b.c.o
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-good.dir/CWE123_Write_What_Where_Condition__listen_socket_52c.c.o
+[ 87%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53a.c.o
+[ 87%] Built target CWE123_Write_What_Where_Condition__listen_socket_44-good
+[ 87%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_45-bad
+[ 87%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53b.c.o
+[ 87%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_51-good
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_42-good
+[ 88%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54a.c.o
+[ 89%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_52c.c.o
+[ 89%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53a.c.o
+[ 90%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_51-bad
+[ 90%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54a.c.o
+[ 90%] Built target CWE123_Write_What_Where_Condition__listen_socket_45-good
+[ 90%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53c.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54b.c.o
+[ 91%] Built target CWE123_Write_What_Where_Condition__listen_socket_45-bad
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54b.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53b.c.o
+[ 91%] Built target CWE123_Write_What_Where_Condition__listen_socket_44-bad
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53d.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54c.c.o
+[ 92%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_52-good
+[ 91%] Built target CWE123_Write_What_Where_Condition__listen_socket_51-bad
+[ 92%] Built target CWE123_Write_What_Where_Condition__listen_socket_51-good
+[ 92%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-good.dir/CWE123_Write_What_Where_Condition__listen_socket_61a.c.o
+[ 92%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54c.c.o
+[ 92%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54d.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_61a.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54e.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53c.c.o
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_52-bad
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-good.dir/CWE123_Write_What_Where_Condition__listen_socket_63a.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-good.dir/CWE123_Write_What_Where_Condition__listen_socket_61b.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54d.c.o
+[ 93%] Built target CWE123_Write_What_Where_Condition__listen_socket_52-good
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54e.c.o
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_53-good
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53d.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_61b.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-good.dir/CWE123_Write_What_Where_Condition__listen_socket_64a.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-good.dir/CWE123_Write_What_Where_Condition__listen_socket_63b.c.o
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_54-good
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_63a.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_61-good
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_63b.c.o
+[ 93%] Built target CWE123_Write_What_Where_Condition__listen_socket_52-bad
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-good.dir/CWE123_Write_What_Where_Condition__listen_socket_64b.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_64a.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_64b.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-good.dir/CWE123_Write_What_Where_Condition__listen_socket_65a.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_54-bad
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_65a.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-good.dir/CWE123_Write_What_Where_Condition__listen_socket_66a.c.o
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_53-good
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_54-good
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_53-bad
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_61-bad
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-good.dir/CWE123_Write_What_Where_Condition__listen_socket_65b.c.o
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_61-good
+[ 95%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_63-good
+[ 95%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_65b.c.o
+[ 96%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_64-good
+[ 96%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_63-bad
+[ 96%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_66a.c.o
+[ 97%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-good.dir/CWE123_Write_What_Where_Condition__listen_socket_66b.c.o
+[ 97%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_67a.c.o
+[ 97%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_64-bad
+[ 97%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-good.dir/CWE123_Write_What_Where_Condition__listen_socket_67a.c.o
+[ 97%] Built target CWE123_Write_What_Where_Condition__listen_socket_54-bad
+[ 97%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_66b.c.o
+[ 97%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_67b.c.o
+[ 97%] Built target CWE123_Write_What_Where_Condition__listen_socket_53-bad
+[ 97%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_65-bad
+[ 97%] Built target CWE123_Write_What_Where_Condition__listen_socket_61-bad
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_65-good
+[ 97%] Built target CWE123_Write_What_Where_Condition__listen_socket_63-good
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_66-good
+[ 99%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-good.dir/CWE123_Write_What_Where_Condition__listen_socket_67b.c.o
+[ 99%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-good.dir/CWE123_Write_What_Where_Condition__listen_socket_68a.c.o
+[100%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-good.dir/CWE123_Write_What_Where_Condition__listen_socket_68b.c.o
+[100%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_68a.c.o
+[ 98%] Built target CWE123_Write_What_Where_Condition__listen_socket_64-good
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_63-bad
+[100%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_68b.c.o
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_64-bad
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_66-bad
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_67-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_65-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_68-good
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_65-bad
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_67-good
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_66-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_68-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_67-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_68-good
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_66-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_68-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_67-good
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435542==ERROR: AddressSanitizer: SEGV on unknown address 0x70007473657c (pc 0x5a72b59b26ff bp 0x7ffee9873c70 sp 0x7ffee9873bc0 T0)
+==1435542==The signal is caused by a WRITE memory access.
+    #0 0x5a72b59b26ff in CWE123_Write_What_Where_Condition__fgets_01_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_01.c:66
+    #1 0x5a72b59b27af in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_01.c:131
+    #2 0x70ecfc02a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x70ecfc02a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5a72b59b23c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_01-bad+0x23c4) (BuildId: 52b79e792b84646ba32cb3531a068fd7da77a9c1)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_01.c:66 in CWE123_Write_What_Where_Condition__fgets_01_bad
+==1435542==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435544==ERROR: AddressSanitizer: SEGV on unknown address 0x79007473657c (pc 0x5bb793c616ff bp 0x7ffd3582bda0 sp 0x7ffd3582bcf0 T0)
+==1435544==The signal is caused by a WRITE memory access.
+    #0 0x5bb793c616ff in CWE123_Write_What_Where_Condition__fgets_02_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_02.c:69
+    #1 0x5bb793c617af in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_02.c:178
+    #2 0x7991b382a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7991b382a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5bb793c613c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_02-bad+0x23c4) (BuildId: 87f4a1cb8e07d3075e3b8902acdfe99ed8984483)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_02.c:69 in CWE123_Write_What_Where_Condition__fgets_02_bad
+==1435544==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435546==ERROR: AddressSanitizer: SEGV on unknown address 0x7a007473657c (pc 0x576cddb166ff bp 0x7ffd0fbd1470 sp 0x7ffd0fbd13c0 T0)
+==1435546==The signal is caused by a WRITE memory access.
+    #0 0x576cddb166ff in CWE123_Write_What_Where_Condition__fgets_03_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_03.c:69
+    #1 0x576cddb167af in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_03.c:178
+    #2 0x7a393f22a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7a393f22a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x576cddb163c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_03-bad+0x23c4) (BuildId: d8eacaffb2a4bce1a061158462a4148d46cd725a)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_03.c:69 in CWE123_Write_What_Where_Condition__fgets_03_bad
+==1435546==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435548==ERROR: AddressSanitizer: SEGV on unknown address 0x70007473657c (pc 0x558d6bd47708 bp 0x7ffcedae0b10 sp 0x7ffcedae0a60 T0)
+==1435548==The signal is caused by a WRITE memory access.
+    #0 0x558d6bd47708 in CWE123_Write_What_Where_Condition__fgets_04_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_04.c:76
+    #1 0x558d6bd477b8 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_04.c:185
+    #2 0x70a8e462a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x70a8e462a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x558d6bd473c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_04-bad+0x23c4) (BuildId: 9a7103e1d94b4d7d5b1d93bfe23e72644ff4911f)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_04.c:76 in CWE123_Write_What_Where_Condition__fgets_04_bad
+==1435548==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435550==ERROR: AddressSanitizer: SEGV on unknown address 0x7a007473657c (pc 0x5ef29bac0709 bp 0x7ffd1a5f6f80 sp 0x7ffd1a5f6ed0 T0)
+==1435550==The signal is caused by a WRITE memory access.
+    #0 0x5ef29bac0709 in CWE123_Write_What_Where_Condition__fgets_05_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_05.c:76
+    #1 0x5ef29bac07b9 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_05.c:185
+    #2 0x7aa8bee2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7aa8bee2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5ef29bac03c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_05-bad+0x23c4) (BuildId: cbc451414561e401010832c507af6b8a67156402)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_05.c:76 in CWE123_Write_What_Where_Condition__fgets_05_bad
+==1435550==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435552==ERROR: AddressSanitizer: SEGV on unknown address 0x76007473657c (pc 0x59a58336d709 bp 0x7ffc66636020 sp 0x7ffc66635f70 T0)
+==1435552==The signal is caused by a WRITE memory access.
+    #0 0x59a58336d709 in CWE123_Write_What_Where_Condition__fgets_06_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c:73
+    #1 0x59a58336d7b9 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c:182
+    #2 0x7610eb22a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7610eb22a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x59a58336d3c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_06-bad+0x23c4) (BuildId: 0f21b9901da66000371f81c90faecbb92712327b)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c:73 in CWE123_Write_What_Where_Condition__fgets_06_bad
+==1435552==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435554==ERROR: AddressSanitizer: SEGV on unknown address 0x79007473657c (pc 0x637dd30f670a bp 0x7ffd46ca4ea0 sp 0x7ffd46ca4df0 T0)
+==1435554==The signal is caused by a WRITE memory access.
+    #0 0x637dd30f670a in CWE123_Write_What_Where_Condition__fgets_07_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_07.c:75
+    #1 0x637dd30f67ba in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_07.c:184
+    #2 0x79a4acc2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x79a4acc2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x637dd30f63c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_07-bad+0x23c4) (BuildId: 75026715335b5ba641090870215b6d44e8508812)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_07.c:75 in CWE123_Write_What_Where_Condition__fgets_07_bad
+==1435554==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435556==ERROR: AddressSanitizer: SEGV on unknown address 0x75007473657c (pc 0x5decd82bc72b bp 0x7ffd4f70b210 sp 0x7ffd4f70b160 T0)
+==1435556==The signal is caused by a WRITE memory access.
+    #0 0x5decd82bc72b in CWE123_Write_What_Where_Condition__fgets_08_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_08.c:83
+    #1 0x5decd82bc7db in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_08.c:192
+    #2 0x753dcf82a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x753dcf82a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5decd82bc3c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_08-bad+0x23c4) (BuildId: fd208ebe7be5ea55928b194b94b161f6e8efbe5e)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_08.c:83 in CWE123_Write_What_Where_Condition__fgets_08_bad
+==1435556==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435558==ERROR: AddressSanitizer: SEGV on unknown address 0x7e007473657c (pc 0x58b0e5741743 bp 0x7ffe9dd19e80 sp 0x7ffe9dd19dd0 T0)
+==1435558==The signal is caused by a WRITE memory access.
+    #0 0x58b0e5741743 in CWE123_Write_What_Where_Condition__fgets_09_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_09.c:69
+    #1 0x58b0e57417f3 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_09.c:178
+    #2 0x7e73afc2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7e73afc2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x58b0e57413c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_09-bad+0x23c4) (BuildId: c84431e90ca4202f4d6a2e508f3849c1403480dd)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_09.c:69 in CWE123_Write_What_Where_Condition__fgets_09_bad
+==1435558==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435560==ERROR: AddressSanitizer: SEGV on unknown address 0x74007473657c (pc 0x5b0f66f42743 bp 0x7ffc38f69230 sp 0x7ffc38f69180 T0)
+==1435560==The signal is caused by a WRITE memory access.
+    #0 0x5b0f66f42743 in CWE123_Write_What_Where_Condition__fgets_10_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_10.c:69
+    #1 0x5b0f66f427f3 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_10.c:178
+    #2 0x74097382a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x74097382a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5b0f66f423c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_10-bad+0x23c4) (BuildId: 36179fb1d27a13bc2fe79996f2857df8d86c5a15)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_10.c:69 in CWE123_Write_What_Where_Condition__fgets_10_bad
+==1435560==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435562==ERROR: AddressSanitizer: SEGV on unknown address 0x7d007473657c (pc 0x592d0873270d bp 0x7fff76407390 sp 0x7fff764072e0 T0)
+==1435562==The signal is caused by a WRITE memory access.
+    #0 0x592d0873270d in CWE123_Write_What_Where_Condition__fgets_11_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_11.c:69
+    #1 0x592d087327bd in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_11.c:178
+    #2 0x7d3f9e42a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7d3f9e42a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x592d087323c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_11-bad+0x23c4) (BuildId: 1b39e65aba8acbb6ca31fe70af5e3f81ba7b076e)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_11.c:69 in CWE123_Write_What_Where_Condition__fgets_11_bad
+==1435562==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435564==ERROR: AddressSanitizer: SEGV on unknown address 0x70007473657c (pc 0x5a91c2b5470d bp 0x7ffd5ff9d6f0 sp 0x7ffd5ff9d640 T0)
+==1435564==The signal is caused by a WRITE memory access.
+    #0 0x5a91c2b5470d in CWE123_Write_What_Where_Condition__fgets_12_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_12.c:74
+    #1 0x5a91c2b547bd in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_12.c:148
+    #2 0x7002dc82a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7002dc82a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5a91c2b543c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_12-bad+0x23c4) (BuildId: ae481aa3267cfbc0f1670612b99b00905554fc3d)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_12.c:74 in CWE123_Write_What_Where_Condition__fgets_12_bad
+==1435564==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435566==ERROR: AddressSanitizer: SEGV on unknown address 0x7d007473657c (pc 0x5bee9fc99744 bp 0x7ffddb923f40 sp 0x7ffddb923e90 T0)
+==1435566==The signal is caused by a WRITE memory access.
+    #0 0x5bee9fc99744 in CWE123_Write_What_Where_Condition__fgets_13_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_13.c:69
+    #1 0x5bee9fc997f4 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_13.c:178
+    #2 0x7dd70622a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7dd70622a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5bee9fc993c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_13-bad+0x23c4) (BuildId: 0fd482e3aacb01c4f756ca9bba4cf259ccba1fd8)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_13.c:69 in CWE123_Write_What_Where_Condition__fgets_13_bad
+==1435566==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435568==ERROR: AddressSanitizer: SEGV on unknown address 0x7a007473657c (pc 0x582e1b04c744 bp 0x7fff8b1ae140 sp 0x7fff8b1ae090 T0)
+==1435568==The signal is caused by a WRITE memory access.
+    #0 0x582e1b04c744 in CWE123_Write_What_Where_Condition__fgets_14_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_14.c:69
+    #1 0x582e1b04c7f4 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_14.c:178
+    #2 0x7a41cfc2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7a41cfc2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x582e1b04c3c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_14-bad+0x23c4) (BuildId: 6fc8545f5b57b37611d58bbc5b719b85c6b3ec59)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_14.c:69 in CWE123_Write_What_Where_Condition__fgets_14_bad
+==1435568==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435570==ERROR: AddressSanitizer: SEGV on unknown address 0x70007473657c (pc 0x6305e7be6700 bp 0x7fff76fd00c0 sp 0x7fff76fd0010 T0)
+==1435570==The signal is caused by a WRITE memory access.
+    #0 0x6305e7be6700 in CWE123_Write_What_Where_Condition__fgets_15_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_15.c:75
+    #1 0x6305e7be67b0 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_15.c:191
+    #2 0x70d5d322a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x70d5d322a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x6305e7be63c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_15-bad+0x23c4) (BuildId: 1779a47e54228169234c44d41251b8e24497652d)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_15.c:75 in CWE123_Write_What_Where_Condition__fgets_15_bad
+==1435570==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435572==ERROR: AddressSanitizer: SEGV on unknown address 0x76007473657c (pc 0x5d3beff47700 bp 0x7ffef97cfe80 sp 0x7ffef97cfdd0 T0)
+==1435572==The signal is caused by a WRITE memory access.
+    #0 0x5d3beff47700 in CWE123_Write_What_Where_Condition__fgets_16_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_16.c:70
+    #1 0x5d3beff477b0 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_16.c:139
+    #2 0x768cf302a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x768cf302a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5d3beff473c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_16-bad+0x23c4) (BuildId: 1a81fd5b1e5148c614c001df503998d4763a4807)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_16.c:70 in CWE123_Write_What_Where_Condition__fgets_16_bad
+==1435572==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435574==ERROR: AddressSanitizer: SEGV on unknown address 0x70007473657c (pc 0x619b7a20871b bp 0x7fffe3ffb7e0 sp 0x7fffe3ffb720 T0)
+==1435574==The signal is caused by a WRITE memory access.
+    #0 0x619b7a20871b in CWE123_Write_What_Where_Condition__fgets_17_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_17.c:70
+    #1 0x619b7a2087cb in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_17.c:139
+    #2 0x70ec3e62a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x70ec3e62a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x619b7a2083c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_17-bad+0x23c4) (BuildId: 4d5586c00d94582c4c3a11d874badd6ac9e7609c)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_17.c:70 in CWE123_Write_What_Where_Condition__fgets_17_bad
+==1435574==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435576==ERROR: AddressSanitizer: SEGV on unknown address 0x70007473657c (pc 0x615c2555c700 bp 0x7ffe8c120360 sp 0x7ffe8c1202b0 T0)
+==1435576==The signal is caused by a WRITE memory access.
+    #0 0x615c2555c700 in CWE123_Write_What_Where_Condition__fgets_18_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_18.c:68
+    #1 0x615c2555c7b0 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_18.c:135
+    #2 0x70781782a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x70781782a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x615c2555c3c4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_18-bad+0x23c4) (BuildId: 964ba2d230a05a51e2865bf742c5999d484ae316)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_18.c:68 in CWE123_Write_What_Where_Condition__fgets_18_bad
+==1435576==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435578==ERROR: AddressSanitizer: SEGV on unknown address 0x7a007473657c (pc 0x5e5a8b20c83a bp 0x7ffd9d1b9f20 sp 0x7ffd9d1b9e70 T0)
+==1435578==The signal is caused by a WRITE memory access.
+    #0 0x5e5a8b20c83a in CWE123_Write_What_Where_Condition__fgets_21_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_21.c:79
+    #1 0x5e5a8b20c8ea in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_21.c:206
+    #2 0x7a6eb9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7a6eb9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5e5a8b20c3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_21-bad+0x23e4) (BuildId: adbe1c55a9b67ece55035d4a4b100e8518fbc348)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_21.c:79 in CWE123_Write_What_Where_Condition__fgets_21_bad
+==1435578==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435580==ERROR: AddressSanitizer: SEGV on unknown address 0x72007473657c (pc 0x59f5e9feb6c1 bp 0x7ffd7f5643c0 sp 0x7ffd7f564310 T0)
+==1435580==The signal is caused by a WRITE memory access.
+    #0 0x59f5e9feb6c1 in CWE123_Write_What_Where_Condition__fgets_22_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_22a.c:67
+    #1 0x59f5e9feb771 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_22a.c:173
+    #2 0x72338da2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x72338da2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x59f5e9feb3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_22-bad+0x23e4) (BuildId: 08b8f77442a445adbf6782b4ba7488875556791e)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_22a.c:67 in CWE123_Write_What_Where_Condition__fgets_22_bad
+==1435580==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435582==ERROR: AddressSanitizer: SEGV on unknown address 0x7b007473657c (pc 0x5aa0754e574f bp 0x7ffefb8b1ca0 sp 0x7ffefb8b1bb0 T0)
+==1435582==The signal is caused by a WRITE memory access.
+    #0 0x5aa0754e574f in CWE123_Write_What_Where_Condition__fgets_31_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_31.c:69
+    #1 0x5aa0754e57fe in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_31.c:138
+    #2 0x7bd49f82a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7bd49f82a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5aa0754e53e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_31-bad+0x23e4) (BuildId: a3217b028e870d75794107e117792f57014d5a50)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_31.c:69 in CWE123_Write_What_Where_Condition__fgets_31_bad
+==1435582==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435584==ERROR: AddressSanitizer: SEGV on unknown address 0x7f007473657c (pc 0x5b12d8540845 bp 0x7ffff4810dc0 sp 0x7ffff4810cc0 T0)
+==1435584==The signal is caused by a WRITE memory access.
+    #0 0x5b12d8540845 in CWE123_Write_What_Where_Condition__fgets_32_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c:74
+    #1 0x5b12d85408f4 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c:148
+    #2 0x7f9ad962a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7f9ad962a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5b12d8540404 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_32-bad+0x2404) (BuildId: 6a75a8cbdd157f3a632e8ac079db3138c4cc8890)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c:74 in CWE123_Write_What_Where_Condition__fgets_32_bad
+==1435584==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435586==ERROR: AddressSanitizer: SEGV on unknown address 0x7f007473657c (pc 0x64c6dd46a74f bp 0x7ffc350836a0 sp 0x7ffc350835b0 T0)
+==1435586==The signal is caused by a WRITE memory access.
+    #0 0x64c6dd46a74f in CWE123_Write_What_Where_Condition__fgets_34_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_34.c:76
+    #1 0x64c6dd46a7fe in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_34.c:146
+    #2 0x7f6672c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7f6672c2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x64c6dd46a3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_34-bad+0x23e4) (BuildId: 11c9d452160765e3bf229373feda5348eb23062a)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_34.c:76 in CWE123_Write_What_Where_Condition__fgets_34_bad
+==1435586==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435588==ERROR: AddressSanitizer: SEGV on unknown address 0x76007473657c (pc 0x60f587c2e624 bp 0x7fff12b42b50 sp 0x7fff12b42ab0 T0)
+==1435588==The signal is caused by a WRITE memory access.
+    #0 0x60f587c2e624 in CWE123_Write_What_Where_Condition__fgets_41_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_41.c:53
+    #1 0x60f587c2e86c in CWE123_Write_What_Where_Condition__fgets_41_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_41.c:71
+    #2 0x60f587c2e919 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_41.c:141
+    #3 0x76ec0e82a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x76ec0e82a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x60f587c2e3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_41-bad+0x23e4) (BuildId: 455aafad148b1ad997d5ee392562de34519ce16a)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_41.c:53 in CWE123_Write_What_Where_Condition__fgets_41_badSink
+==1435588==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435590==ERROR: AddressSanitizer: SEGV on unknown address 0x7f007473657c (pc 0x6104cc745826 bp 0x7ffd617a2c80 sp 0x7ffd617a2bd0 T0)
+==1435590==The signal is caused by a WRITE memory access.
+    #0 0x6104cc745826 in CWE123_Write_What_Where_Condition__fgets_42_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_42.c:72
+    #1 0x6104cc7458d6 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_42.c:143
+    #2 0x7fad7582a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x7fad7582a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x6104cc7453e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad+0x23e4) (BuildId: e420bd0153f2fad713d1f045d58985de68c4a3a8)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_42.c:72 in CWE123_Write_What_Where_Condition__fgets_42_bad
+==1435590==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435592==ERROR: AddressSanitizer: SEGV on unknown address 0x73007473657c (pc 0x651ba32c5624 bp 0x7ffd558294a0 sp 0x7ffd55829400 T0)
+==1435592==The signal is caused by a WRITE memory access.
+    #0 0x651ba32c5624 in badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_44.c:53
+    #1 0x651ba32c587e in CWE123_Write_What_Where_Condition__fgets_44_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_44.c:74
+    #2 0x651ba32c592b in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_44.c:144
+    #3 0x73b31c22a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x73b31c22a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x651ba32c53e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_44-bad+0x23e4) (BuildId: 338bd5d260c3ffc582297536590ba4bd6b9f1d05)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_44.c:53 in badSink
+==1435592==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435594==ERROR: AddressSanitizer: SEGV on unknown address 0x7f007473657c (pc 0x56201594d5ad bp 0x7ffcff232300 sp 0x7ffcff232290 T0)
+==1435594==The signal is caused by a WRITE memory access.
+    #0 0x56201594d5ad in badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_45.c:57
+    #1 0x56201594d7ef in CWE123_Write_What_Where_Condition__fgets_45_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_45.c:76
+    #2 0x56201594d89c in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_45.c:147
+    #3 0x7f2ef482a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x7f2ef482a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x56201594d3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_45-bad+0x23e4) (BuildId: 74b4c9656bbcb302148b33353d874a5e29177579)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_45.c:57 in badSink
+==1435594==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435596==ERROR: AddressSanitizer: SEGV on unknown address 0x7f007473657c (pc 0x6554b3f6b91c bp 0x7ffcce58c2b0 sp 0x7ffcce58c210 T0)
+==1435596==The signal is caused by a WRITE memory access.
+    #0 0x6554b3f6b91c in CWE123_Write_What_Where_Condition__fgets_51b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_51b.c:55
+    #1 0x6554b3f6b697 in CWE123_Write_What_Where_Condition__fgets_51_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_51a.c:52
+    #2 0x6554b3f6b744 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_51a.c:103
+    #3 0x7fd04362a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x7fd04362a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x6554b3f6b3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad+0x23e4) (BuildId: b3b70619bbe7cab435bc1c06d64ea5771ac0a0f3)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_51b.c:55 in CWE123_Write_What_Where_Condition__fgets_51b_badSink
+==1435596==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435598==ERROR: AddressSanitizer: SEGV on unknown address 0x73007473657c (pc 0x56d38f805995 bp 0x7ffd1ef09910 sp 0x7ffd1ef09870 T0)
+==1435598==The signal is caused by a WRITE memory access.
+    #0 0x56d38f805995 in CWE123_Write_What_Where_Condition__fgets_52c_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_52c.c:55
+    #1 0x56d38f8057d0 in CWE123_Write_What_Where_Condition__fgets_52b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_52b.c:41
+    #2 0x56d38f805697 in CWE123_Write_What_Where_Condition__fgets_52_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_52a.c:52
+    #3 0x56d38f805744 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_52a.c:103
+    #4 0x73a64da2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #5 0x73a64da2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #6 0x56d38f8053e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_52-bad+0x23e4) (BuildId: a955690388b1deac000afaf727cb798952cd2785)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_52c.c:55 in CWE123_Write_What_Where_Condition__fgets_52c_badSink
+==1435598==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435600==ERROR: AddressSanitizer: SEGV on unknown address 0x76007473657c (pc 0x5a36b1e5da0e bp 0x7ffc1462b860 sp 0x7ffc1462b7c0 T0)
+==1435600==The signal is caused by a WRITE memory access.
+    #0 0x5a36b1e5da0e in CWE123_Write_What_Where_Condition__fgets_53d_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_53d.c:55
+    #1 0x5a36b1e5d849 in CWE123_Write_What_Where_Condition__fgets_53c_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_53c.c:41
+    #2 0x5a36b1e5d7d0 in CWE123_Write_What_Where_Condition__fgets_53b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_53b.c:41
+    #3 0x5a36b1e5d697 in CWE123_Write_What_Where_Condition__fgets_53_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_53a.c:52
+    #4 0x5a36b1e5d744 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_53a.c:103
+    #5 0x76f83862a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #6 0x76f83862a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #7 0x5a36b1e5d3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_53-bad+0x23e4) (BuildId: 32af18e0a2c50dbe35405dcf84e1ddce7f496821)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_53d.c:55 in CWE123_Write_What_Where_Condition__fgets_53d_badSink
+==1435600==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435602==ERROR: AddressSanitizer: SEGV on unknown address 0x7e007473657c (pc 0x5e97ae17da87 bp 0x7ffc3f00ad50 sp 0x7ffc3f00acb0 T0)
+==1435602==The signal is caused by a WRITE memory access.
+    #0 0x5e97ae17da87 in CWE123_Write_What_Where_Condition__fgets_54e_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_54e.c:55
+    #1 0x5e97ae17d8c2 in CWE123_Write_What_Where_Condition__fgets_54d_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_54d.c:41
+    #2 0x5e97ae17d849 in CWE123_Write_What_Where_Condition__fgets_54c_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_54c.c:41
+    #3 0x5e97ae17d7d0 in CWE123_Write_What_Where_Condition__fgets_54b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_54b.c:41
+    #4 0x5e97ae17d697 in CWE123_Write_What_Where_Condition__fgets_54_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_54a.c:52
+    #5 0x5e97ae17d744 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_54a.c:103
+    #6 0x7e2660c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #7 0x7e2660c2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #8 0x5e97ae17d3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_54-bad+0x23e4) (BuildId: dc2ddfebcca8fefc5a38cbc6cd3266dd3aea76cb)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_54e.c:55 in CWE123_Write_What_Where_Condition__fgets_54e_badSink
+==1435602==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435604==ERROR: AddressSanitizer: SEGV on unknown address 0x79007473657c (pc 0x5d1f10a5b6b7 bp 0x7ffe2ad10920 sp 0x7ffe2ad10870 T0)
+==1435604==The signal is caused by a WRITE memory access.
+    #0 0x5d1f10a5b6b7 in CWE123_Write_What_Where_Condition__fgets_61_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_61a.c:64
+    #1 0x5d1f10a5b767 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_61a.c:130
+    #2 0x79a94062a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #3 0x79a94062a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #4 0x5d1f10a5b3e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_61-bad+0x23e4) (BuildId: c8368ea36cd47bbe217a27d4be982176bd6ee30a)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_61a.c:64 in CWE123_Write_What_Where_Condition__fgets_61_bad
+==1435604==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435606==ERROR: AddressSanitizer: SEGV on unknown address 0x78007473657c (pc 0x5c87304e08a2 bp 0x7ffe623144e0 sp 0x7ffe62314460 T0)
+==1435606==The signal is caused by a WRITE memory access.
+    #0 0x5c87304e08a2 in CWE123_Write_What_Where_Condition__fgets_63b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_63b.c:54
+    #1 0x5c87304e066e in CWE123_Write_What_Where_Condition__fgets_63_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_63a.c:52
+    #2 0x5c87304e071b in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_63a.c:102
+    #3 0x781eff22a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x781eff22a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x5c87304e03e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_63-bad+0x23e4) (BuildId: 28309b60e92b2f49328ebc68cc5703d0605f12f7)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_63b.c:54 in CWE123_Write_What_Where_Condition__fgets_63b_badSink
+==1435606==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435608==ERROR: AddressSanitizer: SEGV on unknown address 0x7a007473657c (pc 0x5bfb9dbd78b0 bp 0x7ffc4f90c310 sp 0x7ffc4f90c280 T0)
+==1435608==The signal is caused by a WRITE memory access.
+    #0 0x5bfb9dbd78b0 in CWE123_Write_What_Where_Condition__fgets_64b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_64b.c:57
+    #1 0x5bfb9dbd766e in CWE123_Write_What_Where_Condition__fgets_64_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_64a.c:52
+    #2 0x5bfb9dbd771b in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_64a.c:102
+    #3 0x7a4b8522a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x7a4b8522a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x5bfb9dbd73e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_64-bad+0x23e4) (BuildId: d1cf7025cc3a082379b3fdcbca6ece1bd14e41ab)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_64b.c:57 in CWE123_Write_What_Where_Condition__fgets_64b_badSink
+==1435608==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435610==ERROR: AddressSanitizer: SEGV on unknown address 0x7a007473657c (pc 0x5f0a1ce4392e bp 0x7ffea8714d80 sp 0x7ffea8714ce0 T0)
+==1435610==The signal is caused by a WRITE memory access.
+    #0 0x5f0a1ce4392e in CWE123_Write_What_Where_Condition__fgets_65b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_65b.c:53
+    #1 0x5f0a1ce436a9 in CWE123_Write_What_Where_Condition__fgets_65_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_65a.c:55
+    #2 0x5f0a1ce43756 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_65a.c:106
+    #3 0x7a52eac2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x7a52eac2a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x5f0a1ce433e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_65-bad+0x23e4) (BuildId: b40150e6d7c8e2788d82631a20fe1f8ec30e5146)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_65b.c:53 in CWE123_Write_What_Where_Condition__fgets_65b_badSink
+==1435610==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435612==ERROR: AddressSanitizer: SEGV on unknown address 0x71007473657c (pc 0x5de371681977 bp 0x7fff5f39c2e0 sp 0x7fff5f39c260 T0)
+==1435612==The signal is caused by a WRITE memory access.
+    #0 0x5de371681977 in CWE123_Write_What_Where_Condition__fgets_66b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_66b.c:55
+    #1 0x5de37168173e in CWE123_Write_What_Where_Condition__fgets_66_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_66a.c:55
+    #2 0x5de3716817eb in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_66a.c:107
+    #3 0x719d1b62a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x719d1b62a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x5de371681404 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_66-bad+0x2404) (BuildId: 264b9e4ed7a0e8b771784527e2a25189e455c77b)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_66b.c:55 in CWE123_Write_What_Where_Condition__fgets_66b_badSink
+==1435612==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435614==ERROR: AddressSanitizer: SEGV on unknown address 0x7c007473657c (pc 0x5edf5000391a bp 0x7ffc85745b30 sp 0x7ffc85745a70 T0)
+==1435614==The signal is caused by a WRITE memory access.
+    #0 0x5edf5000391a in CWE123_Write_What_Where_Condition__fgets_67b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_67b.c:59
+    #1 0x5edf500036b2 in CWE123_Write_What_Where_Condition__fgets_67_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_67a.c:59
+    #2 0x5edf50003749 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_67a.c:111
+    #3 0x7cc7e562a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x7cc7e562a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x5edf500033e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_67-bad+0x23e4) (BuildId: fe155461f6558287e6b9be9a5130e9b266f2dfc5)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_67b.c:59 in CWE123_Write_What_Where_Condition__fgets_67b_badSink
+==1435614==ABORTING
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==1435616==ERROR: AddressSanitizer: SEGV on unknown address 0x78007473657c (pc 0x6034bc6678da bp 0x7ffef588f350 sp 0x7ffef588f2e0 T0)
+==1435616==The signal is caused by a WRITE memory access.
+    #0 0x6034bc6678da in CWE123_Write_What_Where_Condition__fgets_68b_badSink /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_68b.c:59
+    #1 0x6034bc6676a4 in CWE123_Write_What_Where_Condition__fgets_68_bad /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_68a.c:56
+    #2 0x6034bc667751 in main /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_68a.c:108
+    #3 0x78aa0742a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #4 0x78aa0742a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #5 0x6034bc6673e4 in _start (/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/asan/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_68-bad+0x23e4) (BuildId: ae85def200f8b0620d4fcefecbd46030d50661a1)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_68b.c:59 in CWE123_Write_What_Where_Condition__fgets_68b_badSink
+==1435616==ABORTING
+Calling bad()...
+Finished bad()
+========== cleaning /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========
+========== generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========
+========== making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========
+========== running /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========

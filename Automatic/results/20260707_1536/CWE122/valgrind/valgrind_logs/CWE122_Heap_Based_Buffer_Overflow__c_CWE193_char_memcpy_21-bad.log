@@ -1,0 +1,37 @@
+==1318489== Memcheck, a memory error detector
+==1318489== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1318489== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1318489== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad
+==1318489== Parent PID: 1318488
+==1318489== 
+==1318489== Invalid write of size 1
+==1318489==    at 0x4852EE3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318489==    by 0x1093DC: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==    by 0x109448: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==  Address 0x4a8508a is 0 bytes after a block of size 10 alloc'd
+==1318489==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318489==    by 0x10934C: badSource (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==    by 0x1093A0: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==    by 0x109448: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489== 
+==1318489== Invalid read of size 1
+==1318489==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318489==    by 0x48F6BFC: puts (ioputs.c:35)
+==1318489==    by 0x109481: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==    by 0x1093E8: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==    by 0x109448: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==  Address 0x4a8508a is 0 bytes after a block of size 10 alloc'd
+==1318489==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318489==    by 0x10934C: badSource (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==    by 0x1093A0: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489==    by 0x109448: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_21-bad)
+==1318489== 
+==1318489== 
+==1318489== HEAP SUMMARY:
+==1318489==     in use at exit: 0 bytes in 0 blocks
+==1318489==   total heap usage: 2 allocs, 2 frees, 4,106 bytes allocated
+==1318489== 
+==1318489== All heap blocks were freed -- no leaks are possible
+==1318489== 
+==1318489== For lists of detected and suppressed errors, rerun with: -s
+==1318489== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

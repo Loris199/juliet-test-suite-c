@@ -1,0 +1,23 @@
+==1856335== Memcheck, a memory error detector
+==1856335== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1856335== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1856335== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_18-bad
+==1856335== Parent PID: 1856334
+==1856335== 
+==1856335== Invalid read of size 1
+==1856335==    at 0x1093D5: CWE126_Buffer_Overread__malloc_char_loop_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_18-bad)
+==1856335==    by 0x10946C: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_18-bad)
+==1856335==  Address 0x4a850b2 is 0 bytes after a block of size 50 alloc'd
+==1856335==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856335==    by 0x109359: CWE126_Buffer_Overread__malloc_char_loop_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_18-bad)
+==1856335==    by 0x10946C: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_18-bad)
+==1856335== 
+==1856335== 
+==1856335== HEAP SUMMARY:
+==1856335==     in use at exit: 0 bytes in 0 blocks
+==1856335==   total heap usage: 2 allocs, 2 frees, 4,146 bytes allocated
+==1856335== 
+==1856335== All heap blocks were freed -- no leaks are possible
+==1856335== 
+==1856335== For lists of detected and suppressed errors, rerun with: -s
+==1856335== ERROR SUMMARY: 49 errors from 1 contexts (suppressed: 0 from 0)

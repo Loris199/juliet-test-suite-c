@@ -1,0 +1,51 @@
+==1317205== Memcheck, a memory error detector
+==1317205== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1317205== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1317205== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad
+==1317205== Parent PID: 1317204
+==1317205== 
+==1317205== Invalid write of size 8
+==1317205==    at 0x4852E13: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x1093A4: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==  Address 0x4a85088 is 8 bytes inside a block of size 10 alloc'd
+==1317205==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x109350: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205== 
+==1317205== Invalid write of size 8
+==1317205==    at 0x4852E1B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x1093A4: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==  Address 0x4a85090 is 6 bytes after a block of size 10 alloc'd
+==1317205==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x109350: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205== 
+==1317205== Invalid write of size 8
+==1317205==    at 0x4852E23: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x1093A4: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==  Address 0x4a85098 is 14 bytes after a block of size 10 alloc'd
+==1317205==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x109350: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205== 
+==1317205== Invalid write of size 8
+==1317205==    at 0x4852E61: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x1093A4: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==  Address 0x4a850a0 is 22 bytes after a block of size 10 alloc'd
+==1317205==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317205==    by 0x109350: CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205==    by 0x109411: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32-bad)
+==1317205== 
+==1317205== 
+==1317205== HEAP SUMMARY:
+==1317205==     in use at exit: 0 bytes in 0 blocks
+==1317205==   total heap usage: 2 allocs, 2 frees, 4,106 bytes allocated
+==1317205== 
+==1317205== All heap blocks were freed -- no leaks are possible
+==1317205== 
+==1317205== For lists of detected and suppressed errors, rerun with: -s
+==1317205== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)

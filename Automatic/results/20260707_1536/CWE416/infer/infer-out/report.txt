@@ -1,0 +1,182 @@
+#0
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+#1
+CWE416_Use_After_Free__malloc_free_char_63b.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#2
+CWE416_Use_After_Free__malloc_free_char_64b.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#3
+CWE416_Use_After_Free__malloc_free_int64_t_63b.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#4
+CWE416_Use_After_Free__malloc_free_int64_t_64b.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#5
+CWE416_Use_After_Free__malloc_free_int_63b.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#6
+CWE416_Use_After_Free__malloc_free_int_64b.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#7
+CWE416_Use_After_Free__malloc_free_long_63b.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#8
+CWE416_Use_After_Free__malloc_free_long_64b.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#9
+CWE416_Use_After_Free__malloc_free_struct_63b.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#10
+CWE416_Use_After_Free__malloc_free_struct_64b.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#11
+CWE416_Use_After_Free__return_freed_ptr_01.c:91: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 90 is not freed after the last access at line 91, column 9. 
+
+#12
+CWE416_Use_After_Free__return_freed_ptr_02.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 101 is not freed after the last access at line 102, column 13. 
+
+#13
+CWE416_Use_After_Free__return_freed_ptr_02.c:119: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 118 is not freed after the last access at line 119, column 13. 
+
+#14
+CWE416_Use_After_Free__return_freed_ptr_03.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 101 is not freed after the last access at line 102, column 13. 
+
+#15
+CWE416_Use_After_Free__return_freed_ptr_03.c:119: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 118 is not freed after the last access at line 119, column 13. 
+
+#16
+CWE416_Use_After_Free__return_freed_ptr_04.c:108: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 107 is not freed after the last access at line 108, column 13. 
+
+#17
+CWE416_Use_After_Free__return_freed_ptr_04.c:125: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 124 is not freed after the last access at line 125, column 13. 
+
+#18
+CWE416_Use_After_Free__return_freed_ptr_05.c:108: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 107 is not freed after the last access at line 108, column 13. 
+
+#19
+CWE416_Use_After_Free__return_freed_ptr_05.c:125: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 124 is not freed after the last access at line 125, column 13. 
+
+#20
+CWE416_Use_After_Free__return_freed_ptr_06.c:107: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 106 is not freed after the last access at line 107, column 13. 
+
+#21
+CWE416_Use_After_Free__return_freed_ptr_06.c:124: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 123 is not freed after the last access at line 124, column 13. 
+
+#22
+CWE416_Use_After_Free__return_freed_ptr_07.c:107: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 106 is not freed after the last access at line 107, column 13. 
+
+#23
+CWE416_Use_After_Free__return_freed_ptr_07.c:124: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 123 is not freed after the last access at line 124, column 13. 
+
+#24
+CWE416_Use_After_Free__return_freed_ptr_08.c:115: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 114 is not freed after the last access at line 115, column 13. 
+
+#25
+CWE416_Use_After_Free__return_freed_ptr_08.c:132: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 131 is not freed after the last access at line 132, column 13. 
+
+#26
+CWE416_Use_After_Free__return_freed_ptr_09.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 101 is not freed after the last access at line 102, column 13. 
+
+#27
+CWE416_Use_After_Free__return_freed_ptr_09.c:119: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 118 is not freed after the last access at line 119, column 13. 
+
+#28
+CWE416_Use_After_Free__return_freed_ptr_10.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 101 is not freed after the last access at line 102, column 13. 
+
+#29
+CWE416_Use_After_Free__return_freed_ptr_10.c:119: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 118 is not freed after the last access at line 119, column 13. 
+
+#30
+CWE416_Use_After_Free__return_freed_ptr_11.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 101 is not freed after the last access at line 102, column 13. 
+
+#31
+CWE416_Use_After_Free__return_freed_ptr_11.c:119: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 118 is not freed after the last access at line 119, column 13. 
+
+#32
+CWE416_Use_After_Free__return_freed_ptr_12.c:88: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 87 is not freed after the last access at line 88, column 13. 
+
+#33
+CWE416_Use_After_Free__return_freed_ptr_12.c:109: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 108 is not freed after the last access at line 109, column 13. 
+
+#34
+CWE416_Use_After_Free__return_freed_ptr_12.c:121: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 120 is not freed after the last access at line 121, column 13. 
+
+#35
+CWE416_Use_After_Free__return_freed_ptr_13.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 101 is not freed after the last access at line 102, column 13. 
+
+#36
+CWE416_Use_After_Free__return_freed_ptr_13.c:119: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 118 is not freed after the last access at line 119, column 13. 
+
+#37
+CWE416_Use_After_Free__return_freed_ptr_14.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 101 is not freed after the last access at line 102, column 13. 
+
+#38
+CWE416_Use_After_Free__return_freed_ptr_14.c:119: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 118 is not freed after the last access at line 119, column 13. 
+
+#39
+CWE416_Use_After_Free__return_freed_ptr_15.c:108: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 107 is not freed after the last access at line 108, column 9. 
+
+#40
+CWE416_Use_After_Free__return_freed_ptr_15.c:127: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 126 is not freed after the last access at line 127, column 9. 
+
+#41
+CWE416_Use_After_Free__return_freed_ptr_17.c:99: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 98 is not freed after the last access at line 99, column 13. 
+
+#42
+CWE416_Use_After_Free__return_freed_ptr_18.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc`, indirectly via call to `helperGood()` on line 95 is not freed after the last access at line 96, column 9. 
+
+Found 43 issues
+  Issue Type(ISSUED_TYPE_ID): #
+  Memory Leak(MEMORY_LEAK_C): 33
+      Dead Store(DEAD_STORE): 10

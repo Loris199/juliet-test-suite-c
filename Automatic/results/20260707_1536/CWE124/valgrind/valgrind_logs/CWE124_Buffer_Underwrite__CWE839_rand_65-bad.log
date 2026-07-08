@@ -1,0 +1,38 @@
+==1652645== Memcheck, a memory error detector
+==1652645== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1652645== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1652645== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__CWE839_rand_65-bad
+==1652645== Parent PID: 1652644
+==1652645== 
+==1652645== Invalid write of size 4
+==1652645==    at 0x109390: CWE124_Buffer_Underwrite__CWE839_rand_65b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__CWE839_rand_65-bad)
+==1652645==    by 0x1092FB: CWE124_Buffer_Underwrite__CWE839_rand_65_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__CWE839_rand_65-bad)
+==1652645==    by 0x10933F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__CWE839_rand_65-bad)
+==1652645==  Address 0x1febae49cc is not stack'd, malloc'd or (recently) free'd
+==1652645== 
+==1652645== 
+==1652645== Process terminating with default action of signal 11 (SIGSEGV)
+==1652645==  Access not within mapped region at address 0x1FEBAE49CC
+==1652645==    at 0x109390: CWE124_Buffer_Underwrite__CWE839_rand_65b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__CWE839_rand_65-bad)
+==1652645==    by 0x1092FB: CWE124_Buffer_Underwrite__CWE839_rand_65_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__CWE839_rand_65-bad)
+==1652645==    by 0x10933F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__CWE839_rand_65-bad)
+==1652645==  If you believe this happened as a result of a stack
+==1652645==  overflow in your program's main thread (unlikely but
+==1652645==  possible), you can try to increase the size of the
+==1652645==  main thread stack using the --main-stacksize= flag.
+==1652645==  The main thread stack size used in this run was 8388608.
+==1652645== 
+==1652645== HEAP SUMMARY:
+==1652645==     in use at exit: 4,096 bytes in 1 blocks
+==1652645==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==1652645== 
+==1652645== LEAK SUMMARY:
+==1652645==    definitely lost: 0 bytes in 0 blocks
+==1652645==    indirectly lost: 0 bytes in 0 blocks
+==1652645==      possibly lost: 0 bytes in 0 blocks
+==1652645==    still reachable: 4,096 bytes in 1 blocks
+==1652645==         suppressed: 0 bytes in 0 blocks
+==1652645== Rerun with --leak-check=full to see details of leaked memory
+==1652645== 
+==1652645== For lists of detected and suppressed errors, rerun with: -s
+==1652645== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

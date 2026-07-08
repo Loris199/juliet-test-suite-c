@@ -1,0 +1,24 @@
+==1317081== Memcheck, a memory error detector
+==1317081== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1317081== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1317081== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66-bad
+==1317081== Parent PID: 1317080
+==1317081== 
+==1317081== Invalid write of size 4
+==1317081==    at 0x10940A: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66-bad)
+==1317081==    by 0x10933E: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66-bad)
+==1317081==    by 0x109392: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66-bad)
+==1317081==  Address 0x4a85088 is 8 bytes inside a block of size 10 alloc'd
+==1317081==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317081==    by 0x109315: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66-bad)
+==1317081==    by 0x109392: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_66-bad)
+==1317081== 
+==1317081== 
+==1317081== HEAP SUMMARY:
+==1317081==     in use at exit: 0 bytes in 0 blocks
+==1317081==   total heap usage: 2 allocs, 2 frees, 4,106 bytes allocated
+==1317081== 
+==1317081== All heap blocks were freed -- no leaks are possible
+==1317081== 
+==1317081== For lists of detected and suppressed errors, rerun with: -s
+==1317081== ERROR SUMMARY: 8 errors from 1 contexts (suppressed: 0 from 0)

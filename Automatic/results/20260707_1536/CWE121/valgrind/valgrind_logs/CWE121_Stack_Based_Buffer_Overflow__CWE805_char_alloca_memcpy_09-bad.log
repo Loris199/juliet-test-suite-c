@@ -1,0 +1,31 @@
+==725353== Memcheck, a memory error detector
+==725353== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==725353== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==725353== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_09-bad
+==725353== Parent PID: 725352
+==725353== 
+==725353== Invalid write of size 1
+==725353==    at 0x109485: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_09-bad)
+==725353==    by 0x1094EE: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_09-bad)
+==725353==  Address 0x43434343434343a6 is not stack'd, malloc'd or (recently) free'd
+==725353== 
+==725353== 
+==725353== Process terminating with default action of signal 11 (SIGSEGV)
+==725353==  General Protection Fault
+==725353==    at 0x109485: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_09-bad)
+==725353==    by 0x1094EE: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_09-bad)
+==725353== 
+==725353== HEAP SUMMARY:
+==725353==     in use at exit: 4,096 bytes in 1 blocks
+==725353==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==725353== 
+==725353== LEAK SUMMARY:
+==725353==    definitely lost: 0 bytes in 0 blocks
+==725353==    indirectly lost: 0 bytes in 0 blocks
+==725353==      possibly lost: 0 bytes in 0 blocks
+==725353==    still reachable: 4,096 bytes in 1 blocks
+==725353==         suppressed: 0 bytes in 0 blocks
+==725353== Rerun with --leak-check=full to see details of leaked memory
+==725353== 
+==725353== For lists of detected and suppressed errors, rerun with: -s
+==725353== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

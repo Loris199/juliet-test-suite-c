@@ -1,0 +1,38 @@
+==1430344== Memcheck, a memory error detector
+==1430344== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1430344== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1430344== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad
+==1430344== Parent PID: 1430343
+==1430344== 
+==1430344== Invalid write of size 8
+==1430344==    at 0x109415: CWE123_Write_What_Where_Condition__fgets_51b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad)
+==1430344==    by 0x10935C: CWE123_Write_What_Where_Condition__fgets_51_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad)
+==1430344==    by 0x1093B0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad)
+==1430344==  Address 0x7473657c is not stack'd, malloc'd or (recently) free'd
+==1430344== 
+==1430344== 
+==1430344== Process terminating with default action of signal 11 (SIGSEGV)
+==1430344==  Access not within mapped region at address 0x7473657C
+==1430344==    at 0x109415: CWE123_Write_What_Where_Condition__fgets_51b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad)
+==1430344==    by 0x10935C: CWE123_Write_What_Where_Condition__fgets_51_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad)
+==1430344==    by 0x1093B0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad)
+==1430344==  If you believe this happened as a result of a stack
+==1430344==  overflow in your program's main thread (unlikely but
+==1430344==  possible), you can try to increase the size of the
+==1430344==  main thread stack using the --main-stacksize= flag.
+==1430344==  The main thread stack size used in this run was 8388608.
+==1430344== 
+==1430344== HEAP SUMMARY:
+==1430344==     in use at exit: 8,192 bytes in 2 blocks
+==1430344==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==1430344== 
+==1430344== LEAK SUMMARY:
+==1430344==    definitely lost: 0 bytes in 0 blocks
+==1430344==    indirectly lost: 0 bytes in 0 blocks
+==1430344==      possibly lost: 0 bytes in 0 blocks
+==1430344==    still reachable: 8,192 bytes in 2 blocks
+==1430344==         suppressed: 0 bytes in 0 blocks
+==1430344== Rerun with --leak-check=full to see details of leaked memory
+==1430344== 
+==1430344== For lists of detected and suppressed errors, rerun with: -s
+==1430344== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

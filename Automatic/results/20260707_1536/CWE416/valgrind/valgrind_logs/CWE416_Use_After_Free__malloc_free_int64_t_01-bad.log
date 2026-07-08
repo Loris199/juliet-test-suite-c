@@ -1,0 +1,27 @@
+==2161389== Memcheck, a memory error detector
+==2161389== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2161389== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2161389== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad
+==2161389== Parent PID: 2161388
+==2161389== 
+==2161389== Invalid read of size 8
+==2161389==    at 0x10935C: CWE416_Use_After_Free__malloc_free_int64_t_01_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad)
+==2161389==    by 0x1093A6: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad)
+==2161389==  Address 0x4a85080 is 0 bytes inside a block of size 800 free'd
+==2161389==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161389==    by 0x109357: CWE416_Use_After_Free__malloc_free_int64_t_01_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad)
+==2161389==    by 0x1093A6: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad)
+==2161389==  Block was alloc'd at
+==2161389==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161389==    by 0x109306: CWE416_Use_After_Free__malloc_free_int64_t_01_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad)
+==2161389==    by 0x1093A6: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad)
+==2161389== 
+==2161389== 
+==2161389== HEAP SUMMARY:
+==2161389==     in use at exit: 0 bytes in 0 blocks
+==2161389==   total heap usage: 2 allocs, 2 frees, 4,896 bytes allocated
+==2161389== 
+==2161389== All heap blocks were freed -- no leaks are possible
+==2161389== 
+==2161389== For lists of detected and suppressed errors, rerun with: -s
+==2161389== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

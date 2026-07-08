@@ -1,0 +1,38 @@
+==1855697== Memcheck, a memory error detector
+==1855697== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1855697== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1855697== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE129_rand_44-bad
+==1855697== Parent PID: 1855696
+==1855697== 
+==1855697== Invalid read of size 4
+==1855697==    at 0x1092C3: badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE129_rand_44-bad)
+==1855697==    by 0x109368: CWE126_Buffer_Overread__CWE129_rand_44_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE129_rand_44-bad)
+==1855697==    by 0x1093AC: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE129_rand_44-bad)
+==1855697==  Address 0x21673ff668 is not stack'd, malloc'd or (recently) free'd
+==1855697== 
+==1855697== 
+==1855697== Process terminating with default action of signal 11 (SIGSEGV)
+==1855697==  Access not within mapped region at address 0x21673FF668
+==1855697==    at 0x1092C3: badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE129_rand_44-bad)
+==1855697==    by 0x109368: CWE126_Buffer_Overread__CWE129_rand_44_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE129_rand_44-bad)
+==1855697==    by 0x1093AC: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE129_rand_44-bad)
+==1855697==  If you believe this happened as a result of a stack
+==1855697==  overflow in your program's main thread (unlikely but
+==1855697==  possible), you can try to increase the size of the
+==1855697==  main thread stack using the --main-stacksize= flag.
+==1855697==  The main thread stack size used in this run was 8388608.
+==1855697== 
+==1855697== HEAP SUMMARY:
+==1855697==     in use at exit: 4,096 bytes in 1 blocks
+==1855697==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==1855697== 
+==1855697== LEAK SUMMARY:
+==1855697==    definitely lost: 0 bytes in 0 blocks
+==1855697==    indirectly lost: 0 bytes in 0 blocks
+==1855697==      possibly lost: 0 bytes in 0 blocks
+==1855697==    still reachable: 4,096 bytes in 1 blocks
+==1855697==         suppressed: 0 bytes in 0 blocks
+==1855697== Rerun with --leak-check=full to see details of leaked memory
+==1855697== 
+==1855697== For lists of detected and suppressed errors, rerun with: -s
+==1855697== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

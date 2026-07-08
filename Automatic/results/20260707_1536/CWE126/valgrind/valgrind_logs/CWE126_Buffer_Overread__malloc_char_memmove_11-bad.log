@@ -1,0 +1,60 @@
+==1856473== Memcheck, a memory error detector
+==1856473== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1856473== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1856473== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad
+==1856473== Parent PID: 1856472
+==1856473== 
+==1856473== Invalid read of size 8
+==1856473==    at 0x4852E1F: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x1093F5: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==  Address 0x4a850b8 is 6 bytes after a block of size 50 alloc'd
+==1856473==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x109383: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473== 
+==1856473== Invalid read of size 8
+==1856473==    at 0x4852E04: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x1093F5: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==  Address 0x4a850c0 is 14 bytes after a block of size 50 alloc'd
+==1856473==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x109383: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473== 
+==1856473== Invalid read of size 8
+==1856473==    at 0x4852E0F: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x1093F5: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==  Address 0x4a850c8 is 22 bytes after a block of size 50 alloc'd
+==1856473==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x109383: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473== 
+==1856473== Invalid read of size 8
+==1856473==    at 0x4852E17: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x1093F5: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==  Address 0x4a850d0 is 16 bytes after a block of size 64 in arena "client"
+==1856473== 
+==1856473== Invalid read of size 2
+==1856473==    at 0x4852EB0: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x1093F5: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==  Address 0x4a850e0 is 32 bytes before an unallocated block of size 4,189,920 in arena "client"
+==1856473== 
+==1856473== Invalid read of size 1
+==1856473==    at 0x4852EE0: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856473==    by 0x1093F5: CWE126_Buffer_Overread__malloc_char_memmove_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==    by 0x109465: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_memmove_11-bad)
+==1856473==  Address 0x4a850e2 is 30 bytes before an unallocated block of size 4,189,920 in arena "client"
+==1856473== 
+==1856473== 
+==1856473== HEAP SUMMARY:
+==1856473==     in use at exit: 0 bytes in 0 blocks
+==1856473==   total heap usage: 2 allocs, 2 frees, 4,146 bytes allocated
+==1856473== 
+==1856473== All heap blocks were freed -- no leaks are possible
+==1856473== 
+==1856473== For lists of detected and suppressed errors, rerun with: -s
+==1856473== ERROR SUMMARY: 7 errors from 6 contexts (suppressed: 0 from 0)

@@ -1,0 +1,37 @@
+==726532== Memcheck, a memory error detector
+==726532== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==726532== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==726532== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06-bad
+==726532== Parent PID: 726531
+==726532== 
+==726532== Invalid read of size 1
+==726532==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==726532==    by 0x48F6BFC: puts (ioputs.c:35)
+==726532==    by 0x1094E6: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06-bad)
+==726532==    by 0x109459: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06-bad)
+==726532==    by 0x1094AD: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06-bad)
+==726532==  Address 0x4343434343434343 is not stack'd, malloc'd or (recently) free'd
+==726532== 
+==726532== 
+==726532== Process terminating with default action of signal 11 (SIGSEGV)
+==726532==  General Protection Fault
+==726532==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==726532==    by 0x48F6BFC: puts (ioputs.c:35)
+==726532==    by 0x1094E6: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06-bad)
+==726532==    by 0x109459: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06-bad)
+==726532==    by 0x1094AD: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_06-bad)
+==726532== 
+==726532== HEAP SUMMARY:
+==726532==     in use at exit: 4,096 bytes in 1 blocks
+==726532==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==726532== 
+==726532== LEAK SUMMARY:
+==726532==    definitely lost: 0 bytes in 0 blocks
+==726532==    indirectly lost: 0 bytes in 0 blocks
+==726532==      possibly lost: 0 bytes in 0 blocks
+==726532==    still reachable: 4,096 bytes in 1 blocks
+==726532==         suppressed: 0 bytes in 0 blocks
+==726532== Rerun with --leak-check=full to see details of leaked memory
+==726532== 
+==726532== For lists of detected and suppressed errors, rerun with: -s
+==726532== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,20 @@
+==727077== Memcheck, a memory error detector
+==727077== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==727077== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==727077== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_10-bad
+==727077== Parent PID: 727076
+==727077== 
+==727077== Source and destination overlap in strncpy(0x1ffefffe43, 0x1ffefffe83, 99)
+==727077==    at 0x484F5A0: strncpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==727077==    by 0x10933D: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_10_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_10-bad)
+==727077==    by 0x1093AE: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_10-bad)
+==727077== 
+==727077== 
+==727077== HEAP SUMMARY:
+==727077==     in use at exit: 0 bytes in 0 blocks
+==727077==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==727077== 
+==727077== All heap blocks were freed -- no leaks are possible
+==727077== 
+==727077== For lists of detected and suppressed errors, rerun with: -s
+==727077== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

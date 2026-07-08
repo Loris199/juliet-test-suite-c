@@ -1,0 +1,24 @@
+==1319418== Memcheck, a memory error detector
+==1319418== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1319418== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1319418== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45-bad
+==1319418== Parent PID: 1319417
+==1319418== 
+==1319418== Invalid write of size 4
+==1319418==    at 0x109360: badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45-bad)
+==1319418==    by 0x1093F1: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45-bad)
+==1319418==    by 0x109431: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45-bad)
+==1319418==  Address 0x4a85148 is 0 bytes after a block of size 200 alloc'd
+==1319418==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319418==    by 0x1093C7: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45-bad)
+==1319418==    by 0x109431: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_45-bad)
+==1319418== 
+==1319418== 
+==1319418== HEAP SUMMARY:
+==1319418==     in use at exit: 0 bytes in 0 blocks
+==1319418==   total heap usage: 2 allocs, 2 frees, 4,296 bytes allocated
+==1319418== 
+==1319418== All heap blocks were freed -- no leaks are possible
+==1319418== 
+==1319418== For lists of detected and suppressed errors, rerun with: -s
+==1319418== ERROR SUMMARY: 50 errors from 1 contexts (suppressed: 0 from 0)

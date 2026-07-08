@@ -1,0 +1,125 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK          1419
+TIMEOUT       73
+SIGABRT      630
+135            1
+139          385
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK   TIMEOUT   SIGABRT       135       139
+  1:         41         5         9         0        17
+  2:         41         5         9         0        17
+  3:         41         5         9         0        17
+  4:         41         1         9         0        21
+  5:         41         1         9         1        20
+  6:         41         1         9         0        21
+  7:         41         1         9         0        21
+  8:         41         1         9         0        21
+  9:         41         1         9         0        21
+ 10:         41         1         9         0        21
+ 11:         41         1         9         0        21
+ 12:         52         0         4         0        16
+ 13:         41         1         9         0        21
+ 14:         41         1         9         0        21
+ 15:         41         5         9         0        17
+ 16:         41         5         9         0        17
+ 17:         42         1         9         0        20
+ 18:         41         5         9         0        17
+ 21:         12         1         9         0         1
+ 22:         12         1         9         0         1
+ 31:         49         5         9         0         7
+ 32:         49         5         9         0         7
+ 34:         49         5         9         0         7
+ 41:         34         1        34         0         1
+ 42:         12         1         9         0         1
+ 44:         42         1        26         0         1
+ 45:         34         1        34         0         1
+ 51:         34         1        34         0         1
+ 52:         34         1        34         0         1
+ 53:         34         1        34         0         1
+ 54:         34         1        34         0         1
+ 61:         12         1         9         0         1
+ 63:         34         1        34         0         1
+ 64:         34         1        34         0         1
+ 65:         42         1        26         0         1
+ 66:         42         1        26         0         1
+ 67:         42         1        26         0         1
+ 68:         34         1        34         0         1
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK   TIMEOUT   SIGABRT       135       139
+CWE129_connect_socket                 38         0         0         0         0
+CWE129_fgets                          38         0         0         0         0
+CWE129_fscanf                         38         0         0         0         0
+CWE129_large                           0         0        38         0         0
+CWE129_listen_socket                   1        37         0         0         0
+CWE129_rand                           20         0         0         1        17
+CWE131_loop                           16         7         0         0        11
+CWE131_memcpy                         34         0         0         0         0
+CWE131_memmove                        34         0         0         0         0
+CWE135                                 0         0         0         0        38
+CWE193_char_alloca_cpy                34         0         0         0         0
+CWE193_char_alloca_loop               34         0         0         0         0
+CWE193_char_alloca_memcpy             34         0         0         0         0
+CWE193_char_alloca_memmove            34         0         0         0         0
+CWE193_char_alloca_ncpy               34         0         0         0         0
+CWE193_char_declare_cpy               34         0         0         0         0
+CWE193_char_declare_loop              34         0         0         0         0
+CWE193_char_declare_memcpy            34         0         0         0         0
+CWE193_char_declare_memmove           34         0         0         0         0
+CWE193_char_declare_ncpy              34         0         0         0         0
+CWE805_char_alloca_loop               23         2         9         0         0
+CWE805_char_alloca_memcpy              7         0         9         0        18
+CWE805_char_alloca_memmove             7         0         9         0        18
+CWE805_char_alloca_ncat                7         0         9         0        18
+CWE805_char_alloca_ncpy                7         0         9         0        18
+CWE805_char_alloca_snprintf            8         0         9         0        17
+CWE805_char_declare_loop              34         0         0         0         0
+CWE805_char_declare_memcpy            34         0         0         0         0
+CWE805_char_declare_memmove           34         0         0         0         0
+CWE805_char_declare_ncat              34         0         0         0         0
+CWE805_char_declare_ncpy              34         0         0         0         0
+CWE805_char_declare_snprintf          34         0         0         0         0
+CWE805_int64_t_alloca_loop             1         9        13         0        11
+CWE805_int64_t_alloca_memcpy           1         0        13         0        20
+CWE805_int64_t_alloca_memmove          0         0        13         0        21
+CWE805_int64_t_declare_loop           34         0         0         0         0
+CWE805_int64_t_declare_memcpy         34         0         0         0         0
+CWE805_int64_t_declare_memmove        34         0         0         0         0
+CWE805_int_alloca_loop                 0         9        13         0        12
+CWE805_int_alloca_memcpy               0         0        13         0        21
+CWE805_int_alloca_memmove              1         0        13         0        20
+CWE805_int_declare_loop               34         0         0         0         0
+CWE805_int_declare_memcpy             34         0         0         0         0
+CWE805_int_declare_memmove            34         0         0         0         0
+CWE805_struct_alloca_loop              0         9        13         0        12
+CWE805_struct_alloca_memcpy            0         0        13         0        21
+CWE805_struct_alloca_memmove           0         0        13         0        21
+CWE805_struct_declare_loop            34         0         0         0         0
+CWE805_struct_declare_memcpy          34         0         0         0         0
+CWE805_struct_declare_memmove         34         0         0         0         0
+CWE806_char_alloca_loop                1         0        37         0         0
+CWE806_char_alloca_memcpy              0         0        38         0         0
+CWE806_char_alloca_memmove             0         0        38         0         0
+CWE806_char_alloca_ncat                1         0        37         0         0
+CWE806_char_alloca_ncpy                1         0        37         0         0
+CWE806_char_alloca_snprintf            1         0        37         0         0
+CWE806_char_declare_loop              25         0        13         0         0
+CWE806_char_declare_memcpy            25         0        13         0         0
+CWE806_char_declare_memmove           25         0        13         0         0
+CWE806_char_declare_ncat              25         0        13         0         0
+CWE806_char_declare_ncpy              25         0        13         0         0
+CWE806_char_declare_snprintf          25         0        13         0         0
+char_type_overrun_memcpy               1         0         0         0        17
+char_type_overrun_memmove              0         0         0         0        18
+dest_char_alloca_cat                   7         0         9         0        18
+dest_char_alloca_cpy                   7         0         9         0        18
+dest_char_declare_cat                 34         0         0         0         0
+dest_char_declare_cpy                 34         0         0         0         0
+src_char_alloca_cat                    1         0        37         0         0
+src_char_alloca_cpy                    0         0        38         0         0
+src_char_declare_cat                  25         0        13         0         0
+src_char_declare_cpy                  25         0        13         0         0

@@ -1,0 +1,82 @@
+==1655457== Memcheck, a memory error detector
+==1655457== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1655457== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1655457== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad
+==1655457== Parent PID: 1655456
+==1655457== 
+==1655457== Invalid write of size 8
+==1655457==    at 0x10940A: CWE124_Buffer_Underwrite__malloc_char_memcpy_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10935D: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==  Address 0x4a85078 is 8 bytes before a block of size 100 alloc'd
+==1655457==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x109306: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457== 
+==1655457== Invalid read of size 1
+==1655457==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x48F6BFC: puts (ioputs.c:35)
+==1655457==    by 0x1094C1: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x109483: CWE124_Buffer_Underwrite__malloc_char_memcpy_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10935D: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==  Address 0x4a85078 is 8 bytes before a block of size 100 alloc'd
+==1655457==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x109306: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457== 
+==1655457== Invalid read of size 1
+==1655457==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x48F6BFC: puts (ioputs.c:35)
+==1655457==    by 0x1094C1: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x109483: CWE124_Buffer_Underwrite__malloc_char_memcpy_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10935D: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==  Address 0x4a85079 is 7 bytes before a block of size 100 alloc'd
+==1655457==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x109306: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457== 
+==1655457== Invalid read of size 1
+==1655457==    at 0x4853980: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x4902A3F: _IO_new_file_xsputn (fileops.c:1236)
+==1655457==    by 0x4902A3F: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==1655457==    by 0x48F6C5C: puts (ioputs.c:40)
+==1655457==    by 0x1094C1: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x109483: CWE124_Buffer_Underwrite__malloc_char_memcpy_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10935D: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==  Address 0x4a85078 is 8 bytes before a block of size 100 alloc'd
+==1655457==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x109306: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457== 
+==1655457== Invalid read of size 1
+==1655457==    at 0x485398E: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x4902A3F: _IO_new_file_xsputn (fileops.c:1236)
+==1655457==    by 0x4902A3F: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==1655457==    by 0x48F6C5C: puts (ioputs.c:40)
+==1655457==    by 0x1094C1: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x109483: CWE124_Buffer_Underwrite__malloc_char_memcpy_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10935D: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==  Address 0x4a8507a is 6 bytes before a block of size 100 alloc'd
+==1655457==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1655457==    by 0x109306: CWE124_Buffer_Underwrite__malloc_char_memcpy_68_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457==    by 0x10939D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__malloc_char_memcpy_68-bad)
+==1655457== 
+==1655457== 
+==1655457== HEAP SUMMARY:
+==1655457==     in use at exit: 100 bytes in 1 blocks
+==1655457==   total heap usage: 2 allocs, 1 frees, 4,196 bytes allocated
+==1655457== 
+==1655457== LEAK SUMMARY:
+==1655457==    definitely lost: 100 bytes in 1 blocks
+==1655457==    indirectly lost: 0 bytes in 0 blocks
+==1655457==      possibly lost: 0 bytes in 0 blocks
+==1655457==    still reachable: 0 bytes in 0 blocks
+==1655457==         suppressed: 0 bytes in 0 blocks
+==1655457== Rerun with --leak-check=full to see details of leaked memory
+==1655457== 
+==1655457== For lists of detected and suppressed errors, rerun with: -s
+==1655457== ERROR SUMMARY: 17 errors from 5 contexts (suppressed: 0 from 0)

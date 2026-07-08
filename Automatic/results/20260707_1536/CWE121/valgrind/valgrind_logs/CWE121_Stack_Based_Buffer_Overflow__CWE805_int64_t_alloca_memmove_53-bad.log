@@ -1,0 +1,32 @@
+==728137== Memcheck, a memory error detector
+==728137== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==728137== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==728137== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_53-bad
+==728137== Parent PID: 728136
+==728137== 
+==728137== 
+==728137== Process terminating with default action of signal 6 (SIGABRT)
+==728137==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==728137==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==728137==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==728137==    by 0x48B427D: raise (raise.c:26)
+==728137==    by 0x48978FE: abort (abort.c:79)
+==728137==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==728137==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==728137==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==728137==    by 0x1093F4: CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_53_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_53-bad)
+==728137== 
+==728137== HEAP SUMMARY:
+==728137==     in use at exit: 4,096 bytes in 1 blocks
+==728137==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==728137== 
+==728137== LEAK SUMMARY:
+==728137==    definitely lost: 0 bytes in 0 blocks
+==728137==    indirectly lost: 0 bytes in 0 blocks
+==728137==      possibly lost: 0 bytes in 0 blocks
+==728137==    still reachable: 4,096 bytes in 1 blocks
+==728137==         suppressed: 0 bytes in 0 blocks
+==728137== Rerun with --leak-check=full to see details of leaked memory
+==728137== 
+==728137== For lists of detected and suppressed errors, rerun with: -s
+==728137== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

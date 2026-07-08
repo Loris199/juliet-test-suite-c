@@ -1,0 +1,31 @@
+==1655190== Memcheck, a memory error detector
+==1655190== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1655190== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1655190== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_declare_ncpy_34-bad
+==1655190== Parent PID: 1655189
+==1655190== 
+==1655190== Invalid write of size 1
+==1655190==    at 0x109372: CWE124_Buffer_Underwrite__char_declare_ncpy_34_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_declare_ncpy_34-bad)
+==1655190==    by 0x1093D7: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_declare_ncpy_34-bad)
+==1655190==  Address 0x43434343434343a6 is not stack'd, malloc'd or (recently) free'd
+==1655190== 
+==1655190== 
+==1655190== Process terminating with default action of signal 11 (SIGSEGV)
+==1655190==  General Protection Fault
+==1655190==    at 0x109372: CWE124_Buffer_Underwrite__char_declare_ncpy_34_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_declare_ncpy_34-bad)
+==1655190==    by 0x1093D7: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_declare_ncpy_34-bad)
+==1655190== 
+==1655190== HEAP SUMMARY:
+==1655190==     in use at exit: 4,096 bytes in 1 blocks
+==1655190==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==1655190== 
+==1655190== LEAK SUMMARY:
+==1655190==    definitely lost: 0 bytes in 0 blocks
+==1655190==    indirectly lost: 0 bytes in 0 blocks
+==1655190==      possibly lost: 0 bytes in 0 blocks
+==1655190==    still reachable: 4,096 bytes in 1 blocks
+==1655190==         suppressed: 0 bytes in 0 blocks
+==1655190== Rerun with --leak-check=full to see details of leaked memory
+==1655190== 
+==1655190== For lists of detected and suppressed errors, rerun with: -s
+==1655190== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,27 @@
+==1650871== Memcheck, a memory error detector
+==1650871== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1650871== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1650871== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/good/CWE124_Buffer_Underwrite__CWE839_listen_socket_16-good
+==1650871== Parent PID: 1650870
+==1650871== 
+==1650871== 
+==1650871== Process terminating with default action of signal 15 (SIGTERM)
+==1650871==    at 0x499A834: accept (accept.c:26)
+==1650871==    by 0x10946D: goodB2G (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/good/CWE124_Buffer_Underwrite__CWE839_listen_socket_16-good)
+==1650871==    by 0x109605: CWE124_Buffer_Underwrite__CWE839_listen_socket_16_good (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/good/CWE124_Buffer_Underwrite__CWE839_listen_socket_16-good)
+==1650871==    by 0x10964F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/good/CWE124_Buffer_Underwrite__CWE839_listen_socket_16-good)
+==1650871== 
+==1650871== HEAP SUMMARY:
+==1650871==     in use at exit: 4,096 bytes in 1 blocks
+==1650871==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==1650871== 
+==1650871== LEAK SUMMARY:
+==1650871==    definitely lost: 0 bytes in 0 blocks
+==1650871==    indirectly lost: 0 bytes in 0 blocks
+==1650871==      possibly lost: 0 bytes in 0 blocks
+==1650871==    still reachable: 4,096 bytes in 1 blocks
+==1650871==         suppressed: 0 bytes in 0 blocks
+==1650871== Rerun with --leak-check=full to see details of leaked memory
+==1650871== 
+==1650871== For lists of detected and suppressed errors, rerun with: -s
+==1650871== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

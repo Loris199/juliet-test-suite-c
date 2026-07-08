@@ -1,0 +1,31 @@
+==1652777== Memcheck, a memory error detector
+==1652777== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1652777== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1652777== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_alloca_cpy_10-bad
+==1652777== Parent PID: 1652776
+==1652777== 
+==1652777== Jump to the invalid address stated on the next line
+==1652777==    at 0x4343434343434343: ???
+==1652777==    by 0x109429: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_alloca_cpy_10-bad)
+==1652777==  Address 0x4343434343434343 is not stack'd, malloc'd or (recently) free'd
+==1652777== 
+==1652777== 
+==1652777== Process terminating with default action of signal 11 (SIGSEGV)
+==1652777==  Bad permissions for mapped region at address 0x4343434343434343
+==1652777==    at 0x4343434343434343: ???
+==1652777==    by 0x109429: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE124/valgrind/bin/CWE124/bad/CWE124_Buffer_Underwrite__char_alloca_cpy_10-bad)
+==1652777== 
+==1652777== HEAP SUMMARY:
+==1652777==     in use at exit: 4,096 bytes in 1 blocks
+==1652777==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==1652777== 
+==1652777== LEAK SUMMARY:
+==1652777==    definitely lost: 0 bytes in 0 blocks
+==1652777==    indirectly lost: 0 bytes in 0 blocks
+==1652777==      possibly lost: 0 bytes in 0 blocks
+==1652777==    still reachable: 4,096 bytes in 1 blocks
+==1652777==         suppressed: 0 bytes in 0 blocks
+==1652777== Rerun with --leak-check=full to see details of leaked memory
+==1652777== 
+==1652777== For lists of detected and suppressed errors, rerun with: -s
+==1652777== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

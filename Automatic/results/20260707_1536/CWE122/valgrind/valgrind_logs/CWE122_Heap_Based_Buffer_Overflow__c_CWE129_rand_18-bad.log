@@ -1,0 +1,36 @@
+==1317791== Memcheck, a memory error detector
+==1317791== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1317791== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1317791== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18-bad
+==1317791== Parent PID: 1317790
+==1317791== 
+==1317791== Invalid write of size 4
+==1317791==    at 0x1093AE: CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18-bad)
+==1317791==    by 0x109444: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18-bad)
+==1317791==  Address 0x1916a23d8 is not stack'd, malloc'd or (recently) free'd
+==1317791== 
+==1317791== 
+==1317791== Process terminating with default action of signal 11 (SIGSEGV)
+==1317791==  Access not within mapped region at address 0x1916A23D8
+==1317791==    at 0x1093AE: CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18-bad)
+==1317791==    by 0x109444: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18-bad)
+==1317791==  If you believe this happened as a result of a stack
+==1317791==  overflow in your program's main thread (unlikely but
+==1317791==  possible), you can try to increase the size of the
+==1317791==  main thread stack using the --main-stacksize= flag.
+==1317791==  The main thread stack size used in this run was 8388608.
+==1317791== 
+==1317791== HEAP SUMMARY:
+==1317791==     in use at exit: 4,136 bytes in 2 blocks
+==1317791==   total heap usage: 2 allocs, 0 frees, 4,136 bytes allocated
+==1317791== 
+==1317791== LEAK SUMMARY:
+==1317791==    definitely lost: 0 bytes in 0 blocks
+==1317791==    indirectly lost: 0 bytes in 0 blocks
+==1317791==      possibly lost: 0 bytes in 0 blocks
+==1317791==    still reachable: 4,136 bytes in 2 blocks
+==1317791==         suppressed: 0 bytes in 0 blocks
+==1317791== Rerun with --leak-check=full to see details of leaked memory
+==1317791== 
+==1317791== For lists of detected and suppressed errors, rerun with: -s
+==1317791== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

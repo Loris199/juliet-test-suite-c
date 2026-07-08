@@ -1,0 +1,24 @@
+==1856337== Memcheck, a memory error detector
+==1856337== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1856337== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1856337== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_21-bad
+==1856337== Parent PID: 1856336
+==1856337== 
+==1856337== Invalid read of size 1
+==1856337==    at 0x10940E: CWE126_Buffer_Overread__malloc_char_loop_21_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_21-bad)
+==1856337==    by 0x1094A5: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_21-bad)
+==1856337==  Address 0x4a850b2 is 0 bytes after a block of size 50 alloc'd
+==1856337==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1856337==    by 0x10934C: badSource (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_21-bad)
+==1856337==    by 0x1093C4: CWE126_Buffer_Overread__malloc_char_loop_21_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_21-bad)
+==1856337==    by 0x1094A5: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__malloc_char_loop_21-bad)
+==1856337== 
+==1856337== 
+==1856337== HEAP SUMMARY:
+==1856337==     in use at exit: 0 bytes in 0 blocks
+==1856337==   total heap usage: 2 allocs, 2 frees, 4,146 bytes allocated
+==1856337== 
+==1856337== All heap blocks were freed -- no leaks are possible
+==1856337== 
+==1856337== For lists of detected and suppressed errors, rerun with: -s
+==1856337== ERROR SUMMARY: 49 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,37 @@
+==734276== Memcheck, a memory error detector
+==734276== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==734276== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==734276== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_54-bad
+==734276== Parent PID: 734275
+==734276== 
+==734276== 
+==734276== Process terminating with default action of signal 6 (SIGABRT)
+==734276==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==734276==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==734276==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==734276==    by 0x48B427D: raise (raise.c:26)
+==734276==    by 0x48978FE: abort (abort.c:79)
+==734276==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==734276==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==734276==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==734276==    by 0x10949B: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_54e_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_54-bad)
+==734276==    by 0x4141414141414140: ???
+==734276==    by 0x4141414141414140: ???
+==734276==    by 0x4141414141414140: ???
+==734276==    by 0x1FFE414140: ???
+==734276==    by 0x1093DD: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_54c_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_54-bad)
+==734276== 
+==734276== HEAP SUMMARY:
+==734276==     in use at exit: 4,096 bytes in 1 blocks
+==734276==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==734276== 
+==734276== LEAK SUMMARY:
+==734276==    definitely lost: 0 bytes in 0 blocks
+==734276==    indirectly lost: 0 bytes in 0 blocks
+==734276==      possibly lost: 0 bytes in 0 blocks
+==734276==    still reachable: 4,096 bytes in 1 blocks
+==734276==         suppressed: 0 bytes in 0 blocks
+==734276== Rerun with --leak-check=full to see details of leaked memory
+==734276== 
+==734276== For lists of detected and suppressed errors, rerun with: -s
+==734276== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

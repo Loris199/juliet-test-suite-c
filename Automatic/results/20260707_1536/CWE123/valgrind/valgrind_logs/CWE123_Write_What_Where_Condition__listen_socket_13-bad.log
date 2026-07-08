@@ -1,0 +1,26 @@
+==1430497== Memcheck, a memory error detector
+==1430497== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1430497== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1430497== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_13-bad
+==1430497== Parent PID: 1430496
+==1430497== 
+==1430497== 
+==1430497== Process terminating with default action of signal 15 (SIGTERM)
+==1430497==    at 0x499A834: accept (accept.c:26)
+==1430497==    by 0x109485: CWE123_Write_What_Where_Condition__listen_socket_13_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_13-bad)
+==1430497==    by 0x109562: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_13-bad)
+==1430497== 
+==1430497== HEAP SUMMARY:
+==1430497==     in use at exit: 4,096 bytes in 1 blocks
+==1430497==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==1430497== 
+==1430497== LEAK SUMMARY:
+==1430497==    definitely lost: 0 bytes in 0 blocks
+==1430497==    indirectly lost: 0 bytes in 0 blocks
+==1430497==      possibly lost: 0 bytes in 0 blocks
+==1430497==    still reachable: 4,096 bytes in 1 blocks
+==1430497==         suppressed: 0 bytes in 0 blocks
+==1430497== Rerun with --leak-check=full to see details of leaked memory
+==1430497== 
+==1430497== For lists of detected and suppressed errors, rerun with: -s
+==1430497== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

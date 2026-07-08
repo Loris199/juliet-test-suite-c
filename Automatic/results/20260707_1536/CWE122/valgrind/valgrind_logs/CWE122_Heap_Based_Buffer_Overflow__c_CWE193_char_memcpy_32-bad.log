@@ -1,0 +1,35 @@
+==1318495== Memcheck, a memory error detector
+==1318495== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1318495== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1318495== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad
+==1318495== Parent PID: 1318494
+==1318495== 
+==1318495== Invalid write of size 1
+==1318495==    at 0x4852EE3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318495==    by 0x1093D3: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495==    by 0x10943F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495==  Address 0x4a8508a is 0 bytes after a block of size 10 alloc'd
+==1318495==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318495==    by 0x109370: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495==    by 0x10943F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495== 
+==1318495== Invalid read of size 1
+==1318495==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318495==    by 0x48F6BFC: puts (ioputs.c:35)
+==1318495==    by 0x109478: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495==    by 0x1093DF: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495==    by 0x10943F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495==  Address 0x4a8508a is 0 bytes after a block of size 10 alloc'd
+==1318495==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1318495==    by 0x109370: CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495==    by 0x10943F: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32-bad)
+==1318495== 
+==1318495== 
+==1318495== HEAP SUMMARY:
+==1318495==     in use at exit: 0 bytes in 0 blocks
+==1318495==   total heap usage: 2 allocs, 2 frees, 4,106 bytes allocated
+==1318495== 
+==1318495== All heap blocks were freed -- no leaks are possible
+==1318495== 
+==1318495== For lists of detected and suppressed errors, rerun with: -s
+==1318495== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

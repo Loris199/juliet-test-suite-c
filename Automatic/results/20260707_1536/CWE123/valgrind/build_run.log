@@ -1,0 +1,1202 @@
+===== CWE123 / valgrind : Tue Jul  7 20:17:00 CEST 2026 =====
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/juliet.py:94: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search("^CWE(\d+)", subdir)
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c.o
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c.o
+[  0%] Generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/juliet-run.sh
+[  0%] Built target copy-run-script
+[  1%] Linking C static library /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/support/libsupport.a
+[  1%] Built target support
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_01-good.dir/CWE123_Write_What_Where_Condition__connect_socket_01.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_02-good.dir/CWE123_Write_What_Where_Condition__connect_socket_02.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_02-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_02.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_03-good.dir/CWE123_Write_What_Where_Condition__connect_socket_03.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_01-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_01.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_04-good.dir/CWE123_Write_What_Where_Condition__connect_socket_04.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_04-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_04.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_03-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_03.c.o
+[  1%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_05-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_05.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_06-good.dir/CWE123_Write_What_Where_Condition__connect_socket_06.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_06-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_06.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_07-good.dir/CWE123_Write_What_Where_Condition__connect_socket_07.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_05-good.dir/CWE123_Write_What_Where_Condition__connect_socket_05.c.o
+[  2%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_07-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_07.c.o
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_08-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_08.c.o
+[  3%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_01-good
+[  3%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_08-good.dir/CWE123_Write_What_Where_Condition__connect_socket_08.c.o
+[  3%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_01-bad
+[  3%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_02-good
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_03-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_02-bad
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_04-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_04-bad
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_05-bad
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_03-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_01-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_06-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_07-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_07-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_02-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_06-bad
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_05-good
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_04-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_02-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_04-good
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_03-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_08-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_08-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_05-bad
+[  6%] Built target CWE123_Write_What_Where_Condition__connect_socket_01-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_09-good.dir/CWE123_Write_What_Where_Condition__connect_socket_09.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_03-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_09-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_09.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_06-bad
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_05-good
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_07-bad
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_06-good
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_10-good.dir/CWE123_Write_What_Where_Condition__connect_socket_10.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_07-good
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_10-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_10.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_08-good
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_11-good.dir/CWE123_Write_What_Where_Condition__connect_socket_11.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_11-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_11.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_12-good.dir/CWE123_Write_What_Where_Condition__connect_socket_12.c.o
+[  7%] Built target CWE123_Write_What_Where_Condition__connect_socket_08-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_12-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_12.c.o
+[  7%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_10-bad
+[  7%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_09-good
+[  7%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_09-bad
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_14-good.dir/CWE123_Write_What_Where_Condition__connect_socket_14.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_13-good.dir/CWE123_Write_What_Where_Condition__connect_socket_13.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_15-good.dir/CWE123_Write_What_Where_Condition__connect_socket_15.c.o
+[  7%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_14-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_14.c.o
+[  8%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_10-good
+[  9%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_15-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_15.c.o
+[  9%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_13-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_13.c.o
+[ 10%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_16-good.dir/CWE123_Write_What_Where_Condition__connect_socket_16.c.o
+[ 10%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_16-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_16.c.o
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_11-good
+[ 10%] Built target CWE123_Write_What_Where_Condition__connect_socket_09-bad
+[ 10%] Built target CWE123_Write_What_Where_Condition__connect_socket_09-good
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_11-bad
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_12-good
+[ 10%] Built target CWE123_Write_What_Where_Condition__connect_socket_10-bad
+[ 10%] Built target CWE123_Write_What_Where_Condition__connect_socket_10-good
+[ 11%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_12-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_13-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_15-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_14-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_14-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_15-bad
+[ 12%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_18-good.dir/CWE123_Write_What_Where_Condition__connect_socket_18.c.o
+[ 12%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_17-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_17.c.o
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_13-bad
+[ 12%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_17-good.dir/CWE123_Write_What_Where_Condition__connect_socket_17.c.o
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_16-good
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_11-bad
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_11-good
+[ 13%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_18-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_18.c.o
+[ 13%] Built target CWE123_Write_What_Where_Condition__connect_socket_15-good
+[ 13%] Built target CWE123_Write_What_Where_Condition__connect_socket_12-good
+[ 12%] Built target CWE123_Write_What_Where_Condition__connect_socket_12-bad
+[ 13%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_16-bad
+[ 13%] Built target CWE123_Write_What_Where_Condition__connect_socket_14-good
+[ 13%] Built target CWE123_Write_What_Where_Condition__connect_socket_14-bad
+[ 13%] Built target CWE123_Write_What_Where_Condition__connect_socket_13-good
+[ 13%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_21-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_21.c.o
+[ 13%] Built target CWE123_Write_What_Where_Condition__connect_socket_15-bad
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-good.dir/CWE123_Write_What_Where_Condition__connect_socket_22a.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-good.dir/CWE123_Write_What_Where_Condition__connect_socket_22b.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_21-good.dir/CWE123_Write_What_Where_Condition__connect_socket_21.c.o
+[ 14%] Built target CWE123_Write_What_Where_Condition__connect_socket_13-bad
+[ 14%] Built target CWE123_Write_What_Where_Condition__connect_socket_16-bad
+[ 14%] Built target CWE123_Write_What_Where_Condition__connect_socket_16-good
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_18-good
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_17-good
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_17-bad
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_22a.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_22-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_22b.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_31-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_31.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_32-good.dir/CWE123_Write_What_Where_Condition__connect_socket_32.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_31-good.dir/CWE123_Write_What_Where_Condition__connect_socket_31.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_34-good.dir/CWE123_Write_What_Where_Condition__connect_socket_34.c.o
+[ 14%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_32-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_32.c.o
+[ 14%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_18-bad
+[ 15%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_34-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_34.c.o
+[ 15%] Built target CWE123_Write_What_Where_Condition__connect_socket_17-bad
+[ 15%] Built target CWE123_Write_What_Where_Condition__connect_socket_17-good
+[ 16%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_21-bad
+[ 16%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_22-good
+[ 16%] Built target CWE123_Write_What_Where_Condition__connect_socket_18-good
+[ 16%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_21-good
+[ 17%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_41-good.dir/CWE123_Write_What_Where_Condition__connect_socket_41.c.o
+[ 17%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_42-good.dir/CWE123_Write_What_Where_Condition__connect_socket_42.c.o
+[ 17%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_22-bad
+[ 17%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_31-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_31-good
+[ 18%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_41-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_41.c.o
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_34-good
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_32-good
+[ 18%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_42-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_42.c.o
+[ 18%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_44-good.dir/CWE123_Write_What_Where_Condition__connect_socket_44.c.o
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_32-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_22-good
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_18-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_21-good
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_34-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_31-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_31-good
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_41-good
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_42-good
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_32-good
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_22-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_21-bad
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_34-good
+[ 18%] Built target CWE123_Write_What_Where_Condition__connect_socket_32-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_41-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_42-bad
+[ 18%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_45-good.dir/CWE123_Write_What_Where_Condition__connect_socket_45.c.o
+[ 19%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_44-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_44.c.o
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_44-good
+[ 19%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_45-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_45.c.o
+[ 19%] Built target CWE123_Write_What_Where_Condition__connect_socket_42-good
+[ 19%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_51a.c.o
+[ 19%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-good.dir/CWE123_Write_What_Where_Condition__connect_socket_51b.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-good.dir/CWE123_Write_What_Where_Condition__connect_socket_51a.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_51-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_51b.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-good.dir/CWE123_Write_What_Where_Condition__connect_socket_52a.c.o
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_52a.c.o
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_41-good
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53a.c.o
+[ 20%] Built target CWE123_Write_What_Where_Condition__connect_socket_34-bad
+[ 20%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-good.dir/CWE123_Write_What_Where_Condition__connect_socket_52b.c.o
+[ 21%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53a.c.o
+[ 21%] Built target CWE123_Write_What_Where_Condition__connect_socket_42-bad
+[ 21%] Built target CWE123_Write_What_Where_Condition__connect_socket_41-bad
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_45-good
+[ 21%] Built target CWE123_Write_What_Where_Condition__connect_socket_44-good
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_44-bad
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_51-good
+[ 21%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_52c.c.o
+[ 22%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_45-bad
+[ 22%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_52b.c.o
+[ 22%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_52-good.dir/CWE123_Write_What_Where_Condition__connect_socket_52c.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53b.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53b.c.o
+[ 23%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_51-bad
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54a.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-good.dir/CWE123_Write_What_Where_Condition__connect_socket_61a.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54a.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53c.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53c.c.o
+[ 23%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_53d.c.o
+[ 23%] Built target CWE123_Write_What_Where_Condition__connect_socket_44-bad
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54b.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_53-good.dir/CWE123_Write_What_Where_Condition__connect_socket_53d.c.o
+[ 23%] Built target CWE123_Write_What_Where_Condition__connect_socket_45-bad
+[ 24%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_52-good
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_61a.c.o
+[ 24%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54b.c.o
+[ 25%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_52-bad
+[ 25%] Built target CWE123_Write_What_Where_Condition__connect_socket_45-good
+[ 25%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54c.c.o
+[ 25%] Built target CWE123_Write_What_Where_Condition__connect_socket_51-bad
+[ 25%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-good.dir/CWE123_Write_What_Where_Condition__connect_socket_63a.c.o
+[ 25%] Built target CWE123_Write_What_Where_Condition__connect_socket_51-good
+[ 25%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-good.dir/CWE123_Write_What_Where_Condition__connect_socket_61b.c.o
+[ 25%] Built target CWE123_Write_What_Where_Condition__connect_socket_52-good
+[ 26%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54c.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_61-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_61b.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54d.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-good.dir/CWE123_Write_What_Where_Condition__connect_socket_63b.c.o
+[ 27%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-good.dir/CWE123_Write_What_Where_Condition__connect_socket_54e.c.o
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_63a.c.o
+[ 27%] Built target CWE123_Write_What_Where_Condition__connect_socket_52-bad
+[ 28%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_53-good
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_63-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_63b.c.o
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54d.c.o
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-good.dir/CWE123_Write_What_Where_Condition__connect_socket_64a.c.o
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_54-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_54e.c.o
+[ 28%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_53-bad
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-good.dir/CWE123_Write_What_Where_Condition__connect_socket_64b.c.o
+[ 28%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_61-good
+[ 28%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_64a.c.o
+[ 29%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_64-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_64b.c.o
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_61-bad
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_63-good
+[ 29%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-good.dir/CWE123_Write_What_Where_Condition__connect_socket_65a.c.o
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_54-good
+[ 30%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_65a.c.o
+[ 29%] Built target CWE123_Write_What_Where_Condition__connect_socket_53-good
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_63-bad
+[ 30%] Built target CWE123_Write_What_Where_Condition__connect_socket_61-good
+[ 30%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-good.dir/CWE123_Write_What_Where_Condition__connect_socket_65b.c.o
+[ 30%] Built target CWE123_Write_What_Where_Condition__connect_socket_63-good
+[ 30%] Built target CWE123_Write_What_Where_Condition__connect_socket_53-bad
+[ 30%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_65-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_65b.c.o
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_64-good
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_64-bad
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_54-bad
+[ 30%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-good.dir/CWE123_Write_What_Where_Condition__connect_socket_66a.c.o
+[ 30%] Built target CWE123_Write_What_Where_Condition__connect_socket_61-bad
+[ 30%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-good.dir/CWE123_Write_What_Where_Condition__connect_socket_66b.c.o
+[ 30%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_66b.c.o
+[ 30%] Built target CWE123_Write_What_Where_Condition__connect_socket_54-good
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_66-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_66a.c.o
+[ 30%] Built target CWE123_Write_What_Where_Condition__connect_socket_63-bad
+[ 31%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-good.dir/CWE123_Write_What_Where_Condition__connect_socket_67b.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_67a.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-good.dir/CWE123_Write_What_Where_Condition__connect_socket_67a.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-good.dir/CWE123_Write_What_Where_Condition__connect_socket_68a.c.o
+[ 32%] Built target CWE123_Write_What_Where_Condition__connect_socket_54-bad
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_65-good
+[ 32%] Built target CWE123_Write_What_Where_Condition__connect_socket_64-good
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_67-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_67b.c.o
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_66-good
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-good.dir/CWE123_Write_What_Where_Condition__connect_socket_68b.c.o
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_66-bad
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_68a.c.o
+[ 32%] Built target CWE123_Write_What_Where_Condition__connect_socket_64-bad
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_65-bad
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__connect_socket_68-bad.dir/CWE123_Write_What_Where_Condition__connect_socket_68b.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_01-good.dir/CWE123_Write_What_Where_Condition__fgets_01.c.o
+[ 32%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_01-bad.dir/CWE123_Write_What_Where_Condition__fgets_01.c.o
+[ 32%] Built target CWE123_Write_What_Where_Condition__connect_socket_65-good
+[ 33%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_67-good
+[ 33%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_02-good.dir/CWE123_Write_What_Where_Condition__fgets_02.c.o
+[ 33%] Built target CWE123_Write_What_Where_Condition__connect_socket_66-good
+[ 33%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_02-bad.dir/CWE123_Write_What_Where_Condition__fgets_02.c.o
+[ 33%] Built target CWE123_Write_What_Where_Condition__connect_socket_66-bad
+[ 33%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_04-bad.dir/CWE123_Write_What_Where_Condition__fgets_04.c.o
+[ 34%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__connect_socket_68-good
+[ 34%] Built target CWE123_Write_What_Where_Condition__connect_socket_65-bad
+[ 34%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_67-bad
+[ 35%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_03-good.dir/CWE123_Write_What_Where_Condition__fgets_03.c.o
+[ 35%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_04-good.dir/CWE123_Write_What_Where_Condition__fgets_04.c.o
+[ 35%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_03-bad.dir/CWE123_Write_What_Where_Condition__fgets_03.c.o
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_01-good
+[ 35%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_05-good.dir/CWE123_Write_What_Where_Condition__fgets_05.c.o
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__connect_socket_68-bad
+[ 36%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_05-bad.dir/CWE123_Write_What_Where_Condition__fgets_05.c.o
+[ 36%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_01-bad
+[ 37%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_06-good.dir/CWE123_Write_What_Where_Condition__fgets_06.c.o
+[ 37%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_06-bad.dir/CWE123_Write_What_Where_Condition__fgets_06.c.o
+[ 36%] Built target CWE123_Write_What_Where_Condition__connect_socket_67-good
+[ 37%] Built target CWE123_Write_What_Where_Condition__fgets_01-good
+[ 37%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_02-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_02-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_03-bad
+[ 37%] Built target CWE123_Write_What_Where_Condition__connect_socket_67-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__connect_socket_68-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__connect_socket_68-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_01-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_03-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_04-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_04-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_05-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_05-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_02-good
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_08-bad.dir/CWE123_Write_What_Where_Condition__fgets_08.c.o
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_08-good.dir/CWE123_Write_What_Where_Condition__fgets_08.c.o
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_09-good.dir/CWE123_Write_What_Where_Condition__fgets_09.c.o
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_07-good.dir/CWE123_Write_What_Where_Condition__fgets_07.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_02-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_06-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_06-bad
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_07-bad.dir/CWE123_Write_What_Where_Condition__fgets_07.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_03-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_03-bad
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_09-bad.dir/CWE123_Write_What_Where_Condition__fgets_09.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_05-bad
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_10-good.dir/CWE123_Write_What_Where_Condition__fgets_10.c.o
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_05-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_04-good
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_04-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_06-bad
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_08-bad
+[ 38%] Built target CWE123_Write_What_Where_Condition__fgets_06-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_08-good
+[ 38%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_10-bad.dir/CWE123_Write_What_Where_Condition__fgets_10.c.o
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_09-good
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_07-good
+[ 39%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_11-good.dir/CWE123_Write_What_Where_Condition__fgets_11.c.o
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_07-bad
+[ 39%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_12-good.dir/CWE123_Write_What_Where_Condition__fgets_12.c.o
+[ 39%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_11-bad.dir/CWE123_Write_What_Where_Condition__fgets_11.c.o
+[ 39%] Built target CWE123_Write_What_Where_Condition__fgets_08-bad
+[ 39%] Built target CWE123_Write_What_Where_Condition__fgets_09-good
+[ 40%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_12-bad.dir/CWE123_Write_What_Where_Condition__fgets_12.c.o
+[ 41%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_09-bad
+[ 42%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_13-good.dir/CWE123_Write_What_Where_Condition__fgets_13.c.o
+[ 42%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_13-bad.dir/CWE123_Write_What_Where_Condition__fgets_13.c.o
+[ 40%] Built target CWE123_Write_What_Where_Condition__fgets_07-good
+[ 42%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_14-good.dir/CWE123_Write_What_Where_Condition__fgets_14.c.o
+[ 42%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_14-bad.dir/CWE123_Write_What_Where_Condition__fgets_14.c.o
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_10-good
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_08-good
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_07-bad
+[ 43%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_15-good.dir/CWE123_Write_What_Where_Condition__fgets_15.c.o
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_09-bad
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_11-good
+[ 43%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_16-good.dir/CWE123_Write_What_Where_Condition__fgets_16.c.o
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_12-good
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_10-bad
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_11-bad
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_15-bad.dir/CWE123_Write_What_Where_Condition__fgets_15.c.o
+[ 43%] Built target CWE123_Write_What_Where_Condition__fgets_10-good
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_12-bad
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_13-bad
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_13-good
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_14-good
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_17-bad.dir/CWE123_Write_What_Where_Condition__fgets_17.c.o
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_16-bad.dir/CWE123_Write_What_Where_Condition__fgets_16.c.o
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_11-good
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_17-good.dir/CWE123_Write_What_Where_Condition__fgets_17.c.o
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_18-good.dir/CWE123_Write_What_Where_Condition__fgets_18.c.o
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_14-bad
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_12-good
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_12-bad
+[ 44%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_18-bad.dir/CWE123_Write_What_Where_Condition__fgets_18.c.o
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_11-bad
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_15-bad
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_16-good
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_10-bad
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_13-good
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_15-good
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_14-good
+[ 44%] Built target CWE123_Write_What_Where_Condition__fgets_13-bad
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_16-bad
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_17-bad
+[ 45%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_21-good.dir/CWE123_Write_What_Where_Condition__fgets_21.c.o
+[ 45%] Built target CWE123_Write_What_Where_Condition__fgets_15-good
+[ 46%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_17-good
+[ 46%] Built target CWE123_Write_What_Where_Condition__fgets_14-bad
+[ 46%] Built target CWE123_Write_What_Where_Condition__fgets_16-good
+[ 46%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_18-good
+[ 46%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_21-bad.dir/CWE123_Write_What_Where_Condition__fgets_21.c.o
+[ 46%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-good.dir/CWE123_Write_What_Where_Condition__fgets_22a.c.o
+[ 46%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-bad.dir/CWE123_Write_What_Where_Condition__fgets_22a.c.o
+[ 46%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-good.dir/CWE123_Write_What_Where_Condition__fgets_22b.c.o
+[ 46%] Built target CWE123_Write_What_Where_Condition__fgets_15-bad
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_31-good.dir/CWE123_Write_What_Where_Condition__fgets_31.c.o
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_22-bad.dir/CWE123_Write_What_Where_Condition__fgets_22b.c.o
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_18-bad
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_17-good
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_31-bad.dir/CWE123_Write_What_Where_Condition__fgets_31.c.o
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_16-bad
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_17-bad
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_32-good.dir/CWE123_Write_What_Where_Condition__fgets_32.c.o
+[ 47%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_32-bad.dir/CWE123_Write_What_Where_Condition__fgets_32.c.o
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_18-good
+[ 47%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_21-good
+[ 47%] Built target CWE123_Write_What_Where_Condition__fgets_18-bad
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_21-bad
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_31-good
+[ 48%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_34-good.dir/CWE123_Write_What_Where_Condition__fgets_34.c.o
+[ 49%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_34-bad.dir/CWE123_Write_What_Where_Condition__fgets_34.c.o
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_22-bad
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_41-good.dir/CWE123_Write_What_Where_Condition__fgets_41.c.o
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_22-good
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_41-bad.dir/CWE123_Write_What_Where_Condition__fgets_41.c.o
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_42-good.dir/CWE123_Write_What_Where_Condition__fgets_42.c.o
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_21-good
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_44-good.dir/CWE123_Write_What_Where_Condition__fgets_44.c.o
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_21-bad
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_31-bad
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_42-bad.dir/CWE123_Write_What_Where_Condition__fgets_42.c.o
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_44-bad.dir/CWE123_Write_What_Where_Condition__fgets_44.c.o
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_32-bad
+[ 50%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_45-good.dir/CWE123_Write_What_Where_Condition__fgets_45.c.o
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_32-good
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_31-good
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_34-bad
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_31-bad
+[ 50%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_41-good
+[ 51%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_41-bad
+[ 50%] Built target CWE123_Write_What_Where_Condition__fgets_22-bad
+[ 51%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_34-good
+[ 51%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_45-bad.dir/CWE123_Write_What_Where_Condition__fgets_45.c.o
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_42-good
+[ 52%] Built target CWE123_Write_What_Where_Condition__fgets_22-good
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-good.dir/CWE123_Write_What_Where_Condition__fgets_51a.c.o
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_32-bad
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-good.dir/CWE123_Write_What_Where_Condition__fgets_51b.c.o
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_32-good
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-bad.dir/CWE123_Write_What_Where_Condition__fgets_51a.c.o
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_44-good
+[ 53%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_51-bad.dir/CWE123_Write_What_Where_Condition__fgets_51b.c.o
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_34-bad
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_41-bad
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_44-bad
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_41-good
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_45-good
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_34-good
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_44-good
+[ 54%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_45-bad
+[ 54%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-good.dir/CWE123_Write_What_Where_Condition__fgets_52a.c.o
+[ 54%] Built target CWE123_Write_What_Where_Condition__fgets_44-bad
+[ 54%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-bad.dir/CWE123_Write_What_Where_Condition__fgets_52a.c.o
+[ 54%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-good.dir/CWE123_Write_What_Where_Condition__fgets_52b.c.o
+[ 54%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53a.c.o
+[ 54%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-bad.dir/CWE123_Write_What_Where_Condition__fgets_52b.c.o
+[ 54%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_51-good
+[ 54%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-good.dir/CWE123_Write_What_Where_Condition__fgets_52c.c.o
+[ 53%] Built target CWE123_Write_What_Where_Condition__fgets_42-good
+[ 54%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_51-bad
+[ 54%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54a.c.o
+[ 54%] Built target CWE123_Write_What_Where_Condition__fgets_45-good
+[ 55%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53a.c.o
+[ 55%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-good.dir/CWE123_Write_What_Where_Condition__fgets_61a.c.o
+[ 55%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-bad.dir/CWE123_Write_What_Where_Condition__fgets_61a.c.o
+[ 55%] Built target CWE123_Write_What_Where_Condition__fgets_42-bad
+[ 55%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54a.c.o
+[ 55%] Built target CWE123_Write_What_Where_Condition__fgets_51-bad
+[ 55%] Built target CWE123_Write_What_Where_Condition__fgets_45-bad
+[ 56%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53b.c.o
+[ 57%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_52-bad.dir/CWE123_Write_What_Where_Condition__fgets_52c.c.o
+[ 58%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54b.c.o
+[ 58%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-good.dir/CWE123_Write_What_Where_Condition__fgets_63a.c.o
+[ 58%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-good.dir/CWE123_Write_What_Where_Condition__fgets_61b.c.o
+[ 58%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53c.c.o
+[ 58%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53b.c.o
+[ 55%] Built target CWE123_Write_What_Where_Condition__fgets_51-good
+[ 58%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_52-good
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-bad.dir/CWE123_Write_What_Where_Condition__fgets_63a.c.o
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54c.c.o
+[ 59%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-good.dir/CWE123_Write_What_Where_Condition__fgets_64a.c.o
+[ 60%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-bad.dir/CWE123_Write_What_Where_Condition__fgets_64a.c.o
+[ 60%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53c.c.o
+[ 61%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_61-bad.dir/CWE123_Write_What_Where_Condition__fgets_61b.c.o
+[ 61%] Built target CWE123_Write_What_Where_Condition__fgets_52-good
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54b.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54c.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-good.dir/CWE123_Write_What_Where_Condition__fgets_53d.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54d.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_52-bad
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_61-good
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-bad.dir/CWE123_Write_What_Where_Condition__fgets_63b.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_63-good.dir/CWE123_Write_What_Where_Condition__fgets_63b.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_53-bad.dir/CWE123_Write_What_Where_Condition__fgets_53d.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-good.dir/CWE123_Write_What_Where_Condition__fgets_65a.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-good.dir/CWE123_Write_What_Where_Condition__fgets_64b.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_63-good
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_64-bad.dir/CWE123_Write_What_Where_Condition__fgets_64b.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-good.dir/CWE123_Write_What_Where_Condition__fgets_54e.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54d.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_61-bad
+[ 62%] Built target CWE123_Write_What_Where_Condition__fgets_52-bad
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_54-bad.dir/CWE123_Write_What_Where_Condition__fgets_54e.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_53-good
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-good.dir/CWE123_Write_What_Where_Condition__fgets_65b.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_63-bad
+[ 62%] Built target CWE123_Write_What_Where_Condition__fgets_61-good
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_53-bad
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-good.dir/CWE123_Write_What_Where_Condition__fgets_66a.c.o
+[ 62%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-bad.dir/CWE123_Write_What_Where_Condition__fgets_66a.c.o
+[ 62%] Built target CWE123_Write_What_Where_Condition__fgets_63-good
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-bad.dir/CWE123_Write_What_Where_Condition__fgets_65a.c.o
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_64-good
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-good.dir/CWE123_Write_What_Where_Condition__fgets_67a.c.o
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-bad.dir/CWE123_Write_What_Where_Condition__fgets_66b.c.o
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_64-bad
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_54-good
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_66-good.dir/CWE123_Write_What_Where_Condition__fgets_66b.c.o
+[ 63%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_65-bad.dir/CWE123_Write_What_Where_Condition__fgets_65b.c.o
+[ 63%] Built target CWE123_Write_What_Where_Condition__fgets_61-bad
+[ 63%] Built target CWE123_Write_What_Where_Condition__fgets_63-bad
+[ 63%] Built target CWE123_Write_What_Where_Condition__fgets_53-good
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_54-bad
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_65-good
+[ 64%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-good.dir/CWE123_Write_What_Where_Condition__fgets_67b.c.o
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_64-good
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_54-good
+[ 64%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-bad.dir/CWE123_Write_What_Where_Condition__fgets_67a.c.o
+[ 64%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-good.dir/CWE123_Write_What_Where_Condition__fgets_68a.c.o
+[ 65%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_66-good
+[ 65%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_67-bad.dir/CWE123_Write_What_Where_Condition__fgets_67b.c.o
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_53-bad
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-good.dir/CWE123_Write_What_Where_Condition__fgets_68b.c.o
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_64-bad
+[ 64%] Built target CWE123_Write_What_Where_Condition__fgets_54-bad
+[ 65%] Built target CWE123_Write_What_Where_Condition__fgets_65-good
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-bad.dir/CWE123_Write_What_Where_Condition__fgets_68a.c.o
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_01-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_01.c.o
+[ 66%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_66-bad
+[ 66%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_65-bad
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_01-good.dir/CWE123_Write_What_Where_Condition__listen_socket_01.c.o
+[ 66%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_03-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_03.c.o
+[ 67%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_67-good
+[ 67%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_02-good.dir/CWE123_Write_What_Where_Condition__listen_socket_02.c.o
+[ 68%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_02-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_02.c.o
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_03-good.dir/CWE123_Write_What_Where_Condition__listen_socket_03.c.o
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_04-good.dir/CWE123_Write_What_Where_Condition__listen_socket_04.c.o
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_66-good
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__fgets_68-good
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_67-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__fgets_68-bad.dir/CWE123_Write_What_Where_Condition__fgets_68b.c.o
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_66-bad
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_65-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_04-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_04.c.o
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_01-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_05-good.dir/CWE123_Write_What_Where_Condition__listen_socket_05.c.o
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_68-bad
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_01-good
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_67-bad
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_03-bad
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_67-good
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_05-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_05.c.o
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_02-good
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_02-bad
+[ 69%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_06-good.dir/CWE123_Write_What_Where_Condition__listen_socket_06.c.o
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_03-good
+[ 69%] Built target CWE123_Write_What_Where_Condition__fgets_68-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_04-good
+[ 70%] Built target CWE123_Write_What_Where_Condition__fgets_68-bad
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_06-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_06.c.o
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_07-good.dir/CWE123_Write_What_Where_Condition__listen_socket_07.c.o
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_07-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_07.c.o
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_01-bad
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_03-bad
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_03-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_04-bad
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_01-good
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_08-good.dir/CWE123_Write_What_Where_Condition__listen_socket_08.c.o
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_05-good
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_02-bad
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_08-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_08.c.o
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_02-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_05-bad
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_06-good
+[ 70%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_09-good.dir/CWE123_Write_What_Where_Condition__listen_socket_09.c.o
+[ 70%] Built target CWE123_Write_What_Where_Condition__listen_socket_04-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_07-bad
+[ 71%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_07-good
+[ 71%] Built target CWE123_Write_What_Where_Condition__listen_socket_05-good
+[ 72%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_06-bad
+[ 73%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_09-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_09.c.o
+[ 73%] Built target CWE123_Write_What_Where_Condition__listen_socket_04-bad
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_10-good.dir/CWE123_Write_What_Where_Condition__listen_socket_10.c.o
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_05-bad
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_08-good
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_10-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_10.c.o
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_06-good
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_07-bad
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_11-good.dir/CWE123_Write_What_Where_Condition__listen_socket_11.c.o
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_06-bad
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_08-bad
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_11-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_11.c.o
+[ 74%] Built target CWE123_Write_What_Where_Condition__listen_socket_07-good
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_09-good
+[ 74%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_12-good.dir/CWE123_Write_What_Where_Condition__listen_socket_12.c.o
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_12-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_12.c.o
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_09-bad
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_08-good
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_08-bad
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_10-good
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_13-good.dir/CWE123_Write_What_Where_Condition__listen_socket_13.c.o
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_10-bad
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_13-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_13.c.o
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_11-good
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_12-good
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_14-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_14.c.o
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_09-good
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_11-bad
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_10-bad
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_09-bad
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_14-good.dir/CWE123_Write_What_Where_Condition__listen_socket_14.c.o
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_15-good.dir/CWE123_Write_What_Where_Condition__listen_socket_15.c.o
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_16-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_16.c.o
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_12-bad
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_16-good.dir/CWE123_Write_What_Where_Condition__listen_socket_16.c.o
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_17-good.dir/CWE123_Write_What_Where_Condition__listen_socket_17.c.o
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_10-good
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_15-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_15.c.o
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_17-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_17.c.o
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_13-good
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_12-good
+[ 75%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_18-good.dir/CWE123_Write_What_Where_Condition__listen_socket_18.c.o
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_13-bad
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_11-good
+[ 76%] Built target CWE123_Write_What_Where_Condition__listen_socket_11-bad
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_14-bad
+[ 75%] Built target CWE123_Write_What_Where_Condition__listen_socket_12-bad
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_14-good
+[ 77%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_15-good
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_16-bad
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_16-good
+[ 78%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_18-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_18.c.o
+[ 78%] Built target CWE123_Write_What_Where_Condition__listen_socket_13-good
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_17-good
+[ 80%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_21-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_21.c.o
+[ 80%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_21-good.dir/CWE123_Write_What_Where_Condition__listen_socket_21.c.o
+[ 80%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-good.dir/CWE123_Write_What_Where_Condition__listen_socket_22a.c.o
+[ 80%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_15-bad
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_15-good
+[ 80%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_17-bad
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_13-bad
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_14-bad
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_16-bad
+[ 80%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_18-good
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_16-good
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_14-good
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_15-bad
+[ 80%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_22a.c.o
+[ 80%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-good.dir/CWE123_Write_What_Where_Condition__listen_socket_22b.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_31-good.dir/CWE123_Write_What_Where_Condition__listen_socket_31.c.o
+[ 80%] Built target CWE123_Write_What_Where_Condition__listen_socket_17-good
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_21-bad
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_21-good
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_18-bad
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_32-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_32.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_22-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_22b.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_34-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_34.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_31-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_31.c.o
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_17-bad
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_32-good.dir/CWE123_Write_What_Where_Condition__listen_socket_32.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_41-good.dir/CWE123_Write_What_Where_Condition__listen_socket_41.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_41-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_41.c.o
+[ 81%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_34-good.dir/CWE123_Write_What_Where_Condition__listen_socket_34.c.o
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_18-good
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_18-bad
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_22-good
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_31-good
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_21-good
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_22-bad
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_32-bad
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_31-bad
+[ 81%] Built target CWE123_Write_What_Where_Condition__listen_socket_21-bad
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_42-good.dir/CWE123_Write_What_Where_Condition__listen_socket_42.c.o
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_34-bad
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_42-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_42.c.o
+[ 82%] Built target CWE123_Write_What_Where_Condition__listen_socket_22-good
+[ 82%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_44-good.dir/CWE123_Write_What_Where_Condition__listen_socket_44.c.o
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_32-good
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_41-good
+[ 83%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_45-good.dir/CWE123_Write_What_Where_Condition__listen_socket_45.c.o
+[ 83%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_44-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_44.c.o
+[ 84%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_41-bad
+[ 83%] Built target CWE123_Write_What_Where_Condition__listen_socket_31-good
+[ 85%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_45-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_45.c.o
+[ 85%] Built target CWE123_Write_What_Where_Condition__listen_socket_22-bad
+[ 85%] Built target CWE123_Write_What_Where_Condition__listen_socket_32-bad
+[ 85%] Built target CWE123_Write_What_Where_Condition__listen_socket_31-bad
+[ 85%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_34-good
+[ 85%] Built target CWE123_Write_What_Where_Condition__listen_socket_32-good
+[ 85%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-good.dir/CWE123_Write_What_Where_Condition__listen_socket_51a.c.o
+[ 85%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-good.dir/CWE123_Write_What_Where_Condition__listen_socket_51b.c.o
+[ 85%] Built target CWE123_Write_What_Where_Condition__listen_socket_34-bad
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_42-good
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_44-good
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_42-bad
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_51a.c.o
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_41-good
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_44-bad
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_51-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_51b.c.o
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_45-good
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_41-bad
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-good.dir/CWE123_Write_What_Where_Condition__listen_socket_52a.c.o
+[ 86%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_52a.c.o
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_44-good
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_42-good
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_45-bad
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_42-bad
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_44-bad
+[ 86%] Built target CWE123_Write_What_Where_Condition__listen_socket_34-good
+[ 87%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53a.c.o
+[ 87%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-good.dir/CWE123_Write_What_Where_Condition__listen_socket_52b.c.o
+[ 87%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_51-good
+[ 87%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53a.c.o
+[ 87%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_52b.c.o
+[ 88%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_51-bad
+[ 88%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53b.c.o
+[ 89%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_52c.c.o
+[ 90%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54a.c.o
+[ 90%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53b.c.o
+[ 90%] Built target CWE123_Write_What_Where_Condition__listen_socket_45-good
+[ 90%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_52-good.dir/CWE123_Write_What_Where_Condition__listen_socket_52c.c.o
+[ 90%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54a.c.o
+[ 90%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53c.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54b.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-good.dir/CWE123_Write_What_Where_Condition__listen_socket_61a.c.o
+[ 91%] Built target CWE123_Write_What_Where_Condition__listen_socket_51-good
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-good.dir/CWE123_Write_What_Where_Condition__listen_socket_53d.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54b.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54c.c.o
+[ 91%] Built target CWE123_Write_What_Where_Condition__listen_socket_51-bad
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54c.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53d.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_53-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_53c.c.o
+[ 91%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-good.dir/CWE123_Write_What_Where_Condition__listen_socket_61b.c.o
+[ 91%] Built target CWE123_Write_What_Where_Condition__listen_socket_45-bad
+[ 91%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_52-bad
+[ 92%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_52-good
+[ 92%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-good.dir/CWE123_Write_What_Where_Condition__listen_socket_63a.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_61a.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54d.c.o
+[ 93%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54d.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_63a.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_63b.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_53-good
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-good.dir/CWE123_Write_What_Where_Condition__listen_socket_54e.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_63-good.dir/CWE123_Write_What_Where_Condition__listen_socket_63b.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_54-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_54e.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_61-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_61b.c.o
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_52-good
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_52-bad
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_61-good
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_53-bad
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-good.dir/CWE123_Write_What_Where_Condition__listen_socket_64a.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_64a.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-good.dir/CWE123_Write_What_Where_Condition__listen_socket_64b.c.o
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_64-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_64b.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_63-bad
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-good.dir/CWE123_Write_What_Where_Condition__listen_socket_65b.c.o
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_53-good
+[ 94%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-good.dir/CWE123_Write_What_Where_Condition__listen_socket_65a.c.o
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_61-good
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_54-bad
+[ 94%] Built target CWE123_Write_What_Where_Condition__listen_socket_53-bad
+[ 95%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_63-good
+[ 95%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_54-good
+[ 95%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_65a.c.o
+[ 95%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-good.dir/CWE123_Write_What_Where_Condition__listen_socket_66a.c.o
+[ 95%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_61-bad
+[ 95%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_65-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_65b.c.o
+[ 95%] Built target CWE123_Write_What_Where_Condition__listen_socket_63-bad
+[ 95%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_66a.c.o
+[ 96%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_64-good
+[ 96%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-good.dir/CWE123_Write_What_Where_Condition__listen_socket_67a.c.o
+[ 96%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_66b.c.o
+[ 96%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_64-bad
+[ 97%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-good.dir/CWE123_Write_What_Where_Condition__listen_socket_67b.c.o
+[ 96%] Built target CWE123_Write_What_Where_Condition__listen_socket_63-good
+[ 97%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_67a.c.o
+[ 98%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_66-good.dir/CWE123_Write_What_Where_Condition__listen_socket_66b.c.o
+[ 99%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_65-good
+[ 99%] Built target CWE123_Write_What_Where_Condition__listen_socket_54-bad
+[ 99%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_67-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_67b.c.o
+[ 99%] Built target CWE123_Write_What_Where_Condition__listen_socket_54-good
+[ 99%] Built target CWE123_Write_What_Where_Condition__listen_socket_64-good
+[ 99%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-good.dir/CWE123_Write_What_Where_Condition__listen_socket_68a.c.o
+[100%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-good.dir/CWE123_Write_What_Where_Condition__listen_socket_68b.c.o
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_65-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_61-bad
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_67-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_66-bad
+[100%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_68a.c.o
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_64-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_65-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_66-good
+[100%] Building C object CMakeFiles/CWE123_Write_What_Where_Condition__listen_socket_68-bad.dir/CWE123_Write_What_Where_Condition__listen_socket_68b.c.o
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_66-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_65-bad
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_67-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_66-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/good/CWE123_Write_What_Where_Condition__listen_socket_68-good
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_67-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__listen_socket_68-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_68-good
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_67-bad
+[100%] Built target CWE123_Write_What_Where_Condition__listen_socket_68-bad
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling good()...
+Finished good()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+Finished bad()
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+timeout: the monitored command dumped core
+Segmentation fault
+Calling bad()...
+Finished bad()
+========== cleaning /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========
+========== generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========
+========== making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========
+========== running /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE123_Write_What_Where_Condition ==========

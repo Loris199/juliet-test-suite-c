@@ -1,0 +1,289 @@
+<html>
+<head>
+<title>Automatic - scan-build results</title>
+<link type="text/css" rel="stylesheet" href="scanview.css"/>
+<script src="sorttable.js"></script>
+<script language='javascript' type="text/javascript">
+function SetDisplay(RowClass, DisplayVal)
+{
+  var Rows = document.getElementsByTagName("tr");
+  for ( var i = 0 ; i < Rows.length; ++i ) {
+    if (Rows[i].className == RowClass) {
+      Rows[i].style.display = DisplayVal;
+    }
+  }
+}
+
+function CopyCheckedStateToCheckButtons(SummaryCheckButton) {
+  var Inputs = document.getElementsByTagName("input");
+  for ( var i = 0 ; i < Inputs.length; ++i ) {
+    if (Inputs[i].type == "checkbox") {
+      if(Inputs[i] != SummaryCheckButton) {
+        Inputs[i].checked = SummaryCheckButton.checked;
+        Inputs[i].onclick();
+      }
+    }
+  }
+}
+
+function returnObjById( id ) {
+    if (document.getElementById)
+        var returnVar = document.getElementById(id);
+    else if (document.all)
+        var returnVar = document.all[id];
+    else if (document.layers)
+        var returnVar = document.layers[id];
+    return returnVar;
+}
+
+var NumUnchecked = 0;
+
+function ToggleDisplay(CheckButton, ClassName) {
+  if (CheckButton.checked) {
+    SetDisplay(ClassName, "");
+    if (--NumUnchecked == 0) {
+      returnObjById("AllBugsCheck").checked = true;
+    }
+  }
+  else {
+    SetDisplay(ClassName, "none");
+    NumUnchecked++;
+    returnObjById("AllBugsCheck").checked = false;
+  }
+}
+</script>
+<!-- SUMMARYENDHEAD -->
+</head>
+<body>
+<h1>Automatic - scan-build results</h1>
+
+<table>
+<tr><th>User:</th><td>loris@loris-VirtualBox</td></tr>
+<tr><th>Working Directory:</th><td>/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic</td></tr>
+<tr><th>Command Line:</th><td>python3 juliet.py 123 -c -g -m -o results/20260707_1536/CWE123/csa/bin</td></tr>
+<tr><th>Clang Version:</th><td>Ubuntu clang version 18.1.3 (1ubuntu1)
+</td></tr>
+<tr><th>Date:</th><td>Tue Jul  7 20:11:18 2026</td></tr>
+</table>
+<h2>Bug Summary</h2><table>
+<thead><tr><td>Bug Type</td><td>Quantity</td><td class="sorttable_nosort">Display?</td></tr></thead>
+<tr style="font-weight:bold"><td class="SUMM_DESC">All Bugs</td><td class="Q">66</td><td><center><input type="checkbox" id="AllBugsCheck" onClick="CopyCheckedStateToCheckButtons(this);" checked/></center></td></tr>
+<tr><th>Logic error</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Stack address stored into global variable</td><td class="Q">66</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_stack_address_stored_into_global_variable');" checked/></center></td></tr>
+</table>
+<h2>Reports</h2>
+
+<table class="sortable" style="table-layout:automatic">
+<thead><tr>
+  <td>Bug Group</td>
+  <td class="sorttable_sorted">Bug Type<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></td>
+  <td>File</td>
+  <td>Function/Method</td>
+  <td class="Q">Line</td>
+  <td class="Q">Path Length</td>
+  <td class="sorttable_nosort"></td>
+  <!-- REPORTBUGCOL -->
+</tr></thead>
+<tbody>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_31.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_31_bad</td><td class="Q">148</td><td class="Q">7</td><td><a href="report-080f09.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-080f09.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_06.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_06_bad</td><td class="Q">152</td><td class="Q">9</td><td><a href="report-0ad1e1.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-0ad1e1.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_10.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_10_bad</td><td class="Q">135</td><td class="Q">4</td><td><a href="report-0d0a88.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-0d0a88.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_16.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_16_bad</td><td class="Q">136</td><td class="Q">7</td><td><a href="report-11b230.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-11b230.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__fgets_10.c</td><td class="DESC">CWE123_Write_What_Where_Condition__fgets_10_bad</td><td class="Q">69</td><td class="Q">4</td><td><a href="report-151d80.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-151d80.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_41.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_41_bad</td><td class="Q">150</td><td class="Q">7</td><td><a href="report-19f430.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-19f430.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_13.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_13_bad</td><td class="Q">148</td><td class="Q">4</td><td><a href="report-1b1d04.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1b1d04.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_04.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_04_bad</td><td class="Q">142</td><td class="Q">7</td><td><a href="report-1c3cac.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1c3cac.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_14.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_14_bad</td><td class="Q">135</td><td class="Q">4</td><td><a href="report-1e591c.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1e591c.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_09.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_09_bad</td><td class="Q">148</td><td class="Q">4</td><td><a href="report-1fb4e9.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1fb4e9.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_13.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_13_bad</td><td class="Q">135</td><td class="Q">4</td><td><a href="report-230411.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-230411.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_17.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_17_bad</td><td class="Q">149</td><td class="Q">9</td><td><a href="report-257101.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-257101.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_45.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_45_bad</td><td class="Q">142</td><td class="Q">5</td><td><a href="report-25e6c2.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-25e6c2.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_44.c</td><td class="DESC">goodG2B</td><td class="Q">182</td><td class="Q">3</td><td><a href="report-271319.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-271319.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_11.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_11_bad</td><td class="Q">148</td><td class="Q">4</td><td><a href="report-27bf16.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-27bf16.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_09.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_09_bad</td><td class="Q">135</td><td class="Q">4</td><td><a href="report-2d7d71.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-2d7d71.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__fgets_41.c</td><td class="DESC">goodG2B</td><td class="Q">112</td><td class="Q">3</td><td><a href="report-3118bd.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-3118bd.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__fgets_12.c</td><td class="DESC">CWE123_Write_What_Where_Condition__fgets_12_bad</td><td class="Q">74</td><td class="Q">4</td><td><a href="report-322b72.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-322b72.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_02.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_02_bad</td><td class="Q">148</td><td class="Q">8</td><td><a href="report-342301.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-342301.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_03.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_03_bad</td><td class="Q">135</td><td class="Q">7</td><td><a href="report-350d5c.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-350d5c.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_21.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_21_bad</td><td class="Q">145</td><td class="Q">2</td><td><a href="report-369e08.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-369e08.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_12.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_12_bad</td><td class="Q">153</td><td class="Q">4</td><td><a href="report-3d6d19.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-3d6d19.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_05.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_05_bad</td><td class="Q">155</td><td class="Q">9</td><td><a href="report-3fa5d3.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-3fa5d3.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_06.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_06_bad</td><td class="Q">139</td><td class="Q">7</td><td><a href="report-428fc9.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-428fc9.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_02.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_02_bad</td><td class="Q">135</td><td class="Q">6</td><td><a href="report-459dff.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-459dff.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_05.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_05_bad</td><td class="Q">142</td><td class="Q">7</td><td><a href="report-47e7ab.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-47e7ab.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_31.c</td><td class="DESC">goodG2B</td><td class="Q">175</td><td class="Q">3</td><td><a href="report-504395.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-504395.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_45.c</td><td class="DESC">goodG2B</td><td class="Q">185</td><td class="Q">3</td><td><a href="report-552bfe.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-552bfe.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_17.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_17_bad</td><td class="Q">136</td><td class="Q">7</td><td><a href="report-56885f.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-56885f.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__fgets_14.c</td><td class="DESC">CWE123_Write_What_Where_Condition__fgets_14_bad</td><td class="Q">69</td><td class="Q">4</td><td><a href="report-56e0be.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-56e0be.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__fgets_09.c</td><td class="DESC">CWE123_Write_What_Where_Condition__fgets_09_bad</td><td class="Q">69</td><td class="Q">4</td><td><a href="report-589209.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-589209.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_42.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_42_bad</td><td class="Q">151</td><td class="Q">2</td><td><a href="report-5ee509.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-5ee509.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_45.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_45_bad</td><td class="Q">155</td><td class="Q">7</td><td><a href="report-5f81f1.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-5f81f1.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_08.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_08_bad</td><td class="Q">162</td><td class="Q">8</td><td><a href="report-60a28d.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-60a28d.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_12.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_12_bad</td><td class="Q">140</td><td class="Q">4</td><td><a href="report-60b727.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-60b727.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_42.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_42_bad</td><td class="Q">138</td><td class="Q">2</td><td><a href="report-67cd95.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-67cd95.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_41.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_41_bad</td><td class="Q">137</td><td class="Q">5</td><td><a href="report-6a6653.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-6a6653.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_01.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_01_bad</td><td class="Q">132</td><td class="Q">5</td><td><a href="report-6bf3d5.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-6bf3d5.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_15.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_15_bad</td><td class="Q">141</td><td class="Q">7</td><td><a href="report-6c4cb1.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-6c4cb1.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_21.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_21_bad</td><td class="Q">158</td><td class="Q">2</td><td><a href="report-6eefc2.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-6eefc2.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_07.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_07_bad</td><td class="Q">154</td><td class="Q">9</td><td><a href="report-7d058e.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-7d058e.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_32.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_32_bad</td><td class="Q">140</td><td class="Q">5</td><td><a href="report-7fffbe.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-7fffbe.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_41.c</td><td class="DESC">goodG2B</td><td class="Q">178</td><td class="Q">3</td><td><a href="report-8146a5.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-8146a5.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_31.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_31_bad</td><td class="Q">135</td><td class="Q">5</td><td><a href="report-825e1e.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-825e1e.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_16.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_16_bad</td><td class="Q">149</td><td class="Q">9</td><td><a href="report-94dd36.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-94dd36.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__fgets_11.c</td><td class="DESC">CWE123_Write_What_Where_Condition__fgets_11_bad</td><td class="Q">69</td><td class="Q">4</td><td><a href="report-9e11e7.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-9e11e7.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_03.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_03_bad</td><td class="Q">148</td><td class="Q">9</td><td><a href="report-a3b18d.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a3b18d.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_01.c</td><td class="DESC">goodG2B</td><td class="Q">168</td><td class="Q">3</td><td><a href="report-a3e2f8.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a3e2f8.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_11.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_11_bad</td><td class="Q">135</td><td class="Q">4</td><td><a href="report-a460dc.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a460dc.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_01.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_01_bad</td><td class="Q">145</td><td class="Q">7</td><td><a href="report-a4ec20.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a4ec20.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_18.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_18_bad</td><td class="Q">147</td><td class="Q">8</td><td><a href="report-a7a694.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a7a694.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_03.c</td><td class="DESC">goodG2B2</td><td class="Q">214</td><td class="Q">5</td><td><a href="report-ac1e96.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-ac1e96.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_15.c</td><td class="DESC">goodG2B2</td><td class="Q">228</td><td class="Q">3</td><td><a href="report-ae4e46.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-ae4e46.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_14.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_14_bad</td><td class="Q">148</td><td class="Q">4</td><td><a href="report-b1906a.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-b1906a.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_41.c</td><td class="DESC">goodG2B</td><td class="Q">191</td><td class="Q">3</td><td><a href="report-bc2238.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-bc2238.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_08.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_08_bad</td><td class="Q">149</td><td class="Q">6</td><td><a href="report-bcfe6d.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-bcfe6d.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_44.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_44_bad</td><td class="Q">140</td><td class="Q">5</td><td><a href="report-c13477.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-c13477.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_15.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_15_bad</td><td class="Q">154</td><td class="Q">9</td><td><a href="report-ca5b8d.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-ca5b8d.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_07.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_07_bad</td><td class="Q">141</td><td class="Q">7</td><td><a href="report-d03aa8.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-d03aa8.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_04.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_04_bad</td><td class="Q">155</td><td class="Q">9</td><td><a href="report-d1c325.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-d1c325.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_10.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_10_bad</td><td class="Q">148</td><td class="Q">4</td><td><a href="report-d1df01.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-d1df01.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_32.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_32_bad</td><td class="Q">153</td><td class="Q">7</td><td><a href="report-d2465b.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-d2465b.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_18.c</td><td class="DESC">CWE123_Write_What_Where_Condition__connect_socket_18_bad</td><td class="Q">134</td><td class="Q">6</td><td><a href="report-e77101.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-e77101.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__fgets_13.c</td><td class="DESC">CWE123_Write_What_Where_Condition__fgets_13_bad</td><td class="Q">69</td><td class="Q">4</td><td><a href="report-f68ccd.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-f68ccd.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__listen_socket_44.c</td><td class="DESC">CWE123_Write_What_Where_Condition__listen_socket_44_bad</td><td class="Q">153</td><td class="Q">7</td><td><a href="report-f71079.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-f71079.html" -->
+</tr>
+<tr class="bt_logic_error_stack_address_stored_into_global_variable"><td class="DESC">Logic error</td><td class="DESC">Stack address stored into global variable</td><td>CWE123_Write_What_Where_Condition__connect_socket_03.c</td><td class="DESC">goodG2B1</td><td class="Q">179</td><td class="Q">5</td><td><a href="report-fdf746.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-fdf746.html" -->
+</tr>
+</tbody>
+</table>
+
+</body></html>

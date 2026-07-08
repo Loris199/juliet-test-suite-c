@@ -1,0 +1,21 @@
+==2422086== Memcheck, a memory error detector
+==2422086== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2422086== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2422086== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__strdup_char_64-bad
+==2422086== Parent PID: 2422085
+==2422086== 
+==2422086== 
+==2422086== HEAP SUMMARY:
+==2422086==     in use at exit: 9 bytes in 1 blocks
+==2422086==   total heap usage: 2 allocs, 1 frees, 4,105 bytes allocated
+==2422086== 
+==2422086== LEAK SUMMARY:
+==2422086==    definitely lost: 9 bytes in 1 blocks
+==2422086==    indirectly lost: 0 bytes in 0 blocks
+==2422086==      possibly lost: 0 bytes in 0 blocks
+==2422086==    still reachable: 0 bytes in 0 blocks
+==2422086==         suppressed: 0 bytes in 0 blocks
+==2422086== Rerun with --leak-check=full to see details of leaked memory
+==2422086== 
+==2422086== For lists of detected and suppressed errors, rerun with: -s
+==2422086== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

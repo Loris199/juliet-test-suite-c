@@ -1,0 +1,2443 @@
+#0
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+#1
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_01.c:56: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#2
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_01.c:129: error: Dead Store
+  The value written to `&data` is never used. 
+
+#3
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_01.c:161: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#4
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_02.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#5
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_03.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#6
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_03.c:145: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#7
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_03.c:232: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#8
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_04.c:64: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#9
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_04.c:151: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#10
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_04.c:238: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#11
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_05.c:64: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#12
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_05.c:151: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#13
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_05.c:238: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#14
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_06.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#15
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_06.c:150: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#16
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_06.c:237: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#17
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_07.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#18
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_07.c:150: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#19
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_07.c:237: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#20
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_08.c:71: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#21
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_08.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#22
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_08.c:245: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#23
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_09.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#24
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_09.c:145: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#25
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_09.c:232: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#26
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_10.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#27
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_10.c:145: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#28
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_10.c:232: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#29
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_11.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#30
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_11.c:145: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#31
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_11.c:232: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#32
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_12.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#33
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_12.c:168: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#34
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_12.c:227: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#35
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_12.c:316: error: Dead Store
+  The value written to `&data` is never used. 
+
+#36
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_13.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#37
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_13.c:145: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#38
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_13.c:232: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#39
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_14.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#40
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_14.c:145: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#41
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_14.c:232: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#42
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_15.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#43
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_15.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#44
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_15.c:252: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#45
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_16.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#46
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_16.c:147: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#47
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_17.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#48
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_17.c:147: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#49
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_18.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#50
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_18.c:143: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#51
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_18.c:213: error: Dead Store
+  The value written to `&data` is never used. 
+
+#52
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_21.c:79: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#53
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_21.c:178: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#54
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_21.c:263: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#55
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_21.c:341: error: Dead Store
+  The value written to `&data` is never used. 
+
+#56
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_22a.c:61: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#57
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_22a.c:138: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#58
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_22a.c:206: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#59
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_22a.c:266: error: Dead Store
+  The value written to `&data` is never used. 
+
+#60
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_31.c:56: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#61
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_31.c:133: error: Dead Store
+  The value written to `&data` is never used. 
+
+#62
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_31.c:169: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#63
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#64
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:52: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#65
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:60: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#66
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:140: error: Dead Store
+  The value written to `&data` is never used. 
+
+#67
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:142: error: Dead Store
+  The value written to `&data` is never used. 
+
+#68
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:142: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#69
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:173: error: Dead Store
+  The value written to `&data` is never used. 
+
+#70
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:175: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#71
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_32.c:183: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#72
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_34.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#73
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_34.c:141: error: Dead Store
+  The value written to `&data` is never used. 
+
+#74
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_34.c:178: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#75
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_41.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#76
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_41.c:151: error: Dead Store
+  The value written to `&data` is never used. 
+
+#77
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_41.c:187: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#78
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_42.c:53: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#79
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_42.c:170: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#80
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_44.c:75: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#81
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_44.c:155: error: Dead Store
+  The value written to `&data` is never used. 
+
+#82
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_44.c:192: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#83
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_45.c:78: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#84
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_45.c:158: error: Dead Store
+  The value written to `&data` is never used. 
+
+#85
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_45.c:196: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#86
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_51a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#87
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_51a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#88
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_51a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#89
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_52a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#90
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_52a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#91
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_52a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#92
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_53a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#93
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_53a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#94
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_53a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#95
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_54a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#96
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_54a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#97
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_54a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#98
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_61b.c:53: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#99
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_61b.c:128: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#100
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_63a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#101
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_63a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#102
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_63a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#103
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_64a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#104
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_64a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#105
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_64a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#106
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_65a.c:61: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#107
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_65a.c:126: error: Dead Store
+  The value written to `&data` is never used. 
+
+#108
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_65a.c:149: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#109
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_66a.c:60: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#110
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_66a.c:126: error: Dead Store
+  The value written to `&data` is never used. 
+
+#111
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_66a.c:150: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#112
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_67a.c:65: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#113
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_67a.c:130: error: Dead Store
+  The value written to `&data` is never used. 
+
+#114
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_67a.c:154: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#115
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_68a.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#116
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_68a.c:129: error: Dead Store
+  The value written to `&data` is never used. 
+
+#117
+s01/CWE127_Buffer_Underread__CWE839_connect_socket_68a.c:150: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#118
+s01/CWE127_Buffer_Underread__CWE839_fgets_01.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#119
+s01/CWE127_Buffer_Underread__CWE839_fgets_12.c:167: error: Dead Store
+  The value written to `&data` is never used. 
+
+#120
+s01/CWE127_Buffer_Underread__CWE839_fgets_18.c:107: error: Dead Store
+  The value written to `&data` is never used. 
+
+#121
+s01/CWE127_Buffer_Underread__CWE839_fgets_21.c:192: error: Dead Store
+  The value written to `&data` is never used. 
+
+#122
+s01/CWE127_Buffer_Underread__CWE839_fgets_22a.c:117: error: Dead Store
+  The value written to `&data` is never used. 
+
+#123
+s01/CWE127_Buffer_Underread__CWE839_fgets_31.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#124
+s01/CWE127_Buffer_Underread__CWE839_fgets_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#125
+s01/CWE127_Buffer_Underread__CWE839_fgets_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#126
+s01/CWE127_Buffer_Underread__CWE839_fgets_32.c:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#127
+s01/CWE127_Buffer_Underread__CWE839_fgets_32.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#128
+s01/CWE127_Buffer_Underread__CWE839_fgets_32.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#129
+s01/CWE127_Buffer_Underread__CWE839_fgets_32.c:110: error: Dead Store
+  The value written to `&data` is never used. 
+
+#130
+s01/CWE127_Buffer_Underread__CWE839_fgets_32.c:112: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#131
+s01/CWE127_Buffer_Underread__CWE839_fgets_34.c:78: error: Dead Store
+  The value written to `&data` is never used. 
+
+#132
+s01/CWE127_Buffer_Underread__CWE839_fgets_41.c:88: error: Dead Store
+  The value written to `&data` is never used. 
+
+#133
+s01/CWE127_Buffer_Underread__CWE839_fgets_44.c:92: error: Dead Store
+  The value written to `&data` is never used. 
+
+#134
+s01/CWE127_Buffer_Underread__CWE839_fgets_45.c:95: error: Dead Store
+  The value written to `&data` is never used. 
+
+#135
+s01/CWE127_Buffer_Underread__CWE839_fgets_51a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#136
+s01/CWE127_Buffer_Underread__CWE839_fgets_52a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#137
+s01/CWE127_Buffer_Underread__CWE839_fgets_53a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#138
+s01/CWE127_Buffer_Underread__CWE839_fgets_54a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#139
+s01/CWE127_Buffer_Underread__CWE839_fgets_63a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#140
+s01/CWE127_Buffer_Underread__CWE839_fgets_64a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#141
+s01/CWE127_Buffer_Underread__CWE839_fgets_65a.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#142
+s01/CWE127_Buffer_Underread__CWE839_fgets_66a.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#143
+s01/CWE127_Buffer_Underread__CWE839_fgets_67a.c:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#144
+s01/CWE127_Buffer_Underread__CWE839_fgets_68a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#145
+s01/CWE127_Buffer_Underread__CWE839_fscanf_01.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#146
+s01/CWE127_Buffer_Underread__CWE839_fscanf_18.c:83: error: Dead Store
+  The value written to `&data` is never used. 
+
+#147
+s01/CWE127_Buffer_Underread__CWE839_fscanf_21.c:157: error: Dead Store
+  The value written to `&data` is never used. 
+
+#148
+s01/CWE127_Buffer_Underread__CWE839_fscanf_22a.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#149
+s01/CWE127_Buffer_Underread__CWE839_fscanf_31.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#150
+s01/CWE127_Buffer_Underread__CWE839_fscanf_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#151
+s01/CWE127_Buffer_Underread__CWE839_fscanf_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#152
+s01/CWE127_Buffer_Underread__CWE839_fscanf_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#153
+s01/CWE127_Buffer_Underread__CWE839_fscanf_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#154
+s01/CWE127_Buffer_Underread__CWE839_fscanf_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#155
+s01/CWE127_Buffer_Underread__CWE839_fscanf_32.c:97: error: Dead Store
+  The value written to `&data` is never used. 
+
+#156
+s01/CWE127_Buffer_Underread__CWE839_fscanf_32.c:99: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#157
+s01/CWE127_Buffer_Underread__CWE839_fscanf_34.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#158
+s01/CWE127_Buffer_Underread__CWE839_fscanf_41.c:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#159
+s01/CWE127_Buffer_Underread__CWE839_fscanf_44.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#160
+s01/CWE127_Buffer_Underread__CWE839_fscanf_45.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#161
+s01/CWE127_Buffer_Underread__CWE839_fscanf_51a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#162
+s01/CWE127_Buffer_Underread__CWE839_fscanf_52a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#163
+s01/CWE127_Buffer_Underread__CWE839_fscanf_53a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#164
+s01/CWE127_Buffer_Underread__CWE839_fscanf_54a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#165
+s01/CWE127_Buffer_Underread__CWE839_fscanf_63a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#166
+s01/CWE127_Buffer_Underread__CWE839_fscanf_64a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#167
+s01/CWE127_Buffer_Underread__CWE839_fscanf_65a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#168
+s01/CWE127_Buffer_Underread__CWE839_fscanf_66a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#169
+s01/CWE127_Buffer_Underread__CWE839_fscanf_67a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#170
+s01/CWE127_Buffer_Underread__CWE839_fscanf_68a.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#171
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_01.c:56: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#172
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_01.c:142: error: Dead Store
+  The value written to `&data` is never used. 
+
+#173
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_01.c:174: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#174
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_02.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#175
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_02.c:158: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#176
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_02.c:258: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#177
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_03.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#178
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_03.c:158: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#179
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_03.c:258: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#180
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_04.c:64: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#181
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_04.c:164: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#182
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_04.c:264: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#183
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_05.c:64: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#184
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_05.c:164: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#185
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_05.c:264: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#186
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_06.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#187
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_06.c:163: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#188
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_06.c:263: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#189
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_07.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#190
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_07.c:163: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#191
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_07.c:263: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#192
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_08.c:71: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#193
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_08.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#194
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_08.c:271: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#195
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_09.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#196
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_09.c:158: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#197
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_09.c:258: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#198
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_10.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#199
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_11.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#200
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_11.c:158: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#201
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_11.c:258: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#202
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_12.c:181: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#203
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_12.c:253: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#204
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_12.c:355: error: Dead Store
+  The value written to `&data` is never used. 
+
+#205
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_13.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#206
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_13.c:158: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#207
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_13.c:258: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#208
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_14.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#209
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_14.c:158: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#210
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_14.c:258: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#211
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_15.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#212
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_15.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#213
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_15.c:278: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#214
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_16.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#215
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_16.c:160: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#216
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_17.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#217
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_17.c:160: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#218
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_18.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#219
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_18.c:156: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#220
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_18.c:239: error: Dead Store
+  The value written to `&data` is never used. 
+
+#221
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_21.c:79: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#222
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_21.c:191: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#223
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_21.c:289: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#224
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_21.c:380: error: Dead Store
+  The value written to `&data` is never used. 
+
+#225
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_22a.c:61: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#226
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_22a.c:151: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#227
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_22a.c:232: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#228
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_22a.c:305: error: Dead Store
+  The value written to `&data` is never used. 
+
+#229
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_31.c:56: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#230
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_31.c:146: error: Dead Store
+  The value written to `&data` is never used. 
+
+#231
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_31.c:182: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#232
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#233
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:52: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#234
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:60: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#235
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:153: error: Dead Store
+  The value written to `&data` is never used. 
+
+#236
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:155: error: Dead Store
+  The value written to `&data` is never used. 
+
+#237
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:155: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#238
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:186: error: Dead Store
+  The value written to `&data` is never used. 
+
+#239
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:188: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#240
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_32.c:196: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#241
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_34.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#242
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_34.c:154: error: Dead Store
+  The value written to `&data` is never used. 
+
+#243
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_34.c:191: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#244
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_41.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#245
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_41.c:164: error: Dead Store
+  The value written to `&data` is never used. 
+
+#246
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_41.c:200: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#247
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_42.c:53: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#248
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_42.c:183: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#249
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_44.c:75: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#250
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_44.c:168: error: Dead Store
+  The value written to `&data` is never used. 
+
+#251
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_44.c:205: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#252
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_45.c:78: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#253
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_45.c:171: error: Dead Store
+  The value written to `&data` is never used. 
+
+#254
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_45.c:209: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#255
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_51a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#256
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_51a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#257
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_51a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#258
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_52a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#259
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_52a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#260
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_52a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#261
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_53a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#262
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_53a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#263
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_53a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#264
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_54a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#265
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_54a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#266
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_54a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#267
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_61b.c:53: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#268
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_61b.c:141: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#269
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_63a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#270
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_63a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#271
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_63a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#272
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_64a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#273
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_64a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#274
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_64a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#275
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_65a.c:61: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#276
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_65a.c:139: error: Dead Store
+  The value written to `&data` is never used. 
+
+#277
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_65a.c:162: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#278
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_66a.c:60: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#279
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_66a.c:139: error: Dead Store
+  The value written to `&data` is never used. 
+
+#280
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_66a.c:163: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#281
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_67a.c:65: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#282
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_67a.c:143: error: Dead Store
+  The value written to `&data` is never used. 
+
+#283
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_67a.c:167: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#284
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_68a.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#285
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_68a.c:142: error: Dead Store
+  The value written to `&data` is never used. 
+
+#286
+s01/CWE127_Buffer_Underread__CWE839_listen_socket_68a.c:163: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#287
+s01/CWE127_Buffer_Underread__char_alloca_cpy_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#288
+s01/CWE127_Buffer_Underread__char_alloca_cpy_05.c:77: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#289
+s01/CWE127_Buffer_Underread__char_alloca_cpy_05.c:99: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#290
+s01/CWE127_Buffer_Underread__char_alloca_cpy_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#291
+s01/CWE127_Buffer_Underread__char_alloca_cpy_07.c:76: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#292
+s01/CWE127_Buffer_Underread__char_alloca_cpy_07.c:98: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#293
+s01/CWE127_Buffer_Underread__char_alloca_cpy_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#294
+s01/CWE127_Buffer_Underread__char_alloca_cpy_10.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#295
+s01/CWE127_Buffer_Underread__char_alloca_cpy_10.c:92: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#296
+s01/CWE127_Buffer_Underread__char_alloca_cpy_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#297
+s01/CWE127_Buffer_Underread__char_alloca_cpy_14.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#298
+s01/CWE127_Buffer_Underread__char_alloca_cpy_14.c:92: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#299
+s01/CWE127_Buffer_Underread__char_alloca_cpy_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#300
+s01/CWE127_Buffer_Underread__char_alloca_cpy_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#301
+s01/CWE127_Buffer_Underread__char_alloca_cpy_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#302
+s01/CWE127_Buffer_Underread__char_alloca_cpy_32.c:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#303
+s01/CWE127_Buffer_Underread__char_alloca_loop_05.c:49: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#304
+s01/CWE127_Buffer_Underread__char_alloca_loop_05.c:86: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#305
+s01/CWE127_Buffer_Underread__char_alloca_loop_05.c:114: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#306
+s01/CWE127_Buffer_Underread__char_alloca_loop_07.c:48: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#307
+s01/CWE127_Buffer_Underread__char_alloca_loop_07.c:85: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#308
+s01/CWE127_Buffer_Underread__char_alloca_loop_07.c:113: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#309
+s01/CWE127_Buffer_Underread__char_alloca_loop_10.c:42: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#310
+s01/CWE127_Buffer_Underread__char_alloca_loop_10.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#311
+s01/CWE127_Buffer_Underread__char_alloca_loop_10.c:107: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#312
+s01/CWE127_Buffer_Underread__char_alloca_loop_14.c:42: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#313
+s01/CWE127_Buffer_Underread__char_alloca_loop_14.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#314
+s01/CWE127_Buffer_Underread__char_alloca_loop_14.c:107: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#315
+s01/CWE127_Buffer_Underread__char_alloca_loop_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#316
+s01/CWE127_Buffer_Underread__char_alloca_loop_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#317
+s01/CWE127_Buffer_Underread__char_alloca_loop_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#318
+s01/CWE127_Buffer_Underread__char_alloca_loop_32.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#319
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#320
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_05.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#321
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_05.c:103: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#322
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#323
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_07.c:78: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#324
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_07.c:102: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#325
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#326
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_10.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#327
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_10.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#328
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#329
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_14.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#330
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_14.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#331
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#332
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#333
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#334
+s01/CWE127_Buffer_Underread__char_alloca_memcpy_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#335
+s01/CWE127_Buffer_Underread__char_alloca_memmove_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#336
+s01/CWE127_Buffer_Underread__char_alloca_memmove_05.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#337
+s01/CWE127_Buffer_Underread__char_alloca_memmove_05.c:103: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#338
+s01/CWE127_Buffer_Underread__char_alloca_memmove_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#339
+s01/CWE127_Buffer_Underread__char_alloca_memmove_07.c:78: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#340
+s01/CWE127_Buffer_Underread__char_alloca_memmove_07.c:102: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#341
+s01/CWE127_Buffer_Underread__char_alloca_memmove_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#342
+s01/CWE127_Buffer_Underread__char_alloca_memmove_10.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#343
+s01/CWE127_Buffer_Underread__char_alloca_memmove_10.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#344
+s01/CWE127_Buffer_Underread__char_alloca_memmove_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#345
+s01/CWE127_Buffer_Underread__char_alloca_memmove_14.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#346
+s01/CWE127_Buffer_Underread__char_alloca_memmove_14.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#347
+s01/CWE127_Buffer_Underread__char_alloca_memmove_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#348
+s01/CWE127_Buffer_Underread__char_alloca_memmove_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#349
+s01/CWE127_Buffer_Underread__char_alloca_memmove_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#350
+s01/CWE127_Buffer_Underread__char_alloca_memmove_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#351
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#352
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_05.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#353
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_05.c:103: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#354
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#355
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_07.c:78: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#356
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_07.c:102: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#357
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#358
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_10.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#359
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_10.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#360
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#361
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_14.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#362
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_14.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#363
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#364
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#365
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#366
+s01/CWE127_Buffer_Underread__char_alloca_ncpy_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#367
+s01/CWE127_Buffer_Underread__char_declare_cpy_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#368
+s01/CWE127_Buffer_Underread__char_declare_cpy_05.c:77: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#369
+s01/CWE127_Buffer_Underread__char_declare_cpy_05.c:99: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#370
+s01/CWE127_Buffer_Underread__char_declare_cpy_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#371
+s01/CWE127_Buffer_Underread__char_declare_cpy_07.c:76: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#372
+s01/CWE127_Buffer_Underread__char_declare_cpy_07.c:98: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#373
+s01/CWE127_Buffer_Underread__char_declare_cpy_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#374
+s01/CWE127_Buffer_Underread__char_declare_cpy_10.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#375
+s01/CWE127_Buffer_Underread__char_declare_cpy_10.c:92: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#376
+s01/CWE127_Buffer_Underread__char_declare_cpy_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#377
+s01/CWE127_Buffer_Underread__char_declare_cpy_14.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#378
+s01/CWE127_Buffer_Underread__char_declare_cpy_14.c:92: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#379
+s01/CWE127_Buffer_Underread__char_declare_cpy_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#380
+s01/CWE127_Buffer_Underread__char_declare_cpy_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#381
+s01/CWE127_Buffer_Underread__char_declare_cpy_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#382
+s01/CWE127_Buffer_Underread__char_declare_cpy_32.c:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#383
+s01/CWE127_Buffer_Underread__char_declare_loop_05.c:49: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#384
+s01/CWE127_Buffer_Underread__char_declare_loop_05.c:86: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#385
+s01/CWE127_Buffer_Underread__char_declare_loop_05.c:114: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#386
+s01/CWE127_Buffer_Underread__char_declare_loop_07.c:48: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#387
+s01/CWE127_Buffer_Underread__char_declare_loop_07.c:85: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#388
+s01/CWE127_Buffer_Underread__char_declare_loop_07.c:113: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#389
+s01/CWE127_Buffer_Underread__char_declare_loop_10.c:42: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#390
+s01/CWE127_Buffer_Underread__char_declare_loop_10.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#391
+s01/CWE127_Buffer_Underread__char_declare_loop_10.c:107: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#392
+s01/CWE127_Buffer_Underread__char_declare_loop_14.c:42: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#393
+s01/CWE127_Buffer_Underread__char_declare_loop_14.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#394
+s01/CWE127_Buffer_Underread__char_declare_loop_14.c:107: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#395
+s01/CWE127_Buffer_Underread__char_declare_loop_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#396
+s01/CWE127_Buffer_Underread__char_declare_loop_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#397
+s01/CWE127_Buffer_Underread__char_declare_loop_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#398
+s01/CWE127_Buffer_Underread__char_declare_loop_32.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#399
+s01/CWE127_Buffer_Underread__char_declare_memcpy_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#400
+s01/CWE127_Buffer_Underread__char_declare_memcpy_05.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#401
+s01/CWE127_Buffer_Underread__char_declare_memcpy_05.c:103: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#402
+s01/CWE127_Buffer_Underread__char_declare_memcpy_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#403
+s01/CWE127_Buffer_Underread__char_declare_memcpy_07.c:78: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#404
+s01/CWE127_Buffer_Underread__char_declare_memcpy_07.c:102: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#405
+s01/CWE127_Buffer_Underread__char_declare_memcpy_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#406
+s01/CWE127_Buffer_Underread__char_declare_memcpy_10.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#407
+s01/CWE127_Buffer_Underread__char_declare_memcpy_10.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#408
+s01/CWE127_Buffer_Underread__char_declare_memcpy_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#409
+s01/CWE127_Buffer_Underread__char_declare_memcpy_14.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#410
+s01/CWE127_Buffer_Underread__char_declare_memcpy_14.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#411
+s01/CWE127_Buffer_Underread__char_declare_memcpy_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#412
+s01/CWE127_Buffer_Underread__char_declare_memcpy_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#413
+s01/CWE127_Buffer_Underread__char_declare_memcpy_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#414
+s01/CWE127_Buffer_Underread__char_declare_memcpy_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#415
+s01/CWE127_Buffer_Underread__char_declare_memmove_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#416
+s01/CWE127_Buffer_Underread__char_declare_memmove_05.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#417
+s01/CWE127_Buffer_Underread__char_declare_memmove_05.c:103: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#418
+s01/CWE127_Buffer_Underread__char_declare_memmove_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#419
+s01/CWE127_Buffer_Underread__char_declare_memmove_07.c:78: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#420
+s01/CWE127_Buffer_Underread__char_declare_memmove_07.c:102: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#421
+s01/CWE127_Buffer_Underread__char_declare_memmove_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#422
+s01/CWE127_Buffer_Underread__char_declare_memmove_10.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#423
+s01/CWE127_Buffer_Underread__char_declare_memmove_10.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#424
+s01/CWE127_Buffer_Underread__char_declare_memmove_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#425
+s01/CWE127_Buffer_Underread__char_declare_memmove_14.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#426
+s01/CWE127_Buffer_Underread__char_declare_memmove_14.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#427
+s01/CWE127_Buffer_Underread__char_declare_memmove_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#428
+s01/CWE127_Buffer_Underread__char_declare_memmove_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#429
+s01/CWE127_Buffer_Underread__char_declare_memmove_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#430
+s01/CWE127_Buffer_Underread__char_declare_memmove_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#431
+s01/CWE127_Buffer_Underread__char_declare_ncpy_05.c:46: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#432
+s01/CWE127_Buffer_Underread__char_declare_ncpy_05.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#433
+s01/CWE127_Buffer_Underread__char_declare_ncpy_05.c:103: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#434
+s01/CWE127_Buffer_Underread__char_declare_ncpy_07.c:45: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#435
+s01/CWE127_Buffer_Underread__char_declare_ncpy_07.c:78: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#436
+s01/CWE127_Buffer_Underread__char_declare_ncpy_07.c:102: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#437
+s01/CWE127_Buffer_Underread__char_declare_ncpy_10.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#438
+s01/CWE127_Buffer_Underread__char_declare_ncpy_10.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#439
+s01/CWE127_Buffer_Underread__char_declare_ncpy_10.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#440
+s01/CWE127_Buffer_Underread__char_declare_ncpy_14.c:39: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#441
+s01/CWE127_Buffer_Underread__char_declare_ncpy_14.c:72: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#442
+s01/CWE127_Buffer_Underread__char_declare_ncpy_14.c:96: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#443
+s01/CWE127_Buffer_Underread__char_declare_ncpy_32.c:32: error: Dead Store
+  The value written to `&data` is never used. 
+
+#444
+s01/CWE127_Buffer_Underread__char_declare_ncpy_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#445
+s01/CWE127_Buffer_Underread__char_declare_ncpy_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#446
+s01/CWE127_Buffer_Underread__char_declare_ncpy_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#447
+s02/CWE127_Buffer_Underread__CWE839_negative_01.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#448
+s02/CWE127_Buffer_Underread__CWE839_negative_01.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#449
+s02/CWE127_Buffer_Underread__CWE839_negative_01.c:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#450
+s02/CWE127_Buffer_Underread__CWE839_negative_12.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#451
+s02/CWE127_Buffer_Underread__CWE839_negative_12.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#452
+s02/CWE127_Buffer_Underread__CWE839_negative_12.c:132: error: Dead Store
+  The value written to `&data` is never used. 
+
+#453
+s02/CWE127_Buffer_Underread__CWE839_negative_18.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#454
+s02/CWE127_Buffer_Underread__CWE839_negative_18.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#455
+s02/CWE127_Buffer_Underread__CWE839_negative_18.c:83: error: Dead Store
+  The value written to `&data` is never used. 
+
+#456
+s02/CWE127_Buffer_Underread__CWE839_negative_21.c:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#457
+s02/CWE127_Buffer_Underread__CWE839_negative_21.c:94: error: Dead Store
+  The value written to `&data` is never used. 
+
+#458
+s02/CWE127_Buffer_Underread__CWE839_negative_21.c:125: error: Dead Store
+  The value written to `&data` is never used. 
+
+#459
+s02/CWE127_Buffer_Underread__CWE839_negative_21.c:157: error: Dead Store
+  The value written to `&data` is never used. 
+
+#460
+s02/CWE127_Buffer_Underread__CWE839_negative_22a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#461
+s02/CWE127_Buffer_Underread__CWE839_negative_22a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#462
+s02/CWE127_Buffer_Underread__CWE839_negative_22a.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#463
+s02/CWE127_Buffer_Underread__CWE839_negative_22a.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#464
+s02/CWE127_Buffer_Underread__CWE839_negative_31.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#465
+s02/CWE127_Buffer_Underread__CWE839_negative_31.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#466
+s02/CWE127_Buffer_Underread__CWE839_negative_31.c:85: error: Dead Store
+  The value written to `&data` is never used. 
+
+#467
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#468
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#469
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#470
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#471
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#472
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#473
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:97: error: Dead Store
+  The value written to `&data` is never used. 
+
+#474
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:99: error: Dead Store
+  The value written to `&data` is never used. 
+
+#475
+s02/CWE127_Buffer_Underread__CWE839_negative_32.c:99: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#476
+s02/CWE127_Buffer_Underread__CWE839_negative_34.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#477
+s02/CWE127_Buffer_Underread__CWE839_negative_34.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#478
+s02/CWE127_Buffer_Underread__CWE839_negative_34.c:94: error: Dead Store
+  The value written to `&data` is never used. 
+
+#479
+s02/CWE127_Buffer_Underread__CWE839_negative_41.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#480
+s02/CWE127_Buffer_Underread__CWE839_negative_41.c:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#481
+s02/CWE127_Buffer_Underread__CWE839_negative_41.c:103: error: Dead Store
+  The value written to `&data` is never used. 
+
+#482
+s02/CWE127_Buffer_Underread__CWE839_negative_44.c:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#483
+s02/CWE127_Buffer_Underread__CWE839_negative_44.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#484
+s02/CWE127_Buffer_Underread__CWE839_negative_44.c:108: error: Dead Store
+  The value written to `&data` is never used. 
+
+#485
+s02/CWE127_Buffer_Underread__CWE839_negative_45.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#486
+s02/CWE127_Buffer_Underread__CWE839_negative_45.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#487
+s02/CWE127_Buffer_Underread__CWE839_negative_45.c:112: error: Dead Store
+  The value written to `&data` is never used. 
+
+#488
+s02/CWE127_Buffer_Underread__CWE839_negative_51a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#489
+s02/CWE127_Buffer_Underread__CWE839_negative_51a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#490
+s02/CWE127_Buffer_Underread__CWE839_negative_51a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#491
+s02/CWE127_Buffer_Underread__CWE839_negative_52a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#492
+s02/CWE127_Buffer_Underread__CWE839_negative_52a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#493
+s02/CWE127_Buffer_Underread__CWE839_negative_52a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#494
+s02/CWE127_Buffer_Underread__CWE839_negative_53a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#495
+s02/CWE127_Buffer_Underread__CWE839_negative_53a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#496
+s02/CWE127_Buffer_Underread__CWE839_negative_53a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#497
+s02/CWE127_Buffer_Underread__CWE839_negative_54a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#498
+s02/CWE127_Buffer_Underread__CWE839_negative_54a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#499
+s02/CWE127_Buffer_Underread__CWE839_negative_54a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#500
+s02/CWE127_Buffer_Underread__CWE839_negative_63a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#501
+s02/CWE127_Buffer_Underread__CWE839_negative_63a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#502
+s02/CWE127_Buffer_Underread__CWE839_negative_63a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#503
+s02/CWE127_Buffer_Underread__CWE839_negative_64a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#504
+s02/CWE127_Buffer_Underread__CWE839_negative_64a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#505
+s02/CWE127_Buffer_Underread__CWE839_negative_65a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#506
+s02/CWE127_Buffer_Underread__CWE839_negative_65a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#507
+s02/CWE127_Buffer_Underread__CWE839_negative_65a.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#508
+s02/CWE127_Buffer_Underread__CWE839_negative_66a.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#509
+s02/CWE127_Buffer_Underread__CWE839_negative_66a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#510
+s02/CWE127_Buffer_Underread__CWE839_negative_66a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#511
+s02/CWE127_Buffer_Underread__CWE839_negative_67a.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#512
+s02/CWE127_Buffer_Underread__CWE839_negative_67a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#513
+s02/CWE127_Buffer_Underread__CWE839_negative_67a.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#514
+s02/CWE127_Buffer_Underread__CWE839_negative_68a.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#515
+s02/CWE127_Buffer_Underread__CWE839_negative_68a.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#516
+s02/CWE127_Buffer_Underread__CWE839_negative_68a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#517
+s02/CWE127_Buffer_Underread__CWE839_rand_01.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#518
+s02/CWE127_Buffer_Underread__CWE839_rand_01.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#519
+s02/CWE127_Buffer_Underread__CWE839_rand_01.c:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#520
+s02/CWE127_Buffer_Underread__CWE839_rand_12.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#521
+s02/CWE127_Buffer_Underread__CWE839_rand_12.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#522
+s02/CWE127_Buffer_Underread__CWE839_rand_12.c:132: error: Dead Store
+  The value written to `&data` is never used. 
+
+#523
+s02/CWE127_Buffer_Underread__CWE839_rand_18.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#524
+s02/CWE127_Buffer_Underread__CWE839_rand_18.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#525
+s02/CWE127_Buffer_Underread__CWE839_rand_18.c:83: error: Dead Store
+  The value written to `&data` is never used. 
+
+#526
+s02/CWE127_Buffer_Underread__CWE839_rand_21.c:49: error: Dead Store
+  The value written to `&data` is never used. 
+
+#527
+s02/CWE127_Buffer_Underread__CWE839_rand_21.c:94: error: Dead Store
+  The value written to `&data` is never used. 
+
+#528
+s02/CWE127_Buffer_Underread__CWE839_rand_21.c:125: error: Dead Store
+  The value written to `&data` is never used. 
+
+#529
+s02/CWE127_Buffer_Underread__CWE839_rand_21.c:157: error: Dead Store
+  The value written to `&data` is never used. 
+
+#530
+s02/CWE127_Buffer_Underread__CWE839_rand_22a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#531
+s02/CWE127_Buffer_Underread__CWE839_rand_22a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#532
+s02/CWE127_Buffer_Underread__CWE839_rand_22a.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#533
+s02/CWE127_Buffer_Underread__CWE839_rand_22a.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#534
+s02/CWE127_Buffer_Underread__CWE839_rand_31.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#535
+s02/CWE127_Buffer_Underread__CWE839_rand_31.c:57: error: Dead Store
+  The value written to `&data` is never used. 
+
+#536
+s02/CWE127_Buffer_Underread__CWE839_rand_31.c:85: error: Dead Store
+  The value written to `&data` is never used. 
+
+#537
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#538
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#539
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#540
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#541
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#542
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#543
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:97: error: Dead Store
+  The value written to `&data` is never used. 
+
+#544
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:99: error: Dead Store
+  The value written to `&data` is never used. 
+
+#545
+s02/CWE127_Buffer_Underread__CWE839_rand_32.c:99: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#546
+s02/CWE127_Buffer_Underread__CWE839_rand_34.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#547
+s02/CWE127_Buffer_Underread__CWE839_rand_34.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#548
+s02/CWE127_Buffer_Underread__CWE839_rand_34.c:94: error: Dead Store
+  The value written to `&data` is never used. 
+
+#549
+s02/CWE127_Buffer_Underread__CWE839_rand_41.c:43: error: Dead Store
+  The value written to `&data` is never used. 
+
+#550
+s02/CWE127_Buffer_Underread__CWE839_rand_41.c:75: error: Dead Store
+  The value written to `&data` is never used. 
+
+#551
+s02/CWE127_Buffer_Underread__CWE839_rand_41.c:103: error: Dead Store
+  The value written to `&data` is never used. 
+
+#552
+s02/CWE127_Buffer_Underread__CWE839_rand_44.c:45: error: Dead Store
+  The value written to `&data` is never used. 
+
+#553
+s02/CWE127_Buffer_Underread__CWE839_rand_44.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#554
+s02/CWE127_Buffer_Underread__CWE839_rand_44.c:108: error: Dead Store
+  The value written to `&data` is never used. 
+
+#555
+s02/CWE127_Buffer_Underread__CWE839_rand_45.c:48: error: Dead Store
+  The value written to `&data` is never used. 
+
+#556
+s02/CWE127_Buffer_Underread__CWE839_rand_45.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#557
+s02/CWE127_Buffer_Underread__CWE839_rand_45.c:112: error: Dead Store
+  The value written to `&data` is never used. 
+
+#558
+s02/CWE127_Buffer_Underread__CWE839_rand_51a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#559
+s02/CWE127_Buffer_Underread__CWE839_rand_51a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#560
+s02/CWE127_Buffer_Underread__CWE839_rand_51a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#561
+s02/CWE127_Buffer_Underread__CWE839_rand_52a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#562
+s02/CWE127_Buffer_Underread__CWE839_rand_52a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#563
+s02/CWE127_Buffer_Underread__CWE839_rand_52a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#564
+s02/CWE127_Buffer_Underread__CWE839_rand_53a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#565
+s02/CWE127_Buffer_Underread__CWE839_rand_53a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#566
+s02/CWE127_Buffer_Underread__CWE839_rand_53a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#567
+s02/CWE127_Buffer_Underread__CWE839_rand_54a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#568
+s02/CWE127_Buffer_Underread__CWE839_rand_54a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#569
+s02/CWE127_Buffer_Underread__CWE839_rand_54a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#570
+s02/CWE127_Buffer_Underread__CWE839_rand_63a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#571
+s02/CWE127_Buffer_Underread__CWE839_rand_63a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#572
+s02/CWE127_Buffer_Underread__CWE839_rand_63a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#573
+s02/CWE127_Buffer_Underread__CWE839_rand_64a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#574
+s02/CWE127_Buffer_Underread__CWE839_rand_64a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#575
+s02/CWE127_Buffer_Underread__CWE839_rand_64a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#576
+s02/CWE127_Buffer_Underread__CWE839_rand_65a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#577
+s02/CWE127_Buffer_Underread__CWE839_rand_65a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#578
+s02/CWE127_Buffer_Underread__CWE839_rand_65a.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#579
+s02/CWE127_Buffer_Underread__CWE839_rand_66a.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#580
+s02/CWE127_Buffer_Underread__CWE839_rand_66a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#581
+s02/CWE127_Buffer_Underread__CWE839_rand_66a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#582
+s02/CWE127_Buffer_Underread__CWE839_rand_67a.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#583
+s02/CWE127_Buffer_Underread__CWE839_rand_67a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#584
+s02/CWE127_Buffer_Underread__CWE839_rand_67a.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#585
+s02/CWE127_Buffer_Underread__CWE839_rand_68a.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#586
+s02/CWE127_Buffer_Underread__CWE839_rand_68a.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#587
+s02/CWE127_Buffer_Underread__CWE839_rand_68a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#588
+s02/CWE127_Buffer_Underread__malloc_char_cpy_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#589
+s02/CWE127_Buffer_Underread__malloc_char_cpy_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#590
+s02/CWE127_Buffer_Underread__malloc_char_cpy_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#591
+s02/CWE127_Buffer_Underread__malloc_char_cpy_32.c:68: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#592
+s02/CWE127_Buffer_Underread__malloc_char_loop_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#593
+s02/CWE127_Buffer_Underread__malloc_char_loop_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#594
+s02/CWE127_Buffer_Underread__malloc_char_loop_32.c:74: error: Dead Store
+  The value written to `&data` is never used. 
+
+#595
+s02/CWE127_Buffer_Underread__malloc_char_loop_32.c:74: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#596
+s02/CWE127_Buffer_Underread__malloc_char_memcpy_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#597
+s02/CWE127_Buffer_Underread__malloc_char_memcpy_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#598
+s02/CWE127_Buffer_Underread__malloc_char_memcpy_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#599
+s02/CWE127_Buffer_Underread__malloc_char_memcpy_32.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#600
+s02/CWE127_Buffer_Underread__malloc_char_memmove_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#601
+s02/CWE127_Buffer_Underread__malloc_char_memmove_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#602
+s02/CWE127_Buffer_Underread__malloc_char_memmove_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#603
+s02/CWE127_Buffer_Underread__malloc_char_memmove_32.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#604
+s02/CWE127_Buffer_Underread__malloc_char_ncpy_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#605
+s02/CWE127_Buffer_Underread__malloc_char_ncpy_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#606
+s02/CWE127_Buffer_Underread__malloc_char_ncpy_32.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#607
+s02/CWE127_Buffer_Underread__malloc_char_ncpy_32.c:70: error: Uninitialized Value
+  `data` is read without initialization. 
+
+Found 608 issues
+                      Issue Type(ISSUED_TYPE_ID): #
+                          Dead Store(DEAD_STORE): 439
+  Uninitialized Value(PULSE_UNINITIALIZED_VALUE): 168
+                      Memory Leak(MEMORY_LEAK_C): 1

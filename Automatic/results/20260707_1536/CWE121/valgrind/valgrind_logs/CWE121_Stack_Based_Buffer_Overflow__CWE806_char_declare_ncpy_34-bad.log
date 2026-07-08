@@ -1,0 +1,20 @@
+==734212== Memcheck, a memory error detector
+==734212== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==734212== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==734212== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_34-bad
+==734212== Parent PID: 734211
+==734212== 
+==734212== Source and destination overlap in strncpy(0x1ffefffe43, 0x1ffefffe83, 99)
+==734212==    at 0x484F5A0: strncpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==734212==    by 0x1093C7: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_34_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_34-bad)
+==734212==    by 0x10942E: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_34-bad)
+==734212== 
+==734212== 
+==734212== HEAP SUMMARY:
+==734212==     in use at exit: 0 bytes in 0 blocks
+==734212==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==734212== 
+==734212== All heap blocks were freed -- no leaks are possible
+==734212== 
+==734212== For lists of detected and suppressed errors, rerun with: -s
+==734212== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

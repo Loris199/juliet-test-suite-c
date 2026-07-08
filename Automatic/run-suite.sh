@@ -4,7 +4,7 @@
 set -uo pipefail
 
 # CWE à tester (modifiable)
-CWES=(0)
+CWES=(121 122 123 124 126 127 416 415 401)
 
 # Outils à tester (modifiable, valeurs acceptées : gcc clang csa infer filc valgrind asan)
 TOOLS=(gcc clang csa infer filc valgrind asan)

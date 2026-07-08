@@ -1,0 +1,51 @@
+==2096332== Memcheck, a memory error detector
+==2096332== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2096332== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2096332== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad
+==2096332== Parent PID: 2096331
+==2096332== 
+==2096332== Conditional jump or move depends on uninitialised value(s)
+==2096332==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2096332==    by 0x48F6BFC: puts (ioputs.c:35)
+==2096332==    by 0x1094B7: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332==    by 0x109426: CWE127_Buffer_Underread__char_alloca_memcpy_07_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332==    by 0x10947E: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332== 
+==2096332== Conditional jump or move depends on uninitialised value(s)
+==2096332==    at 0x484F238: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2096332==    by 0x48F6BFC: puts (ioputs.c:35)
+==2096332==    by 0x1094B7: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332==    by 0x109426: CWE127_Buffer_Underread__char_alloca_memcpy_07_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332==    by 0x10947E: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332== 
+==2096332== Syscall param write(buf) points to uninitialised byte(s)
+==2096332==    at 0x498B5A4: write (write.c:26)
+==2096332==    by 0x4902974: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==2096332==    by 0x4901570: new_do_write (fileops.c:449)
+==2096332==    by 0x4901570: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
+==2096332==    by 0x49051E5: _IO_flush_all (genops.c:705)
+==2096332==    by 0x490580C: _IO_cleanup (genops.c:843)
+==2096332==    by 0x48B6B73: __run_exit_handlers (exit.c:129)
+==2096332==    by 0x48B6BBD: exit (exit.c:138)
+==2096332==    by 0x48991D0: (below main) (libc_start_call_main.h:74)
+==2096332==  Address 0x4a84051 is 17 bytes inside a block of size 4,096 alloc'd
+==2096332==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2096332==    by 0x48F41B4: _IO_file_doallocate (filedoalloc.c:101)
+==2096332==    by 0x4904523: _IO_doallocbuf (genops.c:347)
+==2096332==    by 0x4901F8F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==2096332==    by 0x4902AAE: _IO_new_file_xsputn (fileops.c:1244)
+==2096332==    by 0x4902AAE: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==2096332==    by 0x48F6C5C: puts (ioputs.c:40)
+==2096332==    by 0x1094B7: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332==    by 0x109474: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__char_alloca_memcpy_07-bad)
+==2096332== 
+==2096332== 
+==2096332== HEAP SUMMARY:
+==2096332==     in use at exit: 0 bytes in 0 blocks
+==2096332==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==2096332== 
+==2096332== All heap blocks were freed -- no leaks are possible
+==2096332== 
+==2096332== Use --track-origins=yes to see where uninitialised values come from
+==2096332== For lists of detected and suppressed errors, rerun with: -s
+==2096332== ERROR SUMMARY: 5 errors from 3 contexts (suppressed: 0 from 0)

@@ -1,0 +1,36 @@
+==1430313== Memcheck, a memory error detector
+==1430313== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1430313== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1430313== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad
+==1430313== Parent PID: 1430312
+==1430313== 
+==1430313== Invalid write of size 8
+==1430313==    at 0x1093C1: CWE123_Write_What_Where_Condition__fgets_42_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad)
+==1430313==    by 0x109418: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad)
+==1430313==  Address 0x7473657c is not stack'd, malloc'd or (recently) free'd
+==1430313== 
+==1430313== 
+==1430313== Process terminating with default action of signal 11 (SIGSEGV)
+==1430313==  Access not within mapped region at address 0x7473657C
+==1430313==    at 0x1093C1: CWE123_Write_What_Where_Condition__fgets_42_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad)
+==1430313==    by 0x109418: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE123/valgrind/bin/CWE123/bad/CWE123_Write_What_Where_Condition__fgets_42-bad)
+==1430313==  If you believe this happened as a result of a stack
+==1430313==  overflow in your program's main thread (unlikely but
+==1430313==  possible), you can try to increase the size of the
+==1430313==  main thread stack using the --main-stacksize= flag.
+==1430313==  The main thread stack size used in this run was 8388608.
+==1430313== 
+==1430313== HEAP SUMMARY:
+==1430313==     in use at exit: 8,192 bytes in 2 blocks
+==1430313==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==1430313== 
+==1430313== LEAK SUMMARY:
+==1430313==    definitely lost: 0 bytes in 0 blocks
+==1430313==    indirectly lost: 0 bytes in 0 blocks
+==1430313==      possibly lost: 0 bytes in 0 blocks
+==1430313==    still reachable: 8,192 bytes in 2 blocks
+==1430313==         suppressed: 0 bytes in 0 blocks
+==1430313== Rerun with --leak-check=full to see details of leaked memory
+==1430313== 
+==1430313== For lists of detected and suppressed errors, rerun with: -s
+==1430313== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

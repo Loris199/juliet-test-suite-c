@@ -1,0 +1,314 @@
+#0
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+#1
+CWE123_Write_What_Where_Condition__connect_socket_01.c:71: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#2
+CWE123_Write_What_Where_Condition__connect_socket_02.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#3
+CWE123_Write_What_Where_Condition__connect_socket_03.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#4
+CWE123_Write_What_Where_Condition__connect_socket_04.c:80: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#5
+CWE123_Write_What_Where_Condition__connect_socket_05.c:80: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#6
+CWE123_Write_What_Where_Condition__connect_socket_06.c:77: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#7
+CWE123_Write_What_Where_Condition__connect_socket_07.c:79: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#8
+CWE123_Write_What_Where_Condition__connect_socket_08.c:87: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#9
+CWE123_Write_What_Where_Condition__connect_socket_09.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#10
+CWE123_Write_What_Where_Condition__connect_socket_10.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#11
+CWE123_Write_What_Where_Condition__connect_socket_11.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#12
+CWE123_Write_What_Where_Condition__connect_socket_12.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#13
+CWE123_Write_What_Where_Condition__connect_socket_13.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#14
+CWE123_Write_What_Where_Condition__connect_socket_14.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#15
+CWE123_Write_What_Where_Condition__connect_socket_15.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#16
+CWE123_Write_What_Where_Condition__connect_socket_16.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#17
+CWE123_Write_What_Where_Condition__connect_socket_17.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#18
+CWE123_Write_What_Where_Condition__connect_socket_18.c:73: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#19
+CWE123_Write_What_Where_Condition__connect_socket_21.c:69: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#20
+CWE123_Write_What_Where_Condition__connect_socket_22b.c:69: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#21
+CWE123_Write_What_Where_Condition__connect_socket_31.c:71: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#22
+CWE123_Write_What_Where_Condition__connect_socket_32.c:75: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#23
+CWE123_Write_What_Where_Condition__connect_socket_34.c:78: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#24
+CWE123_Write_What_Where_Condition__connect_socket_41.c:93: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#25
+CWE123_Write_What_Where_Condition__connect_socket_42.c:64: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#26
+CWE123_Write_What_Where_Condition__connect_socket_44.c:95: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#27
+CWE123_Write_What_Where_Condition__connect_socket_45.c:97: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#28
+CWE123_Write_What_Where_Condition__connect_socket_51a.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#29
+CWE123_Write_What_Where_Condition__connect_socket_52a.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#30
+CWE123_Write_What_Where_Condition__connect_socket_53a.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#31
+CWE123_Write_What_Where_Condition__connect_socket_54a.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#32
+CWE123_Write_What_Where_Condition__connect_socket_61b.c:64: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#33
+CWE123_Write_What_Where_Condition__connect_socket_63a.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#34
+CWE123_Write_What_Where_Condition__connect_socket_64a.c:74: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#35
+CWE123_Write_What_Where_Condition__connect_socket_65a.c:76: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#36
+CWE123_Write_What_Where_Condition__connect_socket_66a.c:75: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#37
+CWE123_Write_What_Where_Condition__connect_socket_67a.c:80: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#38
+CWE123_Write_What_Where_Condition__connect_socket_68a.c:77: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#39
+CWE123_Write_What_Where_Condition__listen_socket_01.c:71: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#40
+CWE123_Write_What_Where_Condition__listen_socket_02.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#41
+CWE123_Write_What_Where_Condition__listen_socket_03.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#42
+CWE123_Write_What_Where_Condition__listen_socket_04.c:80: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#43
+CWE123_Write_What_Where_Condition__listen_socket_05.c:80: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#44
+CWE123_Write_What_Where_Condition__listen_socket_06.c:77: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#45
+CWE123_Write_What_Where_Condition__listen_socket_07.c:79: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#46
+CWE123_Write_What_Where_Condition__listen_socket_08.c:87: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#47
+CWE123_Write_What_Where_Condition__listen_socket_09.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#48
+CWE123_Write_What_Where_Condition__listen_socket_10.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#49
+CWE123_Write_What_Where_Condition__listen_socket_12.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#50
+CWE123_Write_What_Where_Condition__listen_socket_13.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#51
+CWE123_Write_What_Where_Condition__listen_socket_14.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#52
+CWE123_Write_What_Where_Condition__listen_socket_15.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#53
+CWE123_Write_What_Where_Condition__listen_socket_16.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#54
+CWE123_Write_What_Where_Condition__listen_socket_17.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#55
+CWE123_Write_What_Where_Condition__listen_socket_18.c:73: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#56
+CWE123_Write_What_Where_Condition__listen_socket_21.c:69: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#57
+CWE123_Write_What_Where_Condition__listen_socket_22b.c:69: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#58
+CWE123_Write_What_Where_Condition__listen_socket_31.c:71: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#59
+CWE123_Write_What_Where_Condition__listen_socket_32.c:75: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#60
+CWE123_Write_What_Where_Condition__listen_socket_34.c:78: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#61
+CWE123_Write_What_Where_Condition__listen_socket_41.c:93: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#62
+CWE123_Write_What_Where_Condition__listen_socket_42.c:64: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#63
+CWE123_Write_What_Where_Condition__listen_socket_44.c:95: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#64
+CWE123_Write_What_Where_Condition__listen_socket_45.c:97: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#65
+CWE123_Write_What_Where_Condition__listen_socket_51a.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#66
+CWE123_Write_What_Where_Condition__listen_socket_52a.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#67
+CWE123_Write_What_Where_Condition__listen_socket_53a.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#68
+CWE123_Write_What_Where_Condition__listen_socket_54a.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#69
+CWE123_Write_What_Where_Condition__listen_socket_61b.c:64: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#70
+CWE123_Write_What_Where_Condition__listen_socket_63a.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#71
+CWE123_Write_What_Where_Condition__listen_socket_64a.c:74: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#72
+CWE123_Write_What_Where_Condition__listen_socket_65a.c:76: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#73
+CWE123_Write_What_Where_Condition__listen_socket_66a.c:75: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#74
+CWE123_Write_What_Where_Condition__listen_socket_67a.c:80: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#75
+CWE123_Write_What_Where_Condition__listen_socket_68a.c:77: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+Found 76 issues
+  Issue Type(ISSUED_TYPE_ID): #
+      Dead Store(DEAD_STORE): 75
+  Memory Leak(MEMORY_LEAK_C): 1

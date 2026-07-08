@@ -1,0 +1,33 @@
+==722279== Memcheck, a memory error detector
+==722279== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==722279== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==722279== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_large_02-bad
+==722279== Parent PID: 722278
+==722279== 
+==722279== 
+==722279== Process terminating with default action of signal 6 (SIGABRT)
+==722279==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==722279==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==722279==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==722279==    by 0x48B427D: raise (raise.c:26)
+==722279==    by 0x48978FE: abort (abort.c:79)
+==722279==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==722279==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==722279==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==722279==    by 0x10931E: CWE121_Stack_Based_Buffer_Overflow__CWE129_large_02_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_large_02-bad)
+==722279==    by 0x10935D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE129_large_02-bad)
+==722279== 
+==722279== HEAP SUMMARY:
+==722279==     in use at exit: 4,096 bytes in 1 blocks
+==722279==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==722279== 
+==722279== LEAK SUMMARY:
+==722279==    definitely lost: 0 bytes in 0 blocks
+==722279==    indirectly lost: 0 bytes in 0 blocks
+==722279==      possibly lost: 0 bytes in 0 blocks
+==722279==    still reachable: 4,096 bytes in 1 blocks
+==722279==         suppressed: 0 bytes in 0 blocks
+==722279== Rerun with --leak-check=full to see details of leaked memory
+==722279== 
+==722279== For lists of detected and suppressed errors, rerun with: -s
+==722279== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

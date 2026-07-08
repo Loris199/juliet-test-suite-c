@@ -1,0 +1,42 @@
+==734994== Memcheck, a memory error detector
+==734994== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==734994== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==734994== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad
+==734994== Parent PID: 734991
+==734994== 
+==734994== Source and destination overlap in strcat(0x1ffefffdd0, 0x1ffefffe30)
+==734994==    at 0x484EFE3: strcat (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==734994==    by 0x10943A: CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994==    by 0x10949D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994== 
+==734994== Invalid read of size 1
+==734994==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==734994==    by 0x48F6BFC: puts (ioputs.c:35)
+==734994==    by 0x1094D6: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994==    by 0x109449: CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994==    by 0x10949D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994==  Address 0x4343434343434343 is not stack'd, malloc'd or (recently) free'd
+==734994== 
+==734994== 
+==734994== Process terminating with default action of signal 11 (SIGSEGV)
+==734994==  General Protection Fault
+==734994==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==734994==    by 0x48F6BFC: puts (ioputs.c:35)
+==734994==    by 0x1094D6: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994==    by 0x109449: CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994==    by 0x10949D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_07-bad)
+==734994== 
+==734994== HEAP SUMMARY:
+==734994==     in use at exit: 4,096 bytes in 1 blocks
+==734994==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==734994== 
+==734994== LEAK SUMMARY:
+==734994==    definitely lost: 0 bytes in 0 blocks
+==734994==    indirectly lost: 0 bytes in 0 blocks
+==734994==      possibly lost: 0 bytes in 0 blocks
+==734994==    still reachable: 4,096 bytes in 1 blocks
+==734994==         suppressed: 0 bytes in 0 blocks
+==734994== Rerun with --leak-check=full to see details of leaked memory
+==734994== 
+==734994== For lists of detected and suppressed errors, rerun with: -s
+==734994== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

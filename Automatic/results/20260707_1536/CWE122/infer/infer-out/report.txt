@@ -1,0 +1,2751 @@
+#0
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c:150: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 139 is not freed after the last access at line 150, column 9. 
+  148.     }
+  149. #else
+  150.     if (0 != pthread_mutex_init(&my_lock->mutex, NULL)) {
+               ^
+  151.         free(lock);
+  152.         return 0;
+
+#1
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_01.c:45: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 36 is not freed after the last access at line 45, column 9. 
+
+#2
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_01.c:65: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 56 is not freed after the last access at line 65, column 9. 
+
+#3
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_02.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#4
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_02.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 76, column 13. 
+
+#5
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_02.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 87 is not freed after the last access at line 96, column 13. 
+
+#6
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_03.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#7
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_03.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 76, column 13. 
+
+#8
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_03.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 87 is not freed after the last access at line 96, column 13. 
+
+#9
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_04.c:53: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 44 is not freed after the last access at line 53, column 13. 
+
+#10
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_04.c:82: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 73 is not freed after the last access at line 82, column 13. 
+
+#11
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_04.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 93 is not freed after the last access at line 102, column 13. 
+
+#12
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_05.c:53: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 44 is not freed after the last access at line 53, column 13. 
+
+#13
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_05.c:82: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 73 is not freed after the last access at line 82, column 13. 
+
+#14
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_05.c:102: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 93 is not freed after the last access at line 102, column 13. 
+
+#15
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_06.c:52: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 43 is not freed after the last access at line 52, column 13. 
+
+#16
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_06.c:81: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 72 is not freed after the last access at line 81, column 13. 
+
+#17
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_06.c:101: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 92 is not freed after the last access at line 101, column 13. 
+
+#18
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_07.c:52: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 43 is not freed after the last access at line 52, column 13. 
+
+#19
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_07.c:81: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 72 is not freed after the last access at line 81, column 13. 
+
+#20
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_07.c:101: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 92 is not freed after the last access at line 101, column 13. 
+
+#21
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08.c:60: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 51 is not freed after the last access at line 60, column 13. 
+
+#22
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08.c:89: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 80 is not freed after the last access at line 89, column 13. 
+
+#23
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08.c:109: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 100 is not freed after the last access at line 109, column 13. 
+
+#24
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_09.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#25
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_09.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 76, column 13. 
+
+#26
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_09.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 87 is not freed after the last access at line 96, column 13. 
+
+#27
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_10.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#28
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_10.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 76, column 13. 
+
+#29
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_10.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 87 is not freed after the last access at line 96, column 13. 
+
+#30
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_11.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#31
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_11.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 76, column 13. 
+
+#32
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_11.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 87 is not freed after the last access at line 96, column 13. 
+
+#33
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_12.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#34
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_12.c:62: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 53 is not freed after the last access at line 62, column 13. 
+
+#35
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_12.c:86: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 77 is not freed after the last access at line 86, column 13. 
+
+#36
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_12.c:101: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 92 is not freed after the last access at line 101, column 13. 
+
+#37
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_13.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#38
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_13.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 76, column 13. 
+
+#39
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_13.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 87 is not freed after the last access at line 96, column 13. 
+
+#40
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_14.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#41
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_14.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 76, column 13. 
+
+#42
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_14.c:96: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 87 is not freed after the last access at line 96, column 13. 
+
+#43
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_15.c:48: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 39 is not freed after the last access at line 48, column 9. 
+
+#44
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_15.c:82: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 73 is not freed after the last access at line 82, column 9. 
+
+#45
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_15.c:104: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 95 is not freed after the last access at line 104, column 9. 
+
+#46
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_16.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 13. 
+
+#47
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_16.c:72: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 63 is not freed after the last access at line 72, column 13. 
+
+#48
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_17.c:48: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 39 is not freed after the last access at line 48, column 13. 
+
+#49
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_17.c:73: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 64 is not freed after the last access at line 73, column 13. 
+
+#50
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_18.c:47: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 38 is not freed after the last access at line 47, column 9. 
+
+#51
+s01/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_18.c:70: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 61 is not freed after the last access at line 70, column 9. 
+
+#52
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#53
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#54
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_32.c:62: error: Dead Store
+  The value written to `&data` is never used. 
+
+#55
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_32.c:62: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#56
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_67a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 38, column 5. 
+
+#57
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_67a.c:57: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 54 is not freed after the last access at line 57, column 5. 
+
+#58
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#59
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#60
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#61
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#62
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_34.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 9. 
+
+#63
+s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_34.c:63: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 63, column 9. 
+
+#64
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#65
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#66
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#67
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#68
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_34.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 9. 
+
+#69
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_34.c:63: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 63, column 9. 
+
+#70
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE135_32.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#71
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE135_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#72
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE135_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#73
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE135_32.c:68: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#74
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE135_32.c:101: error: Dead Store
+  The value written to `&data` is never used. 
+
+#75
+s06/CWE122_Heap_Based_Buffer_Overflow__CWE135_32.c:101: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#76
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_01.c:56: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#77
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_01.c:142: error: Dead Store
+  The value written to `&data` is never used. 
+
+#78
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_01.c:187: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#79
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_02.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#80
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_02.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#81
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_02.c:258: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#82
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_03.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#83
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_03.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#84
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_03.c:258: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#85
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_04.c:64: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#86
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_04.c:164: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#87
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_04.c:264: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#88
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_05.c:64: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#89
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_05.c:164: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#90
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_05.c:264: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#91
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_06.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#92
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_06.c:163: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#93
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_06.c:263: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#94
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_07.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#95
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_07.c:163: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#96
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_07.c:263: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#97
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_08.c:71: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#98
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_08.c:171: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#99
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_08.c:271: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#100
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_09.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#101
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_09.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#102
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_09.c:258: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#103
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_10.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#104
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_10.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#105
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_10.c:258: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#106
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_11.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#107
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_11.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#108
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_11.c:258: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#109
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_12.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#110
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_12.c:194: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#111
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_12.c:253: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#112
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_12.c:368: error: Dead Store
+  The value written to `&data` is never used. 
+
+#113
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_13.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#114
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_13.c:258: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#115
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_14.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#116
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_14.c:158: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#117
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_14.c:258: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#118
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_15.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#119
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_16.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#120
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_16.c:160: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#121
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_17.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#122
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_17.c:160: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#123
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_18.c:58: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#124
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_18.c:156: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#125
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_18.c:239: error: Dead Store
+  The value written to `&data` is never used. 
+
+#126
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_21.c:92: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#127
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_21.c:204: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#128
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_21.c:302: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#129
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_21.c:393: error: Dead Store
+  The value written to `&data` is never used. 
+
+#130
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_22a.c:61: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#131
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_22a.c:138: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#132
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_22a.c:206: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#133
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_22a.c:266: error: Dead Store
+  The value written to `&data` is never used. 
+
+#134
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_31.c:56: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#135
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_31.c:146: error: Dead Store
+  The value written to `&data` is never used. 
+
+#136
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_31.c:195: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#137
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#138
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:52: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#139
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:60: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#140
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:153: error: Dead Store
+  The value written to `&data` is never used. 
+
+#141
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:155: error: Dead Store
+  The value written to `&data` is never used. 
+
+#142
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:155: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#143
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:199: error: Dead Store
+  The value written to `&data` is never used. 
+
+#144
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:201: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#145
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_32.c:209: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#146
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_34.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#147
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_34.c:154: error: Dead Store
+  The value written to `&data` is never used. 
+
+#148
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_34.c:204: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#149
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_41.c:86: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#150
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_41.c:177: error: Dead Store
+  The value written to `&data` is never used. 
+
+#151
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_41.c:226: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#152
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_42.c:53: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#153
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_42.c:196: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#154
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_44.c:88: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#155
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_44.c:181: error: Dead Store
+  The value written to `&data` is never used. 
+
+#156
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_44.c:231: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#157
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_45.c:91: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#158
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_45.c:184: error: Dead Store
+  The value written to `&data` is never used. 
+
+#159
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_45.c:235: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#160
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_51a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#161
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_51a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#162
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_51a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#163
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_52a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#164
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_52a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#165
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_52a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#166
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_53a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#167
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_53a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#168
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_53a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#169
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_54a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#170
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_54a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#171
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_54a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#172
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_61b.c:53: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#173
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_61b.c:128: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#174
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_63a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#175
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_63a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#176
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_63a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#177
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_64a.c:59: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#178
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_64a.c:122: error: Dead Store
+  The value written to `&data` is never used. 
+
+#179
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_64a.c:144: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#180
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_65a.c:61: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#181
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_65a.c:126: error: Dead Store
+  The value written to `&data` is never used. 
+
+#182
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_65a.c:149: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#183
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_66a.c:60: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#184
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_66a.c:126: error: Dead Store
+  The value written to `&data` is never used. 
+
+#185
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_66a.c:150: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#186
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_67a.c:65: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#187
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_67a.c:130: error: Dead Store
+  The value written to `&data` is never used. 
+
+#188
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_67a.c:154: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#189
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_68a.c:63: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#190
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_68a.c:129: error: Dead Store
+  The value written to `&data` is never used. 
+
+#191
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_68a.c:150: error: Dead Store
+  The value written to `&connectSocket` is never used. 
+
+#192
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_01.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#193
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_12.c:219: error: Dead Store
+  The value written to `&data` is never used. 
+
+#194
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_18.c:133: error: Dead Store
+  The value written to `&data` is never used. 
+
+#195
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_21.c:244: error: Dead Store
+  The value written to `&data` is never used. 
+
+#196
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_22a.c:117: error: Dead Store
+  The value written to `&data` is never used. 
+
+#197
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_31.c:83: error: Dead Store
+  The value written to `&data` is never used. 
+
+#198
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#199
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_32.c:32: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#200
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_32.c:90: error: Dead Store
+  The value written to `&data` is never used. 
+
+#201
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_32.c:92: error: Dead Store
+  The value written to `&data` is never used. 
+
+#202
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_32.c:92: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#203
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_32.c:136: error: Dead Store
+  The value written to `&data` is never used. 
+
+#204
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_32.c:138: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#205
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_34.c:91: error: Dead Store
+  The value written to `&data` is never used. 
+
+#206
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_41.c:114: error: Dead Store
+  The value written to `&data` is never used. 
+
+#207
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_44.c:118: error: Dead Store
+  The value written to `&data` is never used. 
+
+#208
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_45.c:121: error: Dead Store
+  The value written to `&data` is never used. 
+
+#209
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_51a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#210
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_52a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#211
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_53a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#212
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_54a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#213
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_63a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#214
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_64a.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#215
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_65a.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#216
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_66a.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#217
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_67a.c:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#218
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_68a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#219
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_01.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#220
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_12.c:184: error: Dead Store
+  The value written to `&data` is never used. 
+
+#221
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_18.c:109: error: Dead Store
+  The value written to `&data` is never used. 
+
+#222
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_21.c:209: error: Dead Store
+  The value written to `&data` is never used. 
+
+#223
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_22a.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#224
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_31.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#225
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#226
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#227
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_32.c:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#228
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_32.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#229
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_32.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#230
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_32.c:123: error: Dead Store
+  The value written to `&data` is never used. 
+
+#231
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_32.c:125: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#232
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_34.c:78: error: Dead Store
+  The value written to `&data` is never used. 
+
+#233
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_41.c:101: error: Dead Store
+  The value written to `&data` is never used. 
+
+#234
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_44.c:105: error: Dead Store
+  The value written to `&data` is never used. 
+
+#235
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_45.c:108: error: Dead Store
+  The value written to `&data` is never used. 
+
+#236
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_51a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#237
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_52a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#238
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_53a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#239
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_54a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#240
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_63a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#241
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_64a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#242
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_65a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#243
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_66a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#244
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_67a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#245
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_68a.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#246
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_01.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#247
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_01.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#248
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_01.c:103: error: Dead Store
+  The value written to `&data` is never used. 
+
+#249
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_12.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#250
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_12.c:108: error: Dead Store
+  The value written to `&data` is never used. 
+
+#251
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_12.c:184: error: Dead Store
+  The value written to `&data` is never used. 
+
+#252
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_18.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#253
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_18.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#254
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_18.c:109: error: Dead Store
+  The value written to `&data` is never used. 
+
+#255
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_21.c:62: error: Dead Store
+  The value written to `&data` is never used. 
+
+#256
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_21.c:120: error: Dead Store
+  The value written to `&data` is never used. 
+
+#257
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_21.c:164: error: Dead Store
+  The value written to `&data` is never used. 
+
+#258
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_21.c:209: error: Dead Store
+  The value written to `&data` is never used. 
+
+#259
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_22a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#260
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_22a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#261
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_22a.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#262
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_22a.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#263
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_31.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#264
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_31.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#265
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_31.c:111: error: Dead Store
+  The value written to `&data` is never used. 
+
+#266
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#267
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#268
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#269
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#270
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#271
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#272
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:123: error: Dead Store
+  The value written to `&data` is never used. 
+
+#273
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:125: error: Dead Store
+  The value written to `&data` is never used. 
+
+#274
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_32.c:125: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#275
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_34.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#276
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_34.c:78: error: Dead Store
+  The value written to `&data` is never used. 
+
+#277
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_34.c:120: error: Dead Store
+  The value written to `&data` is never used. 
+
+#278
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_41.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#279
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_41.c:101: error: Dead Store
+  The value written to `&data` is never used. 
+
+#280
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_41.c:142: error: Dead Store
+  The value written to `&data` is never used. 
+
+#281
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_44.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#282
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_44.c:105: error: Dead Store
+  The value written to `&data` is never used. 
+
+#283
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_44.c:147: error: Dead Store
+  The value written to `&data` is never used. 
+
+#284
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_45.c:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#285
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_45.c:108: error: Dead Store
+  The value written to `&data` is never used. 
+
+#286
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_45.c:151: error: Dead Store
+  The value written to `&data` is never used. 
+
+#287
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_51a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#288
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_51a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#289
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_51a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#290
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_52a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#291
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_52a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#292
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_52a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#293
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_53a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#294
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_53a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#295
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_53a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#296
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_54a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#297
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_54a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#298
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_54a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#299
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_63a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#300
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_63a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#301
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_63a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#302
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_64a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#303
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_64a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#304
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_64a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#305
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_65a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#306
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_65a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#307
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_65a.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#308
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66a.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#309
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#310
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#311
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_67a.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#312
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_67a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#313
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_67a.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#314
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_68a.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#315
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_68a.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#316
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_68a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#317
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_01.c:56: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#318
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_01.c:155: error: Dead Store
+  The value written to `&data` is never used. 
+
+#319
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_01.c:200: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#320
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_02.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#321
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_02.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#322
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_02.c:284: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#323
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_03.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#324
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_03.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#325
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_03.c:284: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#326
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_04.c:64: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#327
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_04.c:177: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#328
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_04.c:290: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#329
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_05.c:64: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#330
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_05.c:177: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#331
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_05.c:290: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#332
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_06.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#333
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_06.c:176: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#334
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_06.c:289: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#335
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_07.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#336
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_07.c:176: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#337
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_07.c:289: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#338
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_08.c:71: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#339
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_08.c:184: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#340
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_08.c:297: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#341
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_09.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#342
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_09.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#343
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_09.c:284: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#344
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_10.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#345
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_10.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#346
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_10.c:284: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#347
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_11.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#348
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_11.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#349
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_11.c:284: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#350
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_12.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#351
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_12.c:207: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#352
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_12.c:279: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#353
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_12.c:407: error: Dead Store
+  The value written to `&data` is never used. 
+
+#354
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_13.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#355
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_14.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#356
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_14.c:171: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#357
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_14.c:284: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#358
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_15.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#359
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_15.c:184: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#360
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_15.c:304: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#361
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_16.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#362
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_16.c:173: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#363
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_17.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#364
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_17.c:173: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#365
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_18.c:58: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#366
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_18.c:169: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#367
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_18.c:265: error: Dead Store
+  The value written to `&data` is never used. 
+
+#368
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_21.c:92: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#369
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_21.c:217: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#370
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_21.c:328: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#371
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_21.c:432: error: Dead Store
+  The value written to `&data` is never used. 
+
+#372
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_22a.c:61: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#373
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_22a.c:151: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#374
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_22a.c:232: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#375
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_22a.c:305: error: Dead Store
+  The value written to `&data` is never used. 
+
+#376
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_31.c:159: error: Dead Store
+  The value written to `&data` is never used. 
+
+#377
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_31.c:208: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#378
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#379
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:52: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#380
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:60: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#381
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:166: error: Dead Store
+  The value written to `&data` is never used. 
+
+#382
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:168: error: Dead Store
+  The value written to `&data` is never used. 
+
+#383
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:168: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#384
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:212: error: Dead Store
+  The value written to `&data` is never used. 
+
+#385
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:214: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#386
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_32.c:222: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#387
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_34.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#388
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_34.c:167: error: Dead Store
+  The value written to `&data` is never used. 
+
+#389
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_34.c:217: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#390
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_41.c:86: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#391
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_41.c:190: error: Dead Store
+  The value written to `&data` is never used. 
+
+#392
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_41.c:239: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#393
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_42.c:53: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#394
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_42.c:209: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#395
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_44.c:88: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#396
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_44.c:194: error: Dead Store
+  The value written to `&data` is never used. 
+
+#397
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_44.c:244: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#398
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_45.c:91: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#399
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_45.c:197: error: Dead Store
+  The value written to `&data` is never used. 
+
+#400
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_45.c:248: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#401
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_51a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#402
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_51a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#403
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_51a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#404
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_52a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#405
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_52a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#406
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_53a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#407
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_53a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#408
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_53a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#409
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_54a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#410
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_54a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#411
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_54a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#412
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_61b.c:53: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#413
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_61b.c:141: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#414
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_63a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#415
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_63a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#416
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_63a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#417
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_64a.c:59: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#418
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_64a.c:135: error: Dead Store
+  The value written to `&data` is never used. 
+
+#419
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_64a.c:157: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#420
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_65a.c:61: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#421
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_65a.c:139: error: Dead Store
+  The value written to `&data` is never used. 
+
+#422
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_65a.c:162: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#423
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_66a.c:60: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#424
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_66a.c:139: error: Dead Store
+  The value written to `&data` is never used. 
+
+#425
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_66a.c:163: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#426
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_67a.c:65: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#427
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_67a.c:143: error: Dead Store
+  The value written to `&data` is never used. 
+
+#428
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_67a.c:167: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#429
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_68a.c:63: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#430
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_68a.c:142: error: Dead Store
+  The value written to `&data` is never used. 
+
+#431
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_68a.c:163: error: Dead Store
+  The value written to `&listenSocket` is never used. 
+
+#432
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_01.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#433
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_01.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#434
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_01.c:103: error: Dead Store
+  The value written to `&data` is never used. 
+
+#435
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_12.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#436
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_12.c:108: error: Dead Store
+  The value written to `&data` is never used. 
+
+#437
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_12.c:184: error: Dead Store
+  The value written to `&data` is never used. 
+
+#438
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#439
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#440
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_18.c:109: error: Dead Store
+  The value written to `&data` is never used. 
+
+#441
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_21.c:62: error: Dead Store
+  The value written to `&data` is never used. 
+
+#442
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_21.c:120: error: Dead Store
+  The value written to `&data` is never used. 
+
+#443
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_21.c:164: error: Dead Store
+  The value written to `&data` is never used. 
+
+#444
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_21.c:209: error: Dead Store
+  The value written to `&data` is never used. 
+
+#445
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_22a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#446
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_22a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#447
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_22a.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#448
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_22a.c:82: error: Dead Store
+  The value written to `&data` is never used. 
+
+#449
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_31.c:26: error: Dead Store
+  The value written to `&data` is never used. 
+
+#450
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_31.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#451
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_31.c:111: error: Dead Store
+  The value written to `&data` is never used. 
+
+#452
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#453
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#454
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#455
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:77: error: Dead Store
+  The value written to `&data` is never used. 
+
+#456
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:79: error: Dead Store
+  The value written to `&data` is never used. 
+
+#457
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:79: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#458
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:123: error: Dead Store
+  The value written to `&data` is never used. 
+
+#459
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:125: error: Dead Store
+  The value written to `&data` is never used. 
+
+#460
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_32.c:125: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#461
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_34.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#462
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_34.c:78: error: Dead Store
+  The value written to `&data` is never used. 
+
+#463
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_34.c:120: error: Dead Store
+  The value written to `&data` is never used. 
+
+#464
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_41.c:56: error: Dead Store
+  The value written to `&data` is never used. 
+
+#465
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_41.c:101: error: Dead Store
+  The value written to `&data` is never used. 
+
+#466
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_41.c:142: error: Dead Store
+  The value written to `&data` is never used. 
+
+#467
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_44.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#468
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_44.c:105: error: Dead Store
+  The value written to `&data` is never used. 
+
+#469
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_44.c:147: error: Dead Store
+  The value written to `&data` is never used. 
+
+#470
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_45.c:61: error: Dead Store
+  The value written to `&data` is never used. 
+
+#471
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_45.c:108: error: Dead Store
+  The value written to `&data` is never used. 
+
+#472
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_45.c:151: error: Dead Store
+  The value written to `&data` is never used. 
+
+#473
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_51a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#474
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_51a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#475
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_51a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#476
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_52a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#477
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_52a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#478
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_52a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#479
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_53a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#480
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_53a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#481
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_53a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#482
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_54a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#483
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_54a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#484
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_54a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#485
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_63a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#486
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_63a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#487
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_63a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#488
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_64a.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#489
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_64a.c:46: error: Dead Store
+  The value written to `&data` is never used. 
+
+#490
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_64a.c:60: error: Dead Store
+  The value written to `&data` is never used. 
+
+#491
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_65a.c:31: error: Dead Store
+  The value written to `&data` is never used. 
+
+#492
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_65a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#493
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_65a.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#494
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_66a.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#495
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_66a.c:50: error: Dead Store
+  The value written to `&data` is never used. 
+
+#496
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_66a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#497
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_67a.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#498
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_67a.c:54: error: Dead Store
+  The value written to `&data` is never used. 
+
+#499
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_67a.c:70: error: Dead Store
+  The value written to `&data` is never used. 
+
+#500
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_68a.c:33: error: Dead Store
+  The value written to `&data` is never used. 
+
+#501
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_68a.c:53: error: Dead Store
+  The value written to `&data` is never used. 
+
+#502
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_68a.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#503
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_32.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#504
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_32.c:35: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#505
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_32.c:65: error: Dead Store
+  The value written to `&data` is never used. 
+
+#506
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_32.c:65: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#507
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 40 is not freed after the last access at line 44, column 9. 
+
+#508
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_34.c:70: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 66 is not freed after the last access at line 70, column 9. 
+
+#509
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_32.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#510
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_32.c:35: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#511
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_32.c:71: error: Dead Store
+  The value written to `&data` is never used. 
+
+#512
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_32.c:71: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#513
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 40 is not freed after the last access at line 44, column 9. 
+
+#514
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_34.c:76: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 72 is not freed after the last access at line 76, column 9. 
+
+#515
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#516
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32.c:35: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#517
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#518
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#519
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 40 is not freed after the last access at line 44, column 9. 
+
+#520
+s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_34.c:71: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 71, column 9. 
+
+#521
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_32.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#522
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_32.c:35: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#523
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#524
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#525
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 40 is not freed after the last access at line 44, column 9. 
+
+#526
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_34.c:71: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 71, column 9. 
+
+#527
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_32.c:35: error: Dead Store
+  The value written to `&data` is never used. 
+
+#528
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_32.c:35: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#529
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_32.c:66: error: Dead Store
+  The value written to `&data` is never used. 
+
+#530
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_32.c:66: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#531
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_34.c:44: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 40 is not freed after the last access at line 44, column 9. 
+
+#532
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_34.c:71: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 67 is not freed after the last access at line 71, column 9. 
+
+#533
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#534
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#535
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_32.c:68: error: Dead Store
+  The value written to `&data` is never used. 
+
+#536
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_32.c:68: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#537
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_67a.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 37 is not freed after the last access at line 41, column 5. 
+
+#538
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_67a.c:61: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 57 is not freed after the last access at line 61, column 5. 
+
+#539
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#540
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#541
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#542
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_32.c:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#543
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#544
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_34.c:70: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 65 is not freed after the last access at line 70, column 9. 
+
+#545
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#546
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#547
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#548
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_32.c:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#549
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#550
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_34.c:70: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 65 is not freed after the last access at line 70, column 9. 
+
+#551
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#552
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#553
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_32.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#554
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_32.c:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#555
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#556
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_34.c:69: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 64 is not freed after the last access at line 69, column 9. 
+
+#557
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#558
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#559
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#560
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_32.c:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#561
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#562
+s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_34.c:70: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 65 is not freed after the last access at line 70, column 9. 
+
+#563
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_32.c:36: error: Dead Store
+  The value written to `&data` is never used. 
+
+#564
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_32.c:36: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#565
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_32.c:69: error: Dead Store
+  The value written to `&data` is never used. 
+
+#566
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_32.c:69: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#567
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_34.c:46: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 41 is not freed after the last access at line 46, column 9. 
+
+#568
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_34.c:75: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 70 is not freed after the last access at line 75, column 9. 
+
+#569
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#570
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#571
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#572
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_32.c:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#573
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_67a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 38, column 5. 
+
+#574
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_67a.c:57: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 54 is not freed after the last access at line 57, column 5. 
+
+#575
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#576
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#577
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#578
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#579
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_34.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 9. 
+
+#580
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_34.c:63: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 63, column 9. 
+
+#581
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#582
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#583
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#584
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#585
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_34.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 9. 
+
+#586
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_34.c:63: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 63, column 9. 
+
+#587
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#588
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#589
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_32.c:64: error: Dead Store
+  The value written to `&data` is never used. 
+
+#590
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_32.c:64: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#591
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_67a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 38, column 5. 
+
+#592
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_67a.c:57: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 54 is not freed after the last access at line 57, column 5. 
+
+#593
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#594
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#595
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#596
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#597
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_34.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 9. 
+
+#598
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_34.c:63: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 63, column 9. 
+
+#599
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#600
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#601
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#602
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#603
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_34.c:37: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 33 is not freed after the last access at line 37, column 9. 
+
+#604
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_34.c:63: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 63, column 9. 
+
+#605
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#606
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#607
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_32.c:73: error: Dead Store
+  The value written to `&data` is never used. 
+
+#608
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_32.c:73: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#609
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_67a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 38, column 5. 
+
+#610
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_67a.c:57: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 54 is not freed after the last access at line 57, column 5. 
+
+#611
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#612
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#613
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_32.c:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#614
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_32.c:67: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#615
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_67a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 38, column 5. 
+
+#616
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_67a.c:57: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 54 is not freed after the last access at line 57, column 5. 
+
+#617
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_32.c:28: error: Dead Store
+  The value written to `&data` is never used. 
+
+#618
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_32.c:28: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#619
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_32.c:67: error: Dead Store
+  The value written to `&data` is never used. 
+
+#620
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_32.c:67: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#621
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_67a.c:38: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 38, column 5. 
+
+#622
+s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_67a.c:57: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 54 is not freed after the last access at line 57, column 5. 
+
+#623
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_32.c:29: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 28 is not freed after the last access at line 29, column 9. 
+
+#624
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#625
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_32.c:66: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 65 is not freed after the last access at line 66, column 9. 
+
+#626
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_32.c:68: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#627
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memcpy_32.c:29: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 28 is not freed after the last access at line 29, column 9. 
+
+#628
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memcpy_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#629
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memcpy_32.c:61: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 60 is not freed after the last access at line 61, column 9. 
+
+#630
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memcpy_32.c:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#631
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memmove_32.c:29: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 28 is not freed after the last access at line 29, column 9. 
+
+#632
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memmove_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#633
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memmove_32.c:61: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 60 is not freed after the last access at line 61, column 9. 
+
+#634
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memmove_32.c:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#635
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_32.c:29: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 28 is not freed after the last access at line 29, column 9. 
+
+#636
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#637
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_32.c:61: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 60 is not freed after the last access at line 61, column 9. 
+
+#638
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_32.c:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#639
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_32.c:29: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 28 is not freed after the last access at line 29, column 9. 
+
+#640
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#641
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_32.c:61: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 60 is not freed after the last access at line 61, column 9. 
+
+#642
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_32.c:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#643
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_32.c:35: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 34 is not freed after the last access at line 35, column 9. 
+
+#644
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_32.c:37: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#645
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_32.c:66: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 65 is not freed after the last access at line 66, column 9. 
+
+#646
+s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_32.c:68: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#647
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#648
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#649
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_32.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#650
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_32.c:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#651
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#652
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_34.c:69: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 64 is not freed after the last access at line 69, column 9. 
+
+#653
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_32.c:30: error: Dead Store
+  The value written to `&data` is never used. 
+
+#654
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_32.c:30: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#655
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_32.c:63: error: Dead Store
+  The value written to `&data` is never used. 
+
+#656
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_32.c:63: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#657
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#658
+s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_34.c:69: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 64 is not freed after the last access at line 69, column 9. 
+
+#659
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_32.c:29: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 28 is not freed after the last access at line 29, column 9. 
+
+#660
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#661
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_32.c:60: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 60, column 9. 
+
+#662
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_32.c:62: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#663
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cpy_32.c:29: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 28 is not freed after the last access at line 29, column 9. 
+
+#664
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cpy_32.c:31: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#665
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cpy_32.c:60: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 60, column 9. 
+
+#666
+s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cpy_32.c:62: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#667
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_double_32.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#668
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_double_32.c:29: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#669
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_double_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#670
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_double_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#671
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_double_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#672
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_double_34.c:64: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 64, column 9. 
+
+#673
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_32.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#674
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_32.c:29: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#675
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_32.c:58: error: Dead Store
+  The value written to `&data` is never used. 
+
+#676
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_32.c:58: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#677
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_34.c:40: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 40, column 9. 
+
+#678
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_34.c:64: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 59 is not freed after the last access at line 64, column 9. 
+
+#679
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_32.c:29: error: Dead Store
+  The value written to `&data` is never used. 
+
+#680
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_32.c:29: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#681
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_32.c:59: error: Dead Store
+  The value written to `&data` is never used. 
+
+#682
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_32.c:59: error: Uninitialized Value
+  `data` is read without initialization. 
+
+#683
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_34.c:41: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 35 is not freed after the last access at line 41, column 9. 
+
+#684
+s11/CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_34.c:66: error: Memory Leak
+  Memory dynamically allocated by `malloc` on line 60 is not freed after the last access at line 66, column 9. 
+
+Found 685 issues
+                      Issue Type(ISSUED_TYPE_ID): #
+                          Dead Store(DEAD_STORE): 468
+                      Memory Leak(MEMORY_LEAK_C): 124
+  Uninitialized Value(PULSE_UNINITIALIZED_VALUE): 93

@@ -1,0 +1,69 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK           249
+TIMEOUT       37
+133          314
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK   TIMEOUT       133
+  1:          7         1        10
+  2:          7         1        10
+  3:          8         1         9
+  4:          8         1         9
+  5:          8         1         9
+  6:          8         1         9
+  7:          8         1         9
+  8:          8         1         9
+  9:          8         1         9
+ 10:          8         1         9
+ 11:          8         1         9
+ 12:         15         0         3
+ 13:          8         1         9
+ 14:          8         1         9
+ 15:          8         1         9
+ 16:          8         1         9
+ 17:          8         1         9
+ 18:          8         1         9
+ 21:          5         1         3
+ 22:          5         1         3
+ 31:          5         1         9
+ 32:          5         1         9
+ 34:          5         1         9
+ 41:          5         1         9
+ 42:          5         1         3
+ 44:          5         1         9
+ 45:          5         1         9
+ 51:          5         1         9
+ 52:          5         1         9
+ 53:          5         1         9
+ 54:          5         1         9
+ 61:          5         1         3
+ 63:          5         1         9
+ 64:          5         1         9
+ 65:          5         1         9
+ 66:          5         1         9
+ 67:          5         1         9
+ 68:          5         1         9
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK   TIMEOUT       133
+CWE129_connect_socket                 38         0         0
+CWE129_fgets                          38         0         0
+CWE129_fscanf                         38         0         0
+CWE129_large                          38         0         0
+CWE129_listen_socket                   1        37         0
+CWE129_rand                           36         0         2
+CWE170_char_loop                      18         0         0
+CWE170_char_memcpy                    18         0         0
+CWE170_char_strncpy                   18         0         0
+char_alloca_loop                       0         0        34
+char_alloca_memcpy                     1         0        33
+char_alloca_memmove                    0         0        34
+char_declare_loop                      1         0        33
+char_declare_memcpy                    1         0        33
+char_declare_memmove                   1         0        33
+malloc_char_loop                       0         0        38
+malloc_char_memcpy                     1         0        37
+malloc_char_memmove                    1         0        37

@@ -1,0 +1,652 @@
+=== Résumé Valgrind ===
+Total analysé : 1516  (758 bad / 758 good)
+
+--- Bad SANS leak/erreur détecté (faux négatifs — 462) ---
+  CWE127_Buffer_Underread__CWE839_connect_socket_21-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_22-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_31-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_32-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_34-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_41-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_42-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_44-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_45-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_51-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_52-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_53-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_54-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_61-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_63-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_64-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_65-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_66-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_67-bad
+  CWE127_Buffer_Underread__CWE839_connect_socket_68-bad
+  CWE127_Buffer_Underread__CWE839_fgets_01-bad
+  CWE127_Buffer_Underread__CWE839_fgets_02-bad
+  CWE127_Buffer_Underread__CWE839_fgets_03-bad
+  CWE127_Buffer_Underread__CWE839_fgets_04-bad
+  CWE127_Buffer_Underread__CWE839_fgets_05-bad
+  CWE127_Buffer_Underread__CWE839_fgets_06-bad
+  CWE127_Buffer_Underread__CWE839_fgets_07-bad
+  CWE127_Buffer_Underread__CWE839_fgets_08-bad
+  CWE127_Buffer_Underread__CWE839_fgets_09-bad
+  CWE127_Buffer_Underread__CWE839_fgets_10-bad
+  CWE127_Buffer_Underread__CWE839_fgets_11-bad
+  CWE127_Buffer_Underread__CWE839_fgets_12-bad
+  CWE127_Buffer_Underread__CWE839_fgets_13-bad
+  CWE127_Buffer_Underread__CWE839_fgets_14-bad
+  CWE127_Buffer_Underread__CWE839_fgets_15-bad
+  CWE127_Buffer_Underread__CWE839_fgets_16-bad
+  CWE127_Buffer_Underread__CWE839_fgets_17-bad
+  CWE127_Buffer_Underread__CWE839_fgets_18-bad
+  CWE127_Buffer_Underread__CWE839_fgets_21-bad
+  CWE127_Buffer_Underread__CWE839_fgets_22-bad
+  CWE127_Buffer_Underread__CWE839_fgets_31-bad
+  CWE127_Buffer_Underread__CWE839_fgets_32-bad
+  CWE127_Buffer_Underread__CWE839_fgets_34-bad
+  CWE127_Buffer_Underread__CWE839_fgets_41-bad
+  CWE127_Buffer_Underread__CWE839_fgets_42-bad
+  CWE127_Buffer_Underread__CWE839_fgets_44-bad
+  CWE127_Buffer_Underread__CWE839_fgets_45-bad
+  CWE127_Buffer_Underread__CWE839_fgets_51-bad
+  CWE127_Buffer_Underread__CWE839_fgets_52-bad
+  CWE127_Buffer_Underread__CWE839_fgets_53-bad
+  CWE127_Buffer_Underread__CWE839_fgets_54-bad
+  CWE127_Buffer_Underread__CWE839_fgets_61-bad
+  CWE127_Buffer_Underread__CWE839_fgets_63-bad
+  CWE127_Buffer_Underread__CWE839_fgets_64-bad
+  CWE127_Buffer_Underread__CWE839_fgets_65-bad
+  CWE127_Buffer_Underread__CWE839_fgets_66-bad
+  CWE127_Buffer_Underread__CWE839_fgets_67-bad
+  CWE127_Buffer_Underread__CWE839_fgets_68-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_01-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_02-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_03-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_04-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_05-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_06-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_07-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_08-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_09-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_10-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_11-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_12-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_13-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_14-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_15-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_16-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_17-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_18-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_21-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_22-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_31-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_32-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_34-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_41-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_42-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_44-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_45-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_51-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_52-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_53-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_54-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_61-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_63-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_64-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_65-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_66-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_67-bad
+  CWE127_Buffer_Underread__CWE839_fscanf_68-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_01-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_02-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_03-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_04-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_05-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_06-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_07-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_08-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_09-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_10-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_11-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_12-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_13-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_14-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_15-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_16-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_17-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_18-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_21-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_22-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_31-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_32-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_34-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_41-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_42-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_44-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_45-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_51-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_52-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_53-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_54-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_61-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_63-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_64-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_65-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_66-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_67-bad
+  CWE127_Buffer_Underread__CWE839_listen_socket_68-bad
+  CWE127_Buffer_Underread__CWE839_negative_32-bad
+  CWE127_Buffer_Underread__CWE839_negative_63-bad
+  CWE127_Buffer_Underread__CWE839_negative_64-bad
+  CWE127_Buffer_Underread__CWE839_negative_66-bad
+  CWE127_Buffer_Underread__CWE839_negative_67-bad
+  CWE127_Buffer_Underread__CWE839_rand_01-bad
+  CWE127_Buffer_Underread__CWE839_rand_02-bad
+  CWE127_Buffer_Underread__CWE839_rand_06-bad
+  CWE127_Buffer_Underread__CWE839_rand_07-bad
+  CWE127_Buffer_Underread__CWE839_rand_08-bad
+  CWE127_Buffer_Underread__CWE839_rand_09-bad
+  CWE127_Buffer_Underread__CWE839_rand_10-bad
+  CWE127_Buffer_Underread__CWE839_rand_11-bad
+  CWE127_Buffer_Underread__CWE839_rand_12-bad
+  CWE127_Buffer_Underread__CWE839_rand_17-bad
+  CWE127_Buffer_Underread__CWE839_rand_18-bad
+  CWE127_Buffer_Underread__CWE839_rand_21-bad
+  CWE127_Buffer_Underread__CWE839_rand_22-bad
+  CWE127_Buffer_Underread__CWE839_rand_31-bad
+  CWE127_Buffer_Underread__CWE839_rand_32-bad
+  CWE127_Buffer_Underread__CWE839_rand_34-bad
+  CWE127_Buffer_Underread__CWE839_rand_41-bad
+  CWE127_Buffer_Underread__CWE839_rand_42-bad
+  CWE127_Buffer_Underread__CWE839_rand_44-bad
+  CWE127_Buffer_Underread__CWE839_rand_45-bad
+  CWE127_Buffer_Underread__CWE839_rand_51-bad
+  CWE127_Buffer_Underread__CWE839_rand_52-bad
+  CWE127_Buffer_Underread__CWE839_rand_61-bad
+  CWE127_Buffer_Underread__CWE839_rand_63-bad
+  CWE127_Buffer_Underread__CWE839_rand_64-bad
+  CWE127_Buffer_Underread__CWE839_rand_65-bad
+  CWE127_Buffer_Underread__CWE839_rand_66-bad
+  CWE127_Buffer_Underread__CWE839_rand_67-bad
+  CWE127_Buffer_Underread__CWE839_rand_68-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_01-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_02-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_03-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_04-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_05-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_06-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_07-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_08-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_09-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_10-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_11-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_12-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_13-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_14-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_15-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_16-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_17-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_18-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_31-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_32-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_34-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_41-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_44-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_45-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_51-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_52-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_53-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_54-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_63-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_64-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_65-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_66-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_67-bad
+  CWE127_Buffer_Underread__char_alloca_cpy_68-bad
+  CWE127_Buffer_Underread__char_alloca_loop_12-bad
+  CWE127_Buffer_Underread__char_alloca_loop_41-bad
+  CWE127_Buffer_Underread__char_alloca_loop_44-bad
+  CWE127_Buffer_Underread__char_alloca_loop_45-bad
+  CWE127_Buffer_Underread__char_alloca_loop_51-bad
+  CWE127_Buffer_Underread__char_alloca_loop_52-bad
+  CWE127_Buffer_Underread__char_alloca_loop_53-bad
+  CWE127_Buffer_Underread__char_alloca_loop_54-bad
+  CWE127_Buffer_Underread__char_alloca_loop_63-bad
+  CWE127_Buffer_Underread__char_alloca_loop_64-bad
+  CWE127_Buffer_Underread__char_alloca_loop_65-bad
+  CWE127_Buffer_Underread__char_alloca_loop_66-bad
+  CWE127_Buffer_Underread__char_alloca_loop_67-bad
+  CWE127_Buffer_Underread__char_alloca_loop_68-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_41-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_44-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_45-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_51-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_52-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_53-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_54-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_63-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_64-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_65-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_66-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_67-bad
+  CWE127_Buffer_Underread__char_alloca_memcpy_68-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_01-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_02-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_03-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_04-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_05-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_06-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_07-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_08-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_09-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_10-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_11-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_12-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_13-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_14-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_15-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_16-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_17-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_18-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_31-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_32-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_34-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_41-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_44-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_45-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_51-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_52-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_53-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_54-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_63-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_64-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_65-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_66-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_67-bad
+  CWE127_Buffer_Underread__char_alloca_memmove_68-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_01-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_02-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_03-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_04-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_05-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_06-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_07-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_08-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_09-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_10-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_11-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_12-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_13-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_14-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_15-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_16-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_17-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_18-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_31-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_32-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_34-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_41-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_44-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_45-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_51-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_52-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_53-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_54-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_63-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_64-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_65-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_66-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_67-bad
+  CWE127_Buffer_Underread__char_alloca_ncpy_68-bad
+  CWE127_Buffer_Underread__char_declare_cpy_01-bad
+  CWE127_Buffer_Underread__char_declare_cpy_02-bad
+  CWE127_Buffer_Underread__char_declare_cpy_03-bad
+  CWE127_Buffer_Underread__char_declare_cpy_04-bad
+  CWE127_Buffer_Underread__char_declare_cpy_05-bad
+  CWE127_Buffer_Underread__char_declare_cpy_06-bad
+  CWE127_Buffer_Underread__char_declare_cpy_07-bad
+  CWE127_Buffer_Underread__char_declare_cpy_08-bad
+  CWE127_Buffer_Underread__char_declare_cpy_09-bad
+  CWE127_Buffer_Underread__char_declare_cpy_10-bad
+  CWE127_Buffer_Underread__char_declare_cpy_11-bad
+  CWE127_Buffer_Underread__char_declare_cpy_12-bad
+  CWE127_Buffer_Underread__char_declare_cpy_13-bad
+  CWE127_Buffer_Underread__char_declare_cpy_14-bad
+  CWE127_Buffer_Underread__char_declare_cpy_15-bad
+  CWE127_Buffer_Underread__char_declare_cpy_16-bad
+  CWE127_Buffer_Underread__char_declare_cpy_17-bad
+  CWE127_Buffer_Underread__char_declare_cpy_18-bad
+  CWE127_Buffer_Underread__char_declare_cpy_31-bad
+  CWE127_Buffer_Underread__char_declare_cpy_32-bad
+  CWE127_Buffer_Underread__char_declare_cpy_34-bad
+  CWE127_Buffer_Underread__char_declare_cpy_41-bad
+  CWE127_Buffer_Underread__char_declare_cpy_44-bad
+  CWE127_Buffer_Underread__char_declare_cpy_45-bad
+  CWE127_Buffer_Underread__char_declare_cpy_51-bad
+  CWE127_Buffer_Underread__char_declare_cpy_52-bad
+  CWE127_Buffer_Underread__char_declare_cpy_53-bad
+  CWE127_Buffer_Underread__char_declare_cpy_54-bad
+  CWE127_Buffer_Underread__char_declare_cpy_63-bad
+  CWE127_Buffer_Underread__char_declare_cpy_64-bad
+  CWE127_Buffer_Underread__char_declare_cpy_65-bad
+  CWE127_Buffer_Underread__char_declare_cpy_67-bad
+  CWE127_Buffer_Underread__char_declare_cpy_68-bad
+  CWE127_Buffer_Underread__char_declare_loop_01-bad
+  CWE127_Buffer_Underread__char_declare_loop_02-bad
+  CWE127_Buffer_Underread__char_declare_loop_03-bad
+  CWE127_Buffer_Underread__char_declare_loop_04-bad
+  CWE127_Buffer_Underread__char_declare_loop_05-bad
+  CWE127_Buffer_Underread__char_declare_loop_06-bad
+  CWE127_Buffer_Underread__char_declare_loop_07-bad
+  CWE127_Buffer_Underread__char_declare_loop_08-bad
+  CWE127_Buffer_Underread__char_declare_loop_09-bad
+  CWE127_Buffer_Underread__char_declare_loop_10-bad
+  CWE127_Buffer_Underread__char_declare_loop_11-bad
+  CWE127_Buffer_Underread__char_declare_loop_12-bad
+  CWE127_Buffer_Underread__char_declare_loop_13-bad
+  CWE127_Buffer_Underread__char_declare_loop_14-bad
+  CWE127_Buffer_Underread__char_declare_loop_15-bad
+  CWE127_Buffer_Underread__char_declare_loop_16-bad
+  CWE127_Buffer_Underread__char_declare_loop_17-bad
+  CWE127_Buffer_Underread__char_declare_loop_18-bad
+  CWE127_Buffer_Underread__char_declare_loop_31-bad
+  CWE127_Buffer_Underread__char_declare_loop_32-bad
+  CWE127_Buffer_Underread__char_declare_loop_34-bad
+  CWE127_Buffer_Underread__char_declare_loop_41-bad
+  CWE127_Buffer_Underread__char_declare_loop_44-bad
+  CWE127_Buffer_Underread__char_declare_loop_45-bad
+  CWE127_Buffer_Underread__char_declare_loop_51-bad
+  CWE127_Buffer_Underread__char_declare_loop_52-bad
+  CWE127_Buffer_Underread__char_declare_loop_53-bad
+  CWE127_Buffer_Underread__char_declare_loop_54-bad
+  CWE127_Buffer_Underread__char_declare_loop_63-bad
+  CWE127_Buffer_Underread__char_declare_loop_64-bad
+  CWE127_Buffer_Underread__char_declare_loop_65-bad
+  CWE127_Buffer_Underread__char_declare_loop_67-bad
+  CWE127_Buffer_Underread__char_declare_loop_68-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_01-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_02-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_03-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_04-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_05-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_06-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_07-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_08-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_09-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_10-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_11-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_12-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_13-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_14-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_15-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_16-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_17-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_18-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_31-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_32-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_34-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_41-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_44-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_45-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_51-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_52-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_53-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_54-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_63-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_64-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_65-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_67-bad
+  CWE127_Buffer_Underread__char_declare_memcpy_68-bad
+  CWE127_Buffer_Underread__char_declare_memmove_01-bad
+  CWE127_Buffer_Underread__char_declare_memmove_02-bad
+  CWE127_Buffer_Underread__char_declare_memmove_03-bad
+  CWE127_Buffer_Underread__char_declare_memmove_04-bad
+  CWE127_Buffer_Underread__char_declare_memmove_05-bad
+  CWE127_Buffer_Underread__char_declare_memmove_06-bad
+  CWE127_Buffer_Underread__char_declare_memmove_07-bad
+  CWE127_Buffer_Underread__char_declare_memmove_08-bad
+  CWE127_Buffer_Underread__char_declare_memmove_09-bad
+  CWE127_Buffer_Underread__char_declare_memmove_10-bad
+  CWE127_Buffer_Underread__char_declare_memmove_11-bad
+  CWE127_Buffer_Underread__char_declare_memmove_12-bad
+  CWE127_Buffer_Underread__char_declare_memmove_13-bad
+  CWE127_Buffer_Underread__char_declare_memmove_14-bad
+  CWE127_Buffer_Underread__char_declare_memmove_15-bad
+  CWE127_Buffer_Underread__char_declare_memmove_16-bad
+  CWE127_Buffer_Underread__char_declare_memmove_17-bad
+  CWE127_Buffer_Underread__char_declare_memmove_18-bad
+  CWE127_Buffer_Underread__char_declare_memmove_31-bad
+  CWE127_Buffer_Underread__char_declare_memmove_32-bad
+  CWE127_Buffer_Underread__char_declare_memmove_34-bad
+  CWE127_Buffer_Underread__char_declare_memmove_41-bad
+  CWE127_Buffer_Underread__char_declare_memmove_44-bad
+  CWE127_Buffer_Underread__char_declare_memmove_45-bad
+  CWE127_Buffer_Underread__char_declare_memmove_51-bad
+  CWE127_Buffer_Underread__char_declare_memmove_52-bad
+  CWE127_Buffer_Underread__char_declare_memmove_53-bad
+  CWE127_Buffer_Underread__char_declare_memmove_54-bad
+  CWE127_Buffer_Underread__char_declare_memmove_63-bad
+  CWE127_Buffer_Underread__char_declare_memmove_64-bad
+  CWE127_Buffer_Underread__char_declare_memmove_65-bad
+  CWE127_Buffer_Underread__char_declare_memmove_67-bad
+  CWE127_Buffer_Underread__char_declare_memmove_68-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_01-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_02-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_03-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_04-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_05-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_06-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_07-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_08-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_09-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_10-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_11-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_12-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_13-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_14-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_15-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_16-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_17-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_18-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_31-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_32-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_34-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_41-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_44-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_45-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_51-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_52-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_53-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_54-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_63-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_64-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_65-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_67-bad
+  CWE127_Buffer_Underread__char_declare_ncpy_68-bad
+
+--- Good AVEC leak/erreur détecté (faux positifs — 180) ---
+  CWE127_Buffer_Underread__malloc_char_cpy_01-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_02-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_03-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_04-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_05-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_06-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_07-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_08-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_09-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_10-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_11-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_12-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_13-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_14-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_15-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_16-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_17-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_18-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_21-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_22-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_cpy_31-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_32-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_34-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_41-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_42-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_44-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_51-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_52-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_53-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_54-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_61-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_63-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_64-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_65-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_66-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_cpy_67-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_01-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_02-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_03-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_04-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_05-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_06-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_07-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_08-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_09-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_10-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_11-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_12-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_13-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_14-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_15-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_16-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_17-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_18-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_21-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_22-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_loop_31-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_32-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_34-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_41-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_42-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_44-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_51-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_52-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_53-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_54-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_61-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_63-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_64-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_65-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_66-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_loop_67-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_01-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_02-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_03-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_04-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_05-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_06-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_07-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_08-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_09-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_10-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_11-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_12-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_13-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_14-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_15-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_16-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_17-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_18-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_21-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_22-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memcpy_31-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_32-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_34-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_41-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_42-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_44-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_51-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_52-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_53-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_54-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_61-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_63-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_64-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_65-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_66-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memcpy_67-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_01-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_02-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_03-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_04-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_05-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_06-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_07-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_08-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_09-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_10-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_11-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_12-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_13-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_14-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_15-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_16-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_17-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_18-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_21-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_22-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_memmove_31-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_32-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_34-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_41-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_42-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_44-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_51-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_52-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_53-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_54-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_61-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_63-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_64-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_65-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_66-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_memmove_67-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_01-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_02-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_03-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_04-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_05-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_06-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_07-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_08-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_09-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_10-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_11-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_12-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_13-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_14-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_15-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_16-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_17-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_18-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_21-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_22-good : definitely lost 200B
+  CWE127_Buffer_Underread__malloc_char_ncpy_31-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_32-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_34-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_41-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_42-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_44-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_51-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_52-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_53-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_54-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_61-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_63-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_64-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_65-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_66-good : definitely lost 100B
+  CWE127_Buffer_Underread__malloc_char_ncpy_67-good : definitely lost 100B
+
+--- Totaux ---
+Bad  : 296/758 détectés correctement (462 faux négatifs, 0 logs vides)
+Good : 578/758 propres (180 faux positifs, 0 logs vides)

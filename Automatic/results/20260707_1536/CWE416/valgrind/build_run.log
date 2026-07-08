@@ -1,0 +1,1540 @@
+===== CWE416 / valgrind : Tue Jul  7 23:36:45 CEST 2026 =====
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/juliet.py:94: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search("^CWE(\d+)", subdir)
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE416_Use_After_Free
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/io.c.o
+[  0%] Building C object CMakeFiles/support.dir/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcasesupport/std_thread.c.o
+[  0%] Generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/juliet-run.sh
+[  0%] Built target copy-run-script
+[  1%] Linking C static library /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/support/libsupport.a
+[  1%] Built target support
+[  1%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_01-good.dir/CWE416_Use_After_Free__malloc_free_char_01.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_02-bad.dir/CWE416_Use_After_Free__malloc_free_char_02.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_03-good.dir/CWE416_Use_After_Free__malloc_free_char_03.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_01-bad.dir/CWE416_Use_After_Free__malloc_free_char_01.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_04-bad.dir/CWE416_Use_After_Free__malloc_free_char_04.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_02-good.dir/CWE416_Use_After_Free__malloc_free_char_02.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_05-good.dir/CWE416_Use_After_Free__malloc_free_char_05.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_05-bad.dir/CWE416_Use_After_Free__malloc_free_char_05.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_06-good.dir/CWE416_Use_After_Free__malloc_free_char_06.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_03-bad.dir/CWE416_Use_After_Free__malloc_free_char_03.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_06-bad.dir/CWE416_Use_After_Free__malloc_free_char_06.c.o
+[  2%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_07-good.dir/CWE416_Use_After_Free__malloc_free_char_07.c.o
+[  3%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_04-good.dir/CWE416_Use_After_Free__malloc_free_char_04.c.o
+[  4%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_07-bad.dir/CWE416_Use_After_Free__malloc_free_char_07.c.o
+[  4%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_08-bad.dir/CWE416_Use_After_Free__malloc_free_char_08.c.o
+[  4%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_08-good.dir/CWE416_Use_After_Free__malloc_free_char_08.c.o
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_01-good
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_02-bad
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_01-bad
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_04-bad
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_03-good
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_02-good
+[  4%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_05-bad
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_05-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_04-good
+[  5%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_06-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_03-bad
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_06-bad
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_07-good
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_07-bad
+[  6%] Built target CWE416_Use_After_Free__malloc_free_char_02-good
+[  6%] Built target CWE416_Use_After_Free__malloc_free_char_01-bad
+[  6%] Built target CWE416_Use_After_Free__malloc_free_char_05-bad
+[  6%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_08-good
+[  6%] Built target CWE416_Use_After_Free__malloc_free_char_01-good
+[  6%] Built target CWE416_Use_After_Free__malloc_free_char_03-good
+[  7%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_08-bad
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_04-bad
+[  6%] Built target CWE416_Use_After_Free__malloc_free_char_02-bad
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_06-good
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_07-good
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_06-bad
+[  6%] Built target CWE416_Use_After_Free__malloc_free_char_03-bad
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_05-good
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_04-good
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_07-bad
+[  7%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_09-bad.dir/CWE416_Use_After_Free__malloc_free_char_09.c.o
+[  7%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_10-bad.dir/CWE416_Use_After_Free__malloc_free_char_10.c.o
+[  7%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_11-good.dir/CWE416_Use_After_Free__malloc_free_char_11.c.o
+[  8%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_09-good.dir/CWE416_Use_After_Free__malloc_free_char_09.c.o
+[  7%] Built target CWE416_Use_After_Free__malloc_free_char_08-bad
+[  8%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_11-bad.dir/CWE416_Use_After_Free__malloc_free_char_11.c.o
+[  8%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_10-good.dir/CWE416_Use_After_Free__malloc_free_char_10.c.o
+[  9%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_12-bad.dir/CWE416_Use_After_Free__malloc_free_char_12.c.o
+[  9%] Built target CWE416_Use_After_Free__malloc_free_char_08-good
+[  9%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_13-bad.dir/CWE416_Use_After_Free__malloc_free_char_13.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_14-good.dir/CWE416_Use_After_Free__malloc_free_char_14.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_13-good.dir/CWE416_Use_After_Free__malloc_free_char_13.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_15-good.dir/CWE416_Use_After_Free__malloc_free_char_15.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_12-good.dir/CWE416_Use_After_Free__malloc_free_char_12.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_15-bad.dir/CWE416_Use_After_Free__malloc_free_char_15.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_16-good.dir/CWE416_Use_After_Free__malloc_free_char_16.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_14-bad.dir/CWE416_Use_After_Free__malloc_free_char_14.c.o
+[ 10%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_16-bad.dir/CWE416_Use_After_Free__malloc_free_char_16.c.o
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_11-bad
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_10-bad
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_14-bad
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_11-good
+[ 10%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_12-bad
+[ 11%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_13-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_10-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_13-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_09-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_14-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_12-good
+[ 12%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_15-bad
+[ 13%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_15-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_09-bad
+[ 13%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_16-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_12-bad
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_11-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_10-bad
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_11-bad
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_13-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_10-good
+[ 13%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_16-bad
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_14-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_15-bad
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_14-bad
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_12-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_09-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_16-good
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_13-bad
+[ 13%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_17-good.dir/CWE416_Use_After_Free__malloc_free_char_17.c.o
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_16-bad
+[ 14%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_17-bad.dir/CWE416_Use_After_Free__malloc_free_char_17.c.o
+[ 14%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_18-bad.dir/CWE416_Use_After_Free__malloc_free_char_18.c.o
+[ 14%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_64-good.dir/CWE416_Use_After_Free__malloc_free_char_64a.c.o
+[ 13%] Built target CWE416_Use_After_Free__malloc_free_char_15-good
+[ 14%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_18-good.dir/CWE416_Use_After_Free__malloc_free_char_18.c.o
+[ 14%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_01-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_01.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_01-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_01.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_02-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_02.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_02-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_02.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_63-bad.dir/CWE416_Use_After_Free__malloc_free_char_63a.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_03-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_03.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_63-good.dir/CWE416_Use_After_Free__malloc_free_char_63a.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_04-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_04.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_64-bad.dir/CWE416_Use_After_Free__malloc_free_char_64a.c.o
+[ 15%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_63-bad.dir/CWE416_Use_After_Free__malloc_free_char_63b.c.o
+[ 16%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_03-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_03.c.o
+[ 17%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_18-bad
+[ 17%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_17-bad
+[ 17%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_17-good
+[ 17%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_63-good.dir/CWE416_Use_After_Free__malloc_free_char_63b.c.o
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_63-bad
+[ 18%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_18-good
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_02-bad
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_03-bad
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_01-bad
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_02-good
+[ 19%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_64-good.dir/CWE416_Use_After_Free__malloc_free_char_64b.c.o
+[ 19%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_01-good
+[ 20%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_char_64-bad.dir/CWE416_Use_After_Free__malloc_free_char_64b.c.o
+[ 20%] Built target CWE416_Use_After_Free__malloc_free_char_17-good
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_04-good
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_03-good
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_char_18-bad
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_int64_t_01-good
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_63-good
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_char_18-good
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_char_17-bad
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_int64_t_02-good
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_char_63-bad
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_char_64-good
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_int64_t_03-bad
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_int64_t_04-good
+[ 21%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_04-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_04.c.o
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_int64_t_01-bad
+[ 21%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_05-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_05.c.o
+[ 21%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_64-bad
+[ 21%] Built target CWE416_Use_After_Free__malloc_free_int64_t_02-bad
+[ 21%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_05-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_05.c.o
+[ 21%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_06-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_06.c.o
+[ 22%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_06-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_06.c.o
+[ 22%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_07-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_07.c.o
+[ 22%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_07-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_07.c.o
+[ 22%] Built target CWE416_Use_After_Free__malloc_free_int64_t_03-good
+[ 22%] Built target CWE416_Use_After_Free__malloc_free_char_64-good
+[ 23%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_08-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_08.c.o
+[ 23%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_08-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_08.c.o
+[ 22%] Built target CWE416_Use_After_Free__malloc_free_char_64-bad
+[ 23%] Built target CWE416_Use_After_Free__malloc_free_char_63-good
+[ 23%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_04-bad
+[ 23%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_05-good
+[ 23%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_05-bad
+[ 23%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_09-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_09.c.o
+[ 23%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_06-bad
+[ 23%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_06-good
+[ 23%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_09-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_09.c.o
+[ 24%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_07-bad
+[ 24%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_10-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_10.c.o
+[ 24%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_10-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_10.c.o
+[ 24%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_07-good
+[ 24%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_11-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_11.c.o
+[ 24%] Built target CWE416_Use_After_Free__malloc_free_int64_t_04-bad
+[ 24%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_12-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_12.c.o
+[ 24%] Built target CWE416_Use_After_Free__malloc_free_int64_t_05-good
+[ 24%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_11-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_11.c.o
+[ 24%] Built target CWE416_Use_After_Free__malloc_free_int64_t_06-good
+[ 24%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_08-good
+[ 24%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_08-bad
+[ 24%] Built target CWE416_Use_After_Free__malloc_free_int64_t_06-bad
+[ 25%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_12-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_12.c.o
+[ 25%] Built target CWE416_Use_After_Free__malloc_free_int64_t_05-bad
+[ 25%] Built target CWE416_Use_After_Free__malloc_free_int64_t_07-good
+[ 25%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_09-bad
+[ 26%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_09-good
+[ 26%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_10-bad
+[ 26%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_13-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_13.c.o
+[ 26%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_13-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_13.c.o
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_10-good
+[ 26%] Built target CWE416_Use_After_Free__malloc_free_int64_t_07-bad
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_11-bad
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_11-good
+[ 27%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_12-good
+[ 28%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_14-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_14.c.o
+[ 27%] Built target CWE416_Use_After_Free__malloc_free_int64_t_08-good
+[ 28%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_15-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_15.c.o
+[ 28%] Built target CWE416_Use_After_Free__malloc_free_int64_t_08-bad
+[ 28%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_14-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_14.c.o
+[ 28%] Built target CWE416_Use_After_Free__malloc_free_int64_t_10-bad
+[ 28%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_15-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_15.c.o
+[ 28%] Built target CWE416_Use_After_Free__malloc_free_int64_t_09-bad
+[ 28%] Built target CWE416_Use_After_Free__malloc_free_int64_t_09-good
+[ 28%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_12-bad
+[ 28%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_16-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_16.c.o
+[ 28%] Built target CWE416_Use_After_Free__malloc_free_int64_t_11-bad
+[ 28%] Built target CWE416_Use_After_Free__malloc_free_int64_t_11-good
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_13-bad
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_15-bad
+[ 29%] Built target CWE416_Use_After_Free__malloc_free_int64_t_12-good
+[ 28%] Built target CWE416_Use_After_Free__malloc_free_int64_t_10-good
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_14-good
+[ 29%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_13-good
+[ 30%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_15-good
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_17-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_17.c.o
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_17-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_17.c.o
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_14-bad
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_18-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_18.c.o
+[ 30%] Built target CWE416_Use_After_Free__malloc_free_int64_t_12-bad
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_63-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_63a.c.o
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_18-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_18.c.o
+[ 31%] Built target CWE416_Use_After_Free__malloc_free_int64_t_13-good
+[ 31%] Built target CWE416_Use_After_Free__malloc_free_int64_t_15-bad
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_63-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_63b.c.o
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_16-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_16.c.o
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_63-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_63a.c.o
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_64-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_64a.c.o
+[ 31%] Built target CWE416_Use_After_Free__malloc_free_int64_t_13-bad
+[ 31%] Built target CWE416_Use_After_Free__malloc_free_int64_t_14-good
+[ 31%] Built target CWE416_Use_After_Free__malloc_free_int64_t_14-bad
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_64-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_64a.c.o
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_64-good.dir/CWE416_Use_After_Free__malloc_free_int64_t_64b.c.o
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_17-bad
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_63-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_63b.c.o
+[ 31%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_16-good
+[ 31%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_01-good.dir/CWE416_Use_After_Free__malloc_free_int_01.c.o
+[ 32%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int64_t_64-bad.dir/CWE416_Use_After_Free__malloc_free_int64_t_64b.c.o
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_18-good
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_16-bad
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_63-good
+[ 31%] Built target CWE416_Use_After_Free__malloc_free_int64_t_15-good
+[ 32%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_17-good
+[ 33%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_18-bad
+[ 34%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_01-bad.dir/CWE416_Use_After_Free__malloc_free_int_01.c.o
+[ 34%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_02-good.dir/CWE416_Use_After_Free__malloc_free_int_02.c.o
+[ 34%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_02-bad.dir/CWE416_Use_After_Free__malloc_free_int_02.c.o
+[ 34%] Built target CWE416_Use_After_Free__malloc_free_int64_t_18-good
+[ 34%] Built target CWE416_Use_After_Free__malloc_free_int64_t_63-good
+[ 34%] Built target CWE416_Use_After_Free__malloc_free_int64_t_16-good
+[ 34%] Built target CWE416_Use_After_Free__malloc_free_int64_t_17-bad
+[ 34%] Built target CWE416_Use_After_Free__malloc_free_int64_t_17-good
+[ 34%] Built target CWE416_Use_After_Free__malloc_free_int64_t_16-bad
+[ 34%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_64-bad
+[ 34%] Built target CWE416_Use_After_Free__malloc_free_int64_t_18-bad
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int64_t_63-bad
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_01-good
+[ 34%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int64_t_64-good
+[ 35%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_01-bad
+[ 36%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_03-good.dir/CWE416_Use_After_Free__malloc_free_int_03.c.o
+[ 36%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_02-good
+[ 36%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_04-good.dir/CWE416_Use_After_Free__malloc_free_int_04.c.o
+[ 36%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_05-good.dir/CWE416_Use_After_Free__malloc_free_int_05.c.o
+[ 36%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_04-bad.dir/CWE416_Use_After_Free__malloc_free_int_04.c.o
+[ 36%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_05-bad.dir/CWE416_Use_After_Free__malloc_free_int_05.c.o
+[ 36%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_03-bad.dir/CWE416_Use_After_Free__malloc_free_int_03.c.o
+[ 36%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_06-good.dir/CWE416_Use_After_Free__malloc_free_int_06.c.o
+[ 37%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_02-bad
+[ 38%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_06-bad.dir/CWE416_Use_After_Free__malloc_free_int_06.c.o
+[ 38%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_07-good.dir/CWE416_Use_After_Free__malloc_free_int_07.c.o
+[ 38%] Built target CWE416_Use_After_Free__malloc_free_int64_t_64-good
+[ 38%] Built target CWE416_Use_After_Free__malloc_free_int_01-bad
+[ 38%] Built target CWE416_Use_After_Free__malloc_free_int64_t_63-bad
+[ 38%] Built target CWE416_Use_After_Free__malloc_free_int_01-good
+[ 38%] Built target CWE416_Use_After_Free__malloc_free_int_02-good
+[ 38%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_03-good
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_04-good
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_05-good
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_04-bad
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_05-bad
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_03-bad
+[ 38%] Built target CWE416_Use_After_Free__malloc_free_int64_t_64-bad
+[ 39%] Built target CWE416_Use_After_Free__malloc_free_int_02-bad
+[ 39%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_06-bad
+[ 39%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_07-bad.dir/CWE416_Use_After_Free__malloc_free_int_07.c.o
+[ 40%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_08-good.dir/CWE416_Use_After_Free__malloc_free_int_08.c.o
+[ 40%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_06-good
+[ 40%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_08-bad.dir/CWE416_Use_After_Free__malloc_free_int_08.c.o
+[ 40%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_09-good.dir/CWE416_Use_After_Free__malloc_free_int_09.c.o
+[ 40%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_09-bad.dir/CWE416_Use_After_Free__malloc_free_int_09.c.o
+[ 40%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_07-good
+[ 40%] Built target CWE416_Use_After_Free__malloc_free_int_04-bad
+[ 40%] Built target CWE416_Use_After_Free__malloc_free_int_03-good
+[ 40%] Built target CWE416_Use_After_Free__malloc_free_int_06-good
+[ 40%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_10-good.dir/CWE416_Use_After_Free__malloc_free_int_10.c.o
+[ 40%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_10-bad.dir/CWE416_Use_After_Free__malloc_free_int_10.c.o
+[ 40%] Built target CWE416_Use_After_Free__malloc_free_int_05-good
+[ 40%] Built target CWE416_Use_After_Free__malloc_free_int_03-bad
+[ 40%] Built target CWE416_Use_After_Free__malloc_free_int_04-good
+[ 40%] Built target CWE416_Use_After_Free__malloc_free_int_05-bad
+[ 41%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_07-bad
+[ 41%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_08-bad
+[ 41%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_08-good
+[ 41%] Built target CWE416_Use_After_Free__malloc_free_int_07-good
+[ 42%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_09-good
+[ 42%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_09-bad
+[ 42%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_11-good.dir/CWE416_Use_After_Free__malloc_free_int_11.c.o
+[ 41%] Built target CWE416_Use_After_Free__malloc_free_int_06-bad
+[ 43%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_11-bad.dir/CWE416_Use_After_Free__malloc_free_int_11.c.o
+[ 43%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_10-bad
+[ 43%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_12-bad.dir/CWE416_Use_After_Free__malloc_free_int_12.c.o
+[ 43%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_12-good.dir/CWE416_Use_After_Free__malloc_free_int_12.c.o
+[ 44%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_13-good.dir/CWE416_Use_After_Free__malloc_free_int_13.c.o
+[ 44%] Built target CWE416_Use_After_Free__malloc_free_int_08-bad
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_10-good
+[ 44%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_13-bad.dir/CWE416_Use_After_Free__malloc_free_int_13.c.o
+[ 44%] Built target CWE416_Use_After_Free__malloc_free_int_07-bad
+[ 44%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_14-bad.dir/CWE416_Use_After_Free__malloc_free_int_14.c.o
+[ 43%] Built target CWE416_Use_After_Free__malloc_free_int_08-good
+[ 44%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_14-good.dir/CWE416_Use_After_Free__malloc_free_int_14.c.o
+[ 44%] Built target CWE416_Use_After_Free__malloc_free_int_09-good
+[ 44%] Built target CWE416_Use_After_Free__malloc_free_int_09-bad
+[ 44%] Built target CWE416_Use_After_Free__malloc_free_int_10-bad
+[ 44%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_15-good.dir/CWE416_Use_After_Free__malloc_free_int_15.c.o
+[ 44%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_13-good
+[ 44%] Built target CWE416_Use_After_Free__malloc_free_int_10-good
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_12-bad
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_13-bad
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_12-good
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_11-good
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_14-bad
+[ 45%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_11-bad
+[ 46%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_16-bad.dir/CWE416_Use_After_Free__malloc_free_int_16.c.o
+[ 46%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_15-bad.dir/CWE416_Use_After_Free__malloc_free_int_15.c.o
+[ 46%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_16-good.dir/CWE416_Use_After_Free__malloc_free_int_16.c.o
+[ 46%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_17-good.dir/CWE416_Use_After_Free__malloc_free_int_17.c.o
+[ 47%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_18-good.dir/CWE416_Use_After_Free__malloc_free_int_18.c.o
+[ 47%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_18-bad.dir/CWE416_Use_After_Free__malloc_free_int_18.c.o
+[ 47%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_17-bad.dir/CWE416_Use_After_Free__malloc_free_int_17.c.o
+[ 47%] Built target CWE416_Use_After_Free__malloc_free_int_13-bad
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_14-good
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_11-good
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_11-bad
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_12-bad
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_12-good
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_15-good
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_16-bad
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_14-bad
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_17-good
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_16-good
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_15-bad
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_13-good
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_18-good
+[ 48%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_18-bad
+[ 48%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_63-bad.dir/CWE416_Use_After_Free__malloc_free_int_63a.c.o
+[ 48%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_64-good.dir/CWE416_Use_After_Free__malloc_free_int_64a.c.o
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_15-good
+[ 48%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_63-bad.dir/CWE416_Use_After_Free__malloc_free_int_63b.c.o
+[ 48%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_64-bad.dir/CWE416_Use_After_Free__malloc_free_int_64a.c.o
+[ 49%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_17-bad
+[ 50%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_63-good.dir/CWE416_Use_After_Free__malloc_free_int_63a.c.o
+[ 48%] Built target CWE416_Use_After_Free__malloc_free_int_14-good
+[ 50%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_01-good.dir/CWE416_Use_After_Free__malloc_free_long_01.c.o
+[ 51%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_01-bad.dir/CWE416_Use_After_Free__malloc_free_long_01.c.o
+[ 51%] Built target CWE416_Use_After_Free__malloc_free_int_16-good
+[ 51%] Built target CWE416_Use_After_Free__malloc_free_int_15-bad
+[ 51%] Built target CWE416_Use_After_Free__malloc_free_int_16-bad
+[ 51%] Built target CWE416_Use_After_Free__malloc_free_int_18-bad
+[ 51%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_02-good.dir/CWE416_Use_After_Free__malloc_free_long_02.c.o
+[ 51%] Built target CWE416_Use_After_Free__malloc_free_int_17-good
+[ 51%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_64-good.dir/CWE416_Use_After_Free__malloc_free_int_64b.c.o
+[ 52%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_64-bad.dir/CWE416_Use_After_Free__malloc_free_int_64b.c.o
+[ 52%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_int_63-good.dir/CWE416_Use_After_Free__malloc_free_int_63b.c.o
+[ 52%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_02-bad.dir/CWE416_Use_After_Free__malloc_free_long_02.c.o
+[ 51%] Built target CWE416_Use_After_Free__malloc_free_int_18-good
+[ 51%] Built target CWE416_Use_After_Free__malloc_free_int_17-bad
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_63-bad
+[ 52%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_03-bad.dir/CWE416_Use_After_Free__malloc_free_long_03.c.o
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_01-bad
+[ 52%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_01-good
+[ 52%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_04-bad.dir/CWE416_Use_After_Free__malloc_free_long_04.c.o
+[ 52%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_04-good.dir/CWE416_Use_After_Free__malloc_free_long_04.c.o
+[ 52%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_05-good.dir/CWE416_Use_After_Free__malloc_free_long_05.c.o
+[ 53%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_03-good.dir/CWE416_Use_After_Free__malloc_free_long_03.c.o
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_63-good
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_02-good
+[ 53%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_06-good.dir/CWE416_Use_After_Free__malloc_free_long_06.c.o
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_int_64-good
+[ 53%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_int_64-bad
+[ 53%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_05-bad.dir/CWE416_Use_After_Free__malloc_free_long_05.c.o
+[ 54%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_02-bad
+[ 55%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_06-bad.dir/CWE416_Use_After_Free__malloc_free_long_06.c.o
+[ 55%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_03-bad
+[ 55%] Built target CWE416_Use_After_Free__malloc_free_long_01-good
+[ 55%] Built target CWE416_Use_After_Free__malloc_free_int_63-bad
+[ 56%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_04-good
+[ 55%] Built target CWE416_Use_After_Free__malloc_free_int_63-good
+[ 56%] Built target CWE416_Use_After_Free__malloc_free_int_64-good
+[ 56%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_03-good
+[ 56%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_05-good
+[ 56%] Built target CWE416_Use_After_Free__malloc_free_long_02-good
+[ 56%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_04-bad
+[ 55%] Built target CWE416_Use_After_Free__malloc_free_int_64-bad
+[ 56%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_07-good.dir/CWE416_Use_After_Free__malloc_free_long_07.c.o
+[ 56%] Built target CWE416_Use_After_Free__malloc_free_long_01-bad
+[ 56%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_06-bad
+[ 56%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_05-bad
+[ 56%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_06-good
+[ 56%] Built target CWE416_Use_After_Free__malloc_free_long_02-bad
+[ 56%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_07-bad.dir/CWE416_Use_After_Free__malloc_free_long_07.c.o
+[ 56%] Built target CWE416_Use_After_Free__malloc_free_long_04-bad
+[ 56%] Built target CWE416_Use_After_Free__malloc_free_long_04-good
+[ 57%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_08-good.dir/CWE416_Use_After_Free__malloc_free_long_08.c.o
+[ 57%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_08-bad.dir/CWE416_Use_After_Free__malloc_free_long_08.c.o
+[ 57%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_09-good.dir/CWE416_Use_After_Free__malloc_free_long_09.c.o
+[ 57%] Built target CWE416_Use_After_Free__malloc_free_long_03-bad
+[ 57%] Built target CWE416_Use_After_Free__malloc_free_long_03-good
+[ 57%] Built target CWE416_Use_After_Free__malloc_free_long_05-bad
+[ 57%] Built target CWE416_Use_After_Free__malloc_free_long_06-bad
+[ 57%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_09-bad.dir/CWE416_Use_After_Free__malloc_free_long_09.c.o
+[ 57%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_07-good
+[ 57%] Built target CWE416_Use_After_Free__malloc_free_long_06-good
+[ 57%] Built target CWE416_Use_After_Free__malloc_free_long_05-good
+[ 58%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_07-bad
+[ 58%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_08-good
+[ 58%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_10-good.dir/CWE416_Use_After_Free__malloc_free_long_10.c.o
+[ 58%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_10-bad.dir/CWE416_Use_After_Free__malloc_free_long_10.c.o
+[ 58%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_11-good.dir/CWE416_Use_After_Free__malloc_free_long_11.c.o
+[ 58%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_08-bad
+[ 59%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_11-bad.dir/CWE416_Use_After_Free__malloc_free_long_11.c.o
+[ 59%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_12-good.dir/CWE416_Use_After_Free__malloc_free_long_12.c.o
+[ 59%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_12-bad.dir/CWE416_Use_After_Free__malloc_free_long_12.c.o
+[ 60%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_09-good
+[ 60%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_13-bad.dir/CWE416_Use_After_Free__malloc_free_long_13.c.o
+[ 60%] Built target CWE416_Use_After_Free__malloc_free_long_07-good
+[ 61%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_13-good.dir/CWE416_Use_After_Free__malloc_free_long_13.c.o
+[ 60%] Built target CWE416_Use_After_Free__malloc_free_long_08-good
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_09-bad
+[ 61%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_14-good.dir/CWE416_Use_After_Free__malloc_free_long_14.c.o
+[ 61%] Built target CWE416_Use_After_Free__malloc_free_long_07-bad
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_11-bad
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_10-good
+[ 61%] Built target CWE416_Use_After_Free__malloc_free_long_08-bad
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_12-good
+[ 61%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_11-good
+[ 61%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_15-bad.dir/CWE416_Use_After_Free__malloc_free_long_15.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_12-bad
+[ 62%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_15-good.dir/CWE416_Use_After_Free__malloc_free_long_15.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_10-bad
+[ 62%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_14-bad.dir/CWE416_Use_After_Free__malloc_free_long_14.c.o
+[ 62%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_13-bad
+[ 62%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_16-good.dir/CWE416_Use_After_Free__malloc_free_long_16.c.o
+[ 63%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_16-bad.dir/CWE416_Use_After_Free__malloc_free_long_16.c.o
+[ 62%] Built target CWE416_Use_After_Free__malloc_free_long_09-good
+[ 63%] Built target CWE416_Use_After_Free__malloc_free_long_10-good
+[ 63%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_13-good
+[ 63%] Built target CWE416_Use_After_Free__malloc_free_long_09-bad
+[ 63%] Built target CWE416_Use_After_Free__malloc_free_long_10-bad
+[ 63%] Built target CWE416_Use_After_Free__malloc_free_long_11-good
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_14-good
+[ 64%] Built target CWE416_Use_After_Free__malloc_free_long_12-good
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_15-bad
+[ 64%] Built target CWE416_Use_After_Free__malloc_free_long_13-bad
+[ 63%] Built target CWE416_Use_After_Free__malloc_free_long_11-bad
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_14-bad
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_15-good
+[ 64%] Built target CWE416_Use_After_Free__malloc_free_long_12-bad
+[ 64%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_16-good
+[ 64%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_17-good.dir/CWE416_Use_After_Free__malloc_free_long_17.c.o
+[ 64%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_17-bad.dir/CWE416_Use_After_Free__malloc_free_long_17.c.o
+[ 65%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_18-good.dir/CWE416_Use_After_Free__malloc_free_long_18.c.o
+[ 65%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_18-bad.dir/CWE416_Use_After_Free__malloc_free_long_18.c.o
+[ 65%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_16-bad
+[ 66%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_63-good.dir/CWE416_Use_After_Free__malloc_free_long_63a.c.o
+[ 66%] Built target CWE416_Use_After_Free__malloc_free_long_14-good
+[ 66%] Built target CWE416_Use_After_Free__malloc_free_long_14-bad
+[ 66%] Built target CWE416_Use_After_Free__malloc_free_long_15-good
+[ 66%] Built target CWE416_Use_After_Free__malloc_free_long_13-good
+[ 66%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_63-bad.dir/CWE416_Use_After_Free__malloc_free_long_63a.c.o
+[ 66%] Built target CWE416_Use_After_Free__malloc_free_long_15-bad
+[ 66%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_63-bad.dir/CWE416_Use_After_Free__malloc_free_long_63b.c.o
+[ 66%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_64-good.dir/CWE416_Use_After_Free__malloc_free_long_64a.c.o
+[ 66%] Built target CWE416_Use_After_Free__malloc_free_long_16-good
+[ 66%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_63-good.dir/CWE416_Use_After_Free__malloc_free_long_63b.c.o
+[ 66%] Built target CWE416_Use_After_Free__malloc_free_long_16-bad
+[ 66%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_18-good
+[ 66%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_18-bad
+[ 66%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_64-good.dir/CWE416_Use_After_Free__malloc_free_long_64b.c.o
+[ 66%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_64-bad.dir/CWE416_Use_After_Free__malloc_free_long_64a.c.o
+[ 67%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_17-bad
+[ 67%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_01-good.dir/CWE416_Use_After_Free__malloc_free_struct_01.c.o
+[ 67%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_17-good
+[ 67%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_03-good.dir/CWE416_Use_After_Free__malloc_free_struct_03.c.o
+[ 67%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_01-bad.dir/CWE416_Use_After_Free__malloc_free_struct_01.c.o
+[ 68%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_02-good.dir/CWE416_Use_After_Free__malloc_free_struct_02.c.o
+[ 68%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_02-bad.dir/CWE416_Use_After_Free__malloc_free_struct_02.c.o
+[ 68%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_03-bad.dir/CWE416_Use_After_Free__malloc_free_struct_03.c.o
+[ 68%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_63-bad
+[ 68%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_long_64-bad.dir/CWE416_Use_After_Free__malloc_free_long_64b.c.o
+[ 68%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_63-good
+[ 68%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_long_64-good
+[ 68%] Built target CWE416_Use_After_Free__malloc_free_long_17-good
+[ 68%] Built target CWE416_Use_After_Free__malloc_free_long_18-good
+[ 68%] Built target CWE416_Use_After_Free__malloc_free_long_18-bad
+[ 68%] Built target CWE416_Use_After_Free__malloc_free_long_17-bad
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_01-bad
+[ 69%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_01-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_03-good
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_02-good
+[ 70%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_04-good.dir/CWE416_Use_After_Free__malloc_free_struct_04.c.o
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_02-bad
+[ 70%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_04-bad.dir/CWE416_Use_After_Free__malloc_free_struct_04.c.o
+[ 70%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_06-bad.dir/CWE416_Use_After_Free__malloc_free_struct_06.c.o
+[ 70%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_03-bad
+[ 70%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_06-good.dir/CWE416_Use_After_Free__malloc_free_struct_06.c.o
+[ 70%] Built target CWE416_Use_After_Free__malloc_free_long_64-good
+[ 70%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_05-good.dir/CWE416_Use_After_Free__malloc_free_struct_05.c.o
+[ 70%] Built target CWE416_Use_After_Free__malloc_free_long_63-bad
+[ 71%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_05-bad.dir/CWE416_Use_After_Free__malloc_free_struct_05.c.o
+[ 71%] Built target CWE416_Use_After_Free__malloc_free_struct_01-good
+[ 70%] Built target CWE416_Use_After_Free__malloc_free_long_63-good
+[ 71%] Built target CWE416_Use_After_Free__malloc_free_struct_02-good
+[ 72%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_long_64-bad
+[ 73%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_07-good.dir/CWE416_Use_After_Free__malloc_free_struct_07.c.o
+[ 73%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_07-bad.dir/CWE416_Use_After_Free__malloc_free_struct_07.c.o
+[ 73%] Built target CWE416_Use_After_Free__malloc_free_struct_02-bad
+[ 73%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_04-good
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_06-bad
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_06-good
+[ 73%] Built target CWE416_Use_After_Free__malloc_free_struct_03-good
+[ 74%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_08-good.dir/CWE416_Use_After_Free__malloc_free_struct_08.c.o
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_05-good
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_struct_03-bad
+[ 73%] Built target CWE416_Use_After_Free__malloc_free_struct_01-bad
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_04-bad
+[ 74%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_09-good.dir/CWE416_Use_After_Free__malloc_free_struct_09.c.o
+[ 74%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_08-bad.dir/CWE416_Use_After_Free__malloc_free_struct_08.c.o
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_05-bad
+[ 74%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_10-good.dir/CWE416_Use_After_Free__malloc_free_struct_10.c.o
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_struct_04-good
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_struct_06-good
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_struct_06-bad
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_long_64-bad
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_struct_04-bad
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_07-good
+[ 74%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_07-bad
+[ 74%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_09-bad.dir/CWE416_Use_After_Free__malloc_free_struct_09.c.o
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_struct_05-good
+[ 74%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_10-bad.dir/CWE416_Use_After_Free__malloc_free_struct_10.c.o
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_08-good
+[ 75%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_11-good.dir/CWE416_Use_After_Free__malloc_free_struct_11.c.o
+[ 74%] Built target CWE416_Use_After_Free__malloc_free_struct_05-bad
+[ 75%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_08-bad
+[ 76%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_09-good
+[ 77%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_11-bad.dir/CWE416_Use_After_Free__malloc_free_struct_11.c.o
+[ 77%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_12-bad.dir/CWE416_Use_After_Free__malloc_free_struct_12.c.o
+[ 77%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_12-good.dir/CWE416_Use_After_Free__malloc_free_struct_12.c.o
+[ 78%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_13-good.dir/CWE416_Use_After_Free__malloc_free_struct_13.c.o
+[ 77%] Built target CWE416_Use_After_Free__malloc_free_struct_07-good
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_10-good
+[ 78%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_13-bad.dir/CWE416_Use_After_Free__malloc_free_struct_13.c.o
+[ 78%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_14-good.dir/CWE416_Use_After_Free__malloc_free_struct_14.c.o
+[ 78%] Built target CWE416_Use_After_Free__malloc_free_struct_08-bad
+[ 78%] Built target CWE416_Use_After_Free__malloc_free_struct_08-good
+[ 78%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_14-bad.dir/CWE416_Use_After_Free__malloc_free_struct_14.c.o
+[ 78%] Built target CWE416_Use_After_Free__malloc_free_struct_07-bad
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_09-bad
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_10-bad
+[ 78%] Built target CWE416_Use_After_Free__malloc_free_struct_09-good
+[ 78%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_15-good.dir/CWE416_Use_After_Free__malloc_free_struct_15.c.o
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_11-bad
+[ 78%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_11-good
+[ 78%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_15-bad.dir/CWE416_Use_After_Free__malloc_free_struct_15.c.o
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_12-bad
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_13-good
+[ 79%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_16-good.dir/CWE416_Use_After_Free__malloc_free_struct_16.c.o
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_12-good
+[ 79%] Built target CWE416_Use_After_Free__malloc_free_struct_10-good
+[ 79%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_13-bad
+[ 79%] Built target CWE416_Use_After_Free__malloc_free_struct_09-bad
+[ 80%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_16-bad.dir/CWE416_Use_After_Free__malloc_free_struct_16.c.o
+[ 80%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_17-good.dir/CWE416_Use_After_Free__malloc_free_struct_17.c.o
+[ 80%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_14-bad
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_14-good
+[ 81%] Built target CWE416_Use_After_Free__malloc_free_struct_11-good
+[ 81%] Built target CWE416_Use_After_Free__malloc_free_struct_12-bad
+[ 81%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_15-good
+[ 81%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_17-bad.dir/CWE416_Use_After_Free__malloc_free_struct_17.c.o
+[ 82%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_18-good.dir/CWE416_Use_After_Free__malloc_free_struct_18.c.o
+[ 82%] Built target CWE416_Use_After_Free__malloc_free_struct_12-good
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_16-good
+[ 82%] Built target CWE416_Use_After_Free__malloc_free_struct_10-bad
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_15-bad
+[ 82%] Built target CWE416_Use_After_Free__malloc_free_struct_11-bad
+[ 82%] Built target CWE416_Use_After_Free__malloc_free_struct_13-good
+[ 82%] Built target CWE416_Use_After_Free__malloc_free_struct_14-good
+[ 82%] Built target CWE416_Use_After_Free__malloc_free_struct_13-bad
+[ 82%] Built target CWE416_Use_After_Free__malloc_free_struct_14-bad
+[ 82%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_17-good
+[ 82%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_18-bad.dir/CWE416_Use_After_Free__malloc_free_struct_18.c.o
+[ 83%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_63-good.dir/CWE416_Use_After_Free__malloc_free_struct_63a.c.o
+[ 83%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_63-good.dir/CWE416_Use_After_Free__malloc_free_struct_63b.c.o
+[ 83%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_16-bad
+[ 83%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_63-bad.dir/CWE416_Use_After_Free__malloc_free_struct_63a.c.o
+[ 83%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_63-bad.dir/CWE416_Use_After_Free__malloc_free_struct_63b.c.o
+[ 83%] Built target CWE416_Use_After_Free__malloc_free_struct_16-good
+[ 83%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_64-good.dir/CWE416_Use_After_Free__malloc_free_struct_64b.c.o
+[ 84%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad
+[ 84%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_64-good.dir/CWE416_Use_After_Free__malloc_free_struct_64a.c.o
+[ 84%] Built target CWE416_Use_After_Free__malloc_free_struct_15-good
+[ 84%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_18-good
+[ 84%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_64-bad.dir/CWE416_Use_After_Free__malloc_free_struct_64a.c.o
+[ 84%] Built target CWE416_Use_After_Free__malloc_free_struct_15-bad
+[ 84%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_01-good.dir/CWE416_Use_After_Free__return_freed_ptr_01.c.o
+[ 84%] Built target CWE416_Use_After_Free__malloc_free_struct_16-bad
+[ 84%] Built target CWE416_Use_After_Free__malloc_free_struct_17-good
+[ 84%] Building C object CMakeFiles/CWE416_Use_After_Free__malloc_free_struct_64-bad.dir/CWE416_Use_After_Free__malloc_free_struct_64b.c.o
+[ 84%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_01-bad.dir/CWE416_Use_After_Free__return_freed_ptr_01.c.o
+[ 84%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_18-bad
+[ 84%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_63-bad
+[ 84%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_63-good
+[ 85%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_02-good.dir/CWE416_Use_After_Free__return_freed_ptr_02.c.o
+[ 84%] Built target CWE416_Use_After_Free__malloc_free_struct_18-good
+[ 85%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_02-bad.dir/CWE416_Use_After_Free__return_freed_ptr_02.c.o
+[ 85%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_03-good.dir/CWE416_Use_After_Free__return_freed_ptr_03.c.o
+[ 85%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_03-bad.dir/CWE416_Use_After_Free__return_freed_ptr_03.c.o
+[ 85%] Built target CWE416_Use_After_Free__malloc_free_struct_17-bad
+[ 85%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__malloc_free_struct_64-good
+[ 85%] Built target CWE416_Use_After_Free__malloc_free_struct_18-bad
+[ 85%] Built target CWE416_Use_After_Free__malloc_free_struct_63-bad
+[ 85%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_04-good.dir/CWE416_Use_After_Free__return_freed_ptr_04.c.o
+[ 85%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_04-bad.dir/CWE416_Use_After_Free__return_freed_ptr_04.c.o
+[ 85%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_01-good
+[ 86%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_64-bad
+[ 87%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_01-bad
+[ 87%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_05-good.dir/CWE416_Use_After_Free__return_freed_ptr_05.c.o
+[ 88%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_05-bad.dir/CWE416_Use_After_Free__return_freed_ptr_05.c.o
+[ 88%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_06-good.dir/CWE416_Use_After_Free__return_freed_ptr_06.c.o
+[ 88%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_02-bad
+[ 89%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_03-good
+[ 89%] Built target CWE416_Use_After_Free__return_freed_ptr_01-good
+[ 89%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_03-bad
+[ 88%] Built target CWE416_Use_After_Free__malloc_free_struct_63-good
+[ 89%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_02-good
+[ 89%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_06-bad.dir/CWE416_Use_After_Free__return_freed_ptr_06.c.o
+[ 90%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_07-good.dir/CWE416_Use_After_Free__return_freed_ptr_07.c.o
+[ 90%] Built target CWE416_Use_After_Free__malloc_free_struct_64-good
+[ 90%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_04-good
+[ 90%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_07-bad.dir/CWE416_Use_After_Free__return_freed_ptr_07.c.o
+[ 90%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_08-good.dir/CWE416_Use_After_Free__return_freed_ptr_08.c.o
+[ 90%] Built target CWE416_Use_After_Free__return_freed_ptr_01-bad
+[ 90%] Built target CWE416_Use_After_Free__return_freed_ptr_02-bad
+[ 90%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_04-bad
+[ 90%] Built target CWE416_Use_After_Free__malloc_free_struct_64-bad
+[ 90%] Built target CWE416_Use_After_Free__return_freed_ptr_03-bad
+[ 90%] Built target CWE416_Use_After_Free__return_freed_ptr_03-good
+[ 90%] Built target CWE416_Use_After_Free__return_freed_ptr_02-good
+[ 90%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_08-bad.dir/CWE416_Use_After_Free__return_freed_ptr_08.c.o
+[ 90%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_05-bad
+[ 90%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_05-good
+[ 90%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_06-good
+[ 91%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_06-bad
+[ 90%] Built target CWE416_Use_After_Free__return_freed_ptr_04-good
+[ 91%] Built target CWE416_Use_After_Free__return_freed_ptr_04-bad
+[ 91%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_10-good.dir/CWE416_Use_After_Free__return_freed_ptr_10.c.o
+[ 91%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_07-good
+[ 92%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_10-bad.dir/CWE416_Use_After_Free__return_freed_ptr_10.c.o
+[ 92%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_09-good.dir/CWE416_Use_After_Free__return_freed_ptr_09.c.o
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_08-good
+[ 93%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_07-bad
+[ 93%] Built target CWE416_Use_After_Free__return_freed_ptr_06-good
+[ 93%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_09-bad.dir/CWE416_Use_After_Free__return_freed_ptr_09.c.o
+[ 93%] Built target CWE416_Use_After_Free__return_freed_ptr_05-good
+[ 93%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_11-good.dir/CWE416_Use_After_Free__return_freed_ptr_11.c.o
+[ 93%] Built target CWE416_Use_After_Free__return_freed_ptr_05-bad
+[ 93%] Built target CWE416_Use_After_Free__return_freed_ptr_06-bad
+[ 94%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_12-good.dir/CWE416_Use_After_Free__return_freed_ptr_12.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_08-bad
+[ 94%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_11-bad.dir/CWE416_Use_After_Free__return_freed_ptr_11.c.o
+[ 94%] Built target CWE416_Use_After_Free__return_freed_ptr_08-good
+[ 94%] Built target CWE416_Use_After_Free__return_freed_ptr_07-bad
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_10-good
+[ 94%] Built target CWE416_Use_After_Free__return_freed_ptr_07-good
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_10-bad
+[ 94%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_12-bad.dir/CWE416_Use_After_Free__return_freed_ptr_12.c.o
+[ 94%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_13-good.dir/CWE416_Use_After_Free__return_freed_ptr_13.c.o
+[ 94%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_13-bad.dir/CWE416_Use_After_Free__return_freed_ptr_13.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_09-good
+[ 94%] Built target CWE416_Use_After_Free__return_freed_ptr_08-bad
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_11-good
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_09-bad
+[ 94%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_14-good.dir/CWE416_Use_After_Free__return_freed_ptr_14.c.o
+[ 94%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_12-good
+[ 94%] Built target CWE416_Use_After_Free__return_freed_ptr_10-bad
+[ 94%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_14-bad.dir/CWE416_Use_After_Free__return_freed_ptr_14.c.o
+[ 94%] Built target CWE416_Use_After_Free__return_freed_ptr_10-good
+[ 94%] Built target CWE416_Use_After_Free__return_freed_ptr_09-good
+[ 95%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_15-bad.dir/CWE416_Use_After_Free__return_freed_ptr_15.c.o
+[ 96%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_11-bad
+[ 96%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_15-good.dir/CWE416_Use_After_Free__return_freed_ptr_15.c.o
+[ 96%] Built target CWE416_Use_After_Free__return_freed_ptr_09-bad
+[ 96%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_16-bad.dir/CWE416_Use_After_Free__return_freed_ptr_16.c.o
+[ 96%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_12-bad
+[ 96%] Built target CWE416_Use_After_Free__return_freed_ptr_12-good
+[ 96%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_16-good.dir/CWE416_Use_After_Free__return_freed_ptr_16.c.o
+[ 96%] Built target CWE416_Use_After_Free__return_freed_ptr_11-good
+[ 96%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_13-bad
+[ 97%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_17-good.dir/CWE416_Use_After_Free__return_freed_ptr_17.c.o
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_13-good
+[ 98%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_17-bad.dir/CWE416_Use_After_Free__return_freed_ptr_17.c.o
+[ 98%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_18-good.dir/CWE416_Use_After_Free__return_freed_ptr_18.c.o
+[ 98%] Built target CWE416_Use_After_Free__return_freed_ptr_11-bad
+[ 98%] Building C object CMakeFiles/CWE416_Use_After_Free__return_freed_ptr_18-bad.dir/CWE416_Use_After_Free__return_freed_ptr_18.c.o
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_14-good
+[ 98%] Built target CWE416_Use_After_Free__return_freed_ptr_12-bad
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_14-bad
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_15-bad
+[ 98%] Built target CWE416_Use_After_Free__return_freed_ptr_13-bad
+[ 98%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_15-good
+[ 99%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_16-bad
+[ 99%] Built target CWE416_Use_After_Free__return_freed_ptr_14-bad
+[ 99%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_16-good
+[ 99%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_17-good
+[ 99%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_17-bad
+[ 98%] Built target CWE416_Use_After_Free__return_freed_ptr_13-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/good/CWE416_Use_After_Free__return_freed_ptr_18-good
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_14-good
+[100%] Linking C executable /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__return_freed_ptr_18-bad
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_15-bad
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_15-good
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_17-good
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_18-bad
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_16-good
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_17-bad
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_16-bad
+[100%] Built target CWE416_Use_After_Free__return_freed_ptr_18-good
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+5
+Finished good()
+Calling good()...
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+Finished good()
+Calling good()...
+1 -- 2
+Finished good()
+Calling good()...
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+Finished good()
+Calling good()...
+kniSdooG
+Finished good()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+5
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+1 -- 2
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+Calling bad()...
+kniSdaB
+Finished bad()
+========== cleaning /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE416_Use_After_Free ==========
+========== generating /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE416_Use_After_Free ==========
+========== making /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE416_Use_After_Free ==========
+========== running /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/testcases/CWE416_Use_After_Free ==========

@@ -1,0 +1,79 @@
+==2161365== Memcheck, a memory error detector
+==2161365== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2161365== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2161365== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad
+==2161365== Parent PID: 2161364
+==2161365== 
+==2161365== Invalid read of size 1
+==2161365==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x48F6BFC: puts (ioputs.c:35)
+==2161365==    by 0x109401: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x109388: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Address 0x4a85080 is 0 bytes inside a block of size 100 free'd
+==2161365==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109372: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Block was alloc'd at
+==2161365==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109330: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365== 
+==2161365== Invalid read of size 1
+==2161365==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x48F6BFC: puts (ioputs.c:35)
+==2161365==    by 0x109401: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x109388: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Address 0x4a85081 is 1 bytes inside a block of size 100 free'd
+==2161365==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109372: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Block was alloc'd at
+==2161365==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109330: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365== 
+==2161365== Invalid read of size 1
+==2161365==    at 0x4853980: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x4902A3F: _IO_new_file_xsputn (fileops.c:1236)
+==2161365==    by 0x4902A3F: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==2161365==    by 0x48F6C5C: puts (ioputs.c:40)
+==2161365==    by 0x109401: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x109388: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Address 0x4a85080 is 0 bytes inside a block of size 100 free'd
+==2161365==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109372: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Block was alloc'd at
+==2161365==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109330: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365== 
+==2161365== Invalid read of size 1
+==2161365==    at 0x485398E: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x4902A3F: _IO_new_file_xsputn (fileops.c:1236)
+==2161365==    by 0x4902A3F: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==2161365==    by 0x48F6C5C: puts (ioputs.c:40)
+==2161365==    by 0x109401: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x109388: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Address 0x4a85082 is 2 bytes inside a block of size 100 free'd
+==2161365==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109372: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==  Block was alloc'd at
+==2161365==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161365==    by 0x109330: CWE416_Use_After_Free__malloc_free_char_09_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365==    by 0x1093C8: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_char_09-bad)
+==2161365== 
+==2161365== 
+==2161365== HEAP SUMMARY:
+==2161365==     in use at exit: 0 bytes in 0 blocks
+==2161365==   total heap usage: 2 allocs, 2 frees, 4,196 bytes allocated
+==2161365== 
+==2161365== All heap blocks were freed -- no leaks are possible
+==2161365== 
+==2161365== For lists of detected and suppressed errors, rerun with: -s
+==2161365== ERROR SUMMARY: 199 errors from 4 contexts (suppressed: 0 from 0)

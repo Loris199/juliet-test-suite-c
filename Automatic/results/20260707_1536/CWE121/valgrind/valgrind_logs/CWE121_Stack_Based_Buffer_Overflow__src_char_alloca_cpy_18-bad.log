@@ -1,0 +1,37 @@
+==736264== Memcheck, a memory error detector
+==736264== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==736264== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==736264== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_18-bad
+==736264== Parent PID: 736261
+==736264== 
+==736264== 
+==736264== Process terminating with default action of signal 6 (SIGABRT)
+==736264==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==736264==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==736264==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==736264==    by 0x48B427D: raise (raise.c:26)
+==736264==    by 0x48978FE: abort (abort.c:79)
+==736264==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==736264==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==736264==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==736264==    by 0x1093F9: CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_18_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_18-bad)
+==736264==    by 0x4141414141414140: ???
+==736264==    by 0x4141414141414140: ???
+==736264==    by 0x4141414141414140: ???
+==736264==    by 0x1F00414140: ???
+==736264==    by 0x48991C9: (below main) (libc_start_call_main.h:58)
+==736264== 
+==736264== HEAP SUMMARY:
+==736264==     in use at exit: 4,096 bytes in 1 blocks
+==736264==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==736264== 
+==736264== LEAK SUMMARY:
+==736264==    definitely lost: 0 bytes in 0 blocks
+==736264==    indirectly lost: 0 bytes in 0 blocks
+==736264==      possibly lost: 0 bytes in 0 blocks
+==736264==    still reachable: 4,096 bytes in 1 blocks
+==736264==         suppressed: 0 bytes in 0 blocks
+==736264== Rerun with --leak-check=full to see details of leaked memory
+==736264== 
+==736264== For lists of detected and suppressed errors, rerun with: -s
+==736264== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

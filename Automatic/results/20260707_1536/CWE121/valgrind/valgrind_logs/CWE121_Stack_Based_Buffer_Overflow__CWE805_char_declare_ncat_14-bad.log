@@ -1,0 +1,20 @@
+==727015== Memcheck, a memory error detector
+==727015== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==727015== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==727015== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_14-bad
+==727015== Parent PID: 727014
+==727015== 
+==727015== Source and destination overlap in strncat(0x1ffefffde0, 0x1ffefffe20, 100)
+==727015==    at 0x484F197: strncat (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==727015==    by 0x10933E: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_14_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_14-bad)
+==727015==    by 0x1093A1: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_14-bad)
+==727015== 
+==727015== 
+==727015== HEAP SUMMARY:
+==727015==     in use at exit: 0 bytes in 0 blocks
+==727015==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==727015== 
+==727015== All heap blocks were freed -- no leaks are possible
+==727015== 
+==727015== For lists of detected and suppressed errors, rerun with: -s
+==727015== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

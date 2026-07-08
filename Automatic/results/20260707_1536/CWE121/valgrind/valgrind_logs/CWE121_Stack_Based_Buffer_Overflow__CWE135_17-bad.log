@@ -1,0 +1,56 @@
+==723801== Memcheck, a memory error detector
+==723801== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==723801== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==723801== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_17-bad
+==723801== Parent PID: 723800
+==723801== 
+==723801== Invalid read of size 1
+==723801==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==723801==    by 0x48F6BFC: puts (ioputs.c:35)
+==723801==    by 0x109470: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_17-bad)
+==723801==    by 0x1093D5: CWE121_Stack_Based_Buffer_Overflow__CWE135_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_17-bad)
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==  Address 0x4100000041 is not stack'd, malloc'd or (recently) free'd
+==723801== 
+==723801== 
+==723801== Process terminating with default action of signal 11 (SIGSEGV)
+==723801==  Access not within mapped region at address 0x4100000041
+==723801==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==723801==    by 0x48F6BFC: puts (ioputs.c:35)
+==723801==    by 0x109470: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_17-bad)
+==723801==    by 0x1093D5: CWE121_Stack_Based_Buffer_Overflow__CWE135_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_17-bad)
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==    by 0x4100000040: ???
+==723801==  If you believe this happened as a result of a stack
+==723801==  overflow in your program's main thread (unlikely but
+==723801==  possible), you can try to increase the size of the
+==723801==  main thread stack using the --main-stacksize= flag.
+==723801==  The main thread stack size used in this run was 8388608.
+==723801== 
+==723801== HEAP SUMMARY:
+==723801==     in use at exit: 4,096 bytes in 1 blocks
+==723801==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==723801== 
+==723801== LEAK SUMMARY:
+==723801==    definitely lost: 0 bytes in 0 blocks
+==723801==    indirectly lost: 0 bytes in 0 blocks
+==723801==      possibly lost: 0 bytes in 0 blocks
+==723801==    still reachable: 4,096 bytes in 1 blocks
+==723801==         suppressed: 0 bytes in 0 blocks
+==723801== Rerun with --leak-check=full to see details of leaked memory
+==723801== 
+==723801== For lists of detected and suppressed errors, rerun with: -s
+==723801== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

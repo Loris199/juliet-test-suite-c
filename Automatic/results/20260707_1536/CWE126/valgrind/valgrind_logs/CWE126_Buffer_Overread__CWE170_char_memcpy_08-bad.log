@@ -1,0 +1,23 @@
+==1855833== Memcheck, a memory error detector
+==1855833== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1855833== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1855833== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE170_char_memcpy_08-bad
+==1855833== Parent PID: 1855832
+==1855833== 
+==1855833== Conditional jump or move depends on uninitialised value(s)
+==1855833==    at 0x484F238: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1855833==    by 0x48F6BFC: puts (ioputs.c:35)
+==1855833==    by 0x1093E9: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE170_char_memcpy_08-bad)
+==1855833==    by 0x10935C: CWE126_Buffer_Overread__CWE170_char_memcpy_08_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE170_char_memcpy_08-bad)
+==1855833==    by 0x1093B0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/bad/CWE126_Buffer_Overread__CWE170_char_memcpy_08-bad)
+==1855833== 
+==1855833== 
+==1855833== HEAP SUMMARY:
+==1855833==     in use at exit: 0 bytes in 0 blocks
+==1855833==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==1855833== 
+==1855833== All heap blocks were freed -- no leaks are possible
+==1855833== 
+==1855833== Use --track-origins=yes to see where uninitialised values come from
+==1855833== For lists of detected and suppressed errors, rerun with: -s
+==1855833== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

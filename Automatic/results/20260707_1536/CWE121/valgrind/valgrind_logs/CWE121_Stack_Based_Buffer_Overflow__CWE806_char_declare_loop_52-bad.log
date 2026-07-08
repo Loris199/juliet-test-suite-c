@@ -1,0 +1,37 @@
+==733483== Memcheck, a memory error detector
+==733483== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==733483== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==733483== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52-bad
+==733483== Parent PID: 733482
+==733483== 
+==733483== 
+==733483== Process terminating with default action of signal 6 (SIGABRT)
+==733483==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==733483==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==733483==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==733483==    by 0x48B427D: raise (raise.c:26)
+==733483==    by 0x48978FE: abort (abort.c:79)
+==733483==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==733483==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==733483==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==733483==    by 0x10945F: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52c_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52-bad)
+==733483==    by 0x4141414141414140: ???
+==733483==    by 0x4141414141414140: ???
+==733483==    by 0x4141414141414140: ???
+==733483==    by 0x1FFE414140: ???
+==733483==    by 0x109318: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52-bad)
+==733483== 
+==733483== HEAP SUMMARY:
+==733483==     in use at exit: 4,096 bytes in 1 blocks
+==733483==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==733483== 
+==733483== LEAK SUMMARY:
+==733483==    definitely lost: 0 bytes in 0 blocks
+==733483==    indirectly lost: 0 bytes in 0 blocks
+==733483==      possibly lost: 0 bytes in 0 blocks
+==733483==    still reachable: 4,096 bytes in 1 blocks
+==733483==         suppressed: 0 bytes in 0 blocks
+==733483== Rerun with --leak-check=full to see details of leaked memory
+==733483== 
+==733483== For lists of detected and suppressed errors, rerun with: -s
+==733483== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

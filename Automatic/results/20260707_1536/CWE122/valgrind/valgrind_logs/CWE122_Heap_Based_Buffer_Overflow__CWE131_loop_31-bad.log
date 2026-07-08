@@ -1,0 +1,23 @@
+==1317051== Memcheck, a memory error detector
+==1317051== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1317051== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1317051== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_31-bad
+==1317051== Parent PID: 1317050
+==1317051== 
+==1317051== Invalid write of size 4
+==1317051==    at 0x109371: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_31_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_31-bad)
+==1317051==    by 0x1093EB: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_31-bad)
+==1317051==  Address 0x4a85088 is 8 bytes inside a block of size 10 alloc'd
+==1317051==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317051==    by 0x109315: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_31_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_31-bad)
+==1317051==    by 0x1093EB: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_31-bad)
+==1317051== 
+==1317051== 
+==1317051== HEAP SUMMARY:
+==1317051==     in use at exit: 0 bytes in 0 blocks
+==1317051==   total heap usage: 2 allocs, 2 frees, 4,106 bytes allocated
+==1317051== 
+==1317051== All heap blocks were freed -- no leaks are possible
+==1317051== 
+==1317051== For lists of detected and suppressed errors, rerun with: -s
+==1317051== ERROR SUMMARY: 8 errors from 1 contexts (suppressed: 0 from 0)

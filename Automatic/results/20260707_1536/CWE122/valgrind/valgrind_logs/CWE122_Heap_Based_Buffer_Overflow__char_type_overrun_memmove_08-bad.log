@@ -1,0 +1,37 @@
+==1323548== Memcheck, a memory error detector
+==1323548== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1323548== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1323548== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08-bad
+==1323548== Parent PID: 1323547
+==1323548== 
+==1323548== Invalid read of size 1
+==1323548==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1323548==    by 0x48F6BFC: puts (ioputs.c:35)
+==1323548==    by 0x10941A: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08-bad)
+==1323548==    by 0x1093A1: CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08-bad)
+==1323548==    by 0x1093E1: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08-bad)
+==1323548==  Address 0x3736353433323130 is not stack'd, malloc'd or (recently) free'd
+==1323548== 
+==1323548== 
+==1323548== Process terminating with default action of signal 11 (SIGSEGV)
+==1323548==  General Protection Fault
+==1323548==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1323548==    by 0x48F6BFC: puts (ioputs.c:35)
+==1323548==    by 0x10941A: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08-bad)
+==1323548==    by 0x1093A1: CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08-bad)
+==1323548==    by 0x1093E1: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_08-bad)
+==1323548== 
+==1323548== HEAP SUMMARY:
+==1323548==     in use at exit: 4,128 bytes in 2 blocks
+==1323548==   total heap usage: 2 allocs, 0 frees, 4,128 bytes allocated
+==1323548== 
+==1323548== LEAK SUMMARY:
+==1323548==    definitely lost: 0 bytes in 0 blocks
+==1323548==    indirectly lost: 0 bytes in 0 blocks
+==1323548==      possibly lost: 0 bytes in 0 blocks
+==1323548==    still reachable: 4,128 bytes in 2 blocks
+==1323548==         suppressed: 0 bytes in 0 blocks
+==1323548== Rerun with --leak-check=full to see details of leaked memory
+==1323548== 
+==1323548== For lists of detected and suppressed errors, rerun with: -s
+==1323548== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

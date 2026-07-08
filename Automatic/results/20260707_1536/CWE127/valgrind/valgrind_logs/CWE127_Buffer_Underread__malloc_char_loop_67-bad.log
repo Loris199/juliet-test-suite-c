@@ -1,0 +1,30 @@
+==2097012== Memcheck, a memory error detector
+==2097012== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2097012== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2097012== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__malloc_char_loop_67-bad
+==2097012== Parent PID: 2097011
+==2097012== 
+==2097012== Invalid read of size 1
+==2097012==    at 0x109412: CWE127_Buffer_Underread__malloc_char_loop_67b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__malloc_char_loop_67-bad)
+==2097012==    by 0x10935C: CWE127_Buffer_Underread__malloc_char_loop_67_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__malloc_char_loop_67-bad)
+==2097012==    by 0x10939C: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__malloc_char_loop_67-bad)
+==2097012==  Address 0x4a85078 is 8 bytes before a block of size 100 alloc'd
+==2097012==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2097012==    by 0x109306: CWE127_Buffer_Underread__malloc_char_loop_67_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__malloc_char_loop_67-bad)
+==2097012==    by 0x10939C: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__malloc_char_loop_67-bad)
+==2097012== 
+==2097012== 
+==2097012== HEAP SUMMARY:
+==2097012==     in use at exit: 100 bytes in 1 blocks
+==2097012==   total heap usage: 2 allocs, 1 frees, 4,196 bytes allocated
+==2097012== 
+==2097012== LEAK SUMMARY:
+==2097012==    definitely lost: 100 bytes in 1 blocks
+==2097012==    indirectly lost: 0 bytes in 0 blocks
+==2097012==      possibly lost: 0 bytes in 0 blocks
+==2097012==    still reachable: 0 bytes in 0 blocks
+==2097012==         suppressed: 0 bytes in 0 blocks
+==2097012== Rerun with --leak-check=full to see details of leaked memory
+==2097012== 
+==2097012== For lists of detected and suppressed errors, rerun with: -s
+==2097012== ERROR SUMMARY: 8 errors from 1 contexts (suppressed: 0 from 0)

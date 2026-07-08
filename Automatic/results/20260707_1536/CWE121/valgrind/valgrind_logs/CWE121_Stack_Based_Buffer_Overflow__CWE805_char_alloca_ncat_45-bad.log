@@ -1,0 +1,33 @@
+==726078== Memcheck, a memory error detector
+==726078== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==726078== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==726078== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_45-bad
+==726078== Parent PID: 726077
+==726078== 
+==726078== 
+==726078== Process terminating with default action of signal 6 (SIGABRT)
+==726078==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==726078==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==726078==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==726078==    by 0x48B427D: raise (raise.c:26)
+==726078==    by 0x48978FE: abort (abort.c:79)
+==726078==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==726078==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==726078==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==726078==    by 0x10949B: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_45_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_45-bad)
+==726078==    by 0x1094DA: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_45-bad)
+==726078== 
+==726078== HEAP SUMMARY:
+==726078==     in use at exit: 4,096 bytes in 1 blocks
+==726078==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==726078== 
+==726078== LEAK SUMMARY:
+==726078==    definitely lost: 0 bytes in 0 blocks
+==726078==    indirectly lost: 0 bytes in 0 blocks
+==726078==      possibly lost: 0 bytes in 0 blocks
+==726078==    still reachable: 4,096 bytes in 1 blocks
+==726078==         suppressed: 0 bytes in 0 blocks
+==726078== Rerun with --leak-check=full to see details of leaked memory
+==726078== 
+==726078== For lists of detected and suppressed errors, rerun with: -s
+==726078== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

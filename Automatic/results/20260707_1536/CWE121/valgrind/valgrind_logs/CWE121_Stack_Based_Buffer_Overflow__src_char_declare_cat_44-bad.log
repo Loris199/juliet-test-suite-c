@@ -1,0 +1,51 @@
+==736558== Memcheck, a memory error detector
+==736558== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==736558== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==736558== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_44-bad
+==736558== Parent PID: 736557
+==736558== 
+==736558== Source and destination overlap in strcat(0x1ffefffdd0, 0x1ffefffe30)
+==736558==    at 0x484EFE3: strcat (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==736558==    by 0x109330: badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_44-bad)
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414100414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558== 
+==736558== 
+==736558== Process terminating with default action of signal 6 (SIGABRT)
+==736558==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==736558==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==736558==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==736558==    by 0x48B427D: raise (raise.c:26)
+==736558==    by 0x48978FE: abort (abort.c:79)
+==736558==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==736558==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==736558==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==736558==    by 0x109351: badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_44-bad)
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558==    by 0x4141414100414140: ???
+==736558==    by 0x4141414141414140: ???
+==736558== 
+==736558== HEAP SUMMARY:
+==736558==     in use at exit: 4,096 bytes in 1 blocks
+==736558==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==736558== 
+==736558== LEAK SUMMARY:
+==736558==    definitely lost: 0 bytes in 0 blocks
+==736558==    indirectly lost: 0 bytes in 0 blocks
+==736558==      possibly lost: 0 bytes in 0 blocks
+==736558==    still reachable: 4,096 bytes in 1 blocks
+==736558==         suppressed: 0 bytes in 0 blocks
+==736558== Rerun with --leak-check=full to see details of leaked memory
+==736558== 
+==736558== For lists of detected and suppressed errors, rerun with: -s
+==736558== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

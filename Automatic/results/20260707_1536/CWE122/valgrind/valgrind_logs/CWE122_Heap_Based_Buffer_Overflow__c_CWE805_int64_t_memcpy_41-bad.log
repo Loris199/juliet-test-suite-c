@@ -1,0 +1,52 @@
+==1319260== Memcheck, a memory error detector
+==1319260== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1319260== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1319260== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad
+==1319260== Parent PID: 1319259
+==1319260== 
+==1319260== Invalid write of size 8
+==1319260==    at 0x4852E1B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319260==    by 0x109362: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x1093D9: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x109419: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==  Address 0x4a85210 is 0 bytes after a block of size 400 alloc'd
+==1319260==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319260==    by 0x1093B8: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x109419: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260== 
+==1319260== Invalid write of size 8
+==1319260==    at 0x4852E23: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319260==    by 0x109362: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x1093D9: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x109419: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==  Address 0x4a85218 is 8 bytes after a block of size 400 alloc'd
+==1319260==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319260==    by 0x1093B8: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x109419: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260== 
+==1319260== Invalid write of size 8
+==1319260==    at 0x4852E0B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319260==    by 0x109362: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x1093D9: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x109419: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==  Address 0x4a85220 is 16 bytes after a block of size 400 alloc'd
+==1319260==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319260==    by 0x1093B8: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x109419: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260== 
+==1319260== Invalid write of size 8
+==1319260==    at 0x4852E13: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1319260==    by 0x109362: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x1093D9: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==    by 0x109419: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_41-bad)
+==1319260==  Address 0x4a85228 is 24 bytes after a block of size 400 in arena "client"
+==1319260== 
+==1319260== 
+==1319260== HEAP SUMMARY:
+==1319260==     in use at exit: 0 bytes in 0 blocks
+==1319260==   total heap usage: 2 allocs, 2 frees, 4,496 bytes allocated
+==1319260== 
+==1319260== All heap blocks were freed -- no leaks are possible
+==1319260== 
+==1319260== For lists of detected and suppressed errors, rerun with: -s
+==1319260== ERROR SUMMARY: 50 errors from 4 contexts (suppressed: 0 from 0)

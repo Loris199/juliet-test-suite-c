@@ -1,0 +1,32 @@
+==2224429== Memcheck, a memory error detector
+==2224429== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2224429== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2224429== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad
+==2224429== Parent PID: 2224428
+==2224429== 
+==2224429== Invalid free() / delete / delete[] / realloc()
+==2224429==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2224429==    by 0x109402: CWE415_Double_Free__malloc_free_char_54e_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==    by 0x1093E3: CWE415_Double_Free__malloc_free_char_54d_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==    by 0x1093C4: CWE415_Double_Free__malloc_free_char_54c_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==    by 0x1093A5: CWE415_Double_Free__malloc_free_char_54b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==    by 0x109333: CWE415_Double_Free__malloc_free_char_54_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==    by 0x109373: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==  Address 0x4a85080 is 0 bytes inside a block of size 100 free'd
+==2224429==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2224429==    by 0x109327: CWE415_Double_Free__malloc_free_char_54_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==    by 0x109373: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==  Block was alloc'd at
+==2224429==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2224429==    by 0x109306: CWE415_Double_Free__malloc_free_char_54_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429==    by 0x109373: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_char_54-bad)
+==2224429== 
+==2224429== 
+==2224429== HEAP SUMMARY:
+==2224429==     in use at exit: 0 bytes in 0 blocks
+==2224429==   total heap usage: 2 allocs, 3 frees, 4,196 bytes allocated
+==2224429== 
+==2224429== All heap blocks were freed -- no leaks are possible
+==2224429== 
+==2224429== For lists of detected and suppressed errors, rerun with: -s
+==2224429== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

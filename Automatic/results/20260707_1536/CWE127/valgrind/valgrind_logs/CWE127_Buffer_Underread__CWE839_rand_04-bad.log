@@ -1,0 +1,36 @@
+==2096034== Memcheck, a memory error detector
+==2096034== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2096034== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2096034== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__CWE839_rand_04-bad
+==2096034== Parent PID: 2096033
+==2096034== 
+==2096034== Invalid read of size 4
+==2096034==    at 0x109323: CWE127_Buffer_Underread__CWE839_rand_04_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__CWE839_rand_04-bad)
+==2096034==    by 0x109396: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__CWE839_rand_04-bad)
+==2096034==  Address 0x1fe1c1c7e0 is not stack'd, malloc'd or (recently) free'd
+==2096034== 
+==2096034== 
+==2096034== Process terminating with default action of signal 11 (SIGSEGV)
+==2096034==  Access not within mapped region at address 0x1FE1C1C7E0
+==2096034==    at 0x109323: CWE127_Buffer_Underread__CWE839_rand_04_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__CWE839_rand_04-bad)
+==2096034==    by 0x109396: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE127/valgrind/bin/CWE127/bad/CWE127_Buffer_Underread__CWE839_rand_04-bad)
+==2096034==  If you believe this happened as a result of a stack
+==2096034==  overflow in your program's main thread (unlikely but
+==2096034==  possible), you can try to increase the size of the
+==2096034==  main thread stack using the --main-stacksize= flag.
+==2096034==  The main thread stack size used in this run was 8388608.
+==2096034== 
+==2096034== HEAP SUMMARY:
+==2096034==     in use at exit: 4,096 bytes in 1 blocks
+==2096034==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==2096034== 
+==2096034== LEAK SUMMARY:
+==2096034==    definitely lost: 0 bytes in 0 blocks
+==2096034==    indirectly lost: 0 bytes in 0 blocks
+==2096034==      possibly lost: 0 bytes in 0 blocks
+==2096034==    still reachable: 4,096 bytes in 1 blocks
+==2096034==         suppressed: 0 bytes in 0 blocks
+==2096034== Rerun with --leak-check=full to see details of leaked memory
+==2096034== 
+==2096034== For lists of detected and suppressed errors, rerun with: -s
+==2096034== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

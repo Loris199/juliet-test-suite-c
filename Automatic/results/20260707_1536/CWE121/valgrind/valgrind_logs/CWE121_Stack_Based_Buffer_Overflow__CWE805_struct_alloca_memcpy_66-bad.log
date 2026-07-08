@@ -1,0 +1,32 @@
+==730288== Memcheck, a memory error detector
+==730288== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==730288== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==730288== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_66-bad
+==730288== Parent PID: 730287
+==730288== 
+==730288== 
+==730288== Process terminating with default action of signal 6 (SIGABRT)
+==730288==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==730288==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==730288==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==730288==    by 0x48B427D: raise (raise.c:26)
+==730288==    by 0x48978FE: abort (abort.c:79)
+==730288==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==730288==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==730288==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==730288==    by 0x1093FC: CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_66_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_66-bad)
+==730288== 
+==730288== HEAP SUMMARY:
+==730288==     in use at exit: 4,096 bytes in 1 blocks
+==730288==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==730288== 
+==730288== LEAK SUMMARY:
+==730288==    definitely lost: 0 bytes in 0 blocks
+==730288==    indirectly lost: 0 bytes in 0 blocks
+==730288==      possibly lost: 0 bytes in 0 blocks
+==730288==    still reachable: 4,096 bytes in 1 blocks
+==730288==         suppressed: 0 bytes in 0 blocks
+==730288== Rerun with --leak-check=full to see details of leaked memory
+==730288== 
+==730288== For lists of detected and suppressed errors, rerun with: -s
+==730288== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

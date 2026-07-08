@@ -1,0 +1,36 @@
+==1317740== Memcheck, a memory error detector
+==1317740== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1317740== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1317740== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11-bad
+==1317740== Parent PID: 1317739
+==1317740== 
+==1317740== Invalid write of size 4
+==1317740==    at 0x1093CC: CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11-bad)
+==1317740==    by 0x109462: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11-bad)
+==1317740==  Address 0xde68f2d4 is not stack'd, malloc'd or (recently) free'd
+==1317740== 
+==1317740== 
+==1317740== Process terminating with default action of signal 11 (SIGSEGV)
+==1317740==  Access not within mapped region at address 0xDE68F2D4
+==1317740==    at 0x1093CC: CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11-bad)
+==1317740==    by 0x109462: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11-bad)
+==1317740==  If you believe this happened as a result of a stack
+==1317740==  overflow in your program's main thread (unlikely but
+==1317740==  possible), you can try to increase the size of the
+==1317740==  main thread stack using the --main-stacksize= flag.
+==1317740==  The main thread stack size used in this run was 8388608.
+==1317740== 
+==1317740== HEAP SUMMARY:
+==1317740==     in use at exit: 4,136 bytes in 2 blocks
+==1317740==   total heap usage: 2 allocs, 0 frees, 4,136 bytes allocated
+==1317740== 
+==1317740== LEAK SUMMARY:
+==1317740==    definitely lost: 0 bytes in 0 blocks
+==1317740==    indirectly lost: 0 bytes in 0 blocks
+==1317740==      possibly lost: 0 bytes in 0 blocks
+==1317740==    still reachable: 4,136 bytes in 2 blocks
+==1317740==         suppressed: 0 bytes in 0 blocks
+==1317740== Rerun with --leak-check=full to see details of leaked memory
+==1317740== 
+==1317740== For lists of detected and suppressed errors, rerun with: -s
+==1317740== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

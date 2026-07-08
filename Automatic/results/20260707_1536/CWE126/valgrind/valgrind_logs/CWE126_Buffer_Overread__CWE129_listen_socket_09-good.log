@@ -1,0 +1,27 @@
+==1854326== Memcheck, a memory error detector
+==1854326== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1854326== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1854326== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/good/CWE126_Buffer_Overread__CWE129_listen_socket_09-good
+==1854326== Parent PID: 1854325
+==1854326== 
+==1854326== 
+==1854326== Process terminating with default action of signal 15 (SIGTERM)
+==1854326==    at 0x499A834: accept (accept.c:26)
+==1854326==    by 0x10947B: goodB2G1 (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/good/CWE126_Buffer_Overread__CWE129_listen_socket_09-good)
+==1854326==    by 0x109842: CWE126_Buffer_Overread__CWE129_listen_socket_09_good (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/good/CWE126_Buffer_Overread__CWE129_listen_socket_09-good)
+==1854326==    by 0x1098A0: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE126/valgrind/bin/CWE126/good/CWE126_Buffer_Overread__CWE129_listen_socket_09-good)
+==1854326== 
+==1854326== HEAP SUMMARY:
+==1854326==     in use at exit: 4,096 bytes in 1 blocks
+==1854326==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==1854326== 
+==1854326== LEAK SUMMARY:
+==1854326==    definitely lost: 0 bytes in 0 blocks
+==1854326==    indirectly lost: 0 bytes in 0 blocks
+==1854326==      possibly lost: 0 bytes in 0 blocks
+==1854326==    still reachable: 4,096 bytes in 1 blocks
+==1854326==         suppressed: 0 bytes in 0 blocks
+==1854326== Rerun with --leak-check=full to see details of leaked memory
+==1854326== 
+==1854326== For lists of detected and suppressed errors, rerun with: -s
+==1854326== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

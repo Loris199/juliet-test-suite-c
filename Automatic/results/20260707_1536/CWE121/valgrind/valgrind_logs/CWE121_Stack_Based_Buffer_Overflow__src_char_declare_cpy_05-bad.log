@@ -1,0 +1,20 @@
+==736700== Memcheck, a memory error detector
+==736700== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==736700== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==736700== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad
+==736700== Parent PID: 736699
+==736700== 
+==736700== Source and destination overlap in strcpy(0x1ffefffdf0, 0x1ffefffe30)
+==736700==    at 0x484F413: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==736700==    by 0x109383: CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad)
+==736700==    by 0x1093E6: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_05-bad)
+==736700== 
+==736700== 
+==736700== HEAP SUMMARY:
+==736700==     in use at exit: 0 bytes in 0 blocks
+==736700==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==736700== 
+==736700== All heap blocks were freed -- no leaks are possible
+==736700== 
+==736700== For lists of detected and suppressed errors, rerun with: -s
+==736700== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

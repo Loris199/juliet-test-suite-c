@@ -1,0 +1,15 @@
+==1316880== Memcheck, a memory error detector
+==1316880== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1316880== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1316880== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/good/CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_13-good
+==1316880== Parent PID: 1316879
+==1316880== 
+==1316880== 
+==1316880== HEAP SUMMARY:
+==1316880==     in use at exit: 0 bytes in 0 blocks
+==1316880==   total heap usage: 3 allocs, 3 frees, 4,112 bytes allocated
+==1316880== 
+==1316880== All heap blocks were freed -- no leaks are possible
+==1316880== 
+==1316880== For lists of detected and suppressed errors, rerun with: -s
+==1316880== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

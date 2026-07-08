@@ -1,0 +1,72 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK           511
+TIMEOUT       38
+139          209
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK   TIMEOUT       139
+  1:         13         1         7
+  2:         13         1         7
+  3:         13         1         7
+  4:         13         1         7
+  5:         13         1         7
+  6:         13         1         7
+  7:         13         1         7
+  8:         13         1         7
+  9:         13         1         7
+ 10:         13         1         7
+ 11:         13         1         7
+ 12:         17         0         4
+ 13:         13         1         7
+ 14:         13         1         7
+ 15:         13         1         7
+ 16:         13         1         7
+ 17:         13         1         7
+ 18:         12         2         7
+ 21:         10         1         0
+ 22:         10         1         0
+ 31:         13         1         7
+ 32:         13         1         7
+ 34:         13         1         7
+ 41:         15         1         5
+ 42:         10         1         0
+ 44:         15         1         5
+ 45:         15         1         5
+ 51:         15         1         5
+ 52:         15         1         5
+ 53:         15         1         5
+ 54:         15         1         5
+ 61:         10         1         0
+ 63:         15         1         5
+ 64:         15         1         5
+ 65:         15         1         5
+ 66:         15         1         5
+ 67:         15         1         5
+ 68:         15         1         5
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK   TIMEOUT       139
+CWE839_connect_socket                 38         0         0
+CWE839_fgets                          38         0         0
+CWE839_fscanf                         38         0         0
+CWE839_listen_socket                   1        37         0
+CWE839_negative                       38         0         0
+CWE839_rand                           38         0         0
+char_alloca_cpy                        0         0        34
+char_alloca_loop                      21         0        13
+char_alloca_memcpy                    21         0        13
+char_alloca_memmove                    1         0        33
+char_alloca_ncpy                       0         0        34
+char_declare_cpy                      13         0        21
+char_declare_loop                     33         1         0
+char_declare_memcpy                   13         0        21
+char_declare_memmove                  14         0        20
+char_declare_ncpy                     14         0        20
+malloc_char_cpy                       38         0         0
+malloc_char_loop                      38         0         0
+malloc_char_memcpy                    38         0         0
+malloc_char_memmove                   38         0         0
+malloc_char_ncpy                      38         0         0

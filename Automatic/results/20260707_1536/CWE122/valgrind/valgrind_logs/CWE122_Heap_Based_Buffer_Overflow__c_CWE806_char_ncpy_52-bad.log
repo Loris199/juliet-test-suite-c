@@ -1,0 +1,37 @@
+==1321776== Memcheck, a memory error detector
+==1321776== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1321776== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1321776== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_52-bad
+==1321776== Parent PID: 1321775
+==1321776== 
+==1321776== 
+==1321776== Process terminating with default action of signal 6 (SIGABRT)
+==1321776==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==1321776==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==1321776==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==1321776==    by 0x48B427D: raise (raise.c:26)
+==1321776==    by 0x48978FE: abort (abort.c:79)
+==1321776==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==1321776==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==1321776==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==1321776==    by 0x1094BD: CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_52c_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_52-bad)
+==1321776==    by 0x4141414141414140: ???
+==1321776==    by 0x4141414141414140: ???
+==1321776==    by 0x4141414141414140: ???
+==1321776==    by 0x1FFE414140: ???
+==1321776==    by 0x1093A0: CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_52_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_52-bad)
+==1321776== 
+==1321776== HEAP SUMMARY:
+==1321776==     in use at exit: 4,096 bytes in 1 blocks
+==1321776==   total heap usage: 2 allocs, 1 frees, 4,196 bytes allocated
+==1321776== 
+==1321776== LEAK SUMMARY:
+==1321776==    definitely lost: 0 bytes in 0 blocks
+==1321776==    indirectly lost: 0 bytes in 0 blocks
+==1321776==      possibly lost: 0 bytes in 0 blocks
+==1321776==    still reachable: 4,096 bytes in 1 blocks
+==1321776==         suppressed: 0 bytes in 0 blocks
+==1321776== Rerun with --leak-check=full to see details of leaked memory
+==1321776== 
+==1321776== For lists of detected and suppressed errors, rerun with: -s
+==1321776== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,26 @@
+==1317069== Memcheck, a memory error detector
+==1317069== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1317069== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1317069== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad
+==1317069== Parent PID: 1317068
+==1317069== 
+==1317069== Invalid write of size 4
+==1317069==    at 0x109411: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53d_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad)
+==1317069==    by 0x1093B8: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53c_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad)
+==1317069==    by 0x109399: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad)
+==1317069==    by 0x109327: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad)
+==1317069==    by 0x109367: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad)
+==1317069==  Address 0x4a85088 is 8 bytes inside a block of size 10 alloc'd
+==1317069==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1317069==    by 0x109306: CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad)
+==1317069==    by 0x109367: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_53-bad)
+==1317069== 
+==1317069== 
+==1317069== HEAP SUMMARY:
+==1317069==     in use at exit: 0 bytes in 0 blocks
+==1317069==   total heap usage: 2 allocs, 2 frees, 4,106 bytes allocated
+==1317069== 
+==1317069== All heap blocks were freed -- no leaks are possible
+==1317069== 
+==1317069== For lists of detected and suppressed errors, rerun with: -s
+==1317069== ERROR SUMMARY: 8 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,51 @@
+==736484== Memcheck, a memory error detector
+==736484== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==736484== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==736484== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_68-bad
+==736484== Parent PID: 736483
+==736484== 
+==736484== Source and destination overlap in strcpy(0x1ffefffdc0, 0x1ffefffe10)
+==736484==    at 0x484F413: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==736484==    by 0x10947C: CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_68-bad)
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414100414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484== 
+==736484== 
+==736484== Process terminating with default action of signal 6 (SIGABRT)
+==736484==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==736484==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==736484==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==736484==    by 0x48B427D: raise (raise.c:26)
+==736484==    by 0x48978FE: abort (abort.c:79)
+==736484==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==736484==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==736484==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==736484==    by 0x10949D: CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_68b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_68-bad)
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484==    by 0x4141414100414140: ???
+==736484==    by 0x4141414141414140: ???
+==736484== 
+==736484== HEAP SUMMARY:
+==736484==     in use at exit: 4,096 bytes in 1 blocks
+==736484==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==736484== 
+==736484== LEAK SUMMARY:
+==736484==    definitely lost: 0 bytes in 0 blocks
+==736484==    indirectly lost: 0 bytes in 0 blocks
+==736484==      possibly lost: 0 bytes in 0 blocks
+==736484==    still reachable: 4,096 bytes in 1 blocks
+==736484==         suppressed: 0 bytes in 0 blocks
+==736484== Rerun with --leak-check=full to see details of leaked memory
+==736484== 
+==736484== For lists of detected and suppressed errors, rerun with: -s
+==736484== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

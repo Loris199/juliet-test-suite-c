@@ -1,0 +1,27 @@
+==717367== Memcheck, a memory error detector
+==717367== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==717367== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==717367== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_44-good
+==717367== Parent PID: 717366
+==717367== 
+==717367== 
+==717367== Process terminating with default action of signal 15 (SIGTERM)
+==717367==    at 0x499A834: accept (accept.c:26)
+==717367==    by 0x1095CB: goodB2G (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_44-good)
+==717367==    by 0x10967E: CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_44_good (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_44-good)
+==717367==    by 0x1096BE: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/good/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_44-good)
+==717367== 
+==717367== HEAP SUMMARY:
+==717367==     in use at exit: 4,096 bytes in 1 blocks
+==717367==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==717367== 
+==717367== LEAK SUMMARY:
+==717367==    definitely lost: 0 bytes in 0 blocks
+==717367==    indirectly lost: 0 bytes in 0 blocks
+==717367==      possibly lost: 0 bytes in 0 blocks
+==717367==    still reachable: 4,096 bytes in 1 blocks
+==717367==         suppressed: 0 bytes in 0 blocks
+==717367== Rerun with --leak-check=full to see details of leaked memory
+==717367== 
+==717367== For lists of detected and suppressed errors, rerun with: -s
+==717367== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

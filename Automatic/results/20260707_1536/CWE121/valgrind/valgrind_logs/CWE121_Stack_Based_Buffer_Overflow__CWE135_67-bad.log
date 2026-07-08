@@ -1,0 +1,56 @@
+==724026== Memcheck, a memory error detector
+==724026== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==724026== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==724026== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_67-bad
+==724026== Parent PID: 724023
+==724026== 
+==724026== Invalid read of size 1
+==724026==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==724026==    by 0x48F6BFC: puts (ioputs.c:35)
+==724026==    by 0x109472: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_67-bad)
+==724026==    by 0x109438: CWE121_Stack_Based_Buffer_Overflow__CWE135_67b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_67-bad)
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==  Address 0x4100000041 is not stack'd, malloc'd or (recently) free'd
+==724026== 
+==724026== 
+==724026== Process terminating with default action of signal 11 (SIGSEGV)
+==724026==  Access not within mapped region at address 0x4100000041
+==724026==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==724026==    by 0x48F6BFC: puts (ioputs.c:35)
+==724026==    by 0x109472: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_67-bad)
+==724026==    by 0x109438: CWE121_Stack_Based_Buffer_Overflow__CWE135_67b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__CWE135_67-bad)
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==    by 0x4100000040: ???
+==724026==  If you believe this happened as a result of a stack
+==724026==  overflow in your program's main thread (unlikely but
+==724026==  possible), you can try to increase the size of the
+==724026==  main thread stack using the --main-stacksize= flag.
+==724026==  The main thread stack size used in this run was 8388608.
+==724026== 
+==724026== HEAP SUMMARY:
+==724026==     in use at exit: 4,096 bytes in 1 blocks
+==724026==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==724026== 
+==724026== LEAK SUMMARY:
+==724026==    definitely lost: 0 bytes in 0 blocks
+==724026==    indirectly lost: 0 bytes in 0 blocks
+==724026==      possibly lost: 0 bytes in 0 blocks
+==724026==    still reachable: 4,096 bytes in 1 blocks
+==724026==         suppressed: 0 bytes in 0 blocks
+==724026== Rerun with --leak-check=full to see details of leaked memory
+==724026== 
+==724026== For lists of detected and suppressed errors, rerun with: -s
+==724026== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

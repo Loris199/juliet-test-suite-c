@@ -1,0 +1,37 @@
+==734548== Memcheck, a memory error detector
+==734548== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==734548== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==734548== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad
+==734548== Parent PID: 734547
+==734548== 
+==734548== Invalid read of size 1
+==734548==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==734548==    by 0x48F6BFC: puts (ioputs.c:35)
+==734548==    by 0x10939E: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad)
+==734548==    by 0x109311: CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad)
+==734548==    by 0x109365: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad)
+==734548==  Address 0x3736353433323130 is not stack'd, malloc'd or (recently) free'd
+==734548== 
+==734548== 
+==734548== Process terminating with default action of signal 11 (SIGSEGV)
+==734548==  General Protection Fault
+==734548==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==734548==    by 0x48F6BFC: puts (ioputs.c:35)
+==734548==    by 0x10939E: printLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad)
+==734548==    by 0x109311: CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad)
+==734548==    by 0x109365: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE121/valgrind/bin/CWE121/bad/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01-bad)
+==734548== 
+==734548== HEAP SUMMARY:
+==734548==     in use at exit: 4,096 bytes in 1 blocks
+==734548==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==734548== 
+==734548== LEAK SUMMARY:
+==734548==    definitely lost: 0 bytes in 0 blocks
+==734548==    indirectly lost: 0 bytes in 0 blocks
+==734548==      possibly lost: 0 bytes in 0 blocks
+==734548==    still reachable: 4,096 bytes in 1 blocks
+==734548==         suppressed: 0 bytes in 0 blocks
+==734548== Rerun with --leak-check=full to see details of leaked memory
+==734548== 
+==734548== For lists of detected and suppressed errors, rerun with: -s
+==734548== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

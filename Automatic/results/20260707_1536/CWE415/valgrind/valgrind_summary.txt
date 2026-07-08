@@ -1,0 +1,12 @@
+=== Résumé Valgrind ===
+Total analysé : 380  (190 bad / 190 good)
+
+--- Bad SANS leak/erreur détecté (faux négatifs — 2) ---
+  CWE415_Double_Free__malloc_free_int64_t_12-bad
+  CWE415_Double_Free__malloc_free_int_12-bad
+
+--- Good AVEC leak/erreur détecté (faux positifs — 0) ---
+
+--- Totaux ---
+Bad  : 188/190 détectés correctement (2 faux négatifs, 0 logs vides)
+Good : 190/190 propres (0 faux positifs, 0 logs vides)

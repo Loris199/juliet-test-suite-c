@@ -1,0 +1,28 @@
+==2224629== Memcheck, a memory error detector
+==2224629== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2224629== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2224629== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_long_17-bad
+==2224629== Parent PID: 2224628
+==2224629== 
+==2224629== Invalid free() / delete / delete[] / realloc()
+==2224629==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2224629==    by 0x10934F: CWE415_Double_Free__malloc_free_long_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_long_17-bad)
+==2224629==    by 0x10939A: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_long_17-bad)
+==2224629==  Address 0x4a85080 is 0 bytes inside a block of size 800 free'd
+==2224629==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2224629==    by 0x109330: CWE415_Double_Free__malloc_free_long_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_long_17-bad)
+==2224629==    by 0x10939A: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_long_17-bad)
+==2224629==  Block was alloc'd at
+==2224629==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2224629==    by 0x10930F: CWE415_Double_Free__malloc_free_long_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_long_17-bad)
+==2224629==    by 0x10939A: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE415/valgrind/bin/CWE415/bad/CWE415_Double_Free__malloc_free_long_17-bad)
+==2224629== 
+==2224629== 
+==2224629== HEAP SUMMARY:
+==2224629==     in use at exit: 0 bytes in 0 blocks
+==2224629==   total heap usage: 2 allocs, 3 frees, 4,896 bytes allocated
+==2224629== 
+==2224629== All heap blocks were freed -- no leaks are possible
+==2224629== 
+==2224629== For lists of detected and suppressed errors, rerun with: -s
+==2224629== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

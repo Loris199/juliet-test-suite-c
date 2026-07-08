@@ -1,0 +1,86 @@
+=== Résumé Valgrind ===
+Total analysé : 228  (114 bad / 114 good)
+
+--- Bad SANS leak/erreur détecté (faux négatifs — 76) ---
+  CWE123_Write_What_Where_Condition__connect_socket_01-bad
+  CWE123_Write_What_Where_Condition__connect_socket_02-bad
+  CWE123_Write_What_Where_Condition__connect_socket_03-bad
+  CWE123_Write_What_Where_Condition__connect_socket_04-bad
+  CWE123_Write_What_Where_Condition__connect_socket_05-bad
+  CWE123_Write_What_Where_Condition__connect_socket_06-bad
+  CWE123_Write_What_Where_Condition__connect_socket_07-bad
+  CWE123_Write_What_Where_Condition__connect_socket_08-bad
+  CWE123_Write_What_Where_Condition__connect_socket_09-bad
+  CWE123_Write_What_Where_Condition__connect_socket_10-bad
+  CWE123_Write_What_Where_Condition__connect_socket_11-bad
+  CWE123_Write_What_Where_Condition__connect_socket_12-bad
+  CWE123_Write_What_Where_Condition__connect_socket_13-bad
+  CWE123_Write_What_Where_Condition__connect_socket_14-bad
+  CWE123_Write_What_Where_Condition__connect_socket_15-bad
+  CWE123_Write_What_Where_Condition__connect_socket_16-bad
+  CWE123_Write_What_Where_Condition__connect_socket_17-bad
+  CWE123_Write_What_Where_Condition__connect_socket_18-bad
+  CWE123_Write_What_Where_Condition__connect_socket_21-bad
+  CWE123_Write_What_Where_Condition__connect_socket_22-bad
+  CWE123_Write_What_Where_Condition__connect_socket_31-bad
+  CWE123_Write_What_Where_Condition__connect_socket_32-bad
+  CWE123_Write_What_Where_Condition__connect_socket_34-bad
+  CWE123_Write_What_Where_Condition__connect_socket_41-bad
+  CWE123_Write_What_Where_Condition__connect_socket_42-bad
+  CWE123_Write_What_Where_Condition__connect_socket_44-bad
+  CWE123_Write_What_Where_Condition__connect_socket_45-bad
+  CWE123_Write_What_Where_Condition__connect_socket_51-bad
+  CWE123_Write_What_Where_Condition__connect_socket_52-bad
+  CWE123_Write_What_Where_Condition__connect_socket_53-bad
+  CWE123_Write_What_Where_Condition__connect_socket_54-bad
+  CWE123_Write_What_Where_Condition__connect_socket_61-bad
+  CWE123_Write_What_Where_Condition__connect_socket_63-bad
+  CWE123_Write_What_Where_Condition__connect_socket_64-bad
+  CWE123_Write_What_Where_Condition__connect_socket_65-bad
+  CWE123_Write_What_Where_Condition__connect_socket_66-bad
+  CWE123_Write_What_Where_Condition__connect_socket_67-bad
+  CWE123_Write_What_Where_Condition__connect_socket_68-bad
+  CWE123_Write_What_Where_Condition__listen_socket_01-bad
+  CWE123_Write_What_Where_Condition__listen_socket_02-bad
+  CWE123_Write_What_Where_Condition__listen_socket_03-bad
+  CWE123_Write_What_Where_Condition__listen_socket_04-bad
+  CWE123_Write_What_Where_Condition__listen_socket_05-bad
+  CWE123_Write_What_Where_Condition__listen_socket_06-bad
+  CWE123_Write_What_Where_Condition__listen_socket_07-bad
+  CWE123_Write_What_Where_Condition__listen_socket_08-bad
+  CWE123_Write_What_Where_Condition__listen_socket_09-bad
+  CWE123_Write_What_Where_Condition__listen_socket_10-bad
+  CWE123_Write_What_Where_Condition__listen_socket_11-bad
+  CWE123_Write_What_Where_Condition__listen_socket_12-bad
+  CWE123_Write_What_Where_Condition__listen_socket_13-bad
+  CWE123_Write_What_Where_Condition__listen_socket_14-bad
+  CWE123_Write_What_Where_Condition__listen_socket_15-bad
+  CWE123_Write_What_Where_Condition__listen_socket_16-bad
+  CWE123_Write_What_Where_Condition__listen_socket_17-bad
+  CWE123_Write_What_Where_Condition__listen_socket_18-bad
+  CWE123_Write_What_Where_Condition__listen_socket_21-bad
+  CWE123_Write_What_Where_Condition__listen_socket_22-bad
+  CWE123_Write_What_Where_Condition__listen_socket_31-bad
+  CWE123_Write_What_Where_Condition__listen_socket_32-bad
+  CWE123_Write_What_Where_Condition__listen_socket_34-bad
+  CWE123_Write_What_Where_Condition__listen_socket_41-bad
+  CWE123_Write_What_Where_Condition__listen_socket_42-bad
+  CWE123_Write_What_Where_Condition__listen_socket_44-bad
+  CWE123_Write_What_Where_Condition__listen_socket_45-bad
+  CWE123_Write_What_Where_Condition__listen_socket_51-bad
+  CWE123_Write_What_Where_Condition__listen_socket_52-bad
+  CWE123_Write_What_Where_Condition__listen_socket_53-bad
+  CWE123_Write_What_Where_Condition__listen_socket_54-bad
+  CWE123_Write_What_Where_Condition__listen_socket_61-bad
+  CWE123_Write_What_Where_Condition__listen_socket_63-bad
+  CWE123_Write_What_Where_Condition__listen_socket_64-bad
+  CWE123_Write_What_Where_Condition__listen_socket_65-bad
+  CWE123_Write_What_Where_Condition__listen_socket_66-bad
+  CWE123_Write_What_Where_Condition__listen_socket_67-bad
+  CWE123_Write_What_Where_Condition__listen_socket_68-bad
+
+--- Good AVEC leak/erreur détecté (faux positifs — 0) ---
+
+--- Totaux ---
+Bad  : 38/114 détectés correctement (76 faux négatifs, 0 logs vides)
+Good : 114/114 propres (0 faux positifs, 0 logs vides)

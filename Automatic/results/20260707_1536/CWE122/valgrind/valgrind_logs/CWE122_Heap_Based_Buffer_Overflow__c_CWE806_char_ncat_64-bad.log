@@ -1,0 +1,37 @@
+==1321421== Memcheck, a memory error detector
+==1321421== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1321421== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1321421== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_64-bad
+==1321421== Parent PID: 1321420
+==1321421== 
+==1321421== 
+==1321421== Process terminating with default action of signal 6 (SIGABRT)
+==1321421==    at 0x490DB2C: __pthread_kill_implementation (pthread_kill.c:44)
+==1321421==    by 0x490DB2C: __pthread_kill_internal (pthread_kill.c:78)
+==1321421==    by 0x490DB2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==1321421==    by 0x48B427D: raise (raise.c:26)
+==1321421==    by 0x48978FE: abort (abort.c:79)
+==1321421==    by 0x48987B5: __libc_message_impl.cold (libc_fatal.c:134)
+==1321421==    by 0x49A5C48: __fortify_fail (fortify_fail.c:24)
+==1321421==    by 0x49A6ED3: __stack_chk_fail (stack_chk_fail.c:24)
+==1321421==    by 0x1094D6: CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_64b_badSink (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_64-bad)
+==1321421==    by 0x4141414141414140: ???
+==1321421==    by 0x4141414141414140: ???
+==1321421==    by 0x4141414141414140: ???
+==1321421==    by 0x1F00414140: ???
+==1321421==    by 0x109405: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE122/valgrind/bin/CWE122/bad/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_64-bad)
+==1321421== 
+==1321421== HEAP SUMMARY:
+==1321421==     in use at exit: 4,096 bytes in 1 blocks
+==1321421==   total heap usage: 2 allocs, 1 frees, 4,196 bytes allocated
+==1321421== 
+==1321421== LEAK SUMMARY:
+==1321421==    definitely lost: 0 bytes in 0 blocks
+==1321421==    indirectly lost: 0 bytes in 0 blocks
+==1321421==      possibly lost: 0 bytes in 0 blocks
+==1321421==    still reachable: 4,096 bytes in 1 blocks
+==1321421==         suppressed: 0 bytes in 0 blocks
+==1321421== Rerun with --leak-check=full to see details of leaked memory
+==1321421== 
+==1321421== For lists of detected and suppressed errors, rerun with: -s
+==1321421== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,70 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK           387
+99           164
+TIMEOUT       37
+139           12
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK        99   TIMEOUT       139
+  1:         10         6         1         1
+  2:         11         6         1         0
+  3:         11         6         1         0
+  4:         11         6         1         0
+  5:         11         6         1         0
+  6:         11         6         1         0
+  7:         11         6         1         0
+  8:         11         6         1         0
+  9:         11         6         1         0
+ 10:         11         6         1         0
+ 11:         11         6         1         0
+ 12:         16         2         0         0
+ 13:         11         6         1         0
+ 14:         11         6         1         0
+ 15:         11         6         1         0
+ 16:         11         6         1         0
+ 17:         11         6         1         0
+ 18:         11         6         1         0
+ 21:          4         3         1         1
+ 22:          4         3         1         1
+ 31:         10         3         1         1
+ 32:         11         3         1         0
+ 34:         11         3         1         0
+ 41:         10         3         1         1
+ 42:          4         3         1         1
+ 44:         10         3         1         1
+ 45:         10         3         1         1
+ 51:         10         3         1         1
+ 52:         11         3         1         0
+ 53:         11         3         1         0
+ 54:         10         3         1         1
+ 61:          4         3         1         1
+ 63:         10         3         1         1
+ 64:         11         3         1         0
+ 65:         11         3         1         0
+ 66:         11         3         1         0
+ 67:         11         3         1         0
+ 68:         11         3         1         0
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK        99   TIMEOUT       139
+CWE129_connect_socket                 38         0         0         0
+CWE129_fgets                          38         0         0         0
+CWE129_fscanf                         38         0         0         0
+CWE129_large                          38         0         0         0
+CWE129_listen_socket                   1         0        37         0
+CWE129_rand                           26         0         0        12
+CWE170_char_loop                       0        18         0         0
+CWE170_char_memcpy                     1        17         0         0
+CWE170_char_strncpy                    1        17         0         0
+char_alloca_loop                      34         0         0         0
+char_alloca_memcpy                    34         0         0         0
+char_alloca_memmove                   34         0         0         0
+char_declare_loop                     34         0         0         0
+char_declare_memcpy                   34         0         0         0
+char_declare_memmove                  34         0         0         0
+malloc_char_loop                       1        37         0         0
+malloc_char_memcpy                     1        37         0         0
+malloc_char_memmove                    0        38         0         0

@@ -1,0 +1,22 @@
+==2422042== Memcheck, a memory error detector
+==2422042== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2422042== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2422042== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__strdup_char_12-bad
+==2422042== Parent PID: 2422041
+==2422042== 
+==2422042== Invalid free() / delete / delete[] / realloc()
+==2422042==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2422042==    by 0x1093E9: CWE401_Memory_Leak__strdup_char_12_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__strdup_char_12-bad)
+==2422042==    by 0x10943D: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE401/valgrind/bin/CWE401/bad/CWE401_Memory_Leak__strdup_char_12-bad)
+==2422042==  Address 0x1ffefffe40 is on thread 1's stack
+==2422042==  in frame #1, created by CWE401_Memory_Leak__strdup_char_12_bad (???:)
+==2422042== 
+==2422042== 
+==2422042== HEAP SUMMARY:
+==2422042==     in use at exit: 0 bytes in 0 blocks
+==2422042==   total heap usage: 1 allocs, 2 frees, 4,096 bytes allocated
+==2422042== 
+==2422042== All heap blocks were freed -- no leaks are possible
+==2422042== 
+==2422042== For lists of detected and suppressed errors, rerun with: -s
+==2422042== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

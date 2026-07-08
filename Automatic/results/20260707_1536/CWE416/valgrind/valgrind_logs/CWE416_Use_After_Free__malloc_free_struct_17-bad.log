@@ -1,0 +1,41 @@
+==2161541== Memcheck, a memory error detector
+==2161541== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2161541== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2161541== Command: /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad
+==2161541== Parent PID: 2161540
+==2161541== 
+==2161541== Invalid read of size 4
+==2161541==    at 0x10969D: printStructLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x109398: CWE416_Use_After_Free__malloc_free_struct_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x1093E3: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==  Address 0x4a85084 is 4 bytes inside a block of size 800 free'd
+==2161541==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161541==    by 0x109379: CWE416_Use_After_Free__malloc_free_struct_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x1093E3: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==  Block was alloc'd at
+==2161541==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161541==    by 0x10930F: CWE416_Use_After_Free__malloc_free_struct_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x1093E3: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541== 
+==2161541== Invalid read of size 4
+==2161541==    at 0x1096A4: printStructLine (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x109398: CWE416_Use_After_Free__malloc_free_struct_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x1093E3: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==  Address 0x4a85080 is 0 bytes inside a block of size 800 free'd
+==2161541==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161541==    by 0x109379: CWE416_Use_After_Free__malloc_free_struct_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x1093E3: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==  Block was alloc'd at
+==2161541==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2161541==    by 0x10930F: CWE416_Use_After_Free__malloc_free_struct_17_bad (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541==    by 0x1093E3: main (in /home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/results/20260707_1536/CWE416/valgrind/bin/CWE416/bad/CWE416_Use_After_Free__malloc_free_struct_17-bad)
+==2161541== 
+==2161541== 
+==2161541== HEAP SUMMARY:
+==2161541==     in use at exit: 0 bytes in 0 blocks
+==2161541==   total heap usage: 2 allocs, 2 frees, 4,896 bytes allocated
+==2161541== 
+==2161541== All heap blocks were freed -- no leaks are possible
+==2161541== 
+==2161541== For lists of detected and suppressed errors, rerun with: -s
+==2161541== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
