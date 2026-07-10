@@ -1,0 +1,96 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK          1298
+43           334
+TIMEOUT       38
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK        43   TIMEOUT
+  1:         34        10         1
+  2:         34        10         1
+  3:         34        10         1
+  4:         34        10         1
+  5:         34        10         1
+  6:         34        10         1
+  7:         34        10         1
+  8:         34        10         1
+  9:         34        10         1
+ 10:         34        10         1
+ 11:         34        10         1
+ 12:         40         4         1
+ 13:         34        10         1
+ 14:         34        10         1
+ 15:         34        10         1
+ 16:         34        10         1
+ 17:         34        10         1
+ 18:         34        10         1
+ 21:         34         8         1
+ 22:         34         8         1
+ 31:         34         8         1
+ 32:         34         8         1
+ 34:         34         8         1
+ 41:         34         8         1
+ 42:         34         8         1
+ 44:         34         8         1
+ 45:         34         8         1
+ 51:         34         8         1
+ 52:         34         8         1
+ 53:         34         8         1
+ 54:         34         8         1
+ 61:         34         8         1
+ 63:         34         8         1
+ 64:         34         8         1
+ 65:         34         8         1
+ 66:         34         8         1
+ 67:         34         8         1
+ 68:         34         8         1
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK        43   TIMEOUT
+c_CWE129_connect_socket               38         0         0
+c_CWE129_fgets                        38         0         0
+c_CWE129_fscanf                       38         0         0
+c_CWE129_large                        38         0         0
+c_CWE129_listen_socket                 0         0        38
+c_CWE129_rand                         38         0         0
+c_CWE193_char_cpy                     38         0         0
+c_CWE193_char_loop                    38         0         0
+c_CWE193_char_memcpy                  38         0         0
+c_CWE193_char_memmove                 38         0         0
+c_CWE193_char_ncpy                    38         0         0
+c_CWE805_char_loop                    38         0         0
+c_CWE805_char_memcpy                  38         0         0
+c_CWE805_char_memmove                 38         0         0
+c_CWE805_char_ncat                    38         0         0
+c_CWE805_char_ncpy                    38         0         0
+c_CWE805_char_snprintf                38         0         0
+c_CWE805_int64_t_loop                 38         0         0
+c_CWE805_int64_t_memcpy               38         0         0
+c_CWE805_int64_t_memmove              38         0         0
+c_CWE805_int_loop                     38         0         0
+c_CWE805_int_memcpy                   38         0         0
+c_CWE805_int_memmove                  38         0         0
+c_CWE805_struct_loop                  38         0         0
+c_CWE805_struct_memcpy                38         0         0
+c_CWE805_struct_memmove               38         0         0
+c_CWE806_char_loop                     1        37         0
+c_CWE806_char_memcpy                   1        37         0
+c_CWE806_char_memmove                  0        38         0
+c_CWE806_char_ncat                     0        38         0
+c_CWE806_char_ncpy                     0        38         0
+c_CWE806_char_snprintf                 0        38         0
+c_dest_char_cat                       38         0         0
+c_dest_char_cpy                       38         0         0
+char_type_overrun_memcpy               1        17         0
+char_type_overrun_memmove              1        17         0
+c_src_char_cat                         1        37         0
+c_src_char_cpy                         1        37         0
+CWE131_loop                           38         0         0
+CWE131_memcpy                         38         0         0
+CWE131_memmove                        38         0         0
+CWE135                                38         0         0
+sizeof_double                         38         0         0
+sizeof_int64_t                        38         0         0
+sizeof_struct                         38         0         0

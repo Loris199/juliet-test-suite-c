@@ -19,6 +19,9 @@ INPUT_FILE="/tmp/in.txt"
 USE_VALGRIND="${USE_VALGRIND:-0}"
 VALGRIND_LOG_DIR="${VALGRIND_LOG_DIR:-/tmp/valgrind_logs}"
 
+# MTE
+USE_MTE="${USE_MTE:-0}"
+
 if [ $# -ge 2 ]
 then
   TIMEOUT="$2"
@@ -59,6 +62,10 @@ run_tests()
       timeout "${TIMEOUT}" valgrind --tool=memcheck --error-exitcode=99 \
         --log-file="${VALGRIND_LOG_DIR}/${TESTCASE}.log" \
         "${TESTCASE_PATH}" < "${INPUT_FILE}"
+    elif [ "${USE_MTE}" = "1" ]
+    then
+      timeout "${TIMEOUT}" env QEMU_LD_PREFIX="${QEMU_LD_PREFIX:-/usr/aarch64-linux-gnu}" \
+        qemu-aarch64 "${TESTCASE_PATH}" < "${INPUT_FILE}"
     elif [ ! -z "${PRELOAD_PATH}" ]
     then
       timeout "${TIMEOUT}" env LD_CHERI_PRELOAD="${PRELOAD_PATH}" "${TESTCASE_PATH}" < "${INPUT_FILE}"

@@ -4,10 +4,10 @@
 set -uo pipefail
 
 # CWE à tester (modifiable)
-CWES=(121 122 123 124 126 127 416 415 401)
+CWES=(121 122 123 124 126 127 401 415 416)
 
 # Outils à tester (modifiable, valeurs acceptées : gcc clang csa infer filc valgrind asan)
-TOOLS=(gcc clang csa infer filc valgrind asan)
+TOOLS=(mte)
 
 # Timeout pour chaque test, utilisé par juliet.py, en secondes
 TIMEOUT_PER_TEST=5
@@ -21,6 +21,7 @@ declare -A TIMEOUT_PER_TOOL=(
   [valgrind]=18000  # = 5h
   [asan]=7200
   [filc]=7200
+  [mte]=7200
 )
 
 # Dossier où se trouvent les scripts et sous-dossiers Juliet
@@ -34,6 +35,10 @@ mkdir -p "${RESULTS_BASE}"
 # Fichier .csv avec le code de sortie et la durée de chaque étape
 SUMMARY_CSV="${ROOT_DIR}/${RESULTS_BASE}/run_summary.csv"
 echo "cwe,tool,exit_code,duration_s" > "${SUMMARY_CSV}"
+
+# Précompiler le patch mte_alloc.c pour MTE
+MTE_ALLOC_DIR="/home/loris/Desktop/Installations/ARM_MTE/Setup2"
+clang --target=aarch64-linux-gnu -march=armv8.5-a+memtag -c "${MTE_ALLOC_DIR}/mte_alloc.c" -o "${MTE_ALLOC_DIR}/mte_alloc.o"
 
 # Suppression des codes C++ car le script ne gère que les codes C
 echo "Suppression des fichiers .cpp dans ${ROOT_DIR}/testcases/..."
@@ -96,6 +101,13 @@ for cwe in "${CWES[@]}"; do
         export JULIET_CC="/opt/fil/bin/filcc" # Basé sur l'installation de FilC
         CMD=(python3 juliet.py "$cwe" -c -g -m -r -o "${OUTDIR}/bin" -t "${TIMEOUT_PER_TEST}")
         ;;
+
+      mte)
+        export USE_MTE=1
+        export MTE_ALLOC_OBJ="${MTE_ALLOC_DIR}/mte_alloc.o"
+        export QEMU_LD_PREFIX="/usr/aarch64-linux-gnu"
+        CMD=(python3 juliet.py "$cwe" -c -g -m -r -o "${OUTDIR}/bin" -t "${TIMEOUT_PER_TEST}")
+      ;;
 
       *)
         echo "outil inconnu: $tool" >&2

@@ -6,7 +6,7 @@ set -uo pipefail
 # NOTE : Le script considère que CHERI (QEMU) tourne sur root avec une connexion SSH active
 
 # CWE à tester (modifiable)
-CWES=(122 123 124)
+CWES=(123 121 401)
 
 SSH_HOST="root@localhost"
 SSH_PORT=10022

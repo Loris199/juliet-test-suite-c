@@ -15,5 +15,9 @@
 
 2026.07.06 12h38 : CWE 401, 5 outils + 2 compilateurs, test GCC et Clang -> Ok
 
-2026.07.06 xxhxx : Tous les CWE de l'Excel, 5 outils + 2 compilateurs -> Ok
+2026.07.06 15h36 : Tous les CWE de l'Excel, 5 outils + 2 compilateurs -> Ok
+
+---
+
+2026.07.10 14h06 : Tous les CWE de l'Excel, nouveau setup MTE -> Ok
 

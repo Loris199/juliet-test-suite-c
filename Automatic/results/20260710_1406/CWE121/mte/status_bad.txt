@@ -1,0 +1,123 @@
+/home/loris/Desktop/TestRepositories/Forked/juliet-test-suite-c/Automatic/parse-cwe-status.py:45: SyntaxWarning: invalid escape sequence '\S'
+  entry_pattern = re.compile('(\S*)__(\S+)_(\d+)-\w* (\d*)\n')
+
+===== EXIT STATUS =====
+OK          1111
+43          1277
+TIMEOUT      120
+
+===== DATAFLOW VARIANTS =====
+ VAR         OK        43   TIMEOUT
+  1:         39        28         5
+  2:         39        28         5
+  3:         39        28         5
+  4:         39        28         5
+  5:         39        28         5
+  6:         39        28         5
+  7:         39        28         5
+  8:         39        28         5
+  9:         39        28         5
+ 10:         39        28         5
+ 11:         39        28         5
+ 12:         50        19         3
+ 13:         39        28         5
+ 14:         39        28         5
+ 15:         39        28         5
+ 16:         39        28         5
+ 17:         38        29         5
+ 18:         39        28         5
+ 21:         12        10         1
+ 22:         12        10         1
+ 31:         30        35         5
+ 32:         30        35         5
+ 34:         30        35         5
+ 41:         17        52         1
+ 42:         12        10         1
+ 44:         25        44         1
+ 45:         17        52         1
+ 51:         17        52         1
+ 52:         17        52         1
+ 53:         17        52         1
+ 54:         17        52         1
+ 61:         12        10         1
+ 63:         17        52         1
+ 64:         17        52         1
+ 65:         25        44         1
+ 66:         33        36         1
+ 67:         25        44         1
+ 68:         17        52         1
+
+===== FUNCTIONAL VARIANTS =====
+                                      OK        43   TIMEOUT
+char_type_overrun_memcpy               0        18         0
+char_type_overrun_memmove              0        18         0
+CWE129_connect_socket                 38         0         0
+CWE129_fgets                          38         0         0
+CWE129_fscanf                         38         0         0
+CWE129_large                          38         0         0
+CWE129_listen_socket                   0         0        38
+CWE129_rand                            1        37         0
+CWE131_loop                           13         0        21
+CWE131_memcpy                         34         0         0
+CWE131_memmove                        34         0         0
+CWE135                                 1        37         0
+CWE193_char_alloca_cpy                34         0         0
+CWE193_char_alloca_loop               34         0         0
+CWE193_char_alloca_memcpy             34         0         0
+CWE193_char_alloca_memmove            34         0         0
+CWE193_char_alloca_ncpy               34         0         0
+CWE193_char_declare_cpy               34         0         0
+CWE193_char_declare_loop              34         0         0
+CWE193_char_declare_memcpy            34         0         0
+CWE193_char_declare_memmove           34         0         0
+CWE193_char_declare_ncpy              34         0         0
+CWE805_char_alloca_loop               25         9         0
+CWE805_char_alloca_memcpy             25         9         0
+CWE805_char_alloca_memmove            25         9         0
+CWE805_char_alloca_ncat               25         9         0
+CWE805_char_alloca_ncpy               25         9         0
+CWE805_char_alloca_snprintf           25         9         0
+CWE805_char_declare_loop              18        16         0
+CWE805_char_declare_memcpy             1        33         0
+CWE805_char_declare_memmove            1        33         0
+CWE805_char_declare_ncat               2        32         0
+CWE805_char_declare_ncpy               2        32         0
+CWE805_char_declare_snprintf           1        33         0
+CWE805_int64_t_alloca_loop             0        13        21
+CWE805_int64_t_alloca_memcpy          21        13         0
+CWE805_int64_t_alloca_memmove         21        13         0
+CWE805_int64_t_declare_loop            0        34         0
+CWE805_int64_t_declare_memcpy          0        34         0
+CWE805_int64_t_declare_memmove         0        34         0
+CWE805_int_alloca_loop                 1        13        20
+CWE805_int_alloca_memcpy              21        13         0
+CWE805_int_alloca_memmove             21        13         0
+CWE805_int_declare_loop                0        34         0
+CWE805_int_declare_memcpy              0        34         0
+CWE805_int_declare_memmove             0        34         0
+CWE805_struct_alloca_loop              1        13        20
+CWE805_struct_alloca_memcpy           21        13         0
+CWE805_struct_alloca_memmove          21        13         0
+CWE805_struct_declare_loop             1        33         0
+CWE805_struct_declare_memcpy           0        34         0
+CWE805_struct_declare_memmove          0        34         0
+CWE806_char_alloca_loop                0        38         0
+CWE806_char_alloca_memcpy              1        37         0
+CWE806_char_alloca_memmove             1        37         0
+CWE806_char_alloca_ncat                0        38         0
+CWE806_char_alloca_ncpy                0        38         0
+CWE806_char_alloca_snprintf            0        38         0
+CWE806_char_declare_loop              22        16         0
+CWE806_char_declare_memcpy            22        16         0
+CWE806_char_declare_memmove           22        16         0
+CWE806_char_declare_ncat              22        16         0
+CWE806_char_declare_ncpy              22        16         0
+CWE806_char_declare_snprintf          22        16         0
+dest_char_alloca_cat                  25         9         0
+dest_char_alloca_cpy                  25         9         0
+dest_char_declare_cat                  2        32         0
+dest_char_declare_cpy                  1        33         0
+src_char_alloca_cat                    0        38         0
+src_char_alloca_cpy                    1        37         0
+src_char_declare_cat                  22        16         0
+src_char_declare_cpy                  22        16         0
